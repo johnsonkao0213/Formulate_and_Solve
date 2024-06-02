@@ -1,0 +1,13 @@
+# ignore all .log files
+*.egg-info
+
+# ignore specific directories
+log/
+
+# ignore specific file types
+# Python cache:
+__pycache__/
+*.py[cod]
+*.txt
+*.log
+*ipynb_checkpoints/

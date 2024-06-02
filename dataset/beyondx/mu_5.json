@@ -1,0 +1,2282 @@
+[
+    {
+        "problem": "In a school, the ratio of boys to girls is 9 to 4. Including the teachers, staff, and administrators, there are 136 people in total. It is also known that twice the number of boys equals five times the number of teachers plus 76. The number of boys and girls combined is three times the number of staff members plus 31. The number of boys, girls, and teachers combined is seven times the number of administrators minus 4. How many boys, girls, teachers, staff members, and administrators are there in the school?",
+        "system_of_equations": [
+            "4.0 * x  = 9.0 * y",
+            "x + y + z + w + v  = 136.000000000000",
+            "2.0 * x  = 5.0 * z + 76.0",
+            "x + y  = 3.0 * w + 31.0",
+            "x + y + z  = 7.0 * v - 4.0"
+        ],
+        "ans": [
+            "63",
+            "28",
+            "10",
+            "20",
+            "15"
+        ],
+        "id": 1,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A self-employed contractor nearing retirement made five investments totaling 22,000 dollars. In one year, these investments yielded 1313 dollars in simple interest. Part of the money was invested at 7.5%, part at 6%, part at 5%, part at 4%, and the rest at 3%. The sum of the amount invested at 7.5% annual interest and the amount invested at 6% annual interest equals three times the amount invested at 5% annual interest plus 6000 dollars. The sum of the amount invested at 7.5% annual interest, the amount invested at 6% annual interest, and the amount invested at 5% annual interest equals four times the amount invested at 4% annual interest plus 10000 dollars. The sum of the amount invested at 7.5% annual interest, the amount invested at 6% annual interest, the amount invested at 5% annual interest, and the amount invested at 4% annual interest equals five times the amount invested at 3% annual interest plus 10000 dollars. How much was invested at each rate?",
+        "system_of_equations": [
+            "7.5 * 0.01 * x + 6.0 * 0.01 * y + 5.0 * 0.01 * z + 4.0 * 0.01 * w + 3.0 * 0.01 * v  = 1313.00000000000",
+            "x + y + z + w + v  = 22000.0000000000",
+            "x + y  = 3.0 * z + 6000.0",
+            "x + y + z  = 4.0 * w + 10000.0",
+            "x + y + z + w  = 5.0 * v + 10000.0"
+        ],
+        "ans": [
+            "8200",
+            "6800",
+            "3000",
+            "2000",
+            "2000"
+        ],
+        "id": 2,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a basketball game, the Lakers scored 83 points from a combination of two-point baskets, three-point baskets, one-point free throws, four-point plays, and five-point plays. They made a total of 34 shots. It is known that the number of two-point baskets plus twice the number of three-point baskets equals twice the number of four-point plays plus three times the number of free throws minus two. The number of two-point baskets plus the number of three-point baskets plus the number of free throws equals four times the number of four-point plays plus nineteen. The number of two-point baskets plus the number of three-point baskets plus the number of free throws plus the number of four-point plays equals three times the number of five-point plays plus fourteen. How many of each type of shot were made?",
+        "system_of_equations": [
+            "2.0 * x + 3.0 * y + 1.0 * z + 4.0 * w + 5.0 * v  = 83.0000000000000",
+            "x + y + z + w + v  = 34.0000000000000",
+            "x + 2.0 * y  = 2.0 * w + 3.0 * z - 2.0",
+            "x + y + z  = 4.0 * w + 19.0",
+            "x + y + z + w  = 3.0 * v + 14.0"
+        ],
+        "ans": [
+            "17",
+            "3",
+            "7",
+            "2",
+            "5"
+        ],
+        "id": 3,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The largest of five numbers is 23 less than twice the smallest. The sum of the five numbers is 115. Also, the sum of the smallest number and the third number is 37 less than twice the largest number. The sum of the smallest number, the largest number, the third number, and the fourth number is 40 more than four times the fifth number. Find the five numbers.",
+        "system_of_equations": [
+            "( 2.0 * x ) - 23.0  = y",
+            "x + y + z + w + v  = 115.0000000000000",
+            "x + z  = 2.0 * y - 37.0",
+            "x + y + z  = 3.0 * w + 20.0",
+            "x + y + z + w  = 4.0 * v + 40.0"
+        ],
+        "ans": [
+            "31",
+            "39",
+            "10",
+            "20",
+            "15"
+        ],
+        "id": 4,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a local event, tickets are sold at different prices: 4 dollars for students, 6 dollars for general admission, 3 dollars for seniors, 2 dollars for children, and 10 dollars for VIPs. In total, 725 tickets were sold, collecting 3776 dollars. It is known that twice the number of student tickets plus the number of general admission tickets plus half the number of senior tickets plus half the number of child tickets plus half the number of VIP tickets equals 762. The number of student tickets plus the number of general admission tickets plus the number of senior tickets plus twice the number of child tickets plus the number of VIP tickets equals 775. The number of each type of ticket plus twice the number of VIP tickets equals 775. How many student, general admission, senior, child, and VIP tickets were sold?",
+        "system_of_equations": [
+            "4.0 * x + 6.0 * y + 3.0 * z + 2.0 * w + 10.0 * v  = 3776.00000000000",
+            "x + y + z + w + v  = 725.000000000000",
+            "2.0 * x + 1.0 * y + 0.5 * z + 0.5 * w + 0.5 * v  = 762.000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 2.0 * w + 1.0 * v  = 775.000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 775.000000000000"
+        ],
+        "ans": [
+            "137",
+            "388",
+            "100",
+            "50",
+            "50"
+        ],
+        "id": 5,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Five mechanics worked on a car. The first mechanic charged 45 dollars per hour, the second mechanic charged 85 dollars per hour, the third mechanic charged 65 dollars per hour, the fourth mechanic charged 75 dollars per hour, and the fifth mechanic charged 55 dollars per hour. Together, they worked for a combined total of 32 hours and charged a total of 1870 dollars. It is known that the first mechanic worked twice as many hours as the third mechanic plus an additional 5 hours. The number of hours the first mechanic and the second mechanic worked together equals twice the number of hours the fourth mechanic worked plus an additional 14 hours. The number of hours the first mechanic, the second mechanic, and the third mechanic worked together equals three times the number of hours the fifth mechanic worked plus an additional 13 hours. How long did each mechanic work?",
+        "system_of_equations": [
+            "( 45.0 * x ) + ( 85.0 * y ) + ( 65.0 * z ) + ( 75.0 * w ) + ( 55.0 * v )  = 1870.00000000000",
+            "x + y + z + w + v  = 32.0000000000000",
+            "x  = 2.0 * z + 5.0",
+            "x + y  = 2.0 * w + 14.0",
+            "x + y + z  = 3.0 * v + 13.0"
+        ],
+        "ans": [
+            "15",
+            "5",
+            "5",
+            "3",
+            "4"
+        ],
+        "id": 6,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Pedro goes to the market and buys a total of 60 fruits, which include plums, peaches, apples, oranges, and bananas, for a total of 84 dollars. Each plum costs 2 dollars, each peach costs 1 dollar, each apple costs 1.5 dollars, each orange costs 1.2 dollars, and each banana costs 0.8 dollars. If the number of plums Pedro bought is 2.5 times the number of apples he bought, and the number of plums and peaches combined is 2 more than three times the number of oranges, and the number of plums, peaches, and apples combined is four times the number of bananas, how many of each type of fruit did Pedro buy?",
+        "system_of_equations": [
+            "( 2.0 * x ) + ( 1.0 * y ) + ( 1.5 * z ) + ( 1.2 * w ) + ( 0.8 * v )  = 84.0000000000000",
+            "x + y + z + w + v  = 60.0000000000000",
+            "x  = 2.5 * z",
+            "x + y  = 3.0 * w + 2.0",
+            "x + y + z  = 4.0 * v"
+        ],
+        "ans": [
+            "20",
+            "12",
+            "8",
+            "10",
+            "10"
+        ],
+        "id": 7,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At the TCR spring fest, tickets are sold at different prices for adults, students, seniors, children, and family passes. The cost of 3 adult tickets, 4 student tickets, 1 senior ticket, and 2 child tickets is 101 dollars. The cost of 4 adult tickets, 2 student tickets, 2 senior tickets, 1 child ticket, and 1 family pass is 101 dollars. The cost of 2 adult tickets, 3 student tickets, 1 senior ticket, 3 child tickets, and 1 family pass is 103 dollars. The cost of 1 adult ticket, 2 student tickets, 1 senior ticket, 4 child tickets, and 1 family pass is 85 dollars. The cost of 1 of each type of ticket plus an additional family pass is 75 dollars. Find the admission price for an adult ticket, a student ticket, a senior ticket, a child ticket, and a family pass at the spring fest, in dollars.",
+        "system_of_equations": [
+            "3.0 * x + 4.0 * y + 1.0 * z + 2.0 * w + 0.0 * v  = 101.000000000000",
+            "4.0 * x + 2.0 * y + 2.0 * z + 1.0 * w + 1.0 * v  = 101.000000000000",
+            "2.0 * x + 3.0 * y + 1.0 * z + 3.0 * w + 1.0 * v  = 103.000000000000",
+            "1.0 * x + 2.0 * y + 1.0 * z + 4.0 * w + 1.0 * v  = 85.0000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 75.0000000000000"
+        ],
+        "ans": [
+            "8",
+            "15",
+            "7",
+            "5",
+            "20"
+        ],
+        "id": 8,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a school, the total number of girls, boys, teachers, staff, and administrators is 60. If twice the number of girls exceeds the number of boys by 12, and the number of girls plus the number of teachers is 1.5 times the number of boys minus 10. The number of girls plus the number of boys equals twice the number of staff plus 16. The number of girls plus the number of boys plus the number of teachers equals twice the number of administrators plus 20. Find the number of girls, boys, teachers, staff, and administrators in the school.",
+        "system_of_equations": [
+            "2.0 * x  = y + 12.0",
+            "x + y + z + w + v  = 60.0000000000000",
+            "x + z  = 1.5 * y - 10.0",
+            "x + y  = 2.0 * w + 16.0",
+            "x + y + z  = 2.0 * v + 20.0"
+        ],
+        "ans": [
+            "16",
+            "20",
+            "4",
+            "10",
+            "10"
+        ],
+        "id": 9,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Separate 100 into five parts. The first part, second part, third part, fourth part, and fifth part are such that 0.40 of the first part exceeds 0.1 of the fifth part plus 0.1 of the fourth part plus 0.625 of the second part by 0.2 of the third part minus 29.65. Also, the sum of the first part and the third part equals 0.1 of the fifth part plus 0.2 of the fourth part plus half of the second part plus 2. The sum of the first part, the second part, and the fourth part equals the fifth part plus twice the third part plus 38. The sum of the first part, the second part, and the third part equals three times the fifth part plus 50. What are the five parts?",
+        "system_of_equations": [
+            "0.4 * x  = 0.1 * v + 0.1 * w + 0.625 * y + 0.2 * z - 29.65",
+            "y + x + z + w + v  = 100.0000000000000",
+            "x + z  = 0.1 * v + 0.2 * w + 0.5 * y + 2.0",
+            "x + y + w  = v + 2.0 * z + 38.0",
+            "x + y + z  = 3.0 * v + 50.0"
+        ],
+        "ans": [
+            "16",
+            "50",
+            "14",
+            "10",
+            "10"
+        ],
+        "id": 10,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A garden table, a bench, a chair, a garden umbrella, and a garden lamp cost 1300 combined. The price of the garden table is two times the price of the bench minus 750. Also, the price of the garden table is 3.33 times the price of the chair minus 249.5. Furthermore, the price of the garden table is 1.25 times the price of the garden umbrella. Additionally, the price of the garden table is 1.25 times the price of the garden lamp. What is the cost of each item?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 1300.00000000000",
+            "x  = 2.0 * y - 750.0",
+            "x  = 3.33 * z - 249.5",
+            "x  = 1.25 * w",
+            "x  = 1.25 * v"
+        ],
+        "ans": [
+            "250",
+            "500",
+            "150",
+            "200",
+            "200"
+        ],
+        "id": 11,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Lisa invested 14,000 dollars in five different ways: part at 4 % annual interest, part at 5 % annual interest, part at 3 % annual interest, part at 2 % annual interest, and the rest at 1 % annual interest. After one year, she received 500 dollars in interest. Also, the amount invested at 4% annual interest plus the amount invested at 5% annual interest equals four times the amount invested at 3% annual interest. The amount invested at 4% annual interest plus the amount invested at 5% annual interest plus the amount invested at 3% annual interest equals five times the amount invested at 2% annual interest. The amount invested at 4% annual interest plus the amount invested at 5% annual interest plus the amount invested at 3% annual interest plus the amount invested at 2% annual interest equals six times the amount invested at 1% annual interest. How much did Lisa invest at each rate?",
+        "system_of_equations": [
+            "( ( 4.0 * 0.01 ) * x ) + ( ( 5.0 * 0.01 ) * y ) + ( ( 3.0 * 0.01 ) * z ) + ( ( 2.0 * 0.01 ) * w ) + ( ( 1.0 * 0.01 ) * v )  = 500.000000000000",
+            "x + y + z + w + v  = 14000.0000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 5.0 * w",
+            "x + y + z + w  = 6.0 * v"
+        ],
+        "ans": [
+            "2000",
+            "6000",
+            "2000",
+            "2000",
+            "2000"
+        ],
+        "id": 12,
+        "source": "ALG514"
+    },
+    {
+        "problem": "During a sale, an automobile dealer sold 150 vehicles including cars, trucks, motorcycles, vans, and SUVs. If she sold 27 more cars than trucks, 17 less motorcycles than cars, one less van than trucks, and 9 more SUVs than trucks, how many of each type of vehicle did she sell?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 150.000000000000",
+            "y  = x + 27.0",
+            "z  = y - 17.0",
+            "w  = x - 1.0",
+            "v  = x + 9.0"
+        ],
+        "ans": [
+            "21",
+            "48",
+            "31",
+            "20",
+            "30"
+        ],
+        "id": 13,
+        "source": "ALG514"
+    },
+    {
+        "problem": "There are five numbers. Two times the first number is 59 less than the sum of the second number and the fourth number. The sum of the five numbers is 51. Also, the first number minus the second number equals two times the third number minus 68. The sum of the first number, the second number, and the third number equals three times the fourth number minus 199. The sum of the first number, the second number, the third number, and the fourth number equals four times the fifth number plus 1. What are the five numbers?",
+        "system_of_equations": [
+            "2.0 * x  = w + y - 59.0",
+            "x + y + z + w + v  = 51.0000000000000",
+            "x - y  = 2.0 * z - 68.0",
+            "x + y + z  = 3.0 * w - 199.0",
+            "x + y + z + w  = 4.0 * v + 1.0"
+        ],
+        "ans": [
+            "-21",
+            "-43",
+            "45",
+            "60",
+            "10"
+        ],
+        "id": 14,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A girl has been saving 1-dollar coins, 2-dollar coins, 50-cent coins, 25-cent coins, and 10-cent coins. When she counts her savings, she finds that she has a total of 300 coins amounting to 297 dollars. She also notices that twice the number of her 1-dollar coins equals the number of her 2-dollar coins plus four times the number of her 50-cent coins minus 40. The number of her 1-dollar coins, 2-dollar coins, and 50-cent coins combined equals three times the number of her 25-cent coins plus 40. The number of her 1-dollar coins, 2-dollar coins, 50-cent coins, and 25-cent coins combined equals four times the number of her 10-cent coins plus 200. How many 1-dollar coins, 2-dollar coins, 50-cent coins, 25-cent coins, and 10-cent coins does she have?",
+        "system_of_equations": [
+            "1.0 * x + 2.0 * y + 0.5 * z + 0.25 * w + 0.1 * v  = 297.000000000000",
+            "x + y + z + w + v  = 300.000000000000",
+            "2.0 * x  = y + 4.0 * z - 40.0",
+            "x + y + z  = 3.0 * w + 40.0",
+            "x + y + z + w  = 4.0 * v + 200.0"
+        ],
+        "ans": [
+            "100",
+            "80",
+            "40",
+            "60",
+            "20"
+        ],
+        "id": 15,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a family, there are 5 cars. In a particular week, the sum of the average miles per gallon obtained by the five cars is 110. The first car has consumed 40 gallons, the second car has consumed 20 gallons, the third car has consumed 10 gallons, the fourth car has consumed 5 gallons, and the fifth car has consumed 10 gallons. This resulted in a total of 1975 miles driven by the five cars combined. Additionally, the sum of the average gas mileage of the first car and the third car is 15 more than twice the average gas mileage of the second car. The sum of the average gas mileage of the first car, the second car, and the third car is 30 more than three times the average gas mileage of the fourth car. The sum of the average gas mileage of the first car, the second car, the third car, and the fourth car is 10 more than four times the average gas mileage of the fifth car. What was the average gas mileage obtained by each of the 5 cars that week?",
+        "system_of_equations": [
+            "( 40.0 * x ) + ( 20.0 * y ) + ( 10.0 * z ) + ( 5.0 * w ) + ( 10.0 * v )  = 1975.00000000000",
+            "x + y + z + w + v  = 110.0000000000000",
+            "x + z  = 2.0 * y + 15.0",
+            "x + y + z  = 3.0 * w + 30.0",
+            "x + y + z + w  = 4.0 * v + 10.0"
+        ],
+        "ans": [
+            "25",
+            "20",
+            "30",
+            "15",
+            "20"
+        ],
+        "id": 16,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At the St. Mark's Community Barbecue, 400 dinners were served. A child's plate cost 3.50 dollars, an adult's plate cost 7.00 dollars, a senior's plate cost 5.00 dollars, a special plate cost 6.00 dollars, and a family plate cost 8.00 dollars. The event collected a total of 2297.50 dollars. It is known that the number of child's plates plus the number of senior's plates is 105 less than twice the number of adult's plates. The number of child's plates plus the number of adult's plates plus the number of senior's plates is 50 more than five times the number of special plates. The number of child's plates plus the number of adult's plates plus the number of senior's plates plus the number of special plates is 50 less than six times the number of family plates. How many child's, adult's, senior's, special, and family plates were served?",
+        "system_of_equations": [
+            "( 3.5 * x ) + ( 7.0 * y ) + ( 5.0 * z ) + ( 6.0 * w ) + ( 8.0 * v )  = 2297.50000000000",
+            "x + y + z + w + v  = 400.000000000000",
+            "x + z  = 2.0 * y - 105.0",
+            "x + y + z  = 5.0 * w + 50.0",
+            "x + y + z + w  = 6.0 * v + 50.0"
+        ],
+        "ans": [
+            "115",
+            "135",
+            "50",
+            "50",
+            "50"
+        ],
+        "id": 17,
+        "source": "ALG514"
+    },
+    {
+        "problem": "On a certain hot summer's day, 1004 people used the public swimming pool. The daily prices are 1.50 dollars for children, 2.25 dollars for adults, 1.00 dollar for seniors, 1.75 dollars for teenagers, and 0.50 dollar for infants. The receipts for admission totaled 1722.00 dollars. It is known that the number of children plus the number of seniors equals twice the number of adults minus 310. The number of children plus the number of adults equals twice the number of teenagers plus 554. The number of children plus the number of adults plus the number of seniors equals three times the number of infants plus 704. How many children, adults, seniors, teenagers, and infants swam at the public pool that day?",
+        "system_of_equations": [
+            "( 1.5 * x ) + ( 2.25 * y ) + ( 1.0 * z ) + ( 1.75 * w ) + ( 0.5 * v )  = 1722.00000000000",
+            "x + y + z + w + v  = 1004.00000000000",
+            "x + z  = 2.0 * y - 310.0",
+            "x + y  = 2.0 * w + 554.0",
+            "x + y + z  = 3.0 * v + 704.0"
+        ],
+        "ans": [
+            "366",
+            "388",
+            "100",
+            "100",
+            "50"
+        ],
+        "id": 18,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Sawz logging company bought a section of the forest containing 1300 trees, which are a mix of Douglas fir, Ponderosa pine, Spruce, Cedar, and Hemlock trees. The company paid an average of 300 dollars for each Douglas fir, 250 dollars for each Ponderosa pine, 200 dollars for each Spruce tree, 150 dollars for each Cedar tree, and 100 dollars for each Hemlock tree, amounting to a total of 287,500 dollars. It is known that the number of Douglas fir trees plus the number of Spruce trees equals half the number of Ponderosa pine trees minus 125. The number of Douglas fir trees plus the number of Ponderosa pine trees plus the number of Cedar trees equals twice the number of Spruce trees plus 750. The number of Douglas fir trees plus the number of Ponderosa pine trees plus the number of Spruce trees plus the number of Hemlock trees equals three times the number of Cedar trees plus 500. How many of each type of tree did the company buy?",
+        "system_of_equations": [
+            "( 300.0 * x ) + ( 250.0 * y ) + ( 200.0 * z ) + ( 150.0 * w ) + ( 100.0 * v )  = 287500.000000000",
+            "x + y + z + w + v  = 1300.00000000000",
+            "x + z  = 0.5 * y - 125.0",
+            "x + y + w  = 2.0 * z + 750.0",
+            "x + y + z + v  = 3.0 * w + 500.0"
+        ],
+        "ans": [
+            "100",
+            "750",
+            "150",
+            "200",
+            "100"
+        ],
+        "id": 19,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A movie theater charges different prices for tickets: 7.50 dollars for adults, 4.50 dollars for children, 6.00 dollars for seniors, 5.00 dollars for students, and 4.00 dollars for groups. During a showing of a popular movie, the theater sold 110 tickets and collected 690 dollars. It is known that the number of adult tickets sold is equal to the number of student tickets plus twice the number of child tickets plus the number of senior tickets. The number of adult tickets plus the number of child tickets equals three times the number of student tickets plus 50. The number of adult tickets plus the number of child tickets plus the number of senior tickets equals four times the number of group tickets plus 50. How many adult, child, senior, student, and group tickets were sold?",
+        "system_of_equations": [
+            "( 7.5 * x ) + ( 4.5 * y ) + ( 6.0 * z ) + ( 5.0 * w ) + ( 4.0 * v )  = 690.000000000000",
+            "x + y + z + w + v  = 110.0000000000000",
+            "x  = w + 2.0 * y + z",
+            "x + y  = 3.0 * w + 50.0",
+            "x + y + z  = 4.0 * v + 50.0"
+        ],
+        "ans": [
+            "60",
+            "20",
+            "10",
+            "10",
+            "10"
+        ],
+        "id": 20,
+        "source": "ALG514"
+    },
+    {
+        "problem": "For your rich uncle's birthday party, you have a budget of exactly 837 dollars to spend on gifts. You decide to buy watches for the ladies, each costing 27.98 dollars, beepers for the men, each costing 23.46 dollars, scarves for the children, each costing 15 dollars, books for the teenagers, each costing 10 dollars, and ties for the uncles, each costing 20 dollars. You plan to buy three times as many watches as beepers, and the total number of watches and beepers should be twice the number of scarves. The total number of watches, beepers, scarves, and books should be four times the number of books plus ten. The total number of watches, beepers, scarves, and books should be three times the number of ties plus twenty. How many of each item will you buy?",
+        "system_of_equations": [
+            "( 27.98 * x ) + ( 23.46 * y ) + ( 15 * z ) + ( 10 * w ) + ( 20 * v )  = 837.000000000000",
+            "x  = 3.0 * y",
+            "x + y  = 2.0 * z",
+            "x + y + z  = 4.0 * w + 10.0",
+            "x + y + z + w  = 3.0 * v + 20.0"
+        ],
+        "ans": [
+            "15",
+            "5",
+            "10",
+            "5",
+            "5"
+        ],
+        "id": 21,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The Drama Club sold 2,000 tickets for the end-of-year-performance. Admission prices were 12 dollars for adults, 6 dollars for students, 10 dollars for seniors, 5 dollars for children, and 20 dollars for VIPs. The total amount collected at the box office was 21,200 dollars. It is known that twice the number of student tickets plus the number of adult tickets equals the number of child tickets plus three times the number of senior tickets plus 1000. The number of student tickets plus the number of adult tickets plus the number of senior tickets equals four times the number of child tickets plus 900. The number of student tickets plus the number of adult tickets plus the number of senior tickets plus the number of child tickets equals five times the number of VIP tickets plus 1400. How many students, adults, seniors, children, and VIPs attended the play?",
+        "system_of_equations": [
+            "6.0 * x + 12.0 * y + 10.0 * z + 5.0 * w + 20.0 * v  = 21200.0000000000",
+            "x + y + z + w + v  = 2000.00000000000",
+            "2.0 * x + y  = w + 3.0 * z + 1000.0",
+            "x + y + z  = 4.0 * w + 900.0",
+            "x + y + z + w  = 5.0 * v + 1400.0"
+        ],
+        "ans": [
+            "300",
+            "1200",
+            "200",
+            "200",
+            "100"
+        ],
+        "id": 22,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The Rocket Coaster has expanded and now has 29 cars: some hold 4 people, some hold 6 people, some hold 2 people, some hold 3 people, and some hold 5 people. Altogether, there is room for 119 people. It is also known that the number of 4-passenger cars plus the number of 6-passenger cars equals three times the number of 2-passenger cars. The number of 4-passenger cars plus the number of 6-passenger cars plus the number of 2-passenger cars equals five times the number of 3-passenger cars. The number of 4-passenger cars plus the number of 6-passenger cars plus the number of 2-passenger cars plus the number of 3-passenger cars equals four times the number of 5-passenger cars plus four. How many of each type of car are there?",
+        "system_of_equations": [
+            "4.0 * x + 6.0 * y + 2.0 * z + 3.0 * w + 5.0 * v  = 119.000000000000",
+            "x + y + z + w + v  = 29.0000000000000",
+            "x + y  = 3.0 * z",
+            "x + y + z  = 5.0 * w",
+            "x + y + z + w  = 4.0 * v + 4.0"
+        ],
+        "ans": [
+            "9",
+            "6",
+            "5",
+            "4",
+            "5"
+        ],
+        "id": 23,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A candy dealer has five types of hard candy: one worth 2.00 dollars a pound, another worth 3.00 dollars a pound, another worth 1.50 dollars a pound, another worth 0.70 dollar a pound, and the last one worth 0.40 dollar a pound. He wants to create a 130-pound mixture that he can sell for 1.70 dollars a pound. Also, the amount of 2-dollar candy plus the amount of 3-dollar candy equals four times the amount of 1.50-dollar candy. The amount of 2-dollar candy plus the amount of 3-dollar candy plus the amount of 1.50-dollar candy equals ten times the amount of 0.70-dollar candy. The amount of 2-dollar candy plus the amount of 3-dollar candy plus the amount of 1.50-dollar candy plus the amount of 0.70-dollar candy equals five times the amount of 0.40-dollar candy plus 10. How many pounds of each type of candy does he need for the mixture?",
+        "system_of_equations": [
+            "( 2.0 * x ) + ( 3.0 * y ) + ( 1.5 * z ) + ( 0.7 * w ) + ( 0.4 * v )  = 221.000000000000",
+            "x + y + z + w + v  = 130.000000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 10.0 * w",
+            "x + y + z + w  = 5.0 * v + 10.0"
+        ],
+        "ans": [
+            "64",
+            "16",
+            "20",
+            "10",
+            "20"
+        ],
+        "id": 24,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A theater has 125 seats. On a special night, they sold out, selling adult tickets for 12 dollars each, child tickets for 5 dollars each, senior tickets for 8 dollars each, student tickets for 6 dollars each, and special guest tickets for 7 dollars each. They made a total of 1146 dollars. It is known that the number of adult tickets plus the number of child tickets equals four times the number of senior tickets plus 40. The number of adult tickets plus the number of child tickets plus the number of senior tickets equals five times the number of student tickets minus 10. The number of adult tickets plus the number of child tickets plus the number of senior tickets plus the number of student tickets equals six times the number of special guest tickets plus 20. How many adult, child, senior, student, and special guest tickets were sold?",
+        "system_of_equations": [
+            "( 12.0 * x ) + ( 5.0 * y ) + ( 8.0 * z ) + ( 6.0 * w ) + ( 7.0 * v )  = 1146.00000000000",
+            "x + y + z + w + v  = 125.000000000000",
+            "x + y  = 4.0 * z + 40.0",
+            "x + y + z  = 5.0 * w - 10.0",
+            "x + y + z + w  = 6.0 * v + 20.0"
+        ],
+        "ans": [
+            "63",
+            "17",
+            "10",
+            "20",
+            "15"
+        ],
+        "id": 25,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Jane has expanded her dress shop and now has space for 350 dresses. She sells red, blue, green, yellow, and purple dresses. She decides to stock her shelves with 34 more blue dresses than red dresses. Additionally, the number of blue dresses is twice the number of green dresses plus 17. The number of red dresses plus the number of blue dresses equals three times the number of yellow dresses plus 50. The number of red dresses plus the number of blue dresses plus the number of green dresses equals four times the number of purple dresses plus 50. How many red, blue, green, yellow, and purple dresses should she stock?",
+        "system_of_equations": [
+            "x  = y + 34.0",
+            "x + y + z + w + v  = 350.000000000000",
+            "x  = 2.0 * z + 17.0",
+            "x + y  = 3.0 * w + 50.0",
+            "x + y + z  = 4.0 * v + 50.0"
+        ],
+        "ans": [
+            "117",
+            "83",
+            "50",
+            "50",
+            "50"
+        ],
+        "id": 26,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A merchant wants to create a mixed nut blend. He plans to combine peanuts selling for 2.40 dollars per pound, cashews selling for 6.00 dollars per pound, almonds selling for 4.00 dollars per pound, walnuts selling for 5.00 dollars per pound, and pecans selling for 7.00 dollars per pound. He wants to create a 100-pound mix that will sell for 3.80 dollars per pound. Also, the amount of peanuts plus the amount of cashews he uses should equal three times the amount of almonds. The amount of peanuts plus the amount of cashews plus the amount of almonds should equal four times the amount of walnuts plus 40 pounds. The amount of peanuts plus the amount of cashews plus the amount of almonds plus the amount of walnuts should equal five times the amount of pecans plus 40 pounds. How much of each type of nut should he use?",
+        "system_of_equations": [
+            "( 2.4 * x ) + ( 6.0 * y ) + ( 4.0 * z ) + ( 5.0 * w ) + ( 7.0 * v )  = 380.000000000000",
+            "x + y + z + w + v  = 100.0000000000000",
+            "x + y  = 3.0 * z",
+            "x + y + z  = 4.0 * w + 40.0",
+            "x + y + z + w  = 5.0 * v + 40.0"
+        ],
+        "ans": [
+            "50",
+            "10",
+            "20",
+            "10",
+            "10"
+        ],
+        "id": 27,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The sum of five numbers is 70. Twice the largest number equals the fourth number plus three times the second largest number plus the smallest number minus 76. Also, the largest number minus the second largest number equals the negative of the fourth number plus twice the smallest number minus 28. The sum of the largest number and the second largest number equals three times the fourth number plus 22. The sum of the largest number, the second largest number, and the smallest number equals four times the fifth number plus 13. Find the numbers.",
+        "system_of_equations": [
+            "2.0 * x  = w + 3.0 * y + z - 76.0",
+            "y + x + z + w + v  = 70.0000000000000",
+            "x - y  = -w + 2.0 * z - 28.0",
+            "x + y  = 3.0 * w + 22.0",
+            "x + y + z  = 4.0 * v + 13.0"
+        ],
+        "ans": [
+            "14",
+            "29",
+            "10",
+            "7",
+            "10"
+        ],
+        "id": 28,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Three times the first number minus the second number plus the third number plus the fourth number plus half the fifth number is 45. The sum of the five numbers is 78. Also, twice the first number plus the second number plus the fourth number plus half the fifth number equals three times the third number plus 42. The first number plus the second number equals the fifth number plus twice the fourth number plus the third number plus 10. The sum of the first number, the second number, the third number, and the fourth number equals four times the fifth number plus 28. Find the five numbers.",
+        "system_of_equations": [
+            "3.0 * x - y + z + w + 0.5 * v  = 45.0000000000000",
+            "x + y + z + w + v  = 78.0000000000000",
+            "2.0 * x + y + w + 0.5 * v  = 3.0 * z + 42.0",
+            "x + y  = v + 2.0 * w + z + 10.0",
+            "x + y + z + w  = 4.0 * v + 28.0"
+        ],
+        "ans": [
+            "17",
+            "31",
+            "12",
+            "8",
+            "10"
+        ],
+        "id": 29,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The sum of five numbers is 42. Seven times the smallest number is the same as five times the largest number. Also, twice the smallest number equals the sum of the third number and the fourth number plus 10. The sum of the smallest number and the largest number equals twice the fourth number plus 16. The sum of the smallest number, the largest number, and the third number equals three times the fifth number plus 6. Find the five numbers.",
+        "system_of_equations": [
+            "7.0 * x  = 5.0 * y",
+            "x + y + z + w + v  = 42.0000000000000",
+            "2.0 * x  = w + z + 10.0",
+            "x + y  = 2.0 * w + 16.0",
+            "x + y + z  = 3.0 * v + 6.0"
+        ],
+        "ans": [
+            "10",
+            "14",
+            "6",
+            "4",
+            "8"
+        ],
+        "id": 30,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A music store is selling compact discs for 10.50 dollars, 8.50 dollars, 7.50 dollars, 6.50 dollars, and 5.50 dollars. You decide to buy a total of 18 discs and end up spending 145 dollars. You also notice that the number of compact discs you bought for 10.50 dollars plus the number of compact discs you bought for 7.50 dollars equals two times the number of compact discs you bought for 8.50 dollars minus 5. The number of compact discs you bought for 10.50 dollars plus the number of compact discs you bought for 8.50 dollars plus the number of compact discs you bought for 6.50 dollars equals three times the number of compact discs you bought for 7.50 dollars plus 3. The number of compact discs you bought for 10.50 dollars plus the number of compact discs you bought for 8.50 dollars plus the number of compact discs you bought for 7.50 dollars plus the number of compact discs you bought for 6.50 dollars equals four times the number of compact discs you bought for 5.50 dollars plus 3. How many compact discs did you buy at each price?",
+        "system_of_equations": [
+            "( 10.5 * x ) + ( 8.5 * y ) + ( 7.5 * z ) + ( 6.5 * w ) + ( 5.5 * v )  = 145.000000000000",
+            "x + y + z + w + v  = 18",
+            "x + z  = 2.0 * y - 5.0",
+            "x + y + w  = 3.0 * z + 3.0",
+            "x + y + z + w  = 4.0 * v + 3.0"
+        ],
+        "ans": [
+            "4",
+            "6",
+            "3",
+            "2",
+            "3"
+        ],
+        "id": 31,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The sum of five numbers is 52. Half of the first number plus one-third of the second number plus a quarter of the third number plus a fifth of the fourth number plus a tenth of the fifth number equals 15.4. Additionally, the sum of the first number and the third number is 1.5 times the second number minus 2.5. The sum of the first number, the second number, and the third number equals twice the fourth number plus 21. The sum of the first number, the second number, the third number, and the fourth number equals three times the fifth number plus 12. Find the five numbers.",
+        "system_of_equations": [
+            "0.5 * x + 0.3333333 * y + 0.25 * z + 0.2 * w + 0.1 * v  = 15.3999995000000",
+            "x + y + z + w + v  = 52",
+            "x + z  = 1.5 * y - 2.5",
+            "x + y + z  = 2 * w + 21.0",
+            "x + y + z + w  = 3 * v + 12.0"
+        ],
+        "ans": [
+            "12",
+            "15",
+            "8",
+            "7",
+            "10"
+        ],
+        "id": 32,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The 6th graders from an elementary school, along with some adults, teachers, volunteers, and staff members, are going to celebrate the end of the year by going to the local pizza parlor. There are 200 people in the whole group. The number of children is twice the number of adults and also four times the number of teachers minus 40. The number of children plus the number of adults equals five times the number of volunteers plus 20. The number of children plus the number of adults plus the number of teachers equals six times the number of staff members minus 30. How many children, adults, teachers, volunteers, and staff members are there in the group?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 200.000000000000",
+            "x  = 2.0 * y",
+            "x  = 4.0 * z - 40.0",
+            "x + y  = 5.0 * w + 20.0",
+            "x + y + z  = 6.0 * v - 30.0"
+        ],
+        "ans": [
+            "80",
+            "40",
+            "30",
+            "20",
+            "30"
+        ],
+        "id": 33,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Phyllis invested 52000 dollars in five different ways: a portion earning a simple interest rate of 4 % per year, another portion earning a rate of 6 % per year, another portion earning a rate of 3 % per year, another portion earning a rate of 2 % per year, and the rest earning a rate of 1 % per year. After one year, she earned 2240 dollars in interest. Also, the amount invested at 4% annual interest plus the amount invested at 6% annual interest equals seven times the amount invested at 3% annual interest plus 4000 dollars. The amount invested at 4% annual interest plus the amount invested at 6% annual interest plus the amount invested at 3% annual interest equals eight times the amount invested at 2% annual interest plus 20000 dollars. The amount invested at 4% annual interest plus the amount invested at 6% annual interest plus the amount invested at 3% annual interest plus the amount invested at 2% annual interest equals nine times the amount invested at 1% annual interest plus 2000 dollars. How much did she invest at each rate?",
+        "system_of_equations": [
+            "( ( 4.0 * 0.01 ) * x ) + ( ( 6.0 * 0.01 ) * y ) + ( ( 3.0 * 0.01 ) * z ) + ( ( 2.0 * 0.01 ) * w ) + ( ( 1.0 * 0.01 ) * v )  = 2240.00000000000",
+            "x + y + z + w + v  = 52000.0000000000",
+            "x + y  = 7.0 * z + 4000.0",
+            "x + y + z  = 8.0 * w + 20000.0",
+            "x + y + z + w  = 9.0 * v + 2000.0"
+        ],
+        "ans": [
+            "18000",
+            "21000",
+            "5000",
+            "3000",
+            "5000"
+        ],
+        "id": 34,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Class A, class B, class C, class D, and class E donated their class funds to an orphanage. The total amount donated by the five classes is approximately 205 dollars. The amount donated by class A is 7 dollars short of 0.6667 of the amount donated by class B. Also, the sum of the amounts donated by class A and class C is 29.40245 dollars more than half the amount donated by class B. The sum of the amounts donated by class A, class B, and class D is 106 dollars more than twice the amount donated by class C. The sum of the amounts donated by class A, class B, class C, and class E is 105 dollars more than three times the amount donated by class D. How much did each class donate?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 204.999900000000",
+            "x  = 0.6667 * y - 6.99994661",
+            "x + z  = 0.5 * y + 29.40245",
+            "x + y + w  = 2.0 * z + 105.9999",
+            "x + y + z + v  = 3.0 * w + 104.9999"
+        ],
+        "ans": [
+            "46.6016",
+            "80.3983",
+            "23",
+            "25",
+            "30"
+        ],
+        "id": 35,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Marco has 210 coins in total, which are a mix of nickels, dimes, quarters, pennies, and half-dollars. He has 12 more dimes than nickels. Also, the difference between the number of dimes and nickels is twice the number of quarters minus 48. The sum of the number of nickels, dimes, pennies, and half-dollars is three times the number of quarters plus 90. The sum of the number of nickels, dimes, quarters, and pennies is four times the number of half-dollars plus 160. How many nickels, dimes, quarters, pennies, and half-dollars does he have?",
+        "system_of_equations": [
+            "12.0 + x  = y",
+            "y + x + z + w + v  = 210.000000000000",
+            "y - x  = 2.0 * z - 48.0",
+            "x + y + w + v  = 3.0 * z + 90.0",
+            "x + y + z + w  = 4.0 * v + 160.0"
+        ],
+        "ans": [
+            "69",
+            "81",
+            "30",
+            "20",
+            "10"
+        ],
+        "id": 36,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Steve has 55 coins in total, consisting of nickels, dimes, quarters, pennies, and half-dollars. The total value of all the coins is 5.90 dollars. Also, the number of nickels plus the number of dimes equals six times the number of quarters plus 12. The number of nickels plus the number of dimes plus the number of quarters equals four times the number of pennies. The number of nickels plus the number of dimes plus the number of quarters plus the number of pennies equals ten times the number of half-dollars. How many nickels, dimes, quarters, pennies, and half-dollars does Steve have?",
+        "system_of_equations": [
+            "( 0.05 * x ) + ( 0.1 * y ) + ( 0.25 * z ) + ( 0.01 * w ) + ( 0.5 * v )  = 5.90000000000000",
+            "x + y + z + w + v  = 55",
+            "x + y  = 6.0 * z + 12.0",
+            "x + y + z  = 4.0 * w",
+            "x + y + z + w  = 10.0 * v"
+        ],
+        "ans": [
+            "26",
+            "10",
+            "4",
+            "10",
+            "5"
+        ],
+        "id": 37,
+        "source": "ALG514"
+    },
+    {
+        "problem": "There are five numbers. The second number is 3 less than twice the first number. The third number equals the second number. The fourth number is 27 less than the first number. The fifth number is 24 less than the first number. The sum of these five numbers is 100. Find the five numbers.",
+        "system_of_equations": [
+            "x  = 2.0 * y - 3.0",
+            "y + x + z + w + v  = 100.000000000000",
+            "z  = y",
+            "w  = x - 27.0",
+            "v  = x - 24.0"
+        ],
+        "ans": [
+            "37",
+            "20",
+            "20",
+            "10",
+            "13"
+        ],
+        "id": 38,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In one week, a music store sold 20 instruments for a total of 6800 dollars. The store sells five types of instruments: electric guitars for 479 dollars each, acoustic guitars for 339 dollars each, bass guitars for 399 dollars each, classical guitars for 299 dollars each, and ukuleles for 199 dollars each. It is known that the number of electric guitars plus the number of bass guitars sold equals two times the number of acoustic guitars sold minus three. The number of electric guitars plus the number of acoustic guitars plus the number of bass guitars equals three times the number of classical guitars sold. The number of electric guitars plus the number of acoustic guitars plus the number of bass guitars plus the number of classical guitars equals four times the number of ukuleles sold. How many electric guitars, acoustic guitars, bass guitars, classical guitars, and ukuleles were sold?",
+        "system_of_equations": [
+            "( 479.0 * x ) + ( 339.0 * y ) + ( 399.0 * z ) + ( 299.0 * w ) + ( 199.0 * v )  = 6800.00000000000",
+            "x + y + z + w + v  = 20.0000000000000",
+            "x + z  = 2.0 * y - 3.0",
+            "x + y + z  = 3.0 * w",
+            "x + y + z + w  = 4.0 * v"
+        ],
+        "ans": [
+            "4",
+            "5",
+            "3",
+            "4",
+            "4"
+        ],
+        "id": 39,
+        "source": "ALG514"
+    },
+    {
+        "problem": "There are five numbers. The first number is 33 less than twice the second number. The second number is 9 more than twice the third number. The fourth number is 15 less than the sum of the first and third numbers. The fifth number is 10 less than the second number. If the sum of the five numbers is 64, find the five numbers.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 64.0000000000000",
+            "x  = 2.0 * y - 33.0",
+            "y  = 2.0 * z + 9.0",
+            "w  = x + z - 15.0",
+            "v  = y - 21.0"
+        ],
+        "ans": [
+            "17",
+            "25",
+            "8",
+            "10",
+            "4"
+        ],
+        "id": 40,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A total of 16,000 dollars is invested in five different funds. The first fund pays 5% annual interest, the second fund pays 7% annual interest, the third fund pays 3% annual interest, the fourth fund pays 2% annual interest, and the fifth fund pays 1% annual interest. After one year, the combined annual interest from these investments is 750 dollars. It is also known that the sum of the amount invested at 5% and the amount invested at 7% equals four times the amount invested at 3% plus 2000 dollars. The sum of the amount invested at 5%, 7%, and 3% equals five times the amount invested at 2% plus 2000 dollars. The sum of the amount invested at 5%, 7%, 3%, and 2% equals six times the amount invested at 1% plus 2000 dollars. How much of the 16,000 dollars is invested at each rate?",
+        "system_of_equations": [
+            "( 5.0 * 0.01 * x ) + ( 7.0 * 0.01 * y ) + ( 3.0 * 0.01 * z ) + ( 2.0 * 0.01 * w ) + ( 1.0 * 0.01 * v )  = 750.000000000000",
+            "x + y + z + w + v  = 16000.0000000000",
+            "x + y  = 4.0 * z + 2000.0",
+            "x + y + z  = 5.0 * w + 2000.0",
+            "x + y + z + w  = 6.0 * v + 2000.0"
+        ],
+        "ans": [
+            "3500",
+            "6500",
+            "2000",
+            "2000",
+            "2000"
+        ],
+        "id": 41,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Lane invested 34,000 dollars in five different ways: part at 8 % annual interest, part at 7 % annual interest, part at 6 % annual interest, part at 5 % annual interest, and the rest at 4 % annual interest. After one year, she received 2,300 dollars in interest. Also, the amount invested at 8% annual interest plus the amount invested at 7% annual interest equals four times the amount invested at 6% annual interest plus 10,000 dollars. The amount invested at 8% annual interest plus the amount invested at 7% annual interest plus the amount invested at 6% annual interest equals five times the amount invested at 5% annual interest. The amount invested at 8% annual interest plus the amount invested at 7% annual interest plus the amount invested at 6% annual interest plus the amount invested at 5% annual interest equals six times the amount invested at 4% annual interest plus 6,000 dollars. How much did she invest at each rate?",
+        "system_of_equations": [
+            "( ( 8.0 * 0.01 ) * x ) + ( ( 7.0 * 0.01 ) * y ) + ( ( 6.0 * 0.01 ) * z ) + ( ( 5.0 * 0.01 ) * w ) + ( ( 4.0 * 0.01 ) * v )  = 2300.00000000000",
+            "x + y + z + w + v  = 34000.0000000000",
+            "x + y  = 4.0 * z + 10000.0",
+            "x + y + z  = 5.0 * w",
+            "x + y + z + w  = 6.0 * v + 6000.0"
+        ],
+        "ans": [
+            "17000",
+            "5000",
+            "3000",
+            "5000",
+            "4000"
+        ],
+        "id": 42,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A farmer has some chickens, cows, pigs, sheep, and goats. She counted 85 heads in total and 306 legs. She also noticed that the number of chickens plus twice the number of cows equals three times the number of pigs plus 33. The number of chickens, cows, and pigs combined equals twice the number of sheep plus 10. The number of chickens, cows, pigs, and sheep combined equals three times the number of goats plus 25. How many chickens, cows, pigs, sheep, and goats does she have?",
+        "system_of_equations": [
+            "2.0 * x + 4.0 * y + 4.0 * z + 4.0 * w + 4.0 * v  = 306.000000000000",
+            "x + y + z + w + v  = 85.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 33.0",
+            "x + y + z  = 2.0 * w + 10.0",
+            "x + y + z + w  = 3.0 * v + 25.0"
+        ],
+        "ans": [
+            "17",
+            "23",
+            "10",
+            "20",
+            "15"
+        ],
+        "id": 43,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A woman invested a total of 15,000 dollars in five different accounts. One account earns 6.5 % annual interest, another earns 8 % annual interest, another earns 5 % annual interest, another earns 4 % annual interest, and the last one earns 3 % annual interest. After one year, she earned a combined interest of 866.13 dollars. Also, the amount she invested at 6.5% annual interest plus the amount she invested at 8% annual interest equals four times the amount she invested at 5% annual interest plus 1000 dollars. The amount she invested at 6.5% annual interest plus the amount she invested at 8% annual interest plus the amount she invested at 5% annual interest equals five times the amount she invested at 4% annual interest plus 1000 dollars. The amount she invested at 6.5% annual interest plus the amount she invested at 8% annual interest plus the amount she invested at 5% annual interest plus the amount she invested at 4% annual interest equals six times the amount she invested at 3% annual interest plus 1000 dollars. How much did she invest in each account?",
+        "system_of_equations": [
+            "( ( 6.5 * 0.01 ) * x ) + ( ( 8.0 * 0.01 ) * y ) + ( ( 5.0 * 0.01 ) * z ) + ( ( 4.0 * 0.01 ) * w ) + ( ( 3.0 * 0.01 ) * v )  = 866.130000000000",
+            "x + y + z + w + v  = 15000.0000000000",
+            "x + y  = 4.0 * z + 1000.0",
+            "x + y + z  = 5.0 * w + 1000.0",
+            "x + y + z + w  = 6.0 * v + 1000.0"
+        ],
+        "ans": [
+            "6258",
+            "2742",
+            "2000",
+            "2000",
+            "2000"
+        ],
+        "id": 44,
+        "source": "ALG514"
+    },
+    {
+        "problem": "On a farm, there are goats, chickens, ducks, rabbits, and pigs. In total, these animals have 72 legs and 25 heads. It is also known that the number of goats plus the number of ducks equals two times the number of chickens minus 17. The number of goats plus the number of chickens plus the number of ducks equals three times the number of rabbits plus 4. The number of goats plus the number of chickens plus the number of ducks plus the number of rabbits equals five times the number of pigs minus 5. How many goats, chickens, ducks, rabbits, and pigs are there on the farm?",
+        "system_of_equations": [
+            "4.0 * x + 2.0 * y + 2.0 * z + 4.0 * w + 4.0 * v  = 72.0000000000000",
+            "x + y + z + w + v  = 25.0000000000000",
+            "x + z  = 2.0 * y - 17.0",
+            "x + y + z  = 3.0 * w + 4.0",
+            "x + y + z + w  = 5.0 * v - 5.0"
+        ],
+        "ans": [
+            "2",
+            "11",
+            "3",
+            "4",
+            "5"
+        ],
+        "id": 45,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Jason has five part-time jobs. He earns 4.00 dollars per hour working after school, 6.00 dollars per hour working on Saturday, 5.00 dollars per hour working on Sunday, 3.00 dollars per hour working on Friday, and 2.00 dollars per hour working on Monday. In a week, he works a total of 30 hours and earns 127.00 dollars. It is known that the sum of the hours he worked on Saturday and Sunday is 8 less than twice the hours he worked after school. The sum of the hours he worked on Saturday, after school, and on Friday is 9 more than three times the hours he worked on Sunday. The sum of the hours he worked after school, on Saturday, on Sunday, and on Friday is 5 more than four times the hours he worked on Monday. How many hours did he work each day?",
+        "system_of_equations": [
+            "6.0 * x + 4.0 * y + 5.0 * z + 3.0 * w + 2.0 * v  = 127.000000000000",
+            "x + y + z + w + v  = 30.0000000000000",
+            "x + z  = 2.0 * y - 8.0",
+            "x + y + w  = 3.0 * z + 9.0",
+            "x + y + z + w  = 4.0 * v + 5.0"
+        ],
+        "ans": [
+            "8",
+            "10",
+            "4",
+            "3",
+            "5"
+        ],
+        "id": 46,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A worker is paid different rates depending on when she works: 60 cents an hour for ordinary time, 90 cents an hour for overtime, 120 cents an hour for weekend work, 150 cents an hour for holiday work, and 180 cents an hour for night shift work. In an 80-hour week, she earns 87.60 dollars. It is also known that the number of ordinary hours she works plus the number of overtime hours equals five times the number of hours she works on the weekend. The number of ordinary hours she works plus the number of overtime hours plus the number of weekend hours equals six times the number of holiday hours she works. The number of ordinary hours she works plus the number of overtime hours plus the number of weekend hours plus the number of holiday hours equals seven times the number of night shift hours she works. How many hours does she work during ordinary time, overtime, on the weekend, on holidays, and on the night shift?",
+        "system_of_equations": [
+            "( ( 60.0 * 0.01 ) * x ) + ( ( 90.0 * 0.01 ) * y ) + ( ( 120.0 * 0.01 ) * z ) + ( ( 150.0 * 0.01 ) * w ) + ( ( 180.0 * 0.01 ) * v )  = 87.6000000000000",
+            "x + y + z + w + v  = 80.0000000000000",
+            "x + y  = 5.0 * z",
+            "x + y + z  = 6.0 * w",
+            "x + y + z + w  = 7.0 * v"
+        ],
+        "ans": [
+            "8",
+            "42",
+            "10",
+            "10",
+            "10"
+        ],
+        "id": 47,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The state market has a variety of fruits. The number of apples is 27 more than the number of oranges. In total, there are 525 fruits including apples, oranges, bananas, pears, and grapes. Also, the number of apples is 65 more than the number of bananas. The number of apples and oranges combined is 201 more than twice the number of pears. The number of apples, oranges, and bananas combined is 175 more than three times the number of grapes. How many apples, oranges, bananas, pears, and grapes are in the market?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 525.000000000000",
+            "x  = y + 27.0",
+            "x - z  = 65.0000000000000",
+            "x + y  = 2.0 * w + 201.0",
+            "x + y + z  = 3.0 * v + 175.0"
+        ],
+        "ans": [
+            "164",
+            "137",
+            "99",
+            "50",
+            "75"
+        ],
+        "id": 48,
+        "source": "ALG514"
+    },
+    {
+        "problem": "River Joe's Seafood Diner offers a variety of dishes. They charge 6.00 dollars for a catfish dinner, 3.50 dollars for an order of popcorn shrimp, 5.00 dollars for an order of clam chowder, 7.50 dollars for a lobster roll, and 8.00 dollars for an order of crab cakes. One evening, after filling 41 orders, River Joe had collected 239.00 dollars. It is known that the number of orders of popcorn shrimp plus the number of orders of clam chowder equals two times the number of catfish dinners minus 21. The number of orders of popcorn shrimp, catfish dinners, and clam chowder combined equals three times the number of lobster rolls plus 15. The number of orders of popcorn shrimp, catfish dinners, clam chowder, and lobster rolls combined equals four times the number of crab cakes plus 11. How many orders of popcorn shrimp, catfish dinners, clam chowder, lobster rolls, and crab cakes did they sell?",
+        "system_of_equations": [
+            "( 3.5 * x ) + ( 6.0 * y ) + ( 5.0 * z ) + ( 7.5 * w ) + ( 8.0 * v )  = 239.000000000000",
+            "x + y + z + w + v  = 41.0000000000000",
+            "x + z  = 2.0 * y - 21.0",
+            "x + y + z  = 3.0 * w + 15.0",
+            "x + y + z + w  = 4.0 * v + 11.0"
+        ],
+        "ans": [
+            "9",
+            "17",
+            "4",
+            "5",
+            "6"
+        ],
+        "id": 49,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Marc sold tickets for the school play. He sold adult tickets for 6 dollars each, student tickets for 4 dollars each, senior tickets for 3 dollars each, child tickets for 2 dollars each, and VIP tickets for 10 dollars each. In total, he sold 763 tickets and his sales amounted to 3740 dollars. It is known that twice the number of adult tickets plus the number of student tickets equals two times the number of child tickets plus three times the number of senior tickets plus 457. The number of adult tickets plus the number of student tickets plus the number of senior tickets equals four times the number of child tickets plus 463. The number of adult tickets plus the number of student tickets plus the number of senior tickets plus the number of child tickets equals five times the number of VIP tickets plus 463. How many adult, student, senior, child, and VIP tickets did Marc sell?",
+        "system_of_equations": [
+            "6.0 * x + 4.0 * y + 3.0 * z + 2.0 * w + 10.0 * v  = 3740.00000000000",
+            "x + y + z + w + v  = 763.000000000000",
+            "2.0 * x + y  = 2.0 * w + 3.0 * z + 457.0",
+            "x + y + z  = 4.0 * w + 463.0",
+            "x + y + z + w  = 5.0 * v + 463.0"
+        ],
+        "ans": [
+            "294",
+            "269",
+            "100",
+            "50",
+            "50"
+        ],
+        "id": 50,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The Booster Club voted on where they would go for their annual trip. A majority of the club voted to go to a baseball game. They bought 50 tickets in total. Some of the tickets cost 7 dollars per ticket, some cost 9 dollars per ticket, some cost 5 dollars per ticket, some cost 3 dollars per ticket, and the rest cost 2 dollars per ticket. All of the tickets cost 302 dollars. It is known that the number of 7-dollar tickets plus the number of 9-dollar tickets equals twice the number of 5-dollar tickets plus 9. The number of 7-dollar tickets plus the number of 9-dollar tickets plus the number of 5-dollar tickets equals three times the number of 3-dollar tickets plus 24. The number of 7-dollar tickets plus the number of 9-dollar tickets plus the number of 5-dollar tickets plus the number of 3-dollar tickets equals four times the number of 2-dollar tickets plus 20. How many 7-dollar tickets, 9-dollar tickets, 5-dollar tickets, 3-dollar tickets, and 2-dollar tickets did they buy?",
+        "system_of_equations": [
+            "7.0 * x + 9.0 * y + 5.0 * z + 3.0 * w + 2.0 * v  = 302.000000000000",
+            "x + y + z + w + v  = 50.0000000000000",
+            "x + y  = 2.0 * z + 9.0",
+            "x + y + z  = 3.0 * w + 24.0",
+            "x + y + z + w  = 4.0 * v + 20.0"
+        ],
+        "ans": [
+            "18",
+            "11",
+            "10",
+            "5",
+            "6"
+        ],
+        "id": 51,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a local play, there were 840 attendees. The admission price was 2 dollars for adults, 1 dollar for children, 1.5 dollars for seniors, 1.5 dollars for students, and 1 dollar for veterans. The total admission receipts amounted to 1265 dollars. It is known that the number of adults equals two times the number of seniors plus 250. The number of adults plus the number of children equals three times the number of students plus 310. The number of adults plus the number of children plus the number of seniors equals four times the number of veterans plus 340. How many adults, children, seniors, students, and veterans attended the play?",
+        "system_of_equations": [
+            "( 2.0 * x ) + ( 1.0 * y ) + ( 1.5 * z ) + ( 1.5 * w ) + ( 1.0 * v )  = 1265.00000000000",
+            "x + y + z + w + v  = 840.000000000000",
+            "x  = 2.0 * z + 250.0",
+            "x + y  = 3.0 * w + 310.0",
+            "x + y + z  = 4.0 * v + 340.0"
+        ],
+        "ans": [
+            "350",
+            "260",
+            "50",
+            "100",
+            "80"
+        ],
+        "id": 52,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a clothing store, three pairs of jeans, six shirts, one pair of shoes, and two hats cost 134.25 dollars. Four pairs of jeans, five shirts, two pairs of shoes, one hat, and one belt cost 167.15 dollars. Two pairs of jeans, three shirts, one pair of shoes, three hats, and one belt cost 105.55 dollars. One pair of jeans, two shirts, one pair of shoes, four hats, and one belt cost 84.75 dollars. One of each item plus an additional belt cost 70.80 dollars. Find the cost of each pair of jeans, each shirt, each pair of shoes, each hat, and each belt.",
+        "system_of_equations": [
+            "3.0 * x + 6.0 * y + 1.0 * z + 2.0 * w + 0.0 * v  = 134.250000000000",
+            "4.0 * x + 5.0 * y + 2.0 * z + 1.0 * w + 1.0 * v  = 167.150000000000",
+            "2.0 * x + 3.0 * y + 1.0 * z + 3.0 * w + 1.0 * v  = 105.550000000000",
+            "1.0 * x + 2.0 * y + 1.0 * z + 4.0 * w + 1.0 * v  = 84.7500000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 70.8000000000000"
+        ],
+        "ans": [
+            "16.85",
+            "8.95",
+            "20",
+            "5",
+            "10"
+        ],
+        "id": 53,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Find five numbers such that their sum is 95 and the difference between the first and second number plus the third number plus the fourth number plus the fifth number is 25. Also, the sum of the first two numbers equals the fifth number plus the fourth number plus twice the third number plus 5. The sum of the first three numbers equals the fifth number plus three times the fourth number plus 5. The sum of the first four numbers equals four times the fifth number plus 20. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 95.0000000000000",
+            "x - y + z + w + v  = 25.0000000000000",
+            "x + y  = v + w + 2.0 * z + 5.0",
+            "x + y + z  = v + 3.0 * w + 5.0",
+            "x + y + z + w  = 4.0 * v + 20.0"
+        ],
+        "ans": [
+            "20",
+            "35",
+            "10",
+            "15",
+            "15"
+        ],
+        "id": 54,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a test of 43 questions, Maria answered all the questions and got a score of 430. For each correct answer, she received 20 points, for each incorrect answer, 5 points were deducted, for unanswered questions, no points were given or deducted, for guessed questions, she received 10 points, and for each partially correct answer, she received 15 points. It is known that the number of correct answers plus the number of unanswered questions plus the number of guessed questions plus the number of partially correct answers equals twice the number of incorrect answers plus 10. The number of correct answers plus the number of incorrect answers plus the number of guessed questions plus the number of partially correct answers equals three times the number of unanswered questions plus 23. The number of correct answers plus the number of incorrect answers plus the number of unanswered questions plus the number of guessed questions equals four times the number of partially correct answers plus 18. How many questions did Maria answer correctly, incorrectly, leave unanswered, guess, and answer partially correct?",
+        "system_of_equations": [
+            "( 20.0 * x ) - ( 5.0 * y ) + ( 10.0 * w ) + ( 15.0 * v )  = 430.000000000000",
+            "x + y + z + w + v  = 43.0000000000000",
+            "x + z + w + v  = 2.0 * y + 10.0",
+            "x + y + w + v  = 3.0 * z + 23.0",
+            "x + y + z + w  = 4.0 * v + 18.0"
+        ],
+        "ans": [
+            "19",
+            "11",
+            "5",
+            "3",
+            "5"
+        ],
+        "id": 55,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Mario has 8000 pence to invest. He decides to invest part of it at 4%, part of it at 6.5%, part of it at 3%, part of it at 2%, and the rest at 1.5%. After one year, the total interest he receives is 310 pence. Also, the combined amount he invests at 4% and 6.5% is four times the amount he invests at 3% plus 1000 pence. The combined amount he invests at 4%, 6.5%, and 3% is five times the amount he invests at 2% plus 1000 pence. The combined amount he invests at 4%, 6.5%, 3%, and 2% is six times the amount he invests at 1.5% plus 1000 pence. How much does Mario invest at each rate?",
+        "system_of_equations": [
+            "( ( 4.0 * 0.01 ) * x ) + ( ( 6.5 * 0.01 ) * y ) + ( ( 3.0 * 0.01 ) * z ) + ( ( 2.0 * 0.01 ) * w ) + ( ( 1.5 * 0.01 ) * v )  = 310.000000000000",
+            "x + y + z + w + v  = 8000.00000000000",
+            "x + y  = 4.0 * z + 1000.0",
+            "x + y + z  = 5.0 * w + 1000.0",
+            "x + y + z + w  = 6.0 * v + 1000.0"
+        ],
+        "ans": [
+            "3200",
+            "1800",
+            "1000",
+            "1000",
+            "1000"
+        ],
+        "id": 56,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Steve went to a circus ticket counter to purchase tickets for his family. He bought 7 tickets for adults, 2 tickets for children, 3 tickets for seniors, 1 ticket for a student, and 1 VIP ticket. The total cost came to 1282 dollars. The cost of a child's ticket was 4 dollars less than the cost of an adult's ticket. The cost of a senior's ticket is the same as the cost of an adult's ticket. The cost of a student's ticket is 30 dollars more than an adult's ticket. The cost of a VIP ticket is 980 dollars more than the cost of an adult's ticket. Can you find out the price of an adult's ticket, a child's ticket, a senior's ticket, a student's ticket, and a VIP ticket?",
+        "system_of_equations": [
+            "( 7.0 * x ) + ( 2.0 * y ) + ( 3.0 * z ) + ( 1.0 * w ) + ( 1.0 * v )  = 1282.00000000000",
+            "y  = x - 4.0",
+            "z  = x",
+            "w  = x + 30.0",
+            "v  = x + 980.0"
+        ],
+        "ans": [
+            "20",
+            "16",
+            "20",
+            "50",
+            "1000"
+        ],
+        "id": 57,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A chemist has five solutions: one that is 39 % alcohol, one that is 50 % alcohol, one that is 12% alcohol, one that is 5% alcohol, and one that is 3% alcohol. He wants to make 140 liters of a solution that is 27.5 % alcohol. Also, the amount of the 39% alcohol solution plus the amount of the 50% alcohol solution he uses equals four times the amount of the 12% alcohol solution. The amount of the 39% alcohol solution plus the amount of the 50% alcohol solution plus the amount of the 12% alcohol solution equals five times the amount of the 5% alcohol solution. The amount of the 39% alcohol solution plus the amount of the 50% alcohol solution plus the amount of the 12% alcohol solution plus the amount of the 5% alcohol solution equals six times the amount of the 3% alcohol solution. How many liters of each solution should he add?",
+        "system_of_equations": [
+            "( 39.0 * 0.01 * x ) + ( 50.0 * 0.01 * y ) + ( 12.0 * 0.01 * z ) + ( 5.0 * 0.01 * w ) + ( 3.0 * 0.01 * v )  = 38.5000000000000",
+            "x + y + z + w + v  = 140.000000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 5.0 * w",
+            "x + y + z + w  = 6.0 * v"
+        ],
+        "ans": [
+            "50",
+            "30",
+            "20",
+            "20",
+            "20"
+        ],
+        "id": 58,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A discount store sold five types of cups: plastic cups for 3.25 dollars each, ceramic cups for 4.50 dollars each, glass cups for 5 dollars each, metal cups for 6 dollars each, and wooden cups for 7 dollars each. In total, 700 cups were sold for a total of 3240 dollars. It is known that the number of plastic cups sold plus the number of glass cups sold equals twice the number of ceramic cups sold minus 516. The number of plastic cups sold plus the number of ceramic cups sold plus the number of glass cups sold equals three times the number of metal cups sold plus 450. The number of plastic cups sold plus the number of ceramic cups sold plus the number of glass cups sold plus the number of metal cups sold equals four times the number of wooden cups sold plus 450. How many of each type of cup were sold?",
+        "system_of_equations": [
+            "( 3.25 * x ) + ( 4.5 * y ) + ( 5.0 * z ) + ( 6.0 * w ) + ( 7.0 * v )  = 3240.00000000000",
+            "x + y + z + w + v  = 700.000000000000",
+            "x + z  = 2.0 * y - 516.0",
+            "x + y + z  = 3.0 * w + 450.0",
+            "x + y + z + w  = 4.0 * v + 450.0"
+        ],
+        "ans": [
+            "128",
+            "372",
+            "100",
+            "50",
+            "50"
+        ],
+        "id": 59,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The sum of five numbers is 80. The difference between the first number and the second number, plus the third number, plus the fourth number, plus the fifth number equals 34. Also, the sum of the first, second, fourth, and fifth numbers equals twice the third number plus 50. The sum of the first, second, third, and fifth numbers equals three times the fourth number plus 48. The sum of the first, second, third, and fourth numbers equals four times the fifth number plus 30. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 80.0000000000000",
+            "x - y + z + w + v  = 34.0000000000000",
+            "x + y + w + v  = 2.0 * z + 50.0",
+            "x + y + z + v  = 3.0 * w + 48.0",
+            "x + y + z + w  = 4.0 * v + 30.0"
+        ],
+        "ans": [
+            "29",
+            "23",
+            "10",
+            "8",
+            "10"
+        ],
+        "id": 60,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Mike invested $12,000 for one year in five different ways: part at 9% annual interest, part at 11% annual interest, part at 7% annual interest, part at 5% annual interest, and the rest at 3% annual interest. After one year, he earned $924 in interest. Also, twice the amount invested at 9% annual interest plus the amount invested at 11% annual interest plus the amount invested at 5% annual interest plus the amount invested at 3% annual interest equals ten times the amount invested at 7% annual interest minus 8200 dollars. The amount invested at 9% annual interest plus the amount invested at 11% annual interest plus the amount invested at 3% annual interest equals four times the amount invested at 5% annual interest. The amount invested at 9% annual interest plus the amount invested at 11% annual interest plus the amount invested at 7% annual interest plus the amount invested at 5% annual interest equals five times the amount invested at 3% annual interest. How much did he invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 9.0 ) * x + ( 0.01 * 11.0 ) * y + ( 0.01 * 7.0 ) * z + ( 0.01 * 5.0 ) * w + ( 0.01 * 3.0 ) * v  = 924.000000000000",
+            "y + z + w + v  = 12000.0 - x",
+            "2.0 * x + y + w + v  = 10.0 * z - 8200.0",
+            "x + y + v  = 4.0 * w",
+            "x + y + z + w  = 5.0 * v"
+        ],
+        "ans": [
+            "1800",
+            "4200",
+            "2000",
+            "2000",
+            "2000"
+        ],
+        "id": 61,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "At a fast food restaurant, one pan pizza, two cheeseburgers, one salad, and one chicken sandwich provide 3560 calories. Two pan pizzas, one cheeseburger, one salad, one chicken sandwich, and one serving of french fries provide 4290 calories. One pan pizza, one cheeseburger, two salads, one chicken sandwich, and one serving of french fries provide 3550 calories. Two pan pizzas, two cheeseburgers, one salad, one chicken sandwich, and one serving of french fries provide 5200 calories. One of each item plus an additional serving of french fries provide 3850 calories. Find the caloric content of each item.",
+        "system_of_equations": [
+            "1.0 * x + 2.0 * y + 1.0 * z + 1.0 * w + 0.0 * v  = 3560.00000000000",
+            "2.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 1.0 * v  = 4290.00000000000",
+            "1.0 * x + 1.0 * y + 2.0 * z + 1.0 * w + 1.0 * v  = 3550.00000000000",
+            "2.0 * x + 2.0 * y + 1.0 * z + 1.0 * w + 1.0 * v  = 5200.00000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 3850.00000000000"
+        ],
+        "ans": [
+            "1040",
+            "910",
+            "300",
+            "400",
+            "600"
+        ],
+        "id": 62,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Hollis is paying off five student loans. The first loan charges 7% interest per year, the second loan charges 9% interest per year, the third loan charges 5% interest per year, the fourth loan charges 3% interest per year, and the fifth loan charges 2% interest per year. He owes $1500 more on the first loan than he does on the second loan. Last year, he paid a total of $777 in interest. The total amount he owes on all five loans is $12400. The amount he owes on the first and second loans combined is $3900 more than four times the amount he owes on the fourth loan. The amount he owes on the first, second, and third loans combined is $900 more than six times the amount he owes on the fifth loan. How much does he owe on each loan?",
+        "system_of_equations": [
+            "( 0.01 * 7.0 ) * x + ( 0.01 * 9.0 ) * y + ( 0.01 * 5.0 ) * z + ( 0.01 * 3.0 ) * w + ( 0.01 * 2.0 ) * v  = 777.000000000000",
+            "x  = y + 1500.0",
+            "x + y + z + w + v  = 12400.0000000000",
+            "x + y  = 4.0 * w + 3900.0",
+            "x + y + z  = 6.0 * v + 900.0"
+        ],
+        "ans": [
+            "4700",
+            "3200",
+            "2000",
+            "1000",
+            "1500"
+        ],
+        "id": 63,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 19. The first number is 5 less than the sum of the fifth number, the fourth number, twice the second number, and the third number. The third number is equal to the sum of the fifth number, the second number, and the negative of the fourth number. The first number is 5 less than the sum of the fifth number, three times the fourth number, the second number, and the third number. The sum of the first number, the second number, and the third number is equal to the sum of the fifth number, four times the fourth number, and seven. Find the smallest number.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 19.0000000000000",
+            "x  = v + w + 2.0 * y + z - 5.0",
+            "z  = v - w + y",
+            "x  = v + 3.0 * w + y + z - 5.0",
+            "x + y + z  = v + 4.0 * w + 7.0"
+        ],
+        "ans": [
+            "9",
+            "4",
+            "3",
+            "2",
+            "1"
+        ],
+        "id": 64,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 115. The difference between the first number and the second number, plus the third number, plus the fourth number, plus the fifth number, is 25. Also, twice the first number plus the second number plus the fourth number plus the fifth number equals three times the third number plus 111. The sum of the first number and the second number plus the fifth number equals four times the fourth number plus 60. The sum of the first number, the second number, the third number, and the fourth number equals five times the fifth number plus 25. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 115.000000000000",
+            "x - y + z + w + v  = 25.0000000000000",
+            "2.0 * x + y + w + v  = 3.0 * z + 111.0",
+            "x + y + v  = 4.0 * w + 60.0",
+            "x + y + z + w  = 5.0 * v + 25.0"
+        ],
+        "ans": [
+            "36",
+            "45",
+            "10",
+            "9",
+            "15"
+        ],
+        "id": 65,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 27. The second number is three times as much as the first number. The third number is half of the second number minus 1.375. The fourth number is half of the first number plus 0.875. The fifth number is half of the first number minus 0.125. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 27.0000000000000",
+            "y  = 3.0 * x",
+            "z  = 0.5 * y - 1.375",
+            "w  = 0.5 * x + 0.875",
+            "v  = 0.5 * x - 0.125"
+        ],
+        "ans": [
+            "4.25",
+            "12.75",
+            "5",
+            "3",
+            "2"
+        ],
+        "id": 66,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 200. The difference between the first and second number plus the third number plus the fourth number plus the fifth number is 76. Also, twice the first number plus the second number plus the fourth number plus the fifth number equals three times the third number plus 198. The sum of the first and second number plus the fifth number equals twice the fourth number plus 90. The sum of the first, second, third, and fourth numbers equals four times the fifth number plus 150. Find the numbers.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 200.000000000000",
+            "x - y + z + w + v  = 76.0000000000000",
+            "2 * x + y + w + v  = 3 * z + 198.0",
+            "x + y + v  = 2 * w + 90.0",
+            "x + y + z + w  = 4 * v + 150.0"
+        ],
+        "ans": [
+            "78",
+            "62",
+            "20",
+            "30",
+            "10"
+        ],
+        "id": 67,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A real estate salesperson bought promotional calendars, date books, pens, keychains, and mugs to give to her customers at the end of the year. The calendars cost $0.75 each, the date books cost $0.50 each, the pens cost $0.25 each, the keychains cost $0.10 each, and the mugs cost $1.00 each. She ordered a total of 900 promotional items and spent $485. It is known that twice the number of calendars equals the sum of the number of mugs, keychains, date books, and pens. The number of calendars and date books combined equals the number of mugs plus three times the number of keychains plus 100. The number of calendars, date books, and pens combined equals four times the number of mugs plus 300. How many of each item did she order?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 900.000000000000",
+            "0.75 * x + 0.5 * y + 0.25 * z + 0.1 * w + 1.0 * v  = 485.000000000000",
+            "2.0 * x  = v + w + y + z",
+            "x + y  = v + 3.0 * w + 100.0",
+            "x + y + z  = 4.0 * v + 300.0"
+        ],
+        "ans": [
+            "300",
+            "200",
+            "200",
+            "100",
+            "100"
+        ],
+        "id": 68,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Consider five numbers. The sum of these numbers is 10. Eight times the first number plus five times the second number plus three times the third number plus two times the fourth number plus the fifth number equals 42. Also, twice the first number minus the second number plus the third number plus the fourth number plus half the fifth number equals 27. The sum of the first three numbers plus half the fifth number equals three times the fourth number minus four. The sum of the first four numbers equals two times the fifth number minus two. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 10.0000000000000",
+            "8.0 * x + 5.0 * y + 3.0 * z + 2.0 * w + 1.0 * v  = 42.0000000000000",
+            "2.0 * x - y + z + w + 0.5 * v  = 27.0000000000000",
+            "x + y + z + 0.5 * v  = 3.0 * w - 4.0",
+            "x + y + z + w  = 2.0 * v - 2.0"
+        ],
+        "ans": [
+            "7",
+            "-6",
+            "2",
+            "3",
+            "4"
+        ],
+        "id": 69,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "At a local theater, adult tickets for a play cost $16, child tickets cost $9, senior tickets cost $7, student tickets cost $5, and group tickets cost $10. In one performance, the theater had 38 attendees and collected $444 from ticket sales. It is known that twice the number of adult tickets equals the sum of the number of group tickets, the number of student tickets, the number of child tickets, three times the number of senior tickets, and 4. The number of adult tickets plus the number of child tickets equals the number of group tickets, twice the number of student tickets, twice the number of senior tickets. The number of adult tickets, child tickets, and senior tickets combined equals twice the number of group tickets, three times the number of student tickets, and 10. How many adults, children, seniors, students, and groups attended the play?",
+        "system_of_equations": [
+            "16.0 * x + 9.0 * y + 7.0 * z + 5.0 * w + 10.0 * v  = 444.000000000000",
+            "x + y + z + w + v  = 38.0000000000000",
+            "2.0 * x  = v + w + y + 3.0 * z + 4.0",
+            "x + y  = v + 2.0 * w + 2.0 * z",
+            "x + y + z  = 2.0 * v + 3.0 * w + 10.0"
+        ],
+        "ans": [
+            "18",
+            "6",
+            "6",
+            "4",
+            "4"
+        ],
+        "id": 70,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are five numbers. One number is 4 more than twice the second number. The total of the five numbers is 50. Also, the first number minus the second number equals three times the third number minus 4. The sum of the first and second number equals twice the fourth number plus 5. The sum of the first, second, and third number equals three times the fifth number. Find the numbers.",
+        "system_of_equations": [
+            "2.0 * y + 4.0  = x",
+            "x + y + z + w + v  = 50.0000000000000",
+            "x - y  = 3.0 * z - 4.0",
+            "x + y  = 2.0 * w + 5.0",
+            "x + y + z  = 3.0 * v"
+        ],
+        "ans": [
+            "18",
+            "7",
+            "5",
+            "10",
+            "10"
+        ],
+        "id": 71,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Keil is preparing for a big party and plans to make 22 pounds of mixed nuts. He wants to include peanuts, which cost 2.00 per pound, fancy nuts, which cost 7.50 per pound, almonds, which cost 3.00 per pound, cashews, which cost 4.00 per pound, and walnuts, which cost 1.50 per pound. Keil has a budget of 93.00 for the nuts. He also knows that the combined weight of the fancy nuts and peanuts should be the weight of the walnuts plus the weight of the cashews plus twice the weight of the almonds plus 1 pound. The combined weight of the fancy nuts, peanuts, almonds, and cashews should be four times the weight of the walnuts plus 2 pounds. How many pounds of each type of nut should Keil buy?",
+        "system_of_equations": [
+            "y + z + w + v  = 22.0 - x",
+            "7.5 * x + 2.0 * y + 3.0 * z + 4.0 * w + 1.5 * v  = 93.0000000000000",
+            "x + y  = v + w + 2.0 * z + 1.0",
+            "x + y + z  = v + 3.0 * w + 6.0",
+            "x + y + z + w  = 4.0 * v + 2.0"
+        ],
+        "ans": [
+            "8",
+            "5",
+            "3",
+            "2",
+            "4"
+        ],
+        "id": 72,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "George saves nickels, dimes, quarters, half-dollars, and dollar coins for tolls. He has a total of 40 coins that amount to $9.10. It is known that the number of nickels plus twice the number of dimes equals three times the number of quarters plus 34. The number of nickels plus the number of dimes plus the number of quarters equals four times the number of half-dollars plus 26. The number of nickels plus the number of dimes plus the number of quarters plus the number of half-dollars equals five times the number of dollar coins plus 16. How many coins does George have of each type?",
+        "system_of_equations": [
+            "0.05 * x + 0.1 * y + 0.25 * z + 0.5 * w + 1.0 * v  = 9.10000000000000",
+            "x + y + z + w + v  = 40.0000000000000",
+            "x + 2 * y  = 3 * z + 34.0",
+            "x + y + z  = 4 * w + 26.0",
+            "x + y + z + w  = 5 * v + 16.0"
+        ],
+        "ans": [
+            "4",
+            "24",
+            "6",
+            "2",
+            "4"
+        ],
+        "id": 73,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 125. One number is ten more than twice the second number. The third number is the difference of 100 and the sum of the first two numbers. The fourth number is the difference of the first number and the second number minus 20. The fifth number is the sum of the first and fourth numbers minus the second and third numbers plus 5. Find the numbers.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 125",
+            "x  = 2.0 * y + 10.0",
+            "z  = -x - y + 100.0",
+            "w  = x - y - 20.0",
+            "v  = w + x - y - z + 5.0"
+        ],
+        "ans": [
+            "50",
+            "20",
+            "30",
+            "10",
+            "15"
+        ],
+        "id": 74,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A family of twelve, including a toddler, went to the San Diego Zoo. The total cost for their general admission tickets was $202. Adult tickets cost $21 each, children's tickets cost $14 each, senior tickets cost $18 each, student tickets cost $15 each, and toddler tickets cost $10 each. It is known that twice the number of adult tickets equals the sum of the number of toddler tickets, children's tickets, senior tickets, and student tickets. The number of adult tickets plus the number of children's tickets equals the sum of the number of toddler tickets, student tickets, senior tickets, and 2. The number of adult tickets, children's tickets, and senior tickets equals the sum of the number of toddler tickets, student tickets, and 6. How many of each type of tickets were purchased by the family?",
+        "system_of_equations": [
+            "21.0 * x + 14.0 * y + 18.0 * z + 15.0 * w + 10.0 * v  = 202.000000000000",
+            "x + y + z + w + v  = 12.0000000000000",
+            "2.0 * x  = v + w + y + z",
+            "x + y  = v + w + z + 2.0",
+            "x + y + z  = v + w + 6.0"
+        ],
+        "ans": [
+            "4",
+            "3",
+            "2",
+            "2",
+            "1"
+        ],
+        "id": 75,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "During the early 1990s, Kelly invested 15,000 dollars into five different types of accounts within a bank: certificates of deposit, savings account, a money market account, a checking account, and a retirement account. She received 8% interest for her certificates of deposit, 6% for her savings account, 4% for her money market account, 2% for her checking account, and 1% for her retirement account. In total, she earned 690 dollars for the year. Also, the amount invested in certificates of deposit plus twice the amount invested in the savings account equals five times the amount invested in the money market account plus 3000 dollars. The amount invested in certificates of deposit plus the amount invested in the savings account plus the amount invested in the money market account equals four times the amount invested in the checking account plus 2000 dollars. The amount invested in certificates of deposit plus the amount invested in the savings account plus the amount invested in the money market account plus the amount invested in the checking account equals four times the amount invested in the retirement account. How much money was invested in each type of account?",
+        "system_of_equations": [
+            "0.01 * 8.0 * x + 0.01 * 6.0 * y + 0.01 * 4.0 * z + 0.01 * 2.0 * w + 0.01 * 1.0 * v  = 690.000000000000",
+            "x + y + z + w + v  = 15000.0000000000",
+            "x + 2.0 * y  = 5.0 * z + 3000.0",
+            "x + y + z  = 4.0 * w + 2000.0",
+            "x + y + z + w  = 4.0 * v"
+        ],
+        "ans": [
+            "3000",
+            "5000",
+            "2000",
+            "2000",
+            "3000"
+        ],
+        "id": 76,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Gary drove to Sarnia. Part of the trip was along major highways, part was along country roads, part was in the city, part was on a ferry, and the rest was on a dirt road. The speed limit is 100 km/h on the highways, 80 km/h on the country roads, 60 km/h in the city, 20 km/h on the ferry, and 40 km/h on the dirt road. He spent a total of 18 hours driving 1310 km. Also, twice the time spent on the highways equals the sum of the time spent on the ferry, country roads, in the city, and on the dirt road minus 4.5 hours. The time spent on the highways plus the time spent on country roads equals the time spent on the dirt road plus three times the time spent on the ferry plus 5 hours. The time spent on the highways plus the time spent on country roads plus the time spent in the city equals twice the time spent on the dirt road plus four times the time spent on the ferry plus 5 hours. How much time did he spend on each type of road and on the ferry?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 18.0000000000000",
+            "100.0 * x + 80.0 * y + 60.0 * z + 20.0 * w + 40.0 * v  = 1310.00000000000",
+            "2.0 * x  = v + w + y + z - 4.5",
+            "x + y  = v + 3.0 * w + 5.0",
+            "x + y + z  = 2.0 * v + 4.0 * w + 5.0"
+        ],
+        "ans": [
+            "4.5",
+            "7.5",
+            "3",
+            "2",
+            "1"
+        ],
+        "id": 77,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 125. When four times the first number, the second number, half of the third number, a quarter of the fourth number, and a tenth of the fifth number are added together, the result is 164.5. Additionally, twice the first number plus the second number plus the fourth number plus the fifth number equals three times the third number plus 103. The sum of the first, second, third, and fifth numbers equals four times the fourth number plus 75. The sum of the first, second, third, and fourth numbers equals five times the fifth number plus 35. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 125.000000000000",
+            "4.0 * x + y + 0.5 * z + 0.25 * w + 0.1 * v  = 164.500000000000",
+            "2.0 * x + y + w + v  = 3.0 * z + 103.0",
+            "x + y + z + v  = 4.0 * w + 75.0",
+            "x + y + z + w  = 5.0 * v + 35.0"
+        ],
+        "ans": [
+            "22",
+            "67",
+            "11",
+            "10",
+            "15"
+        ],
+        "id": 78,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "At a fruit market, 6 kilos of oranges, 5 kilos of apples, 2 kilos of bananas, 3 kilos of grapes, and 1 kilo of strawberries cost 504. Also, 5 kilos of oranges, 7 kilos of apples, 3 kilos of bananas, 2 kilos of grapes, and 1 kilo of strawberries cost 568. Furthermore, 4 kilos of oranges, 3 kilos of apples, 5 kilos of bananas, 1 kilo of grapes, and 1 kilo of strawberries cost 348. Lastly, 2 kilos of oranges, 2 kilos of apples, 1 kilo of bananas, 4 kilos of grapes, and 1 kilo of strawberries cost 246. One kilo of each fruit plus an additional kilo of strawberries cost 143. What is the cost per kilo for each type of fruit?",
+        "system_of_equations": [
+            "6.0 * x + 5.0 * y + 2.0 * z + 3.0 * w + 1.0 * v  = 504.000000000000",
+            "5.0 * x + 7.0 * y + 3.0 * z + 2.0 * w + 1.0 * v  = 568.000000000000",
+            "4.0 * x + 3.0 * y + 5.0 * z + 1.0 * w + 1.0 * v  = 348.000000000000",
+            "2.0 * x + 2.0 * y + 1.0 * z + 4.0 * w + 1.0 * v  = 246.000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 143.000000000000"
+        ],
+        "ans": [
+            "29",
+            "49",
+            "10",
+            "15",
+            "20"
+        ],
+        "id": 79,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are five numbers. The difference between the larger number and the smaller number, plus the third number, plus the fourth number, plus half the fifth number equals 41. Three times the larger number equals half the fifth number plus the fourth number plus nine times the smaller number plus the third number minus 25. The sum of the larger number and the smaller number equals half the fifth number plus the fourth number plus twice the third number minus 5. The sum of the larger number, the smaller number, and the third number equals half the fifth number plus three times the fourth number plus 11. The sum of the larger number, the smaller number, the third number, and the fourth number equals four times the fifth number plus 30. What are the five numbers?",
+        "system_of_equations": [
+            "x - y + z + w + 0.5 * v  = 41.0000000000000",
+            "3.0 * x  = 0.5 * v + w + 9.0 * y + z - 25.0",
+            "x + y  = 0.5 * v + w + 2.0 * z - 5.0",
+            "x + y + z  = 0.5 * v + 3.0 * w + 11.0",
+            "x + y + z + w  = 4.0 * v + 30.0"
+        ],
+        "ans": [
+            "24",
+            "8",
+            "12",
+            "10",
+            "6"
+        ],
+        "id": 80,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You invest $ 12,000 in five different accounts. The first account pays 8 % annual interest, the second account pays 10 % annual interest, the third account pays 6 % annual interest, the fourth account pays 5% annual interest, and the fifth account pays 7% annual interest. At the end of the year, the first and second accounts earn the same amount of interest, while the third account earns 212 dollars less than the second account. The fourth account earns 270 dollars less than the second account, and the fifth account earns 180 dollars less than the second account. How much was invested in each account?",
+        "system_of_equations": [
+            "( 0.01 * 8.0 ) * x  = 0.1 * y",
+            "( 0.01 * 6.0 ) * z  = 0.1 * y - 212.0",
+            "y + z + w + v  = 12000.0 - x",
+            "( 0.01 * 5.0 ) * w  = 0.1 * y - 270.0",
+            "( 0.01 * 7.0 ) * v  = 0.1 * y - 180.0"
+        ],
+        "ans": [
+            "4000",
+            "3200",
+            "1800",
+            "1000",
+            "2000"
+        ],
+        "id": 81,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Consider five numbers. Two times the first number plus three times the second number plus four times the third number plus five times the fourth number plus the fifth number equals 48. The sum of the five numbers is 16. Also, the first number plus twice the second number equals three times the third number plus 6. The sum of the first number, the second number, and the third number equals four times the fourth number plus 2. The sum of the first number, the second number, the third number, and the fourth number equals three times the fifth number. What are the five numbers?",
+        "system_of_equations": [
+            "2.0 * x + 3.0 * y + 4.0 * z + 5.0 * w + 1.0 * v  = 48.0000000000000",
+            "x + y + z + w + v  = 16.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 6.0",
+            "x + y + z  = 4.0 * w + 2.0",
+            "x + y + z + w  = 3.0 * v"
+        ],
+        "ans": [
+            "-1",
+            "8",
+            "3",
+            "2",
+            "4"
+        ],
+        "id": 82,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "For a party, tickets were sold at different prices: $15 for adults, $10 for children, $5 for seniors, $8 for students, and $20 for VIPs. In total, 200 tickets were sold, collecting $2560. It is known that twice the number of adult tickets equals eight times the number of student tickets plus five times the number of senior tickets minus 60. The number of adult tickets plus the number of child tickets equals four times the number of student tickets plus 60. The number of adult tickets plus the number of child tickets plus the number of senior tickets equals five times the number of VIP tickets plus 60. How many adult, child, senior, student, and VIP tickets were sold?",
+        "system_of_equations": [
+            "15.0 * x + 10.0 * y + 5.0 * z + 8.0 * w + 20.0 * v  = 2560.00000000000",
+            "x + y + z + w + v  = 200.000000000000",
+            "2.0 * x  = 8.0 * w + 5.0 * z - 60.0",
+            "x + y  = 4.0 * w + 60.0",
+            "x + y + z  = 5.0 * v + 60.0"
+        ],
+        "ans": [
+            "100",
+            "40",
+            "20",
+            "20",
+            "20"
+        ],
+        "id": 83,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Sawz Logging Co. bought a section of forest containing 1150 trees, which are a mix of Douglas fir, ponderosa pine, spruce, cedar, and maple trees. The company paid an average of $300 for each Douglas fir, $225 for each ponderosa pine, $200 for each spruce tree, $175 for each cedar tree, and $150 for each maple tree, amounting to a total of $272,500. It is known that the sum of the number of Douglas fir and ponderosa pine trees equals twice the number of spruce trees plus 550. The sum of the number of Douglas fir, ponderosa pine, and spruce trees equals three times the number of cedar trees plus 700. The sum of the number of Douglas fir, ponderosa pine, spruce, and cedar trees equals four times the number of maple trees plus 900. How many of each type of tree did the company buy?",
+        "system_of_equations": [
+            "y + z + w + v  = 1150.0 - x",
+            "300.0 * x + 225.0 * y + 200.0 * z + 175.0 * w + 150.0 * v  = 272500.000000000",
+            "x + y  = 2.0 * z + 550.0",
+            "x + y + z  = 3.0 * w + 700.0",
+            "x + y + z + w  = 4.0 * v + 900.0"
+        ],
+        "ans": [
+            "350",
+            "500",
+            "150",
+            "100",
+            "50"
+        ],
+        "id": 84,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Consider five numbers. The sum of these numbers is 152. The difference between the first number and the second number, plus the third number, plus the fourth number, plus the fifth number equals 28. Also, twice the first number plus the second number plus the fourth number plus the fifth number equals three times the third number plus 117. The sum of the first number and the second number plus the fifth number equals twice the fourth number plus the third number plus 82. The sum of the first number, the second number, the third number, and the fourth number equals four times the fifth number plus 77. Find the five numbers.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 152.000000000000",
+            "x - y + z + w + v  = 28.0000000000000",
+            "2 * x + y + w + v  = 3 * z + 117.0",
+            "x + y + v  = 2 * w + z + 82.0",
+            "x + y + z + w  = 4 * v + 77.0"
+        ],
+        "ans": [
+            "45",
+            "62",
+            "20",
+            "10",
+            "15"
+        ],
+        "id": 85,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are five numbers. The largest number is 2 more than 4 times the smallest number. The sum of the five numbers is 55. Also, the largest number is 12.8 more than twice the third number. The sum of the smallest number and the largest number equals three times the fourth number plus 18. The sum of the smallest number, the largest number, and the third number equals four times the fifth number. Find the five numbers.",
+        "system_of_equations": [
+            "y  = 4.0 * x + 2.0",
+            "x + y + z + w + v  = 55.0000000000000",
+            "y  = 2.0 * z + 12.8",
+            "x + y  = 3.0 * w + 18.0",
+            "x + y + z  = 4.0 * v"
+        ],
+        "ans": [
+            "6.2",
+            "26.8",
+            "7",
+            "5",
+            "10"
+        ],
+        "id": 86,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 27. The second number is equal to the fifth number plus the fourth number minus the first number and the third number plus 13. Three times the first number is 15 less than the sum of the negative fifth number, the fourth number, five times the second number, and the third number. Twice the first number plus the second number equals the fifth number plus the fourth number plus three times the third number plus 1. The sum of the first number, the second number, and the third number equals the fifth number plus four times the fourth number plus 4. The sum of the first number, the second number, the third number, and the fourth number equals three times the fifth number plus 11. Find the numbers.",
+        "system_of_equations": [
+            "y  = v + w - x - z + 13.0",
+            "3.0 * x  = -v + w + 5.0 * y + z - 15.0",
+            "2.0 * x + y  = v + w + 3.0 * z + 1.0",
+            "x + y + z  = v + 4.0 * w + 4.0",
+            "x + y + z + w  = 3.0 * v + 11.0"
+        ],
+        "ans": [
+            "8",
+            "7",
+            "5",
+            "3",
+            "4"
+        ],
+        "id": 87,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are five numbers. The sum of three times the first number, twice the second number, the third number, half the fourth number, and half the fifth number is 12.5. If half of the third number, half of the fourth number, and half of the fifth number are added to the result of subtracting the second number from twice the first number, the result is 6.5. The sum of the five numbers is 10. The sum of the first and second numbers equals twice the fourth number minus 3. The sum of the first, second, and third numbers equals three times the fifth number minus 1. Find the numbers.",
+        "system_of_equations": [
+            "3.0 * x + 2.0 * y + 1.0 * z + 0.5 * w + 0.5 * v  = 12.5000000000000",
+            "2.0 * x - y + 0.5 * z + 0.5 * w + 0.5 * v  = 6.50000000000000",
+            "x + y + z + w + v  = 10.0000000000000",
+            "x + y  = 2.0 * w - 3.0",
+            "x + y + z  = 3.0 * v - 1.0"
+        ],
+        "ans": [
+            "2",
+            "1",
+            "2",
+            "3",
+            "2"
+        ],
+        "id": 88,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In printing an article of 66,000 words, a printer decides to use five sizes of type. Using the larger type, a printed page contains 1,800 words. Using smaller type, a page contains 2,400 words. Using medium type, a page contains 2,000 words. Using extra-large type, a page contains 1,500 words. Using mini type, a page contains 3,000 words. The article is allotted 29 full pages in a magazine. The printer finds that the number of pages in smaller type plus twice the number of pages in larger type equals three times the number of pages in medium type plus 16. The number of pages in smaller type plus the number of pages in larger type plus the number of pages in medium type equals four times the number of pages in extra-large type plus 16. The number of pages in smaller type plus the number of pages in larger type plus the number of pages in medium type plus the number of pages in extra-large type equals five times the number of pages in mini type plus 11. How many pages must be in each type?",
+        "system_of_equations": [
+            "2400.0 * x + 1800.0 * y + 2000.0 * z + 1500.0 * w + 3000.0 * v  = 66000.0000000000",
+            "x + y + z + w + v  = 29.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 16.0",
+            "x + y + z  = 4.0 * w + 16.0",
+            "x + y + z + w  = 5.0 * v + 11.0"
+        ],
+        "ans": [
+            "17",
+            "4",
+            "3",
+            "2",
+            "3"
+        ],
+        "id": 89,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Allen went to the post office and bought 35 stamps in total. The stamps were in 37 cents, 20 cents, 50 cents, 30 cents, and 25 cents denominations. The total cost of the stamps was $12.31. It is known that the number of 37 cents stamps plus twice the number of 20 cents stamps equals three times the number of 50 cents stamps plus 7. The number of 37 cents stamps plus the number of 20 cents stamps plus the number of 50 cents stamps equals four times the number of 30 cents stamps plus 5. The number of 37 cents stamps plus the number of 20 cents stamps plus the number of 50 cents stamps plus the number of 30 cents stamps equals six times the number of 25 cents stamps. How many of each type of stamp did Allen buy?",
+        "system_of_equations": [
+            "0.01 * 37.0 * x + 0.01 * 20.0 * y + 0.01 * 50.0 * z + 0.01 * 30.0 * w + 0.01 * 25.0 * v  = 12.3100000000000",
+            "x + y + z + w + v  = 35.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 7.0",
+            "x + y + z  = 4.0 * w + 5.0",
+            "x + y + z + w  = 6.0 * v"
+        ],
+        "ans": [
+            "18",
+            "2",
+            "5",
+            "5",
+            "5"
+        ],
+        "id": 90,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 55. The difference between the first number and the second number, plus the third number, plus the fourth number, plus the fifth number is 29. Also, the sum of the first and second numbers minus twice the third number plus the fourth number plus the fifth number equals 25. The sum of the first, second, third, and fourth numbers equals three times the fifth number plus 15. The sum of the first, second, and third numbers equals four times the fifth number minus 2. What are the five numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 55.0000000000000",
+            "x - y + z + w + v  = 29.0000000000000",
+            "x + y - 2*z + w + v  = 25.0000000000000",
+            "x + y + z + w  = 3 * v + 15.0",
+            "x + y + z  = 4 * v - 2.0"
+        ],
+        "ans": [
+            "15",
+            "13",
+            "10",
+            "7",
+            "10"
+        ],
+        "id": 91,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Maria, Kate, John, their cousin Tom, and their aunt Linda are family members. Currently, Maria is four times as old as Kate. However, four years ago, Maria was six times as old as Kate was at that time. John, their younger brother, is half as old as Maria. Tom, their cousin, is 5 years older than Maria. Linda, their aunt, is 10 years older than Maria. Can you find out the current ages of Maria, Kate, John, Tom, and Linda?",
+        "system_of_equations": [
+            "y  = 4.0 * x",
+            "y - 4.0  = 6.0 * x - 24.0",
+            "z  = 0.5 * y",
+            "w  = y + 5.0",
+            "v  = y + 10.0"
+        ],
+        "ans": [
+            "10",
+            "40",
+            "20",
+            "45",
+            "50"
+        ],
+        "id": 92,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Stan invested $10,000 in five different ways: part at 8% annual interest, part at 17% annual interest, part at 5% annual interest, part at 3% annual interest, and the rest at 2% annual interest. After one year, he received $940 in interest. Also, twice the amount invested at 8% plus the amount invested at 17% equals ten times the amount invested at 5% minus $14,000. The amount invested at 8% annual interest plus the amount invested at 17% annual interest plus the amount invested at 5% annual interest equals four times the amount invested at 3% annual interest minus $1,000. The amount invested at 8% annual interest plus the amount invested at 17% annual interest plus the amount invested at 5% annual interest plus the amount invested at 3% annual interest equals five times the amount invested at 2% annual interest plus $4,000. How much did Stan invest at each rate?",
+        "system_of_equations": [
+            "0.01 * 8.0 * x + 0.01 * 17.0 * y + 0.01 * 5.0 * z + 0.01 * 3.0 * w + 0.01 * 2.0 * v  = 940.000000000000",
+            "x + y + z + w + v  = 10000.00000000000",
+            "2.0 * x + y  = 10.0 * z - 14000.0",
+            "x + y + z  = 4.0 * w - 1000.0",
+            "x + y + z + w  = 5.0 * v + 4000.0"
+        ],
+        "ans": [
+            "1000",
+            "4000",
+            "2000",
+            "2000",
+            "1000"
+        ],
+        "id": 93,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You have $11.95 in change made up of quarters, dimes, nickels, pennies, and half-dollars. The total number of coins is 70. Also, twice the number of quarters plus the number of dimes equals five times the number of nickels plus 24. The number of quarters, dimes, and nickels combined equals five times the number of pennies plus 5. The number of quarters, dimes, nickels, and pennies combined equals ten times the number of half-dollars plus 15. How many quarters, dimes, nickels, pennies, and half-dollars do you have?",
+        "system_of_equations": [
+            "0.25 * x + 0.1 * y + 0.05 * z + 0.01 * w + 0.5 * v  = 11.9500000000000",
+            "x + y + z + w + v  = 70",
+            "2.0 * x + y  = 5.0 * z + 24",
+            "x + y + z  = 5.0 * w + 5.0",
+            "x + y + z + w  = 10.0 * v + 15.0"
+        ],
+        "ans": [
+            "29",
+            "16",
+            "10",
+            "10",
+            "5"
+        ],
+        "id": 94,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Jenna, Darius, Alex, Bella, and their friend Charlie have a combined age of 45 years. Jenna is 5 years older than Darius, Alex is 6 years younger than Jenna, Bella is 3 years older than Darius, and Charlie is 1 year younger than Darius. How old are Jenna, Darius, Alex, Bella, and Charlie?",
+        "system_of_equations": [
+            "y  = x + 5.0",
+            "x + y + z + w + v  = 45.0000000000000",
+            "z  = y - 6.0",
+            "w  = x + 2.0",
+            "v  = x - 1.0"
+        ],
+        "ans": [
+            "8",
+            "13",
+            "7",
+            "10",
+            "7"
+        ],
+        "id": 95,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Andy, Tom, their sister Mary, their cousin John, and their grandmother have a combined age of 111 years. Andy is 6 years older than Tom, Mary is 8 years younger than Andy, and John is 3 years younger than Tom. The grandmother is 29 years older than the combined age of Andy, Tom, Mary, and John. How old is each of them?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 111.000000000000",
+            "y  = x + 6.0",
+            "z  = y - 8.0",
+            "w  = x - 3.0",
+            "v  = w + x + y + z + 29.0"
+        ],
+        "ans": [
+            "10",
+            "16",
+            "8",
+            "7",
+            "70"
+        ],
+        "id": 96,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are five integers. If one integer is added to another and the third one and the fourth one and the fifth one, the result is 18. If the smallest integer is subtracted from the largest and the third one is also subtracted and the fourth one and the fifth one are added, the result is 12. Moreover, the sum of the largest integer, the third integer, the fourth integer, and the fifth integer equals 22. The sum of the largest integer, the smallest integer, the fourth integer, and the fifth integer equals 11. The sum of the largest integer, the smallest integer, the third integer, and the fifth integer equals 8. What are the integers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 18.0000000000000",
+            "x - y - z + w + v  = 12.0000000000000",
+            "x + z + w + v  = 22.0000000000000",
+            "x + y + w + v  = 11.0000000000000",
+            "x + y + z + v  = 8.00000000000000"
+        ],
+        "ans": [
+            "-5",
+            "-4",
+            "7",
+            "10",
+            "10"
+        ],
+        "id": 97,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five consecutive odd integers is at least 105. The difference between the first and second odd integer is -2, the difference between the third and second odd integer is 2, the difference between the fourth and third odd integer is also 2, and the difference between the fifth and fourth odd integer is 2. What are the integers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 105.0000000000000",
+            "x - y  = -2.00000000000000",
+            "z - y  = 2.00000000000000",
+            "w - z  = 2.00000000000000",
+            "v - w  = 2.00000000000000"
+        ],
+        "ans": [
+            "17",
+            "19",
+            "21",
+            "23",
+            "25"
+        ],
+        "id": 98,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Two brothers, Bill and Eric, are 4 years apart in age, with Bill being the older one. They have a sister named Sarah, a brother named Tom, and a cousin named Jake. The combined age of the five family members is 60 years. Bill is 6 years older than Sarah, 8 years older than Tom, and 2 years older than Jake. How old is each family member?",
+        "system_of_equations": [
+            "x - y  = 4.00000000000000",
+            "x + y + z + w + v  = 60.0000000000000",
+            "x - z  = 6.00000000000000",
+            "x - w  = 8.00000000000000",
+            "x - v  = 2.00000000000000"
+        ],
+        "ans": [
+            "16",
+            "12",
+            "10",
+            "8",
+            "14"
+        ],
+        "id": 99,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In December, Wal-Mart sold five types of items: thermometers for $2 each, hot-water bottles for $6 each, blankets for $10 each, scarves for $4 each, and gloves for $5 each. The total sales for the month amounted to $2150. It was observed that customers bought 7 times as many thermometers as hot-water bottles and half as many blankets as hot-water bottles. The number of scarves sold was half the number of thermometers sold minus 110. The number of gloves sold was half the number of hot-water bottles sold plus 20. How many of each item did Wal-Mart sell?",
+        "system_of_equations": [
+            "6.0 * x + 2.0 * y + 10.0 * z + 4.0 * w + 5.0 * v  = 2150.00000000000",
+            "y  = 7.0 * x",
+            "z  = 0.5 * x",
+            "w  = 0.5 * y - 110.0",
+            "v  = 0.5 * x + 20.0"
+        ],
+        "ans": [
+            "60",
+            "420",
+            "30",
+            "100",
+            "50"
+        ],
+        "id": 100,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In a family, the dad is 4 times older than the son and the difference in their ages is 27 years. The mom is 3 times older than the son. The grandparent is twice as old as the dad. The aunt is 5 years younger than the mom. How old is the son, the dad, the mom, the grandparent, and the aunt?",
+        "system_of_equations": [
+            "x  = 4.0 * y",
+            "x - y  = 27.0000000000000",
+            "z  = 3.0 * y",
+            "w  = 2.0 * x",
+            "v  = z - 5.0"
+        ],
+        "ans": [
+            "36",
+            "9",
+            "27",
+            "72",
+            "22"
+        ],
+        "id": 101,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Jack is three times as old as Jill. Together with their friends Bob, Alice, and Tom, their total age is 100 years. Bob is half as old as Jill plus 3 years. Alice is half as old as Jack minus 21 years. Tom is half as old as Jill plus 1 year. Find the age of each person.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 100.0000000000000",
+            "y  = 3.0 * x",
+            "z  = 0.5 * x + 3.0",
+            "w  = 0.5 * y - 21.0",
+            "v  = 0.5 * x + 1.0"
+        ],
+        "ans": [
+            "18",
+            "54",
+            "12",
+            "6",
+            "10"
+        ],
+        "id": 102,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In a family, an older person is 7 years older than four times the age of a younger person. There is also a third person who is 3 years older than half the age of the younger person. A fourth person is 5.5 years younger than half the age of the older person. There is a fifth person who is twice the age of the younger person. The sum of their ages is 46 years. Find the ages of each person.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 46.0000000000000",
+            "y  = 4.0 * x + 7.0",
+            "z  = 0.5 * x + 3.0",
+            "w  = 0.5 * y - 5.5",
+            "v  = 2.0 * x"
+        ],
+        "ans": [
+            "4",
+            "23",
+            "5",
+            "6",
+            "8"
+        ],
+        "id": 103,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Five angles are in a certain relation. The measure of the second angle is 45 degrees less than two times the measure of the first angle. The sum of the first angle, the third angle, the fourth angle, and the fifth angle is 255 degrees. The sum of the measures of the five angles is 360 degrees. The sum of the first angle and the second angle is two times the measure of the fourth angle plus 60 degrees. The sum of the first angle, the second angle, and the third angle is three times the measure of the fifth angle plus 60 degrees. Find the measure of each angle.",
+        "system_of_equations": [
+            "x + y + z + w + v  = 360.000000000000",
+            "2.0 * x - 45.0  = y",
+            "x + z + w + v  = 255.000000000000",
+            "x + y  = 2.0 * w + 60.0",
+            "x + y + z  = 3.0 * v + 60.0"
+        ],
+        "ans": [
+            "75",
+            "105",
+            "60",
+            "60",
+            "60"
+        ],
+        "id": 104,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "42 is divided into five parts. 7 times the first part, 5 times the second part, 3 times the third part, 2 times the fourth part, and the fifth part equals 181. Also, the sum of the first part and the second part equals four times the third part. The sum of the first part, the second part, and the third part equals six times the fourth part. The sum of the first part, the second part, the third part, and the fourth part equals five times the fifth part. Find each part.",
+        "system_of_equations": [
+            "7.0 * x + 5.0 * y + 3.0 * z + 2.0 * w + 1.0 * v  = 181.000000000000",
+            "x + y + z + w + v  = 42.0000000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 6.0 * w",
+            "x + y + z + w  = 5.0 * v"
+        ],
+        "ans": [
+            "13",
+            "11",
+            "6",
+            "5",
+            "7"
+        ],
+        "id": 105,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Erin, Susan, John, David, and Alex took their dogs for a walk. Together, they walked 32 miles. If Erin walked 3 miles less than Susan, and Susan walked 2 miles more than John plus 2 miles. The distance Susan and Erin walked together is 10 miles more than the distance David walked. The distance Erin, Susan, and John walked together is 13 miles more than the distance Alex walked. How far did each person walk with their dog?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 32.0000000000000",
+            "x - 3.0  = y",
+            "x - 2.0  = z + 2.0",
+            "x + y  = w + 10.0",
+            "x + y + z  = v + 13.0"
+        ],
+        "ans": [
+            "9",
+            "6",
+            "5",
+            "5",
+            "7"
+        ],
+        "id": 106,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A piggy bank contains $26.05 in half-dollars, quarters, dimes, nickels, and pennies. There are a total of 160 coins. The number of dimes plus twice the number of quarters equals four times the number of nickels plus 85. The number of dimes plus the number of quarters plus the number of nickels equals five times the number of pennies minus 30. The number of dimes plus the number of quarters plus the number of nickels plus the number of pennies equals six times the number of half-dollars plus 90. How many half-dollars, quarters, dimes, nickels, and pennies are there in the piggy bank?",
+        "system_of_equations": [
+            "0.1 * x + 0.25 * y + 0.05 * z + 0.01 * w + 0.5 * v  = 26.0500000000000",
+            "x + y + z + w + v  = 160",
+            "x + 2 * y  = 4 * z + 85",
+            "x + y + z  = 5 * w - 30.0",
+            "x + y + z + w  = 6 * v + 90.0"
+        ],
+        "ans": [
+            "35",
+            "65",
+            "20",
+            "30",
+            "10"
+        ],
+        "id": 107,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A man went to a store and bought 7 pounds of coffee, 10 pounds of butter, 5 pounds of sugar, and 2 pounds of tea for a total of $76.50. The next day, the prices had not changed and he bought 7 pounds of coffee, 5 pounds of butter, 2 pounds of sugar, 1 pound of tea, and 1 pound of salt for $48.75. He also noticed that the cost of 3 pounds of coffee, 2 pounds of butter, 1 pound of sugar, half a pound of tea, and 1 pound of salt is $21.50. Additionally, the cost of 2 pounds of coffee, 3 pounds of butter, 1 pound of sugar, 1 pound of tea, and 1 pound of salt is $24.25. The cost of 1 pound of each item plus an additional pound of salt is $14.75. Find the price per pound of coffee, butter, sugar, tea, and salt.",
+        "system_of_equations": [
+            "7.0 * x + 10.0 * y + 5.0 * z + 2.0 * w + 0.0 * v  = 76.5000000000000",
+            "7.0 * x + 5.0 * y + 2.0 * z + 1.0 * w + 1.0 * v  = 48.7500000000000",
+            "3.0 * x + 2.0 * y + z + 0.5 * w + 1.0 * v  = 21.5000000000000",
+            "2.0 * x + 3.0 * y + 1.0 * z + 1.0 * w + 1.0 * v  = 24.2500000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 14.7500000000000"
+        ],
+        "ans": [
+            "3",
+            "3.75",
+            "2",
+            "4",
+            "1"
+        ],
+        "id": 108,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Tom has 22 coins in total, consisting of quarters, nickels, dimes, pennies, and half-dollars. The total value of these coins is $3.55. It is known that twice the number of nickels plus the number of quarters equals three times the number of dimes plus 7. The number of nickels, quarters, and dimes combined equals four times the number of pennies minus 5. The number of nickels, quarters, dimes, and pennies combined equals five times the number of half-dollars plus 10. How many coins of each type does Tom have?",
+        "system_of_equations": [
+            "0.05 * x + 0.25 * y + 0.10 * z + 0.01 * w + 0.50 * v  = 3.55000000000000",
+            "x + y + z + w + v  = 22",
+            "2.0 * x + y  = 3.0 * z + 7",
+            "x + y + z  = 4.0 * w - 5.0",
+            "x + y + z + w  = 5.0 * v + 10.0"
+        ],
+        "ans": [
+            "4",
+            "8",
+            "3",
+            "5",
+            "2"
+        ],
+        "id": 109,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In a family, the father is currently twice as old as his daughter. Ten years ago, he was three times as old as she was. The mother is ten years older than the father. The son is half the age of the daughter plus five years. The grandmother is 20 years older than the mother. How old are the father, the mother, the daughter, the son, and the grandmother now?",
+        "system_of_equations": [
+            "x  = 2.0 * y",
+            "x - 10.0  = 3.0 * y - 30.0",
+            "z  = x + 10",
+            "w  = 0.5 * y + 5.0",
+            "v  = z + 20"
+        ],
+        "ans": [
+            "40",
+            "20",
+            "50",
+            "15",
+            "70"
+        ],
+        "id": 110,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Suppose you have entered a 290 mile pentathlon that consists of a running race, a bicycle race, a swimming race, a kayaking race, and a hiking race. During your run, your velocity is 10 miles per hour, during your bicycle race, your velocity is 29 miles per hour, during your swimming race, your velocity is 5 miles per hour, during your kayaking race, your velocity is 4 miles per hour, and during your hiking race, your velocity is 2 miles per hour. You finish the race in 47.5 hours. Also, the distance of your run plus twice the distance of your bicycle race equals four times the distance of your swimming race plus 120 miles. The distance of your run plus the distance of your bicycle race plus the distance of your swimming race equals three times the distance of your kayaking race plus 50 miles. The distance of your run plus the distance of your bicycle race plus the distance of your swimming race plus the distance of your kayaking race equals six times the distance of your hiking race plus 10 miles. What is the distance of your run, your bicycle race, your swimming race, your kayaking race, and your hiking race?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 290.000000000000",
+            "( 1.0 / 10.0 ) * x + ( 1.0 / 29.0 ) * y + ( 1.0 / 5.0 ) * z + ( 1.0 / 4.0 ) * w + ( 1.0 / 2.0 ) * v  = 47.5000000000000",
+            "x + 2.0 * y  = 4.0 * z + 120.0",
+            "x + y + z  = 3.0 * w + 50.0",
+            "x + y + z + w  = 6.0 * v + 10.0"
+        ],
+        "ans": [
+            "10",
+            "145",
+            "45",
+            "50",
+            "40"
+        ],
+        "id": 111,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You have a sum of Rs 2100 in the denominations of Rs 10, Rs 20, Rs 5, Rs 50, and Rs 100 notes. The total number of notes is 75. It is known that twice the number of Rs 10 notes plus the number of Rs 20 notes equals four times the number of Rs 5 notes plus 30. The number of Rs 10 notes plus the number of Rs 20 notes plus the number of Rs 5 notes equals five times the number of Rs 50 notes plus 35. The number of Rs 10 notes plus the number of Rs 20 notes plus the number of Rs 5 notes plus the number of Rs 50 notes equals six times the number of Rs 100 notes plus 5. How many notes of each denomination do you have?",
+        "system_of_equations": [
+            "10.0 * x + 20.0 * y + 5.0 * z + 50.0 * w + 100.0 * v  = 2100.00000000000",
+            "x + y + z + w + v  = 75.0000000000000",
+            "2.0 * x + y  = 4.0 * z + 30.0",
+            "x + y + z  = 5.0 * w + 35.0",
+            "x + y + z + w  = 6.0 * v + 5.0"
+        ],
+        "ans": [
+            "20",
+            "30",
+            "10",
+            "5",
+            "10"
+        ],
+        "id": 112,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A basketball team was scheduled to play 85 games in a season, but 5 games were cancelled. They won 5 more games than the total of the games they lost, tied, went into overtime, and were cancelled. Also, twice the number of games they won equals the number of games that were cancelled plus the number of games they lost plus three times the number of games they tied plus the number of games that went into overtime plus 34. The number of games they won plus the number of games they lost equals the number of games that were cancelled plus twice the number of games that went into overtime plus 37. The number of games they won plus the number of games they lost plus the number of games they tied equals three times the number of games that were cancelled plus 55. How many games did they win, lose, tie, go into overtime, and were cancelled?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 85.0000000000000",
+            "x  = v + w + y + z + 5.0",
+            "2.0 * x  = v + w + y + 3.0 * z + 34.0",
+            "x + y  = v + 2.0 * w + 37.0",
+            "x + y + z  = 3.0 * v + 55.0"
+        ],
+        "ans": [
+            "45",
+            "17",
+            "8",
+            "10",
+            "5"
+        ],
+        "id": 113,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In the United States, the number of cats exceeds the dog population by 7.5 million. When considering the number of cats, dogs, birds, fish, and reptiles combined, the total reaches 177.7 million. Furthermore, the sum of the number of cats and birds is twice the number of dogs minus 26.1 million. The sum of the number of cats, dogs, and fish is three times the number of birds plus 84.7 million. The sum of the number of cats, dogs, birds, and reptiles is four times the number of fish plus 27.7 million. Determine the number of dogs, cats, birds, fish, and reptiles in the United States.",
+        "system_of_equations": [
+            "x  = y + 7.5",
+            "x + y + z + w + v  = 177.700000000000",
+            "x + z  = 2.0 * y - 26.1",
+            "x + y + w  = 3.0 * z + 84.7",
+            "x + y + z + v  = 4.0 * w + 27.7"
+        ],
+        "ans": [
+            "61.1",
+            "53.6",
+            "20",
+            "30",
+            "13"
+        ],
+        "id": 114,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five numbers is 18. The greatest number is 3 more than twice the smallest number. The third number is 3 less than the greatest number. The fourth number is 1 more than the smallest number. The fifth number is equal to the smallest number. What are the numbers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 18.0000000000000",
+            "y  = 2.0 * x + 3.0",
+            "z  = y - 3.0",
+            "w  = x + 1.0",
+            "v  = x"
+        ],
+        "ans": [
+            "2",
+            "7",
+            "4",
+            "3",
+            "2"
+        ],
+        "id": 115,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A wire 300 cm long is to be cut into five parts. One part is 32 cm longer than the second part, and the second part is 24 cm longer than the third part. The sum of the first part and the second part is twice the length of the fourth part plus 140 cm. The sum of the first part, the second part, and the third part is three times the length of the fifth part plus 80 cm. How long is each part?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 300.000000000000",
+            "x  = y + 32.0",
+            "y  = z + 24.0",
+            "x + y  = 2.0 * w + 140.0",
+            "x + y + z  = 3.0 * v + 80.0"
+        ],
+        "ans": [
+            "106",
+            "74",
+            "50",
+            "20",
+            "50"
+        ],
+        "id": 116,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In the lab, Chang is mixing five solutions that contain alcohol. He uses 500 milliliters less of Solution A than Solution B, 400 milliliters less of Solution C than Solution B, 300 milliliters less of Solution D than Solution B, and 100 milliliters more of Solution E than Solution B. Solution A is 16% alcohol, Solution B is 10% alcohol, Solution C is 20% alcohol, Solution D is 15% alcohol, and Solution E is 25% alcohol. If the resulting mixture contains 336 milliliters of pure alcohol, how many milliliters of each solution does he use?",
+        "system_of_equations": [
+            "0.01 * 10.0 * x + 0.01 * 16.0 * y + 0.01 * 20.0 * z + 0.01 * 15.0 * w + 0.01 * 25.0 * v  = 336.000000000000",
+            "x - 500.0  = y",
+            "x - 400.0  = z",
+            "x - 300.0  = w",
+            "x + 100.0  = v"
+        ],
+        "ans": [
+            "600",
+            "100",
+            "200",
+            "300",
+            "700"
+        ],
+        "id": 117,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You are tasked with creating a 70 ml solution using five different acetone solutions: 80%, 30%, 60%, 40%, and 50%. The total amount of acetone in the final solution should be 35 ml. Additionally, the sum of the amount of 80% acetone solution and the amount of 60% acetone solution should be 22 ml less than twice the amount of 30% acetone solution. The sum of the amount of 80% acetone solution, the amount of 30% acetone solution, and the amount of 60% acetone solution should be 20 ml more than three times the amount of 40% acetone solution. The sum of the amount of 80% acetone solution, the amount of 30% acetone solution, the amount of 60% acetone solution, and the amount of 40% acetone solution should be 20 ml more than four times the amount of 50% acetone solution. How much of each starting solution do you need?",
+        "system_of_equations": [
+            "(0.01 * 80.0) * x + (y) * 0.01 * 30.0 + (z) * 0.01 * 60.0 + (w) * 0.01 * 40.0 + (v) * 0.01 * 50.0  = 35.0000000000000",
+            "x + y + z + w + v  = 70.0000000000000",
+            "x + z  = 2 * y - 22.0",
+            "x + y + z  = 3 * w + 20.0",
+            "x + y + z + w  = 4 * v + 20.0"
+        ],
+        "ans": [
+            "16",
+            "24",
+            "10",
+            "10",
+            "10"
+        ],
+        "id": 118,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In a class, the number of boys is 5 less than twice the number of girls. Including the teachers, staff, and administrators, there are 45 people in the class. The number of girls plus the number of teachers plus the number of staff plus the number of administrators equals 28. The number of girls plus the number of boys equals three times the number of staff plus 4. The number of girls plus the number of boys plus the number of teachers equals four times the number of administrators plus 12. How many boys, girls, teachers, staff members, and administrators are there in the class?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 45.0000000000000",
+            "2.0 * x - 5.0  = y",
+            "x + z + w + v  = 28.0000000000000",
+            "x + y  = 3.0 * w + 4.0",
+            "x + y + z  = 4.0 * v + 12.0"
+        ],
+        "ans": [
+            "11",
+            "17",
+            "4",
+            "8",
+            "5"
+        ],
+        "id": 119,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of five consecutive odd integers is 325. Each odd integer is 2 more than the previous one. What are the integers?",
+        "system_of_equations": [
+            "x + y + z + w + v  = 325.000000000000",
+            "y  = x + 2.0",
+            "z  = y + 2.0",
+            "w  = z + 2.0",
+            "v  = w + 2.0"
+        ],
+        "ans": [
+            "61",
+            "63",
+            "65",
+            "67",
+            "69"
+        ],
+        "id": 120,
+        "source": "DRAW-1K"
+    }
+]

@@ -1,0 +1,4141 @@
+[
+    {
+        "sQuestion": "A small publishing company is planning to publish a new book . The production costs will include one-time fixed costs -LRB- such as editing -RRB- and variable costs -LRB- such as printing -RRB- . The one-time fixed costs will amount to 54,150 . The variable costs will be 12.50 per book . The publisher will sell the finished product to bookstores at a price of $ 25.00 per book . How many books must the publisher print and sell so that the production costs will equal the money obtained from sales ?",
+        "lSolutions": [
+            4332.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "12.5 * x + 54150.0 = 25.0 * x",
+        "iIndex": 178255,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 4,
+                "Value": 25.0,
+                "TokenId": 14
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 3,
+                "Value": 12.5,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 54150.0,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Mr. Herman had $ 125 , and Mr. Chandra had $ 80 . After each of them had paid for a concert ticket , Mr. Herman had six times as much money as Mr. Chandra . How much money did Mr. Chandra have left ?",
+        "lSolutions": [
+            71.0
+        ],
+        "Template": [
+            "-1 * a * m + m = b - a * c"
+        ],
+        "lEquations": "125.0 - x = 6.0 * ( 80.0 - x )",
+        "iIndex": 309519,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 14
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 125.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 80.0,
+                "TokenId": 11
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Hotels collect 4 percent sale tax on all sales . If the total sales including tax are 1058.30 find the portion that is the tax .",
+        "lSolutions": [
+            1017.59615385
+        ],
+        "Template": [
+            "m + 0.01 * a * m = b"
+        ],
+        "lEquations": "x + 0.01 * 4.0 * x = 1058.3",
+        "iIndex": 342861,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 2
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 1058.3,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Every morning , Don Miguel exercises by walking a certain distance at an average of 4 kph , rests for 0.3333 hours . and rides back along the same road on his chauffer-driven limousine at an average speed of 60 kph . If the total time of travel is 1.25 hours , how far does he walk ?",
+        "lSolutions": [
+            3.437625
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = c - d"
+        ],
+        "lEquations": "( 1.0 / 4.0 ) * x + ( 1.0 / 60.0 ) * x + 0.3333 = 1.25",
+        "iIndex": 380534,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 60.0,
+                "TokenId": 16
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 1.25,
+                "TokenId": 7
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 0.3333,
+                "TokenId": 20
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Justin can mow a lawn in 2 hours . David can mow a lawn in 3 hours . How long will it take them to mow one lawn together ?",
+        "lSolutions": [
+            1.2
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = 1"
+        ],
+        "lEquations": "x * ( 1.0 / 2.0 + 1.0 / 3.0 ) = 1.0",
+        "iIndex": 601577,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Tap a is able to fill a bath in 20 minutes , tap b is able to fill the same bath in 30 minutes . How long would it take them to fill the same bath if they are turned on together",
+        "lSolutions": [
+            12.0
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = 1"
+        ],
+        "lEquations": "( 1.0 / 20.0 + 1.0 / 30.0 ) * x = 1.0",
+        "iIndex": 888909,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 20.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 22
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Aunt Mary , 42 years old , has a 12-year old niece . In how many years will the aunt be twice as old as her niece ?",
+        "lSolutions": [
+            18.0
+        ],
+        "Template": [
+            "m - a * m = a * b - c"
+        ],
+        "lEquations": "42.0 + x = 2.0 * ( 12.0 + x )",
+        "iIndex": 926441,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 12.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 42.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "HOW MANY LITERS OF A 20 % SALT SOLUTION MUST BE ADDED TO 8 LITERS OF A 5 % SALT SOLUTION TO YIELD AN ALLOY THAT IS A 10 % SALT SOLUTION ?",
+        "lSolutions": [
+            4.0
+        ],
+        "Template": [
+            "a * m - b * m = b * c - c * d"
+        ],
+        "lEquations": "0.01 * 20.0 * x + 0.01 * 5.0 * 8.0 = 0.01 * 10.0 * ( x + 8.0 )",
+        "iIndex": 354468,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 20.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 28
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 17
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A 6-passenger plane cruises at 180 mph in calm air . If the plane files 7 miles with the wind in the same smount of time as it flies 5 miles against the wind , then what is the wind speed ?",
+        "lSolutions": [
+            30.0
+        ],
+        "Template": [
+            "a * m + b * m = b * c - a * c"
+        ],
+        "lEquations": "5.0 * ( 180.0 + x ) = 7.0 * ( 180.0 - x )",
+        "iIndex": 159809,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 5.0,
+                "TokenId": 18
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 7.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 180.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "eight less than three times a number is equal to the sum of the number and four . What is the number",
+        "lSolutions": [
+            6.0
+        ],
+        "Template": [
+            "m - a * m = -1 * b - c"
+        ],
+        "lEquations": "3.0 * x - 8.0 = x + 4.0",
+        "iIndex": 812830,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 16
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A pipe can fill a tank in 30 minutes and another pipe can make empty the tank in 45 minutes . How much time it takes to empty the tank if both are working together .",
+        "lSolutions": [
+            90.0
+        ],
+        "Template": [
+            "1 / a * m - 1 / b * m = 1"
+        ],
+        "lEquations": "( 1.0 / 30.0 - 1.0 / 45.0 ) * x = 1.0",
+        "iIndex": 531348,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 45.0,
+                "TokenId": 18
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "I add 9 to a certain number and divide the sum by 16 . If my final answer is 1 , what is the number ?",
+        "lSolutions": [
+            7.0
+        ],
+        "Template": [
+            "m = a * b - c"
+        ],
+        "lEquations": "( 9.0 + x ) = 1.0 * 16.0",
+        "iIndex": 939369,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 1.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 16.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 9.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "a truck traveling 45 miles a hour and a car traveling 55 miles a hour cover the same distance . The truck travels 4 hours longer than the car . How far did they travel .",
+        "lSolutions": [
+            990.0
+        ],
+        "Template": [
+            "1 / a * m - 1 / b * m = c"
+        ],
+        "lEquations": "( 1.0 / 45.0 ) * x = ( 1.0 / 55.0 ) * x + 4.0",
+        "iIndex": 426623,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 45.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 55.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 4.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "It takes Sal 5 hours to paint a house . It takes Mary 3 hours to paint the same house . How long will it take to paint the house if both of them work together ?",
+        "lSolutions": [
+            1.875
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = 1"
+        ],
+        "lEquations": "( 1.0 / 5.0 + 1.0 / 3.0 ) * x = 1.0",
+        "iIndex": 38089,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A pool can be filled with water in 10 hours . Draining the pool requires 20 hours . If the pool is empty and the drain is open how much time will be needed to fill the pool ?",
+        "lSolutions": [
+            20.0
+        ],
+        "Template": [
+            "1 / a * m - 1 / b * m = 1"
+        ],
+        "lEquations": "( 1.0 / 10.0 - 1.0 / 20.0 ) * x = 1.0",
+        "iIndex": 314515,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 20.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Jose can paint a room in two hours , juanita can paint the room in three hours , how long would it take them to paint the room working together ?",
+        "lSolutions": [
+            1.2
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = 1"
+        ],
+        "lEquations": "x * ( 1.0 / 2.0 + 1.0 / 3.0 ) = 1.0",
+        "iIndex": 706076,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 15
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "How many litres of fuel costing $ 1.15 per litre must be mixed with 20 litres of fuel costing $ 0.85 per litre to obtain a mixture costing $ 1 per litre .",
+        "lSolutions": [
+            20.0
+        ],
+        "Template": [
+            "a * m - b * m = b * c - c * d"
+        ],
+        "lEquations": "x * 1.15 + 20.0 * 0.85 = ( 20.0 + x ) * 1.0",
+        "iIndex": 526091,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.85,
+                "TokenId": 20
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 1.0,
+                "TokenId": 25
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 20.0,
+                "TokenId": 14
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 1.15,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Rosa is 18 years old and Arthur is 24 years old . How many years ago was Arthur three times as old as Rosa ?",
+        "lSolutions": [
+            15.0
+        ],
+        "Template": [
+            "-1 * a * m + m = b - a * c"
+        ],
+        "lEquations": "24.0 - x = 3.0 * ( 18.0 - x )",
+        "iIndex": 113119,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 24.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 18.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "How many pounds of coffee worth 1.44 a pound should be mixed with 20 pounds worth 1.80 a pound a mixture worth 1.56 a pound ?",
+        "lSolutions": [
+            40.0
+        ],
+        "Template": [
+            "a * m - b * m = b * c - c * d"
+        ],
+        "lEquations": "1.44 * x + 1.8 * ( 20.0 ) = 1.56 * ( x + 20.0 )",
+        "iIndex": 75951,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 1.44,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 1.56,
+                "TokenId": 22
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 20.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 1.8,
+                "TokenId": 16
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Two trains leave stations 476 miles apart at the same time and travel toward each other . One train travels at 80 miles per hour while the other travels at 90 miles per hour . How long will it take for the two trains to meet ?",
+        "lSolutions": [
+            2.8
+        ],
+        "Template": [
+            "a * m + b * m = c"
+        ],
+        "lEquations": "476.0 = ( 80.0 + 90.0 ) * x",
+        "iIndex": 379060,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 80.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 90.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 476.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A train traveling 60 miles per hour leaves for a certain town . Two hours later , a car traveling at 70 miles per hour leaves for the same town and arrives at the same time as the train . If both the train and the car traveled in a straight line , how far is the town from where they started ?",
+        "lSolutions": [
+            840.0
+        ],
+        "Template": [
+            "1 / a * m - 1 / b * m = c"
+        ],
+        "lEquations": "( 1.0 / 60.0 ) * x - 2.0 = ( 1.0 / 70.0 ) * x",
+        "iIndex": 241652,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 60.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 70.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 0
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Find the selling price per ounce of mixture of 200 oz . of cologne that costs $ 5.50 per ounce and 500 oz . of a cologne that costs $ 2.00 per ounce .",
+        "lSolutions": [
+            3.0
+        ],
+        "Template": [
+            "a * m + b * m = c * a + d * b"
+        ],
+        "lEquations": "5.5 * ( 200.0 ) + 2.0 * ( 500.0 ) = ( 200.0 + 500.0 ) * x",
+        "iIndex": 93889,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 200.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 500.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 5.5,
+                "TokenId": 5
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 2,
+                "Value": 2.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "from pipe a it takes 4 hours to fill the tank . from pipe b it takes 8 hours empty the tank . if the both pipes are opened how many hours to fill the tank ?",
+        "lSolutions": [
+            8.0
+        ],
+        "Template": [
+            "1 / a * m - 1 / b * m = 1"
+        ],
+        "lEquations": "( 1.0 / 4.0 - 1.0 / 8.0 ) * x = 1.0",
+        "iIndex": 749732,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 8.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "erin drove home at an average speed of 45 mph . she returned home in the evening along the same route and average 30 mph . if erin spent a total of 1 hour commuting to and from work , how many miles did erin drive to work in the morning ?",
+        "lSolutions": [
+            18.0
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = c"
+        ],
+        "lEquations": "( 1.0 / 45.0 + 1.0 / 30.0 ) * x = 1.0",
+        "iIndex": 193747,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 45.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 30.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "TokenId": 6,
+                "Value": 1.0
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Jill is 11 kilometers away from Joe . Both begin to walk toward each other at the same time . Jill walks 2.5 km/h . They meet in 2 hours . How fast is Joe walking ?",
+        "lSolutions": [
+            3.0
+        ],
+        "Template": [
+            "a * m = b - a * c"
+        ],
+        "lEquations": "11.0 = 2.0 * ( 2.5 + x )",
+        "iIndex": 231243,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 3,
+                "Value": 2.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 11.0,
+                "TokenId": 2
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 2.5,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One half of a number is 3 more than the same number . What is the number ?",
+        "lSolutions": [
+            -6.0
+        ],
+        "Template": [
+            "a * m - m = b"
+        ],
+        "lEquations": "0.5 * x = x + 3.0",
+        "iIndex": 146171,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.5,
+                "TokenId": 1
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Jon can mow the lawn in 6 hours . Kim can mow the lawn in 5 hours . How long will it take them to mow the lawn if the work together ?",
+        "lSolutions": [
+            2.72727272727
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * m = 1"
+        ],
+        "lEquations": "( 1.0 / 6.0 + 1.0 / 5.0 ) * x = 1.0",
+        "iIndex": 344481,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 6.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 5.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "How many liters of a 30 % alcohol solution do you need to mix with 50 liters of a 60 % solution to obtain a 35 % solution ?",
+        "lSolutions": [
+            250.0
+        ],
+        "Template": [
+            "a * m - b * m = b * c - c * d"
+        ],
+        "lEquations": "( 50.0 * 0.01 * 60.0 ) + ( 0.01 * 30.0 ) * x = ( 0.01 * 35.0 ) * ( 50.0 + x )",
+        "iIndex": 13607,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 35.0,
+                "TokenId": 25
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 50.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 60.0,
+                "TokenId": 19
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "what is the height of a triangle whose area is 4 square meters and whose base is 2.5 meters",
+        "lSolutions": [
+            3.2
+        ],
+        "Template": [
+            "1 / 2 * a * m = b"
+        ],
+        "lEquations": "4.0 = ( 1.0 / 2.0 ) * 2.5 * x",
+        "iIndex": 294615,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.5,
+                "TokenId": 17
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "2 teams of scientists leave a university at the same time in special vans to search for tornadoes . the 1st team travel east at 20 miles per hour and the 2nd team travels west at 30 miles per hour . their radios have a range of 125 miles . How much time will pass before the scientists lose radio contact ?",
+        "lSolutions": [
+            2.5
+        ],
+        "Template": [
+            "a * m + b * m = c"
+        ],
+        "lEquations": "( 20.0 * x ) + ( 30.0 * x ) = 125.0",
+        "iIndex": 657,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 20.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 30.0,
+                "TokenId": 17
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 125.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Two cars leave the same point , traveling in opposite directions . If one travels at a constant speed of 52 miles per hour and the other travels at a constant speed of 58 miles per hour . In how many hours will they be 385 miles apart ?",
+        "lSolutions": [
+            3.5
+        ],
+        "Template": [
+            "a * m + b * m = c"
+        ],
+        "lEquations": "( 52.0 * x ) + ( 58.0 * x ) = 385.0",
+        "iIndex": 1578,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 52.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 58.0,
+                "TokenId": 21
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 385.0,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "0.4 of Joe 's income each month goes to taxes . If she pays 848 dollars in taxes each month , what is her monthly income in dollars ?",
+        "lSolutions": [
+            2120.0
+        ],
+        "Template": [
+            "a * m = b"
+        ],
+        "lEquations": "0.4 * x = 848.0",
+        "iIndex": 6408,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.4,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 848.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A student is pricing 2 different picture packages . John 's Photo World charges 2.75 dollars per sheet and a one time sitting fee of 125 dollars . Sam 's Picture Emporium charges 1.50 dollars per sheet and a one time sitting fee of 140 dollars . For how many sheets of pictures do the 2 companies charge the same amount ?",
+        "lSolutions": [
+            12.0
+        ],
+        "Template": [
+            "a * m - b * m = c - d"
+        ],
+        "lEquations": "( 2.75 * x ) + 125.0 = ( 1.5 * x ) + 140.0",
+        "iIndex": 2866,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.75,
+                "TokenId": 5
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 1.5,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 140.0,
+                "TokenId": 16
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 125.0,
+                "TokenId": 16
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Michael rented a truck for one day . There was a rental fee of 20.99 dollars , and there also was a charge of 25 cents for each mile . Michael paid 95.74 dollars when he returned the truck . For how many miles did he drive the truck ?",
+        "lSolutions": [
+            299.0
+        ],
+        "Template": [
+            "0.01 * a * m = b - c"
+        ],
+        "lEquations": "20.99 + ( ( 25.0 * 0.01 ) * x ) = 95.74",
+        "iIndex": 576,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 25.0,
+                "TokenId": 16
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 95.74,
+                "TokenId": 2
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 20.99,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "0.5 of a certain number is 10 more than 0.1667 of a number . Find the number .",
+        "lSolutions": [
+            30.003
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "0.5 * x = ( 0.1667 * x ) + 10.0",
+        "iIndex": 7022,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.5,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 0.1667,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "kevin bought 3 muffins and a bottle of juice that cost 1.45 dollars . He paid a total of 3.70 dollars . How much did each muffin cost ?",
+        "lSolutions": [
+            0.75
+        ],
+        "Template": [
+            "a * m = b - c"
+        ],
+        "lEquations": "( 3.0 * x ) + 1.45 = 3.7",
+        "iIndex": 986,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 2
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.7,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 1.45,
+                "TokenId": 11
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Manuel opened a savings account with an initial deposit of 177 dollars . If he wants to save 500 dollars during the next 19 weeks , how much must he save each week , in dollars ?",
+        "lSolutions": [
+            17.0
+        ],
+        "Template": [
+            "a * m = b - c"
+        ],
+        "lEquations": "177.0 + ( 19.0 * x ) = 500.0",
+        "iIndex": 658,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 19.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 500.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 177.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Seven times a number is the same as 12 more than 3 times the number . Find the number .",
+        "lSolutions": [
+            3.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "7.0 * x = 12.0 + ( 3.0 * x )",
+        "iIndex": 6444,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 7.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 12.0,
+                "TokenId": 8
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The sum of 0.75 of a number and two is eight . Find the number .",
+        "lSolutions": [
+            8.0
+        ],
+        "Template": [
+            "a * m = b - c"
+        ],
+        "lEquations": "( 0.75 * x ) + 2.0 = 8.0",
+        "iIndex": 200,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.75,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 8
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "0.20 of a number decreased by 4 is equal to 6 . Find the number .",
+        "lSolutions": [
+            50.0
+        ],
+        "Template": [
+            "a * m = b + c"
+        ],
+        "lEquations": "( 0.2 * x ) - 4.0 = 6.0",
+        "iIndex": 5464,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.2,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 6.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A plane travels due East at 325 miles per hour and another plane travels due west at 275 miles per hour . If they leave at the same time , and from the same place , in how many hours will they be 2100 miles apart ?",
+        "lSolutions": [
+            3.5
+        ],
+        "Template": [
+            "a * m + b * m = c"
+        ],
+        "lEquations": "( 325.0 * x ) + ( 275.0 * x ) = 2100.0",
+        "iIndex": 6522,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 325.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 275.0,
+                "TokenId": 17
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 2100.0,
+                "TokenId": 21
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A 12 ounce can of cranberry juice sells for 84 cents . Give the unit cost in cents per ounce .",
+        "lSolutions": [
+            7.0
+        ],
+        "Template": [
+            "a * m = b"
+        ],
+        "lEquations": "x = 84.0 / 12.0",
+        "iIndex": 972,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 12.0,
+                "TokenId": 1
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 84.0,
+                "TokenId": 9
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "7 less than 4 times a number equals 13 . What is the number ?",
+        "lSolutions": [
+            5.0
+        ],
+        "Template": [
+            "a * m = b + c"
+        ],
+        "lEquations": "( 4.0 * x ) - 7.0 = 13.0",
+        "iIndex": 2973,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 7.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 13.0,
+                "TokenId": 8
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "2 trains leave simultaneously traveling on the same track in opposite directions at speeds of 50 and 64 miles per hour . How many hours will it take before they are 285 miles apart ?",
+        "lSolutions": [
+            2.5
+        ],
+        "Template": [
+            "a * m + b * m = c"
+        ],
+        "lEquations": "( 50.0 * x ) + ( 64.0 * x ) = 285.0",
+        "iIndex": 5997,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 50.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 64.0,
+                "TokenId": 17
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 285.0,
+                "TokenId": 9
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "0.833 of a number is -60 . What is the number ?",
+        "lSolutions": [
+            -72.0288
+        ],
+        "Template": [
+            "a * m = b"
+        ],
+        "lEquations": "0.833 * x = ( - 60.0 )",
+        "iIndex": 6027,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.833,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": -60.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Trenton sells electronic supplies . Each week he earns 190 dollars plus commission equal to 4 % of his sales . This week his goal is to earn no less than 500 dollars . Write and solve an inequality to find the amount of sales he must make to reach his goal .",
+        "lSolutions": [
+            7750.0
+        ],
+        "Template": [
+            "0.01 * a * m = b - c"
+        ],
+        "lEquations": "190.0 + ( ( 4.0 * 0.01 ) * x ) = 500.0",
+        "iIndex": 6779,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 4.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 500.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 190.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Freeport McMoran projects that in 2010 the world grain supply will be 1800000 metric tons and the supply will be only 0.75 of the world grain demand . What will the world grain demand be in 2010 ?",
+        "lSolutions": [
+            2400000.0
+        ],
+        "Template": [
+            "a * m = b"
+        ],
+        "lEquations": "1800000.0 = 0.75 * x",
+        "iIndex": 1702,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.75,
+                "TokenId": 21
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 1800000.0,
+                "TokenId": 12
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The product of 10 and a number is the same as 36 less twice that same number . Find the number .",
+        "lSolutions": [
+            -4.5
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "10.0 * x = ( 2.0 * x ) - 36.0",
+        "iIndex": 1532,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 36.0,
+                "TokenId": 11
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Northwest Molded molds plastic handles which cost 0.60 dollars per handle to mold . The fixed cost to run the molding machine is 7640 dollars per week . If the company sells the handles for 4.60 dollars each , how many handles must be molded and sold weekly to break even ?",
+        "lSolutions": [
+            1910.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "( 4.6 * x ) - ( 0.6 * x ) = 7640.0",
+        "iIndex": 7076,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 2,
+                "Value": 4.6,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 0.6,
+                "TokenId": 7
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 7640.0,
+                "TokenId": 9
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A small publishing company has a 1 time product cost for editing and printing of 56,430.00 dollars . Variable cost per book is 8.25 dollars . The publisher is selling the book to the store for 21.75 dollars . How many books must the publisher print and sell so that the production cost will equal the money obtained from sells ?",
+        "lSolutions": [
+            4180.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "( 21.75 * x ) - ( 8.25 * x ) = 56430.0",
+        "iIndex": 3202,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 2,
+                "Value": 21.75,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 8.25,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 56430.0,
+                "TokenId": 15
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "For his long distance phone calls , John pays a 5 dollars monthly fee plus 25 cents per minute . Last month , John 's long distance bill was 12.02 dollars . For how many minutes was John billed ?",
+        "lSolutions": [
+            28.08
+        ],
+        "Template": [
+            "0.01 * a * m = b - c"
+        ],
+        "lEquations": "5.0 + ( ( 25.0 * 0.01 ) * x ) = 12.02",
+        "iIndex": 580,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 25.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 12.02,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The first agency charges 20.25 dollars per day and 0.14 dollars per mile . The second agency charges 18.25 dollars per day and 0.22 dollars per mile . How many miles would you have to drive before the first agency is less expensive than the second ?",
+        "lSolutions": [
+            25.0
+        ],
+        "Template": [
+            "a * m - b * m = c - d"
+        ],
+        "lEquations": "20.25 + ( 0.14 * x ) = 18.25 + ( 0.22 * x )",
+        "iIndex": 5298,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.14,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 0.22,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 18.25,
+                "TokenId": 4
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 20.25,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The sum of 5 and a number is 20 . Find the number .",
+        "lSolutions": [
+            15.0
+        ],
+        "Template": [
+            "m = a - b"
+        ],
+        "lEquations": "5.0 + x = 20.0",
+        "iIndex": 3583,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 20.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "0.5 of a number is 2 more than 0.25 of the number . Find the number .",
+        "lSolutions": [
+            8.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "0.5 * x = 2.0 + ( 0.25 * x )",
+        "iIndex": 2086,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.5,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 0.25,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Mary began walking home from school , heading south at a rate of 4 miles per hour . Sharon left school at the same time heading north at 6 miles per hour . How long will it take for them to be 3 miles apart ?",
+        "lSolutions": [
+            0.3
+        ],
+        "Template": [
+            "a * m + b * m = c"
+        ],
+        "lEquations": "( 4.0 * x ) + ( 6.0 * x ) = 3.0",
+        "iIndex": 5892,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 3.0,
+                "TokenId": 9
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A mechanic charged 45 dollars an hour , plus 225 dollars for the parts . If the total bill was 450 dollars , how man hours did the job take ?",
+        "lSolutions": [
+            5.0
+        ],
+        "Template": [
+            "a * m = b - c"
+        ],
+        "lEquations": "( 45.0 * x ) + 225.0 = 450.0",
+        "iIndex": 5706,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 45.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 450.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 225.0,
+                "TokenId": 9
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The difference between 3 times a number and 1 is the same as twice a number . Find the number .",
+        "lSolutions": [
+            1.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "( 3.0 * x ) - 1.0 = 2.0 * x",
+        "iIndex": 5184,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 1.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 13
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Latoya purchased a prepaid phone card for 30 dollars . Long distance calls cost 16 cents a minute using this card . Latoya used her card only once to make a long distance call . If the remaining credit on her card is 26.48 dollars , how many minutes did her call last ?",
+        "lSolutions": [
+            22.0
+        ],
+        "Template": [
+            "0.01 * a * m = b - c"
+        ],
+        "lEquations": "16.0 * 0.01 * x = 30.0 - 26.48",
+        "iIndex": 2617,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 16.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 3,
+                "Value": 26.48,
+                "TokenId": 8
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Sara and Jim both decided to save some money each week . Sara has already saved 4100 dollars , and she plans to save 10 dollars a week . Jim plans to save 15 dollars a week . In how many weeks will Jim and Sara have saved the same amount ?",
+        "lSolutions": [
+            820.0
+        ],
+        "Template": [
+            "a * m - b * m = c"
+        ],
+        "lEquations": "4100.0 + ( 10.0 * x ) = 15.0 * x",
+        "iIndex": 5925,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 2,
+                "Value": 15.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 10.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 4100.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "About 4.9 million households had one brand of personal computers in 2001 . The use of these computers grew at an average rate of 0.275 million households a year . In 2001 , about 2.5 million households used another type of computer . The use of these computers grew at an average rate of 0.7 million households a year . How long will it take for the two types of computers to be in the same number of households ?",
+        "lSolutions": [
+            5.647
+        ],
+        "Template": [
+            "a * m - b * m = c - d"
+        ],
+        "lEquations": "4900000.0 + ( 275000.0 * x ) = 2500000.0 + ( 700000.0 * x )",
+        "iIndex": 2121,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 275000.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 3,
+                "Value": 700000.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 2500000.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 4900000.0,
+                "TokenId": 1
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A factory makes three-legged stools and four-legged stools . They use the same kind of seats and legs for each . The only difference is the number of holes they bore in the seats for the legs . The company has 161 seats and 566 legs .",
+        "lSolutions": [
+            83.0,
+            78.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m + n = d"
+        ],
+        "lEquations": "x + y = 161.0 ; 3.0 * x + 4.0 * y = 566.0",
+        "iIndex": 327651,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 3,
+                "Value": 566.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 3,
+                "Value": 161.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The difference between two numbers is 36 . The sum of these numbers is 62 . Find the numbers .",
+        "lSolutions": [
+            13.0,
+            49.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - n = b"
+        ],
+        "lEquations": "x + y = 62.0 ; x - y = 36.0",
+        "iIndex": 424731,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 62.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 36.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One solution contains 10 % alcohol while another contains 30 % alcohol . How many liters of each should be mixed to give 10 L of a solution which is 25 % alcohol ?",
+        "lSolutions": [
+            2.5,
+            7.5
+        ],
+        "Template": [
+            "a * m + b * n = c * d",
+            "m + n = c"
+        ],
+        "lEquations": "( 0.01 * 10.0 ) * x + ( 0.01 * 30.0 ) * y = ( 0.01 * 25.0 * 10.0 ) ; y = ( 10.0 - x )",
+        "iIndex": 53186,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 10.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 25.0,
+                "TokenId": 17
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "the sum of two numbers is 140 and their difference is 16 . find the numbers",
+        "lSolutions": [
+            78.0,
+            62.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - n = b"
+        ],
+        "lEquations": "x + y = 140.0 ; x - y = 16.0",
+        "iIndex": 414889,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 140.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 16.0,
+                "TokenId": 11
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "two numbers differ by 10 . The larger number is 6 less than twice the smaller number . Find the numbers .",
+        "lSolutions": [
+            26.0,
+            16.0
+        ],
+        "Template": [
+            "a * m - n = b",
+            "n - m = c"
+        ],
+        "lEquations": "x - y = 10.0 ; x = 2.0 * y - 6.0",
+        "iIndex": 468521,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One number is 3 more than 2 times the other , and their sum is 27 . what are the numbers .",
+        "lSolutions": [
+            19.0,
+            8.0
+        ],
+        "Template": [
+            "m - a * n = b",
+            "m + n = c"
+        ],
+        "lEquations": "3.0 + 2.0 * y = x ; x + y = 27.0",
+        "iIndex": 78145,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 27.0,
+                "TokenId": 15
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Olga has 5 times as many dimes as nickels . If she has $ 3.30 , how many of each coin does she have ?",
+        "lSolutions": [
+            6.0,
+            30.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "d * m - n = 0"
+        ],
+        "lEquations": "5.0 * x = y ; 0.05 * x + 0.1 * y = 3.3",
+        "iIndex": 300691,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 0.05000000074505806,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 0.10000000149011612,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 3.3,
+                "TokenId": 4
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "In history class , the girl to boy ratio is 9 to 8 . If there are a total of 68 students , how many girls are there ?",
+        "lSolutions": [
+            32.0,
+            36.0
+        ],
+        "Template": [
+            "a * m - b * n = 0",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 68.0 ; 9.0 * x = 8.0 * y",
+        "iIndex": 933584,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 9.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 68.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One whole number is three times a second . if 20 is added to the smaller number , the result equals 6 more than the larger number . Find both numbers .",
+        "lSolutions": [
+            7.0,
+            21.0
+        ],
+        "Template": [
+            "m - n = a - b",
+            "c * m - n = 0"
+        ],
+        "lEquations": "3.0 * x = y ; x + 20.0 = y + 6.0",
+        "iIndex": 431227,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 20.0,
+                "TokenId": 1
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "there were 429 people at a play . admission was $ 1 for adults and $ 0.75 for children . the receits were $ 372.50 . how many adults and how many children attended the play ?",
+        "lSolutions": [
+            203.0,
+            226.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m + n = d"
+        ],
+        "lEquations": "1.0 * x + 0.75 * y = 372.5 ; y = ( 429.0 - x )",
+        "iIndex": 4980,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 1.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 0.75,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 372.5,
+                "TokenId": 4
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 429.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A solution of 35 % glycol is held in a 400 gallon tank . A 72 % solution of glycol is held in a 190 gallon tank . How much of the two tanks must be added together to have a 200 gallon tank of 50 % glycol ?",
+        "lSolutions": [
+            118.918918919,
+            81.0810810811
+        ],
+        "Template": [
+            "a * m + b * n = c * d",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 200.0 ; 0.01 * 35.0 * x + 0.01 * 72.0 * y = 0.01 * 50.0 * ( 200.0 )",
+        "iIndex": 625796,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 35.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 72.0,
+                "TokenId": 1
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 200.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 2,
+                "Value": 50.0,
+                "TokenId": 17
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A bag of peanuts is worth 0.30 less than a bag of cashews . Equal amount of peanuts and cashews are used to make 40 bags of a mixture that sells for 1.05 per bag . How much is a bag of cashews worth ?",
+        "lSolutions": [
+            1.2,
+            0.9
+        ],
+        "Template": [
+            "20 * m + 20 * n = a * b",
+            "m - n = c"
+        ],
+        "lEquations": "20.0 * x + 20.0 * y = 1.05 * ( 40.0 ) ; y = ( x - 0.3 )",
+        "iIndex": 189327,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 40.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 1.05,
+                "TokenId": 18
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 0.3,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "during the early 1990 's kelly invested 8000 into two different types of accounts within a bank certificates of deposit and savings account . For her accounts she received 8 % interest for her certificates of deposit and 6 % for her savings account . In total she earned 580 for the yeat . How much money was invested in each type of account ?",
+        "lSolutions": [
+            3000.0,
+            5000.0
+        ],
+        "Template": [
+            "0.01 * a * m + 0.01 * b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "0.01 * 8.0 * x + 0.01 * 6.0 * y = 580.0 ; x + y = 8000.0",
+        "iIndex": 72419,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 8.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 14
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 580.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 8000.0,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Three times one number added to another is 14 . Twice the first number , minus the other number is 1 . What are the numbers",
+        "lSolutions": [
+            3.0,
+            5.0
+        ],
+        "Template": [
+            "a * m + n = b",
+            "c * m - n = d"
+        ],
+        "lEquations": "2.0 * x - y = 1.0 ; 3.0 * x + y = 14.0",
+        "iIndex": 757971,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 14.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 1.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "gary drove to Sarnia . Part of the trip was along major highways and the rest was along country roads . the speed limit is 100 km/h on the hgihgways and 80 km/h on the other roads . he spent a total of 12 hours driving 1050 km . write a system of equations that would allow you to find how much time did he spend on each type of road .",
+        "lSolutions": [
+            4.5,
+            7.5
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m + n = d"
+        ],
+        "lEquations": "x + y = 12.0 ; 100.0 * x + 80.0 * y = 1050.0",
+        "iIndex": 158729,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 2,
+                "Value": 100.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 80.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 3,
+                "Value": 1050.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 3,
+                "Value": 12.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A cruise boat travels 60 miles downstream in 3 hours and returns to its starting point upstream in 12 hours . Find the speed of the stream .",
+        "lSolutions": [
+            12.5,
+            7.5
+        ],
+        "Template": [
+            "a * m + a * n = b",
+            "c * m - c * n = b"
+        ],
+        "lEquations": "3.0 * x + 3.0 * y = 60.0 ; 12.0 * x - 12.0 * y = 60.0",
+        "iIndex": 190306,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 60.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 12.0,
+                "TokenId": 18
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "You are 4 times as old as your sister . In 8 years time you will be twice as old as your sister . What are your ages now ?",
+        "lSolutions": [
+            4.0,
+            16.0
+        ],
+        "Template": [
+            "m - a * n = a * b - b",
+            "m - c * n = 0"
+        ],
+        "lEquations": "y = 4.0 * x ; y + 8.0 = 2.0 * ( x + 8.0 )",
+        "iIndex": 632051,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 8.0,
+                "TokenId": 1
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The greater of two numbers is 5 less than twice the lesser number . The sum of the two numbers is 28 . What are the numbers ?",
+        "lSolutions": [
+            11.0,
+            17.0
+        ],
+        "Template": [
+            "a * m - n = b",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 28.0 ; 2.0 * x - 5.0 = y",
+        "iIndex": 519967,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 28.0,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "the sum of two numbers is 56 . One-third of the first number plus one-fourth of the second number is 16 . find the numbers .",
+        "lSolutions": [
+            24.0000960004,
+            31.9999039996
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m + n = d"
+        ],
+        "lEquations": "x + y = 56.0 ; 0.333333 * y + 0.25 * x = 16.0",
+        "iIndex": 625848,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 0.3333333432674408,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 0.25,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 16.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 56.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "two power shovels excavate 20,000 cubic meters of earth , the larger shovel working for 40 hours and the smaller for 35 hours . On another job , they removed 40,000 cubic meters with the larger shovel working 70 hours and the smaller working 90 hours . How much earth can each move in 1 hour working alone ?",
+        "lSolutions": [
+            347.826086957,
+            173.913043478
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "d * m + e * n = f"
+        ],
+        "lEquations": "40.0 * x + 35.0 * y = 20000.0 ; 70.0 * x + 90.0 * y = 40000.0",
+        "iIndex": 160276,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 35.0,
+                "TokenId": 21
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 40.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 20000.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 90.0,
+                "TokenId": 20
+            },
+            {
+                "coeff": "e",
+                "SentenceId": 1,
+                "Value": 70.0,
+                "TokenId": 14
+            },
+            {
+                "coeff": "f",
+                "SentenceId": 1,
+                "Value": 40000.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One number is 4 more than three times a smaller number . If twice the larger number is decreased by three times the smaller number , the result is 32 .",
+        "lSolutions": [
+            8.0,
+            28.0
+        ],
+        "Template": [
+            "a * m - b * n = c",
+            "m - d * n = e"
+        ],
+        "lEquations": "y = 3.0 * x + 4.0 ; 2.0 * y - 3.0 * x = 32.0",
+        "iIndex": 353869,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 1
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 32.0,
+                "TokenId": 17
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "e",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "kevin 's sister mary is 5 years younger than he is . the total of their ages is 33 years . how old is kevin ?",
+        "lSolutions": [
+            19.0,
+            14.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - n = b"
+        ],
+        "lEquations": "x + y = 33.0 ; y = x - 5.0",
+        "iIndex": 402548,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 33.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "the sum of two numbers is 42 . One number plus two times the other number is 57 . What are the numbers ?",
+        "lSolutions": [
+            27.0,
+            15.0
+        ],
+        "Template": [
+            "a * m + n = b",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 42.0 ; x + 2.0 * y = 57.0",
+        "iIndex": 17680,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 57.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 42.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "the greater of two numbers is 5 more than the smaller . if the smaller is added to twice the greater , the result is 22 . find both of the numbers .",
+        "lSolutions": [
+            9.0,
+            4.0
+        ],
+        "Template": [
+            "m + a * n = b",
+            "n - m = c"
+        ],
+        "lEquations": "y = ( x - 5.0 ) ; y + 2.0 * x = 22.0",
+        "iIndex": 243375,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 22.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Walt made an extra $ 9000 last year from a part-time job . He invested part of the money at a 9 % annual rate of interest , and the rest at an 8 % annual rate of interest . At the end of the year , he made a total of $ 770 in interest . How much was invested at 8 % ?",
+        "lSolutions": [
+            4000.0,
+            5000.0
+        ],
+        "Template": [
+            "0.01 * a * m + 0.01 * b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "( 0.01 * 8.0 ) * x + ( 0.01 * 9.0 ) * y = 770.0 ; y = ( 9000.0 - x )",
+        "iIndex": 143318,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 9.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 8.0,
+                "TokenId": 20
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 770.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 9000.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": [
+            [
+                [
+                    3,
+                    5,
+                    8.0
+                ],
+                [
+                    1,
+                    20,
+                    8.0
+                ]
+            ]
+        ]
+    },
+    {
+        "sQuestion": "The sum of two numbers is 80 . The larger number is nine less than three times the smaller . Find both numbers .",
+        "lSolutions": [
+            22.25,
+            57.75
+        ],
+        "Template": [
+            "a * m - n = b",
+            "m + n = c"
+        ],
+        "lEquations": "3.0 * x - 9.0 = y ; x + y = 80.0",
+        "iIndex": 360099,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 9.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 80.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Two integers have a sum of 255 . The difference of the two numbers is 45 . What are the two numbers .",
+        "lSolutions": [
+            150.0,
+            105.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - n = b"
+        ],
+        "lEquations": "x + y = 255.0 ; x - y = 45.0",
+        "iIndex": 230975,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 255.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 45.0,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Two numbers have a sum of 67 . The smaller number is 21 less than the larger number . Find the two numbers .",
+        "lSolutions": [
+            44.0,
+            23.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - n = b"
+        ],
+        "lEquations": "y + x = 67.0 ; y = ( x - 21.0 )",
+        "iIndex": 840960,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 67.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 21.0,
+                "TokenId": 4
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "British sterling silver is a copper-silver alloy that is 7.5 % copper by weight . How many grams of pure copper and how many grams of British sterling silver should be used to prepare 200 grams of a copper-silver alloy that is 10 % copper by weight ?",
+        "lSolutions": [
+            5.40540540541,
+            194.594594595
+        ],
+        "Template": [
+            "m + 0.01 * a * n = 0.01 * b * c",
+            "n + m = c"
+        ],
+        "lEquations": "x + ( 0.01 * 7.5 ) * y = ( 0.01 * 10.0 * 200.0 ) ; y = ( 200.0 - x )",
+        "iIndex": 337071,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 7.5,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 10.0,
+                "TokenId": 27
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 200.0,
+                "TokenId": 19
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "An airplane travels 6030 km against the wind in 30 hours and 6750 with the wind in the same amount of time . What is the rate of the plane in still air and what is the rate of the wind ?",
+        "lSolutions": [
+            213.0,
+            12.0
+        ],
+        "Template": [
+            "a * m + a * n = b",
+            "a * m - a * n = c"
+        ],
+        "lEquations": "30.0 * x + 30.0 * y = 6750.0 ; 30.0 * x - 30.0 * y = 6030.0",
+        "iIndex": 311966,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 6750.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 6030.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The sum of two numbers is 75 . The second number is 3 less than twice the first . Find the two numbers .",
+        "lSolutions": [
+            49.0,
+            26.0
+        ],
+        "Template": [
+            "a * m - n = b",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 75.0 ; 2.0 * x - y = 3.0",
+        "iIndex": 657718,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 75.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "one number is four greater than another number when three times the smaller number is added to twice the larger number the result is 43 .",
+        "lSolutions": [
+            11.0,
+            7.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m - n = d"
+        ],
+        "lEquations": "3.0 * y + 2.0 * x = 43.0 ; x = 4.0 + y",
+        "iIndex": 264508,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 17
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 43.0,
+                "TokenId": 24
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "You are going to invest $ 25,000 , part at 14 % and part at 16 % . What is the most that can be invested at 14 % in order to make at least $ 3000 interest per year ?",
+        "lSolutions": [
+            50000.0,
+            -25000.0
+        ],
+        "Template": [
+            "0.01 * a * m + 0.01 * b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "( 0.01 * 14.0 ) * x + ( 0.01 * 16.0 ) * y = 3000.0 ; x + y = 25000.0",
+        "iIndex": 221206,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 16.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 14.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 3000.0,
+                "TokenId": 18
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 25000.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": [
+            [
+                [
+                    1,
+                    9,
+                    14.0
+                ],
+                [
+                    0,
+                    10,
+                    14.0
+                ]
+            ]
+        ]
+    },
+    {
+        "sQuestion": "Soybean meal is 16 % protein ; cornmeal is 8 % protein . How many pounds of each should be mixed together in order to get 320-lb mixture that is 14 % protein ?",
+        "lSolutions": [
+            240.0,
+            80.0
+        ],
+        "Template": [
+            "a * m + b * n = c * d",
+            "m + n = c"
+        ],
+        "lEquations": "( 0.01 * 16.0 ) * x + ( 0.01 * 8.0 ) * y = ( 0.01 * 14.0 * 320.0 ) ; y = ( 320.0 - x )",
+        "iIndex": 224722,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 16.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 320.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 14.0,
+                "TokenId": 17
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The sum of two numbers is 45 . Twice the smaller number is three more the larger number . What is the product of the two numbers ?",
+        "lSolutions": [
+            29.0,
+            16.0
+        ],
+        "Template": [
+            "a * m - n = b",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 45.0 ; 2.0 * x - y = 3.0",
+        "iIndex": 632980,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 45.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "a famer employs two students to pack peaches into trays for a market . at the end of the day they have packed a total of 288 trays . if student A packed 5 trays for every 7 that student B packed how many did each of them pack -LRB- show working -RRB-",
+        "lSolutions": [
+            120.0,
+            168.0
+        ],
+        "Template": [
+            "a * m - b * n = 0",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = 288.0 ; 5.0 * x - 7.0 * y = 0.0",
+        "iIndex": 838940,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 2,
+                "Value": 5.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 7.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 288.0,
+                "TokenId": 12
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "twice one number added to three times another gives 21 . find the numbers , if the difference between them is 3 .",
+        "lSolutions": [
+            3.0,
+            6.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m - n = d"
+        ],
+        "lEquations": "x - y = 3.0 ; 3.0 * y + 2.0 * x = 21.0",
+        "iIndex": 98951,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 21.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Last month , a bookstore ran an ad for calculators on sale ; graphing calculators for $ 87 and scientific calculators for $ 18 . Sales of $ 4980 were generated , with 15 more graphing calculators sold than the scientific calculators . How many of each type of calculators did the bookstore sell ?",
+        "lSolutions": [
+            35.0,
+            50.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m - n = d"
+        ],
+        "lEquations": "18.0 * x + 87.0 * y = 4980.0 ; y = ( x + 15.0 )",
+        "iIndex": 95395,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 87.0,
+                "TokenId": 17
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 18.0,
+                "TokenId": 23
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 4980.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 15.0,
+                "TokenId": 8
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One number is 3/4 of another number . Their sum is 63 . Find the numbers .",
+        "lSolutions": [
+            27.0,
+            36.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - 3 / 4 * n = b"
+        ],
+        "lEquations": "x + y = 63.0 ; x = ( 3.0 / 4.0 ) * y",
+        "iIndex": 425137,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 63.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 0.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Tickets to the school 's dinner theatre cost $ 6 for children and $ 9 for adults . 225 tickets were sold for a total of $ 1875 how many children attended ? how many adults attended",
+        "lSolutions": [
+            50.0,
+            175.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m + n = d"
+        ],
+        "lEquations": "x + y = 225.0 ; ( x ) * ( 6.0 ) + ( y ) * ( 9.0 ) = 1875.0",
+        "iIndex": 628420,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 6.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 9.0,
+                "TokenId": 14
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 1875.0,
+                "TokenId": 9
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 225.0,
+                "TokenId": 0
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Steve has 5 poker chips and 7 blue poker chips . Tom has 9 red poker chips and 3 blue poker chips . If steve 's chips are worth a total of $ 69 and tom 's are worth a total of $ 57 , determine the value of a blue chip ?",
+        "lSolutions": [
+            7.0,
+            4.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "d * m + e * n = f"
+        ],
+        "lEquations": "5.0 * x + 7.0 * y = 69.0 ; 9.0 * x + 3.0 * y = 57.0",
+        "iIndex": 36375,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 2
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 7.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 69.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 9.0,
+                "TokenId": 2
+            },
+            {
+                "coeff": "e",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "f",
+                "SentenceId": 2,
+                "Value": 57.0,
+                "TokenId": 20
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A can contains two different kinds of nuts , weighs 5 pounds , and costs $ 16 . One type of nut costs $ 3.50 a pound . The other type costs $ 2.75 a pound . How many pounds of $ 2.75 nuts are there ?",
+        "lSolutions": [
+            3.0,
+            2.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "m + n = d"
+        ],
+        "lEquations": "3.5 * x + 2.75 * y = 16.0 ; x + y = 5.0",
+        "iIndex": 66976,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 3.5,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 2.75,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 16.0,
+                "TokenId": 16
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": [
+            [
+                [
+                    3,
+                    5,
+                    2.75
+                ],
+                [
+                    2,
+                    5,
+                    2.75
+                ]
+            ]
+        ]
+    },
+    {
+        "sQuestion": "Jim 's weekly pay is 0.6666 of Alicias 's . Together they earn 600 dollars per week . What is each person 's weekly pay ?",
+        "lSolutions": [
+            360.014400576,
+            239.985599424
+        ],
+        "Template": [
+            "m + n = a",
+            "n - b * m = 0"
+        ],
+        "lEquations": "y = 0.6666 * x ; x + y = 600.0",
+        "iIndex": 10584,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 600.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 0.6666,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "the sum of two numbers is -11 . twice the first number minus the second is 32 . find the numbers .",
+        "lSolutions": [
+            -18.0,
+            7.0
+        ],
+        "Template": [
+            "a * m - n = b",
+            "m + n = c"
+        ],
+        "lEquations": "x + y = - 11.0 ; 2.0 * x - y = 32.0",
+        "iIndex": 220489,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 32.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": -11.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "In a recent election Corrine Brown received 13,356 more votes than Bill Randll . If the total number of votes was 119,626 , find the number of votes for each candidate .",
+        "lSolutions": [
+            53135.0,
+            66491.0
+        ],
+        "Template": [
+            "m + n = a",
+            "m - n = b"
+        ],
+        "lEquations": "x + y = 119626.0 ; y = x + 13356.0",
+        "iIndex": 362962,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 119626.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 13356.0,
+                "TokenId": 7
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The sum of the digits of a two-digit number is 9 . If the digits are reversed , the new number is 27 less than the original . Find the original number .",
+        "lSolutions": [
+            6.0,
+            3.0
+        ],
+        "Template": [
+            "10 * m + n - 10 * n - m = -1 * a",
+            "n + m = b"
+        ],
+        "lEquations": "x + y = 9.0 ; 10.0 * x + y = 10.0 * y + x + 27.0",
+        "iIndex": 34061,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 27.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 9.0,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "sam drove 500 km from city A to City B in 5.5 hours . he drove part of the way at 100 km/h and the rest of the way at 80 km/h . how far did he drive at each speed ?",
+        "lSolutions": [
+            300.0,
+            200.0
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "( 1.0 / 100.0 ) * x + ( 1.0 / 80.0 ) * y = 5.5 ; x + y = 500.0",
+        "iIndex": 332717,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 100.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 80.0,
+                "TokenId": 16
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 5.5,
+                "TokenId": 11
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 500.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A father 's age is four times that of his son . After 5 years , it will be three times that of his son . How many more years will take if father 's age is to be twice that of his son ?",
+        "lSolutions": [
+            40.0,
+            10.0
+        ],
+        "Template": [
+            "m - a * n = a * b - b",
+            "m - c * n = 0"
+        ],
+        "lEquations": "x = 4.0 * y ; x + 5.0 = 3.0 * ( y + 5.0 )",
+        "iIndex": 923817,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 5.0,
+                "TokenId": 1
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 4.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "jim is 5 years older than cindy . 4 years ago , the sum of their ages was 21 . find each of their ages now .",
+        "lSolutions": [
+            12.0,
+            17.0
+        ],
+        "Template": [
+            "m + n = a + b + b",
+            "n - m = c"
+        ],
+        "lEquations": "x - 4.0 + y - 4.0 = 21.0 ; y = x + 5.0",
+        "iIndex": 461640,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 21.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 4.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Sum of two numbers is 125 . 5 times one number minus 3 times the other is 41 . Determine the numbers",
+        "lSolutions": [
+            52.0,
+            73.0
+        ],
+        "Template": [
+            "a * m - b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "y = ( 125.0 - x ) ; 5.0 * x - 3.0 * y = 41.0",
+        "iIndex": 435542,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 5.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 5
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 41.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 125.0,
+                "TokenId": 5
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Karen left her house heading east , and her sister left two hours later heading west at a rate 5 mph faster than Karen . Six hours after Karen left , she and her sister were 600 miles apart . How fast was Karen moving ?",
+        "lSolutions": [
+            58.0,
+            63.0
+        ],
+        "Template": [
+            "a * m - b * m + a * n = c",
+            "m - n = d"
+        ],
+        "lEquations": "( 6.0 - 2.0 ) * y + 6.0 * x = 600.0 ; y = x + 5.0",
+        "iIndex": 333635,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 600.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 5.0,
+                "TokenId": 19
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "One number is 8 less than another number . Find the numbers if three times the smaller number is six less than two times the larger number",
+        "lSolutions": [
+            18.0,
+            10.0
+        ],
+        "Template": [
+            "a * m - b * n = c",
+            "m - n = d"
+        ],
+        "lEquations": "x - y = 8.0 ; 3.0 * y = 2.0 * x - 6.0",
+        "iIndex": 215304,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 3.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 6.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "To attend the state fair one group of 10 adults and eight children paid $ 136 for their tickets another group of 17 adults and two children paid $ 150 for the tickets what is the price for each child ticket ??",
+        "lSolutions": [
+            7.0,
+            8.0
+        ],
+        "Template": [
+            "a * m + b * n = c",
+            "d * m + e * n = f"
+        ],
+        "lEquations": "10.0 * x + 8.0 * y = 136.0 ; 17.0 * x + 2.0 * y = 150.0",
+        "iIndex": 939015,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 10.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 8.0,
+                "TokenId": 11
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 136.0,
+                "TokenId": 15
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 17.0,
+                "TokenId": 22
+            },
+            {
+                "coeff": "e",
+                "SentenceId": 0,
+                "Value": 2.0,
+                "TokenId": 25
+            },
+            {
+                "coeff": "f",
+                "SentenceId": 0,
+                "Value": 150.0,
+                "TokenId": 29
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "The number 150 was written as the sum of two numbers . The first number was divided by 27 . This quotient was added to the second number divided by 23 , and the total was 6 . What were the two numbers ?",
+        "lSolutions": [
+            69.0,
+            81.0
+        ],
+        "Template": [
+            "1 / a * m + 1 / b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "x + y = 150.0 ; 6.0 = ( 1.0 / 27.0 ) * x + ( 1.0 / 23.0 ) * y",
+        "iIndex": 680730,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 27.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 2,
+                "Value": 23.0,
+                "TokenId": 10
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 6.0,
+                "TokenId": 16
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 150.0,
+                "TokenId": 2
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "Two friends leave a hotel at the same time traveling in opposite direction . They travel for four hours and are then 480 miles apart . If Lily travels 10 miles per our faster than Noe , find the average rate of speed for each person .",
+        "lSolutions": [
+            65.0,
+            55.0
+        ],
+        "Template": [
+            "a * m + a * n = b",
+            "n - m = c"
+        ],
+        "lEquations": "x = y + 10.0 ; 4.0 * ( x + y ) = 480.0",
+        "iIndex": 549719,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 4.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 480.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 2,
+                "Value": 10.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "the sum of two numbers is 198 . if one number is 20 % more than the other number , what are the numbers ?",
+        "lSolutions": [
+            33.8333333333,
+            164.166666667
+        ],
+        "Template": [
+            "m - 0.01 * a * n = 1",
+            "m + n = b"
+        ],
+        "lEquations": "x + y = 198.0 ; x = 1.0 + ( 0.01 * 20.0 ) * y",
+        "iIndex": 255691,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 20.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 198.0,
+                "TokenId": 6
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A year ago , John was three times as old as Larry . A year later , he was twice as old as Larry . How old are John and Larry ?",
+        "lSolutions": [
+            7.0,
+            3.0
+        ],
+        "Template": [
+            "m - a * n = -1 * a * b + b",
+            "m - c * n = c * d - d"
+        ],
+        "lEquations": "y - 1.0 = 3.0 * ( x - 1.0 ) ; y + 1.0 = 2.0 * ( x + 1.0 )",
+        "iIndex": 921677,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 1.0,
+                "TokenId": 0
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 2.0,
+                "TokenId": 6
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 1,
+                "Value": 1.0,
+                "TokenId": 0
+            }
+        ],
+        "Equiv": []
+    },
+    {
+        "sQuestion": "A mixture of 30 pounds of candy sells for $ 1.10 a pound . The mixture consists of chocolates worth $ 1.50 a pound and chocolates worth 90 cent a pound . How many pounds of the $ 1.50 chocolate were used to make the mixture ?",
+        "lSolutions": [
+            20.0,
+            10.0
+        ],
+        "Template": [
+            "a * m + 0.01 * b * n = c * d",
+            "m + n = c"
+        ],
+        "lEquations": "1.5 * x + 0.01 * 90.0 * y = 30.0 * 1.1 ; x + y = 30.0",
+        "iIndex": 250801,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 1,
+                "Value": 1.5,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 1,
+                "Value": 90.0,
+                "TokenId": 13
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 30.0,
+                "TokenId": 3
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 1.1,
+                "TokenId": 10
+            }
+        ],
+        "Equiv": [
+            [
+                [
+                    2,
+                    6,
+                    1.5
+                ],
+                [
+                    1,
+                    7,
+                    1.5
+                ]
+            ]
+        ]
+    },
+    {
+        "sQuestion": "Bob invested $ 22,000 , part at 18 % and part at 14 % . If the total interest at the end of the year is $ 3,360 , how much did he invest at 18 % ?",
+        "lSolutions": [
+            7000.0,
+            15000.0
+        ],
+        "Template": [
+            "0.01 * a * m + 0.01 * b * n = c",
+            "n + m = d"
+        ],
+        "lEquations": "x + y = 22000.0 ; 0.01 * 18.0 * x + 0.01 * 14.0 * y = 3360.0",
+        "iIndex": 117490,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 18.0,
+                "TokenId": 7
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 14.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 1,
+                "Value": 3360.0,
+                "TokenId": 12
+            },
+            {
+                "coeff": "d",
+                "SentenceId": 0,
+                "Value": 22000.0,
+                "TokenId": 3
+            }
+        ],
+        "Equiv": [
+            [
+                [
+                    1,
+                    20,
+                    18.0
+                ],
+                [
+                    0,
+                    7,
+                    18.0
+                ]
+            ]
+        ]
+    },
+    {
+        "sQuestion": "A cruise boat travels 48 miles downstream in 3 hours and returns upstream in 6 hours . Find the rate of the stream .",
+        "lSolutions": [
+            12.0,
+            4.0
+        ],
+        "Template": [
+            "a * m + a * n = b",
+            "c * m - c * n = b"
+        ],
+        "lEquations": "3.0 * x + 3.0 * y = 48.0 ; 6.0 * x - 6.0 * y = 48.0",
+        "iIndex": 187526,
+        "Alignment": [
+            {
+                "coeff": "a",
+                "SentenceId": 0,
+                "Value": 3.0,
+                "TokenId": 8
+            },
+            {
+                "coeff": "b",
+                "SentenceId": 0,
+                "Value": 48.0,
+                "TokenId": 4
+            },
+            {
+                "coeff": "c",
+                "SentenceId": 0,
+                "Value": 6.0,
+                "TokenId": 14
+            }
+        ],
+        "Equiv": []
+    }
+]

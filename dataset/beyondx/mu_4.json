@@ -1,0 +1,2723 @@
+[
+    {
+        "problem": "A furniture dealer has 56 tables in her store. Some tables have 4 legs, some have 3 legs, some have 2 legs, and some have 1 leg. She counted all the legs and found that there are 154 in total. She also noticed that the number of 4-legged tables plus the number of 2-legged tables equals twice the number of 3-legged tables minus 14. The number of 4-legged tables plus the number of 3-legged tables plus the number of 2-legged tables equals three times the number of 1-legged tables plus 16. How many tables of each kind are there in the store?",
+        "system_of_equations": [
+            "4.0 * x + 3.0 * y + 2.0 * z + 1.0 * w  = 154.000000000000",
+            "x + y + z + w  = 56.0000000000000",
+            "x + z  = 2.0 * y - 14.0",
+            "x + y + z  = 3.0 * w + 16.0"
+        ],
+        "ans": [
+            "16",
+            "20",
+            "10",
+            "10"
+        ],
+        "id": 1,
+        "source": "ALG514"
+    },
+    {
+        "problem": "You are making 15 tons of concrete that is 38% cement. To do this, you are mixing a 20% cement mixture, an 80% cement mixture, a 50% cement mixture, and a 30% cement mixture. The sum of the amount of 20% cement mixture and the amount of 80% cement mixture equals three times the amount of 50% cement mixture plus 4 tons. The amount of 20% cement mixture plus the amount of 80% cement mixture plus the amount of 50% cement mixture equals four times the amount of 30% cement mixture. How much of each type of cement mixture must you use? Answer in units of tons.",
+        "system_of_equations": [
+            "( ( 20.0 * 0.01 ) * x ) + ( ( 80.0 * 0.01 ) * y ) + ( ( 50.0 * 0.01 ) * z ) + ( ( 30.0 * 0.01 ) * w )  = 5.70000000000000",
+            "x + y + z + w  = 15.0000000000000",
+            "x + y  = 3.0 * z + 4.0",
+            "x + y + z  = 4.0 * w"
+        ],
+        "ans": [
+            "7",
+            "3",
+            "2",
+            "3"
+        ],
+        "id": 2,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A self-employed contractor nearing retirement made four investments totaling 20,000 dollars. In one year, these investments yielded 1253 dollars in simple interest. Part of the money was invested at 6%, part at 7.5%, part at 5%, and the rest at 4%. The sum of the amount invested at 7.5% annual interest and the amount invested at 6% annual interest equals three times the amount invested at 5% annual interest plus 6000 dollars. The sum of the amount invested at 7.5% annual interest, the amount invested at 6% annual interest, and the amount invested at 5% annual interest equals four times the amount invested at 4% annual interest plus 10000 dollars. How much was invested at each rate?",
+        "system_of_equations": [
+            "7.5 * 0.01 * x + 6.0 * 0.01 * y + 5.0 * 0.01 * z + 4.0 * 0.01 * w  = 1253.00000000000",
+            "x + y + z + w  = 20000.0000000000",
+            "x + y  = 3.0 * z + 6000.0",
+            "x + y + z  = 4.0 * w + 10000.0"
+        ],
+        "ans": [
+            "8200",
+            "6800",
+            "3000",
+            "2000"
+        ],
+        "id": 3,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a basketball game, the Lakers scored 58 points from a combination of two-point baskets, three-point baskets, one-point free throws, and four-point plays. They made a total of 29 shots. It is known that the number of two-point baskets plus twice the number of three-point baskets equals twice the number of four-point plays plus three times the number of free throws minus two. The number of two-point baskets plus the number of three-point baskets plus the number of free throws equals four times the number of four-point plays plus nineteen. How many of each type of shot were made?",
+        "system_of_equations": [
+            "2.0 * x + 3.0 * y + 1.0 * z + 4.0 * w  = 58.0000000000000",
+            "x + y + z + w  = 29.0000000000000",
+            "x + 2.0 * y  = 2.0 * w + 3.0 * z - 2.0",
+            "x + y + z  = 4.0 * w + 19.0"
+        ],
+        "ans": [
+            "17",
+            "3",
+            "7",
+            "2"
+        ],
+        "id": 4,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a local event, tickets are sold at different prices: 4 dollars for students, 6 dollars for general admission, 3 dollars for seniors, and 2 dollars for children. In total, 675 tickets were sold, collecting 3276 dollars. It is known that twice the number of student tickets plus the number of general admission tickets plus half the number of senior tickets plus half the number of child tickets equals 737. The number of student tickets plus the number of general admission tickets plus the number of senior tickets plus twice the number of child tickets equals 725. How many student, general admission, senior, and child tickets were sold?",
+        "system_of_equations": [
+            "4.0 * x + 6.0 * y + 3.0 * z + 2.0 * w  = 3276.00000000000",
+            "x + y + z + w  = 675.000000000000",
+            "2.0 * x + 1.0 * y + 0.5 * z + 0.5 * w  = 737.000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 2.0 * w  = 725.000000000000"
+        ],
+        "ans": [
+            "137",
+            "388",
+            "100",
+            "50"
+        ],
+        "id": 5,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Four mechanics worked on a car. The first mechanic charged 45 dollars per hour, the second mechanic charged 85 dollars per hour, the third mechanic charged 65 dollars per hour, and the fourth mechanic charged 75 dollars per hour. Together, they worked for a combined total of 28 hours and charged a total of 1650 dollars. It is known that the first mechanic worked twice as many hours as the third mechanic plus an additional 5 hours. The number of hours the first mechanic and the second mechanic worked together equals twice the number of hours the fourth mechanic worked plus an additional 14 hours. How long did each mechanic work?",
+        "system_of_equations": [
+            "( 45.0 * x ) + ( 85.0 * y ) + ( 65.0 * z ) + ( 75.0 * w )  = 1650.00000000000",
+            "x + y + z + w  = 28.0000000000000",
+            "x  = 2.0 * z + 5.0",
+            "x + y  = 2.0 * w + 14.0"
+        ],
+        "ans": [
+            "15",
+            "5",
+            "5",
+            "3"
+        ],
+        "id": 6,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Pedro goes to the market and buys a total of 50 fruits, which include plums, peaches, apples, and oranges, for a total of 76 dollars. Each plum costs 2 dollars, each peach costs 1 dollar, each apple costs 1.5 dollars, and each orange costs 1.2 dollars. If the number of plums Pedro bought is 2.5 times the number of apples he bought, and the number of plums and peaches combined is 2 more than three times the number of oranges, how many of each type of fruit did Pedro buy?",
+        "system_of_equations": [
+            "( 2.0 * x ) + ( 1.0 * y ) + ( 1.5 * z ) + ( 1.2 * w )  = 76.0000000000000",
+            "x + y + z + w  = 50.0000000000000",
+            "x  = 2.5 * z",
+            "x + y  = 3.0 * w + 2.0"
+        ],
+        "ans": [
+            "20",
+            "12",
+            "8",
+            "10"
+        ],
+        "id": 7,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a school, the total number of boys, girls, teachers, and staff is 50. If twice the number of girls exceeds the number of boys by 12, and the number of girls plus the number of teachers is 1.5 times the number of boys minus 10. The number of girls plus the number of boys equals twice the number of staff plus 16. Find the number of girls, boys, teachers, and staff in the school.",
+        "system_of_equations": [
+            "2.0 * x  = y + 12.0",
+            "y + x + z + w  = 50.0000000000000",
+            "x + z  = 1.5 * y - 10.0",
+            "x + y  = 2.0 * w + 16.0"
+        ],
+        "ans": [
+            "16",
+            "20",
+            "4",
+            "10"
+        ],
+        "id": 8,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A garden table, a bench, a chair, and a garden umbrella cost 1100 combined. The price of the garden table is two times the price of the bench minus 750. Also, the price of the garden table is 3.33 times the price of the chair minus 249.5. Furthermore, the price of the garden table is 1.25 times the price of the garden umbrella. What is the cost of each item?",
+        "system_of_equations": [
+            "x + y + z + w  = 1100.00000000000",
+            "x  = 2.0 * y - 750.0",
+            "x  = 3.33 * z - 249.5",
+            "x  = 1.25 * w"
+        ],
+        "ans": [
+            "250",
+            "500",
+            "150",
+            "200"
+        ],
+        "id": 9,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Lisa invested 12,000 dollars in four different ways: part at 4 % annual interest, part at 5 % annual interest, part at 3 % annual interest, and the rest at 2 % annual interest. After one year, she received 480 dollars in interest. Also, the amount invested at 4% annual interest plus the amount invested at 5% annual interest equals four times the amount invested at 3% annual interest. The amount invested at 4% annual interest plus the amount invested at 5% annual interest plus the amount invested at 3% annual interest equals five times the amount invested at 2% annual interest. How much did Lisa invest at each rate?",
+        "system_of_equations": [
+            "( ( 4.0 * 0.01 ) * x ) + ( ( 5.0 * 0.01 ) * y ) + ( ( 3.0 * 0.01 ) * z ) + ( ( 2.0 * 0.01 ) * w )  = 480.000000000000",
+            "x + y + z + w  = 12000.0000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 5.0 * w"
+        ],
+        "ans": [
+            "2000",
+            "6000",
+            "2000",
+            "2000"
+        ],
+        "id": 10,
+        "source": "ALG514"
+    },
+    {
+        "problem": "During a sale, an automobile dealer sold 120 vehicles including cars, trucks, motorcycles, and vans. If she sold 27 more cars than trucks, 17 less motorcycles than cars, and one less van than trucks, how many of each type of vehicle did she sell?",
+        "system_of_equations": [
+            "x + y + z + w  = 120.000000000000",
+            "y  = x + 27.0",
+            "z  = y - 17.0",
+            "w  = x - 1.0"
+        ],
+        "ans": [
+            "21",
+            "48",
+            "31",
+            "20"
+        ],
+        "id": 11,
+        "source": "ALG514"
+    },
+    {
+        "problem": "There are four numbers. Two times the first number is 59 less than the sum of the second number and the fourth number. The sum of the four numbers is 41. Also, the first number minus the second number equals two times the third number minus 68. The sum of the first number, the second number, and the third number equals three times the fourth number minus 199. What are the four numbers?",
+        "system_of_equations": [
+            "2.0 * x  = w + y - 59.0",
+            "x + y + z + w  = 41.0000000000000",
+            "x - y  = 2.0 * z - 68.0",
+            "x + y + z  = 3.0 * w - 199.0"
+        ],
+        "ans": [
+            "-21",
+            "-43",
+            "45",
+            "60"
+        ],
+        "id": 12,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A girl has been saving 1-dollar coins, 2-dollar coins, 50-cent coins, and 25-cent coins. When she counts her savings, she finds that she has a total of 280 coins amounting to 295 dollars. She also notices that twice the number of her 1-dollar coins equals the number of her 2-dollar coins plus four times the number of her 50-cent coins minus 40. The number of her 1-dollar coins, 2-dollar coins, and 50-cent coins combined equals three times the number of her 25-cent coins plus 40. How many 1-dollar coins, 2-dollar coins, 50-cent coins, and 25-cent coins does she have?",
+        "system_of_equations": [
+            "1.0 * x + 2.0 * y + 0.5 * z + 0.25 * w  = 295.000000000000",
+            "x + y + z + w  = 280.000000000000",
+            "2.0 * x  = y + 4.0 * z - 40.0",
+            "x + y + z  = 3.0 * w + 40.0"
+        ],
+        "ans": [
+            "100",
+            "80",
+            "40",
+            "60"
+        ],
+        "id": 13,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a family, there are 4 cars. In a particular week, the sum of the average miles per gallon obtained by the four cars is 90. The first car has consumed 40 gallons, the second car has consumed 20 gallons, the third car has consumed 10 gallons, and the fourth car has consumed 5 gallons. This resulted in a total of 1775 miles driven by the four cars combined. Additionally, the sum of the average gas mileage of the first car and the third car is 15 more than twice the average gas mileage of the second car. The sum of the average gas mileage of the first car, the second car, and the third car is 30 more than three times the average gas mileage of the fourth car. What was the average gas mileage obtained by each of the 4 cars that week?",
+        "system_of_equations": [
+            "( 40.0 * x ) + ( 20.0 * y ) + ( 10.0 * z ) + ( 5.0 * w )  = 1775.00000000000",
+            "x + y + z + w  = 90.0000000000000",
+            "x + z  = 2.0 * y + 15.0",
+            "x + y + z  = 3.0 * w + 30.0"
+        ],
+        "ans": [
+            "25",
+            "20",
+            "30",
+            "15"
+        ],
+        "id": 14,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At the St. Mark's Community Barbecue, 350 dinners were served. A child's plate cost 3.50 dollars, an adult's plate cost 7.00 dollars, a senior's plate cost 5.00 dollars, and a special plate cost 6.00 dollars. The event collected a total of 1897.50 dollars. It is known that the number of child's plates plus the number of senior's plates is 105 less than twice the number of adult's plates. The number of child's plates plus the number of adult's plates plus the number of senior's plates is 50 more than five times the number of special plates. How many child's, adult's, senior's, and special plates were served?",
+        "system_of_equations": [
+            "( 3.5 * x ) + ( 7.0 * y ) + ( 5.0 * z ) + ( 6.0 * w )  = 1897.50000000000",
+            "x + y + z + w  = 350.000000000000",
+            "x + z  = 2.0 * y - 105.0",
+            "x + y + z  = 5.0 * w + 50.0"
+        ],
+        "ans": [
+            "115",
+            "135",
+            "50",
+            "50"
+        ],
+        "id": 15,
+        "source": "ALG514"
+    },
+    {
+        "problem": "On a certain hot summer's day, 954 people used the public swimming pool. The daily prices are 1.50 dollars for children, 2.25 dollars for adults, 1.00 dollar for seniors, and 1.75 dollars for teenagers. The receipts for admission totaled 1697.00 dollars. It is known that the number of children plus the number of seniors equals twice the number of adults minus 310. The number of children plus the number of adults equals twice the number of teenagers plus 554. How many children, adults, seniors, and teenagers swam at the public pool that day?",
+        "system_of_equations": [
+            "( 1.5 * x ) + ( 2.25 * y ) + ( 1.0 * z ) + ( 1.75 * w )  = 1697.00000000000",
+            "x + y + z + w  = 954.000000000000",
+            "x + z  = 2.0 * y - 310.0",
+            "x + y  = 2.0 * w + 554.0"
+        ],
+        "ans": [
+            "366",
+            "388",
+            "100",
+            "100"
+        ],
+        "id": 16,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Sawz logging company bought a section of the forest containing 1200 trees, which are a mix of Douglas fir, Ponderosa pine, Spruce, and Cedar trees. The company paid an average of 300 dollars for each Douglas fir, 250 dollars for each Ponderosa pine, 200 dollars for each Spruce tree, and 150 dollars for each Cedar tree, amounting to a total of 277,500 dollars. It is known that the number of Douglas fir trees plus the number of Spruce trees equals half the number of Ponderosa pine trees minus 125. The number of Douglas fir trees plus the number of Ponderosa pine trees plus the number of Cedar trees equals twice the number of Spruce trees plus 750. How many of each type of tree did the company buy?",
+        "system_of_equations": [
+            "( 300.0 * x ) + ( 250.0 * y ) + ( 200.0 * z ) + ( 150.0 * w )  = 277500.000000000",
+            "x + y + z + w  = 1200.00000000000",
+            "x + z  = 0.5 * y - 125.0",
+            "x + y + w  = 2.0 * z + 750.0"
+        ],
+        "ans": [
+            "100",
+            "750",
+            "150",
+            "200"
+        ],
+        "id": 17,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A movie theater charges different prices for tickets: 7.50 dollars for adults, 4.50 dollars for children, 6.00 dollars for seniors, and 5.00 dollars for students. During a showing of a popular movie, the theater sold 100 tickets and collected 650 dollars. It is known that the number of adult tickets sold is equal to the number of student tickets plus twice the number of child tickets plus the number of senior tickets. The number of adult tickets plus the number of child tickets equals three times the number of student tickets plus 50. How many adult, child, senior, and student tickets were sold?",
+        "system_of_equations": [
+            "( 7.5 * x ) + ( 4.5 * y ) + ( 6.0 * z ) + ( 5.0 * w )  = 650.000000000000",
+            "x + y + z + w  = 100.0000000000000",
+            "x  = w + 2.0 * y + z",
+            "x + y  = 3.0 * w + 50.0"
+        ],
+        "ans": [
+            "60",
+            "20",
+            "10",
+            "10"
+        ],
+        "id": 18,
+        "source": "ALG514"
+    },
+    {
+        "problem": "For your rich uncle's birthday party, you have a budget of exactly 737 dollars to spend on gifts. You decide to buy watches for the ladies, each costing 27.98 dollars, beepers for the men, each costing 23.46 dollars, scarves for the children, each costing 15 dollars, and books for the teenagers, each costing 10 dollars. You plan to buy three times as many watches as beepers, and the total number of watches and beepers should be twice the number of scarves. The total number of watches, beepers, and scarves should be four times the number of books plus ten. How many of each item will you buy?",
+        "system_of_equations": [
+            "( 27.98 * x ) + ( 23.46 * y ) + ( 15 * z ) + ( 10 * w )  = 737.000000000000",
+            "x  = 3.0 * y",
+            "x + y  = 2.0 * z",
+            "x + y + z  = 4.0 * w + 10.0"
+        ],
+        "ans": [
+            "15",
+            "5",
+            "10",
+            "5"
+        ],
+        "id": 19,
+        "source": "ALG514"
+    },
+    {
+        "problem": "There are four numbers. The first number is thrice the second number minus 248. The third number is twice the second number minus 130. The fourth number is twice the first number minus 60. If the sum of the four numbers is 182, find the numbers.",
+        "system_of_equations": [
+            "x + y + z + w  = 182.000000000000",
+            "x  = 3.0 * y - 248.0",
+            "z  = 2.0 * y - 130.0",
+            "w  = 2.0 * x - 60.0"
+        ],
+        "ans": [
+            "31",
+            "93",
+            "56",
+            "2"
+        ],
+        "id": 20,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The Rocket Coaster has expanded and now has 24 cars: some hold 4 people, some hold 6 people, some hold 2 people, and some hold 3 people. Altogether, there is room for 94 people. It is also known that the number of 4-passenger cars plus the number of 6-passenger cars equals three times the number of 2-passenger cars. The number of 4-passenger cars plus the number of 6-passenger cars plus the number of 2-passenger cars equals five times the number of 3-passenger cars. How many of each type of car are there?",
+        "system_of_equations": [
+            "4.0 * x + 6.0 * y + 2.0 * z + 3.0 * w  = 94.0000000000000",
+            "x + y + z + w  = 24.0000000000000",
+            "x + y  = 3.0 * z",
+            "x + y + z  = 5.0 * w"
+        ],
+        "ans": [
+            "9",
+            "6",
+            "5",
+            "4"
+        ],
+        "id": 21,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A theater has 110 seats. On a special night, they sold out, selling adult tickets for 12 dollars each, child tickets for 5 dollars each, senior tickets for 8 dollars each, and student tickets for 6 dollars each. They made a total of 1041 dollars. It is known that the number of adult tickets plus the number of child tickets equals four times the number of senior tickets plus 40. The number of adult tickets plus the number of child tickets plus the number of senior tickets equals five times the number of student tickets minus 10. How many adult, child, senior, and student tickets were sold?",
+        "system_of_equations": [
+            "( 12.0 * x ) + ( 5.0 * y ) + ( 8.0 * z ) + ( 6.0 * w )  = 1041.00000000000",
+            "x + y + z + w  = 110.000000000000",
+            "x + y  = 4.0 * z + 40.0",
+            "x + y + z  = 5.0 * w - 10.0"
+        ],
+        "ans": [
+            "63",
+            "17",
+            "10",
+            "20"
+        ],
+        "id": 22,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Jane has expanded her dress shop and now has space for 300 dresses. She sells red, blue, green, and yellow dresses. She decides to stock her shelves with 34 more blue dresses than red dresses. Additionally, the number of blue dresses is twice the number of green dresses plus 17. The number of red dresses plus the number of blue dresses equals three times the number of yellow dresses plus 50. How many red, blue, green, and yellow dresses should she stock?",
+        "system_of_equations": [
+            "x  = y + 34.0",
+            "x + y + z + w  = 300.000000000000",
+            "x  = 2.0 * z + 17.0",
+            "x + y  = 3.0 * w + 50.0"
+        ],
+        "ans": [
+            "117",
+            "83",
+            "50",
+            "50"
+        ],
+        "id": 23,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Your teacher is giving a test worth 375 points. The test consists of 40 questions, which are divided into 5-point, 10-point, 15-point, and 20-point questions. It is known that the number of 5-point questions plus twice the number of 10-point questions equals three times the number of 15-point questions plus 25. The number of 5-point questions plus the number of 10-point questions plus the number of 15-point questions equals four times the number of 20-point questions plus 15. How many 5-point, 10-point, 15-point, and 20-point questions are on the test?",
+        "system_of_equations": [
+            "5.0 * x + 10.0 * y + 15.0 * z + 20.0 * w  = 375.000000000000",
+            "x + y + z + w  = 40.0000000000000",
+            "x + 2 * y  = 3 * z + 25.0",
+            "x + y + z  = 4 * w + 15.0"
+        ],
+        "ans": [
+            "20",
+            "10",
+            "5",
+            "5"
+        ],
+        "id": 24,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Three times the first number minus the second number plus the third number plus the fourth number is 40. The sum of the four numbers is 68. Also, twice the first number plus the second number plus the fourth number equals three times the third number plus 37. The first number plus the second number equals twice the fourth number plus the third number plus 20. Find the four numbers.",
+        "system_of_equations": [
+            "( 3.0 * x ) - y + z + w  = 40.0000000000000",
+            "x + y + z + w  = 68.0000000000000",
+            "2.0 * x + y + w  = 3.0 * z + 37.0",
+            "x + y  = 2.0 * w + z + 20.0"
+        ],
+        "ans": [
+            "17",
+            "31",
+            "12",
+            "8"
+        ],
+        "id": 25,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A music store is selling compact discs for 10.50 dollars, 8.50 dollars, 7.50 dollars, and 6.50 dollars. You decide to buy a total of 15 discs and end up spending 128.50 dollars. You also notice that the number of compact discs you bought for 10.50 dollars plus the number of compact discs you bought for 7.50 dollars equals two times the number of compact discs you bought for 8.50 dollars minus 5. The number of compact discs you bought for 10.50 dollars plus the number of compact discs you bought for 8.50 dollars plus the number of compact discs you bought for 6.50 dollars equals three times the number of compact discs you bought for 7.50 dollars plus 3. How many compact discs did you buy at each price?",
+        "system_of_equations": [
+            "( 10.5 * x ) + ( 8.5 * y ) + ( 7.5 * z ) + ( 6.5 * w )  = 128.500000000000",
+            "x + y + z + w  = 15",
+            "x + z  = 2.0 * y - 5.0",
+            "x + y + w  = 3.0 * z + 3.0"
+        ],
+        "ans": [
+            "4",
+            "6",
+            "3",
+            "2"
+        ],
+        "id": 26,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The 6th graders from an elementary school, along with some adults, teachers, and volunteers, are going to celebrate the end of the year by going to the local pizza parlor. There are 170 people in the whole group. The number of children is twice the number of adults and also four times the number of teachers minus 40. The number of children plus the number of adults equals five times the number of volunteers plus 20. How many children, adults, teachers, and volunteers are there in the group?",
+        "system_of_equations": [
+            "x + y + z + w  = 170.000000000000",
+            "x  = 2.0 * y",
+            "x  = 4.0 * z - 40.0",
+            "x + y  = 5.0 * w + 20.0"
+        ],
+        "ans": [
+            "80",
+            "40",
+            "30",
+            "20"
+        ],
+        "id": 27,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Phyllis invested 47000 dollars in four different ways: a portion earning a simple interest rate of 4 % per year, another portion earning a rate of 6 % per year, another portion earning a rate of 3 % per year, and the rest earning a rate of 2 % per year. After one year, she earned 2190 dollars in interest. Also, the amount invested at 4% annual interest plus the amount invested at 6% annual interest equals seven times the amount invested at 3% annual interest plus 4000 dollars. The amount invested at 4% annual interest plus the amount invested at 6% annual interest plus the amount invested at 3% annual interest equals eight times the amount invested at 2% annual interest plus 20000 dollars. How much did she invest at each rate?",
+        "system_of_equations": [
+            "( ( 4.0 * 0.01 ) * x ) + ( ( 6.0 * 0.01 ) * y ) + ( ( 3.0 * 0.01 ) * z ) + ( ( 2.0 * 0.01 ) * w )  = 2190.00000000000",
+            "x + y + z + w  = 47000.0000000000",
+            "x + y  = 7.0 * z + 4000.0",
+            "x + y + z  = 8.0 * w + 20000.0"
+        ],
+        "ans": [
+            "18000",
+            "21000",
+            "5000",
+            "3000"
+        ],
+        "id": 28,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Steve has 50 coins in total, consisting of nickels, dimes, quarters, and pennies. The total value of all the coins is 3.40 dollars. Also, the number of nickels plus the number of dimes equals six times the number of quarters plus 12. The number of nickels plus the number of dimes plus the number of quarters equals four times the number of pennies. How many nickels, dimes, quarters, and pennies does Steve have?",
+        "system_of_equations": [
+            "( 0.05 * x ) + ( 0.1 * y ) + ( 0.25 * z ) + ( 0.01 * w )  = 3.40000000000000",
+            "x + y + z + w  = 50.0000000000000",
+            "x + y  = 6.0 * z + 12.0",
+            "x + y + z  = 4.0 * w"
+        ],
+        "ans": [
+            "26",
+            "10",
+            "4",
+            "10"
+        ],
+        "id": 29,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In one week, a music store sold 16 guitars for a total of 6004 dollars. The store sells four types of guitars: electric guitars for 479 dollars each, acoustic guitars for 339 dollars each, bass guitars for 399 dollars each, and classical guitars for 299 dollars each. It is known that the number of electric guitars plus the number of bass guitars sold equals two times the number of acoustic guitars sold minus three. The number of electric guitars plus the number of acoustic guitars plus the number of bass guitars equals three times the number of classical guitars sold. How many electric, acoustic, bass, and classical guitars were sold?",
+        "system_of_equations": [
+            "( 479.0 * x ) + ( 339.0 * y ) + ( 399.0 * z ) + ( 299.0 * w )  = 6004.00000000000",
+            "x + y + z + w  = 16.0000000000000",
+            "x + z  = 2.0 * y - 3.0",
+            "x + y + z  = 3.0 * w"
+        ],
+        "ans": [
+            "4",
+            "5",
+            "3",
+            "4"
+        ],
+        "id": 30,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A math test is worth 155 points and has 45 problems. Each problem is worth either 3 points, 4 points, 5 points for bonus problems, or 2 points for easy problems. It is known that the number of 3-point problems plus the number of bonus 5-point problems equals twice the number of 4-point problems minus 25. The number of 3-point problems plus the number of 4-point problems plus the number of bonus 5-point problems equals three times the number of 2-point problems plus 5. How many 3-point, 4-point, bonus 5-point, and easy 2-point problems are there?",
+        "system_of_equations": [
+            "( 3.0 * x ) + ( 4.0 * y ) + ( 5.0 * z ) + ( 2.0 * w )  = 155.000000000000",
+            "x + y + z + w  = 45.0000000000000",
+            "x + z  = 2.0 * y - 25.0",
+            "x + y + z  = 3.0 * w + 5.0"
+        ],
+        "ans": [
+            "10",
+            "20",
+            "5",
+            "10"
+        ],
+        "id": 31,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a sports store, three footballs, one soccer ball, one basketball, and two baseballs cost 225 dollars. Two footballs, three soccer balls, two basketballs, and one baseball cost 315 dollars. One football, two soccer balls, three basketballs, and three baseballs cost 300 dollars. One football, one soccer ball, one basketball, and four baseballs cost 185 dollars. Determine the cost of one football, one soccer ball, one basketball, and one baseball, in dollars.",
+        "system_of_equations": [
+            "3.0 * x + 1.0 * y + 1.0 * z + 2.0 * w  = 225.000000000000",
+            "2.0 * x + 3.0 * y + 2.0 * z + 1.0 * w  = 315.000000000000",
+            "1.0 * x + 2.0 * y + 3.0 * z + 3.0 * w  = 300.000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 4.0 * w  = 185.000000000000"
+        ],
+        "ans": [
+            "35",
+            "50",
+            "40",
+            "15"
+        ],
+        "id": 32,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A child has 31.05 dollars worth of nickels, dimes, quarters, and pennies in her piggy bank. There are a total of 357 coins. It is known that the number of nickels plus the number of dimes equals three times the number of quarters plus 57. The number of nickels plus the number of dimes plus the number of quarters equals twice the number of pennies plus 57. How many nickels, dimes, quarters, and pennies does she have?",
+        "system_of_equations": [
+            "( 0.05 * x ) + ( 0.1 * y ) + ( 0.25 * z ) + ( 0.01 * w )  = 31.0500000000000",
+            "x + y + z + w  = 357.000000000000",
+            "x + y  = 3.0 * z + 57.0",
+            "x + y + z  = 2.0 * w + 57.0"
+        ],
+        "ans": [
+            "63",
+            "144",
+            "50",
+            "100"
+        ],
+        "id": 33,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Find four numbers. The sum of these numbers is 154. The difference between the first and second number plus the third number plus the fourth number is 22. Also, the sum of the first and second number equals the fourth number plus twice the third number plus 26. The sum of the first, second, and third numbers equals three times the fourth number plus 114. What are the four numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 154.000000000000",
+            "x - y + z + w  = 22.0000000000000",
+            "x + y  = w + 2.0 * z + 26.0",
+            "x + y + z  = 3.0 * w + 114.0"
+        ],
+        "ans": [
+            "42",
+            "66",
+            "36",
+            "10"
+        ],
+        "id": 34,
+        "source": "ALG514"
+    },
+    {
+        "problem": "You had 9,050.00 dollars to spend on dishes. You decided to purchase four types of sets: $20 sets, $45 sets, $30 sets, and $15 sets. In total, you purchased 350 sets of dishes and spent all your money. It is known that the number of $20 sets plus the number of $30 sets equals twice the number of $45 sets plus 84. The number of $20 sets plus the number of $45 sets plus the number of $15 sets equals three times the number of $30 sets plus 150. How many of each type of set did you purchase?",
+        "system_of_equations": [
+            "( 20.0 * x ) + ( 45.0 * y ) + ( 30.0 * z ) + ( 15.0 * w )  = 9050.00000000000",
+            "x + y + z + w  = 350.000000000000",
+            "x + z  = 2.0 * y + 84.0",
+            "x + y + w  = 3.0 * z + 150.0"
+        ],
+        "ans": [
+            "178",
+            "72",
+            "50",
+            "50"
+        ],
+        "id": 35,
+        "source": "ALG514"
+    },
+    {
+        "problem": "An athlete has a workout routine where they run, walk, do push-ups, and do sit-ups. They burn 10 calories per minute while running, 4 calories per minute while walking, 8 calories per minute while doing push-ups, and 6 calories per minute while doing sit-ups. In an 85-minute workout, they burn a total of 620 calories. It is known that the minutes spent running equals two and a half times the minutes spent doing push-ups plus 10 minutes. The minutes spent running plus the minutes spent walking equals five times the minutes spent doing sit-ups minus 15 minutes. How many minutes does the athlete spend running, walking, doing push-ups, and doing sit-ups?",
+        "system_of_equations": [
+            "( 10.0 * x ) + ( 4.0 * y ) + ( 8.0 * z ) + ( 6.0 * w )  = 620.000000000000",
+            "x + y + z + w  = 85.0000000000000",
+            "x  = 2.5 * z + 10.0",
+            "x + y  = 5.0 * w - 15.0"
+        ],
+        "ans": [
+            "35",
+            "25",
+            "10",
+            "15"
+        ],
+        "id": 36,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A 120 inch board is cut into four pieces. One piece is twice as long as the first piece, the third piece is 8 inches longer than the first piece, and the fourth piece is 3 inches shorter than the first piece. What is the length of each piece?",
+        "system_of_equations": [
+            "x + y + z + w  = 120.000000000000",
+            "y  = 2.0 * x",
+            "z  = x + 8.0",
+            "w  = x - 3.0"
+        ],
+        "ans": [
+            "23",
+            "46",
+            "31",
+            "20"
+        ],
+        "id": 37,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A plumber contractor decides to field-test four new pumps. One is rated at 180 gallons per hour, the second at 250 gallons per hour, the third at 300 gallons per hour, and the fourth at 350 gallons per hour. Over a period of 9 hours, she pumps a total of 2275 gallons. It is known that the hours used by the 180 gallons per hour pump plus the hours used by the 300 gallons per hour pump equals one more than the hours used by the 250 gallons per hour pump. The hours used by the 180 gallons per hour pump plus the hours used by the 250 gallons per hour pump plus the hours used by the 300 gallons per hour pump equals two times the hours used by the 350 gallons per hour pump plus 6. How many hours were used by each pump?",
+        "system_of_equations": [
+            "( 180.0 * x ) + ( 250.0 * y ) + ( 300.0 * z ) + ( 350.0 * w )  = 2275.00000000000",
+            "x + y + z + w  = 9.00000000000000",
+            "x + z  = y + 1.0",
+            "x + y + z  = 2.0 * w + 6.0"
+        ],
+        "ans": [
+            "2.5",
+            "3.5",
+            "2",
+            "1"
+        ],
+        "id": 38,
+        "source": "ALG514"
+    },
+    {
+        "problem": "An investor plans to invest a total of 22,000 dollars in four different accounts. The first account pays 4% annual simple interest, the second one pays 3%, the third one pays 2%, and the fourth one pays 1%. The investor wants to earn 620 dollars in annual interest. Also, the sum of the amounts invested in the 3% and 4% interest accounts is three times the amount invested in the 2% interest account. The sum of the amounts invested in the 3%, 4%, and 2% interest accounts is seven times the amount invested in the 1% interest account plus 6000 dollars. How much should the investor place in each account to meet these conditions?",
+        "system_of_equations": [
+            "( ( 3.0 * 0.01 ) * x ) + ( ( 4.0 * 0.01 ) * y ) + ( ( 2.0 * 0.01 ) * z ) + ( ( 1.0 * 0.01 ) * w )  = 620.000000000000",
+            "x + y + z + w  = 22000.0000000000",
+            "x + y  = 3.0 * z",
+            "x + y + z  = 7.0 * w + 6000.0"
+        ],
+        "ans": [
+            "10000",
+            "5000",
+            "5000",
+            "2000"
+        ],
+        "id": 39,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Suppose you invested 12,000 dollars in four different ways: part at 8.5 % annual interest, part at 6.4 % annual interest, part at 5 % annual interest, and the rest at 4 % annual interest. After one year, you received 755 dollars in interest. Also, the amount invested at 8.5% annual interest plus the amount invested at 6.4% annual interest equals four times the amount invested at 5% annual interest. The amount invested at 8.5% annual interest plus the amount invested at 6.4% annual interest plus the amount invested at 5% annual interest equals five times the amount invested at 4% annual interest. How much did you invest at each rate?",
+        "system_of_equations": [
+            "( 8.5 * 0.01 * x ) + ( 6.4 * 0.01 * y ) + ( 5.0 * 0.01 * z ) + ( 4.0 * 0.01 * w )  = 755.000000000000",
+            "x + y + z + w  = 12000.0000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 5.0 * w"
+        ],
+        "ans": [
+            "3000",
+            "5000",
+            "2000",
+            "2000"
+        ],
+        "id": 40,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A high school is made up of 550 people including students, teachers, and non-teaching staff. Among the students, there are 69 more girls than boys. Also, the number of girls is two times the number of teachers plus 247. The number of boys and girls combined is four times the number of non-teaching staff plus 285. How many boys, girls, teachers, and non-teaching staff are there in the school?",
+        "system_of_equations": [
+            "x + y + z + w  = 550.000000000000",
+            "x  = y - 69.0",
+            "y  = 2.0 * z + 247.0",
+            "x + y  = 4.0 * w + 285.0"
+        ],
+        "ans": [
+            "208",
+            "277",
+            "15",
+            "50"
+        ],
+        "id": 41,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a local theater, tickets are sold at different prices: 6 dollars for adults, 2 dollars for kids under twelve, 4 dollars for seniors, and 3 dollars for students. In total, 275 tickets were sold, collecting 1000 dollars. It is known that twice the number of adult tickets equals the sum of the number of kid tickets, senior tickets, and student tickets minus 50. The number of adult tickets plus the number of kid tickets equals three times the number of student tickets plus 25. How many adult, kid, senior, and student tickets were sold?",
+        "system_of_equations": [
+            "6.0 * x + 2.0 * y + 4.0 * z + 3.0 * w  = 1000.00000000000",
+            "x + y + z + w  = 275.000000000000",
+            "2.0 * x  = w + y + z - 50.0",
+            "x + y  = 3.0 * w + 25.0"
+        ],
+        "ans": [
+            "75",
+            "100",
+            "50",
+            "50"
+        ],
+        "id": 42,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A student inherited 8000 dollars. She decided to invest her money in four different ways: part of it at 10% annual interest, part at 8% annual interest, part at 6% annual interest, and the rest at 4% annual interest. After one year, she earned a total of 620 dollars in interest. Also, the sum of the amount she invested at 10% and 8% equals three times the amount she invested at 6% minus 1000 dollars. The sum of the amount she invested at 10%, 8%, and 6% equals four times the amount she invested at 4% plus 3000 dollars. How much did she invest at each rate?",
+        "system_of_equations": [
+            "( ( 10.0 * 0.01 ) * x ) + ( ( 8.0 * 0.01 ) * y ) + ( ( 6.0 * 0.01 ) * z ) + ( ( 4.0 * 0.01 ) * w )  = 620.000000000000",
+            "x + y + z + w  = 8000.00000000000",
+            "x + y  = 3.0 * z - 1000.0",
+            "x + y + z  = 4.0 * w + 3000.0"
+        ],
+        "ans": [
+            "3000",
+            "2000",
+            "2000",
+            "1000"
+        ],
+        "id": 43,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Amber has 50 coins in total, consisting of nickels, dimes, quarters, and pennies. The total value of all her coins is 4.70 dollars. The number of nickels plus the number of dimes equals twice the number of quarters plus 10. The number of nickels plus the number of dimes plus the number of quarters equals four times the number of pennies. How many nickels, dimes, quarters, and pennies does Amber have?",
+        "system_of_equations": [
+            "( 0.05 * x ) + ( 0.1 * y ) + ( 0.25 * z ) + ( 0.01 * w )  = 4.70000000000000",
+            "x + y + z + w  = 50.0000000000000",
+            "x + y  = 2.0 * z + 10.0",
+            "x + y + z  = 4.0 * w"
+        ],
+        "ans": [
+            "18",
+            "12",
+            "10",
+            "10"
+        ],
+        "id": 44,
+        "source": "ALG514"
+    },
+    {
+        "problem": "For a concert, advance tickets were sold at 20 dollars, same-day tickets at 30 dollars, VIP tickets at 50 dollars, and special guest tickets at 60 dollars. The total number of tickets sold was 80, and the total receipts were 2,700 dollars. It is known that twice the number of advance tickets plus the number of same-day tickets equals three times the number of VIP tickets plus 50. The number of advance tickets plus the number of same-day tickets plus the number of VIP tickets equals four times the number of special guest tickets plus 30. How many advance, same-day, VIP, and special guest tickets were sold?",
+        "system_of_equations": [
+            "20.0 * x + 30.0 * y + 50.0 * z + 60.0 * w  = 2700.00000000000",
+            "x + y + z + w  = 80.0000000000000",
+            "2.0 * x + y  = 3.0 * z + 50.0",
+            "x + y + z  = 4.0 * w + 30.0"
+        ],
+        "ans": [
+            "20",
+            "40",
+            "10",
+            "10"
+        ],
+        "id": 45,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Max bought 25 pounds of nuts for a party. The total cost was 118 dollars. He bought peanuts for 3 dollars per pound, almonds for 5 dollars per pound, cashews for 4 dollars per pound, and walnuts for 6 dollars per pound. The total weight of the peanuts, cashews, and walnuts he bought is 11 pounds less than twice the weight of the almonds. The total weight of the peanuts and almonds he bought is 1 pound more than three times the weight of the walnuts. How many pounds of peanuts, almonds, cashews, and walnuts did Max buy?",
+        "system_of_equations": [
+            "( 3.0 * x ) + ( 5.0 * y ) + ( 4.0 * z ) + ( 6.0 * w )  = 118.0000000000000",
+            "x + y + z + w  = 25.0000000000000",
+            "x + z + w  = 2.0 * y - 11.0",
+            "x + y  = 3.0 * w + 1.0"
+        ],
+        "ans": [
+            "4",
+            "12",
+            "4",
+            "5"
+        ],
+        "id": 46,
+        "source": "ALG514"
+    },
+    {
+        "problem": "During the 2005 major league baseball season, the Chicago White Sox played 177 games in total, including games that were postponed. They won 36 more games than they lost. The difference between the games they won and lost is twice the number of games they tied plus 16. The sum of the games they won and lost is three times the number of games postponed plus 147. How many games did they win, lose, tie, and postpone?",
+        "system_of_equations": [
+            "x + y + z + w  = 177.000000000000",
+            "x  = y + 36.0",
+            "x - y  = 2.0 * z + 16.0",
+            "x + y  = 3.0 * w + 147.0"
+        ],
+        "ans": [
+            "99",
+            "63",
+            "10",
+            "5"
+        ],
+        "id": 47,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Peter sold pumpkins from his farm. He sold jumbo pumpkins for 9.00 dollars each, regular pumpkins for 4.00 dollars each, mini pumpkins for 2.00 dollars each, and special edition pumpkins for 5.00 dollars each. In total, Peter sold 110 pumpkins and collected 485.00 dollars. It is known that the number of jumbo pumpkins plus the number of mini pumpkins equals half the number of regular pumpkins plus 2.5. The number of jumbo pumpkins plus the number of regular pumpkins plus the number of mini pumpkins equals twice the number of special edition pumpkins plus 80. How many jumbo, regular, mini, and special edition pumpkins did he sell?",
+        "system_of_equations": [
+            "( 9.0 * x ) + ( 4.0 * y ) + ( 2.0 * z ) + ( 5.0 * w )  = 485.000000000000",
+            "x + y + z + w  = 110.000000000000",
+            "x + z  = 0.5 * y + 2.5",
+            "x + y + z  = 2.0 * w + 80.0"
+        ],
+        "ans": [
+            "15",
+            "65",
+            "20",
+            "10"
+        ],
+        "id": 48,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A peach, an apple, a banana, and a pear together cost 105 cents. The peach is 60 cents more expensive than the apple, 50 cents more expensive than the banana, and 45 cents more expensive than the pear. What is the cost of each fruit?",
+        "system_of_equations": [
+            "x + y + z + w  = 105.000000000000",
+            "x - y  = 60.0000000000000",
+            "x - z  = 50.0000000000000",
+            "x - w  = 45.0000000000000"
+        ],
+        "ans": [
+            "65",
+            "5",
+            "15",
+            "20"
+        ],
+        "id": 49,
+        "source": "ALG514"
+    },
+    {
+        "problem": "There are four numbers. The sum of these numbers is 90. One of the numbers is four times as large as the first number. The second number is 22 more than twice the third number. The sum of the first and second numbers is 35 more than three times the fourth number. What are the four numbers?",
+        "system_of_equations": [
+            "4.0 * x  = y",
+            "x + y + z + w  = 90.0000000000000",
+            "y  = 2.0 * z + 22.0",
+            "x + y  = 3.0 * w + 35.0"
+        ],
+        "ans": [
+            "13",
+            "52",
+            "15",
+            "10"
+        ],
+        "id": 50,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The sum of four integers is 50. Two times the largest integer is 80 less than five times the smallest integer. Also, three times the largest integer is 30 less than four times the third integer. The sum of the largest and smallest integers is 20 more than twice the fourth integer. Find the four integers.",
+        "system_of_equations": [
+            "2.0 * x  = 5.0 * y - 80.0",
+            "y + x + z + w  = 50.0000000000000",
+            "3.0 * x  = 4.0 * z - 30.0",
+            "x + y  = 2.0 * w + 20.0"
+        ],
+        "ans": [
+            "10",
+            "20",
+            "15",
+            "5"
+        ],
+        "id": 51,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a football game, admission tickets were sold at different prices: 60 cents for adults, 25 cents for children, 50 cents for seniors, and 30 cents for students. The receipts for the day showed that 380 people attended the game, and a total of 178 dollars was collected. It was also noted that the combined number of adults and children who attended the game was 40 more than six times the number of seniors. The combined number of adults, children, and seniors who attended the game was 20 more than five times the number of students. How many adults, children, seniors, and students attended the game?",
+        "system_of_equations": [
+            "( 60.0 * 0.01 * x ) + ( 25.0 * 0.01 * y ) + ( 50.0 * 0.01 * z ) + ( 30.0 * 0.01 * w )  = 178.000000000000",
+            "x + y + z + w  = 380.000000000000",
+            "x + y  = 6.0 * z + 40.0",
+            "x + y + z  = 5.0 * w + 20.0"
+        ],
+        "ans": [
+            "200",
+            "80",
+            "40",
+            "60"
+        ],
+        "id": 52,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Matthew has invested in four different stocks. The value per share of the first stock is twice as much as the second one, five times as much as the third one plus 3 dollars, and four times as much as the fourth one minus 2 dollars. He owns 14 shares of the first stock, 26 shares of the second stock, 10 shares of the third stock, and 5 shares of the fourth stock. The total value of his stocks is 2356 dollars. How much is each stock worth per share?",
+        "system_of_equations": [
+            "( 14.0 * x ) + ( 26.0 * y ) + ( 10.0 * z ) + ( 5.0 * w )  = 2356.00000000000",
+            "x  = 2.0 * y",
+            "x  = 5.0 * z + 3.0",
+            "x  = 4.0 * w - 2.0"
+        ],
+        "ans": [
+            "78",
+            "39",
+            "15",
+            "20"
+        ],
+        "id": 53,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The Rhapsody Theater had a successful night, selling a total of 1000 tickets. Tickets were sold in four categories: advanced tickets for 14.50 dollars, tickets at the door for 22.00 dollars, VIP tickets for 30.00 dollars, and student tickets for 10.00 dollars. The total revenue for the night was 20,640 dollars. It was also noted that the combined number of tickets sold at the door and advanced tickets was eight times the number of VIP tickets sold. The combined number of tickets sold at the door, advanced tickets, and VIP tickets was nine times the number of student tickets sold. How many tickets were sold in each category?",
+        "system_of_equations": [
+            "22.0 * x + 14.5 * y + 30.0 * z + 10.0 * w  = 20640.0000000000",
+            "x + y + z + w  = 1000.00000000000",
+            "x + y  = 8.0 * z",
+            "x + y + z  = 9.0 * w"
+        ],
+        "ans": [
+            "672",
+            "128",
+            "100",
+            "100"
+        ],
+        "id": 54,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A washer, a dryer, a refrigerator, and a stove cost 1200 dollars combined. The price of the washer is 3 times the price of the dryer minus 1200 dollars. The price of the refrigerator is 2 times the price of the dryer minus 500 dollars. The price of the stove is half the price of the dryer minus 25 dollars. What is the cost of each appliance?",
+        "system_of_equations": [
+            "x + y + z + w  = 1200.00000000000",
+            "x  = 3.0 * y - 1200.0",
+            "z  = 2.0 * y - 500.0",
+            "w  = 0.5 * y - 25.0"
+        ],
+        "ans": [
+            "150",
+            "450",
+            "400",
+            "200"
+        ],
+        "id": 55,
+        "source": "ALG514"
+    },
+    {
+        "problem": "An employment agency specializing in temporary construction help has four types of employees: heavy equipment operators, general laborers, supervisors, and administrative staff. The operators are paid 140 dollars per day, the laborers 90 dollars per day, the supervisors 200 dollars per day, and the administrative staff 100 dollars per day. The agency hired a total of 50 people and the total payroll for the day was 5950 dollars. It is known that the number of heavy equipment operators plus the number of supervisors equals twice the number of general laborers minus 17. The number of heavy equipment operators plus the number of general laborers plus the number of supervisors equals three times the number of administrative staff plus 10. How many heavy equipment operators, general laborers, supervisors, and administrative staff were employed?",
+        "system_of_equations": [
+            "( 140.0 * x ) + ( 90.0 * y ) + ( 200.0 * z ) + ( 100.0 * w )  = 5950.00000000000",
+            "x + y + z + w  = 50.0000000000000",
+            "x + z  = 2.0 * y - 17.0",
+            "x + y + z  = 3.0 * w + 10.0"
+        ],
+        "ans": [
+            "16",
+            "19",
+            "5",
+            "10"
+        ],
+        "id": 56,
+        "source": "ALG514"
+    },
+    {
+        "problem": "In a school, the number of boys in eighth grade is 16 less than twice the number of girls. Including the teachers and staff, there are 100 people in total. It is also known that the number of girls plus the number of teachers equals twice the number of boys minus 40. The number of girls plus the number of boys equals three times the number of staff members plus 8. How many girls, boys, teachers, and staff members are there in the school?",
+        "system_of_equations": [
+            "( 2.0 * x ) - 16.0  = y",
+            "x + y + z + w  = 100.000000000000",
+            "x + z  = 2.0 * y - 40.0",
+            "x + y  = 3.0 * w + 8.0"
+        ],
+        "ans": [
+            "28",
+            "40",
+            "12",
+            "20"
+        ],
+        "id": 57,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Cole's student loans now total 40,000 dollars. He has four loans: one at 2.8% simple interest, another at 4.5%, a third at 3.5%, and a fourth at 5%. After one year, Cole owed 1399.40 dollars in interest. It is known that the sum of the amounts of the first two loans equals seven times the amount of the third loan minus 4000 dollars. The sum of the amounts of the first three loans equals eight times the amount of the fourth loan plus 4000 dollars. What was the amount of each loan?",
+        "system_of_equations": [
+            "( ( 2.8 * 0.01 ) * x ) + ( ( 4.5 * 0.01 ) * y ) + ( ( 3.5 * 0.01 ) * z ) + ( ( 5.0 * 0.01 ) * w )  = 1399.40000000000",
+            "x + y + z + w  = 40000.0000000000",
+            "x + y  = 7.0 * z - 4000.0",
+            "x + y + z  = 8.0 * w + 4000.0"
+        ],
+        "ans": [
+            "21800",
+            "9200",
+            "5000",
+            "4000"
+        ],
+        "id": 58,
+        "source": "ALG514"
+    },
+    {
+        "problem": "An investor has a total of 45,000 dollars to invest in four different municipal bonds. The first bond pays 5.75% interest, the second bond pays 6.25% interest, the third bond pays 5% interest, and the fourth bond pays 4.5% interest. The investor wants to receive an annual interest income of 2525 dollars from these investments. Also, the amount invested in the 5.75% bond plus the amount invested in the 6.25% bond equals four times the amount invested in the 5% bond. The amount invested in the 5.75% bond plus the amount invested in the 6.25% bond plus the amount invested in the 5% bond equals five times the amount invested in the 4.5% bond plus 15000 dollars. How much should the investor invest in each bond to meet these conditions?",
+        "system_of_equations": [
+            "( ( 5.75 * 0.01 ) * x ) + ( ( 6.25 * 0.01 ) * y ) + ( ( 5.0 * 0.01 ) * z ) + ( ( 4.5 * 0.01 ) * w )  = 2525.00000000000",
+            "x + y + z + w  = 45000.0000000000",
+            "x + y  = 4.0 * z",
+            "x + y + z  = 5.0 * w + 15000.0"
+        ],
+        "ans": [
+            "20000",
+            "12000",
+            "8000",
+            "5000"
+        ],
+        "id": 59,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Terry attempted a test that had 32 problems in total. The scoring system awards 4 points for each correct answer, subtracts one point for each wrong answer, gives no points for unattempted questions, and gives half a point for guessed questions. Terry scored 87.5 points in total. It is known that the number of correct answers plus the number of unattempted questions plus the number of guessed questions equals 29. The number of correct answers plus the number of wrong answers equals three times the number of guessed questions plus 10. How many problems did Terry get right, wrong, leave unattempted, and guess?",
+        "system_of_equations": [
+            "( 4.0 * x ) - ( 1.0 * y ) + ( 0.5 * w )  = 87.5000000000000",
+            "x + y + z + w  = 32",
+            "x + z + w  = 29",
+            "x + y  = 3.0 * w + 10.0"
+        ],
+        "ans": [
+            "22",
+            "3",
+            "2",
+            "5"
+        ],
+        "id": 60,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a community theater, tickets for a play are sold at different prices: 12 dollars for an adult, 4 dollars for a child, 6 dollars for a senior, and 5 dollars for a student. In total, 180 tickets were sold, collecting 1110 dollars. It is known that the number of adult tickets plus the number of senior tickets equals twice the number of child tickets minus 120. The number of adult tickets plus the number of child tickets plus the number of senior tickets equals three times the number of student tickets plus 60. How many adult, child, senior, and student tickets were sold?",
+        "system_of_equations": [
+            "( 12.0 * x ) + ( 4.0 * y ) + ( 6.0 * z ) + ( 5.0 * w )  = 1110.000000000000",
+            "x + y + z + w  = 180.000000000000",
+            "x + z  = 2.0 * y - 120.0",
+            "x + y + z  = 3.0 * w + 60.0"
+        ],
+        "ans": [
+            "40",
+            "90",
+            "20",
+            "30"
+        ],
+        "id": 61,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a movie theater, tickets are sold at different prices: 9.50 dollars for adults, 6.50 dollars for children, 8.50 dollars for seniors, and 7.50 dollars for students. A group of 11 moviegoers, including adults, children, seniors, and students, pays a total of 86.50 dollars. It is known that the number of adults plus the number of seniors equals two times the number of children minus three. The number of adults plus the number of children plus the number of seniors equals three times the number of students plus three. How many adults, children, seniors, and students were in the group?",
+        "system_of_equations": [
+            "( 9.5 * x ) + ( 6.5 * y ) + ( 8.5 * z ) + ( 7.5 * w )  = 86.5000000000000",
+            "x + y + z + w  = 11.0000000000000",
+            "x + z  = 2.0 * y - 3.0",
+            "x + y + z  = 3.0 * w + 3.0"
+        ],
+        "ans": [
+            "3",
+            "4",
+            "2",
+            "2"
+        ],
+        "id": 62,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A cashier at Apex Parts received a check for 3080 dollars for 79 parts. Some parts cost 20 dollars each, other parts cost 50 dollars each, some cost 30 dollars each, and the rest cost 40 dollars each. It is known that twice the number of 20-dollar parts plus the number of 50-dollar parts equals three times the number of 30-dollar parts plus 48. The number of 20-dollar parts, 50-dollar parts, and 30-dollar parts combined equals four times the number of 40-dollar parts plus 29. How many 20-dollar parts, 50-dollar parts, 30-dollar parts, and 40-dollar parts are in the order?",
+        "system_of_equations": [
+            "20.0 * x + 50.0 * y + 30.0 * z + 40.0 * w  = 3080.00000000000",
+            "x + y + z + w  = 79.0000000000000",
+            "2.0 * x + y  = 3.0 * z + 48.0",
+            "x + y + z  = 4.0 * w + 29.0"
+        ],
+        "ans": [
+            "19",
+            "40",
+            "10",
+            "10"
+        ],
+        "id": 63,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A stationery store received an order for pencils, erasers, pens, and markers. Pencils cost 6 dollars per carton, erasers cost 3 dollars per carton, pens cost 4 dollars per carton, and markers cost 5 dollars per carton. The total order was for 140 cartons and the total cost was 550 dollars. It is known that twice the number of cartons of pencils equals the sum of the number of cartons of erasers and pens minus 50. The number of cartons of pencils plus the number of cartons of erasers equals three times the number of cartons of markers plus 10. How many cartons of pencils, erasers, pens, and markers were ordered?",
+        "system_of_equations": [
+            "6.0 * x + 3.0 * y + 4.0 * z + 5.0 * w  = 550.000000000000",
+            "x + y + z + w  = 140.000000000000",
+            "2.0 * x  = y + z - 50.0",
+            "x + y  = 3.0 * w + 10.0"
+        ],
+        "ans": [
+            "20",
+            "80",
+            "10",
+            "30"
+        ],
+        "id": 64,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A total of 14,000 dollars is invested in four different funds. The first fund pays 5% annual interest, the second fund pays 7% annual interest, the third fund pays 3% annual interest, and the fourth fund pays 2% annual interest. After one year, the combined annual interest from these investments is 730 dollars. It is also known that the sum of the amount invested at 5% and the amount invested at 7% equals four times the amount invested at 3% plus 2000 dollars. The sum of the amount invested at 5%, 7%, and 3% equals five times the amount invested at 2% plus 2000 dollars. How much of the 14,000 dollars is invested at each rate?",
+        "system_of_equations": [
+            "( 5.0 * 0.01 * x ) + ( 7.0 * 0.01 * y ) + ( 3.0 * 0.01 * z ) + ( 2.0 * 0.01 * w )  = 730.000000000000",
+            "x + y + z + w  = 14000.0000000000",
+            "x + y  = 4.0 * z + 2000.0",
+            "x + y + z  = 5.0 * w + 2000.0"
+        ],
+        "ans": [
+            "3500",
+            "6500",
+            "2000",
+            "2000"
+        ],
+        "id": 65,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Lane invested 30,000 dollars in four different ways: part at 8 % annual interest, part at 7 % annual interest, part at 6 % annual interest, and the rest at 5 % annual interest. After one year, she received 2,140 dollars in interest. Also, the amount invested at 8% annual interest plus the amount invested at 7% annual interest equals four times the amount invested at 6% annual interest plus 10,000 dollars. The amount invested at 8% annual interest plus the amount invested at 7% annual interest plus the amount invested at 6% annual interest equals five times the amount invested at 5% annual interest. How much did she invest at each rate?",
+        "system_of_equations": [
+            "( ( 8.0 * 0.01 ) * x ) + ( ( 7.0 * 0.01 ) * y ) + ( ( 6.0 * 0.01 ) * z ) + ( ( 5.0 * 0.01 ) * w )  = 2140.00000000000",
+            "x + y + z + w  = 30000.0000000000",
+            "x + y  = 4.0 * z + 10000.0",
+            "x + y + z  = 5.0 * w"
+        ],
+        "ans": [
+            "17000",
+            "5000",
+            "3000",
+            "5000"
+        ],
+        "id": 66,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A farmer has some chickens, cows, pigs, and sheep. She counted 70 heads in total and 246 legs. She also noticed that the number of chickens plus twice the number of cows equals three times the number of pigs plus 33. The number of chickens, cows, and pigs combined equals twice the number of sheep plus 10. How many chickens, cows, pigs, and sheep does she have?",
+        "system_of_equations": [
+            "2.0 * x + 4.0 * y + 4.0 * z + 4.0 * w  = 246.000000000000",
+            "x + y + z + w  = 70.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 33.0",
+            "x + y + z  = 2.0 * w + 10.0"
+        ],
+        "ans": [
+            "17",
+            "23",
+            "10",
+            "20"
+        ],
+        "id": 67,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A woman invested a total of 13,000 dollars in four different accounts. One account earns 6.5 % annual interest, another earns 8 % annual interest, another earns 5 % annual interest, and the last one earns 4 % annual interest. After one year, she earned a combined interest of 806.13 dollars. Also, the amount she invested at 6.5% annual interest plus the amount she invested at 8% annual interest equals four times the amount she invested at 5% annual interest plus 1000 dollars. The amount she invested at 6.5% annual interest plus the amount she invested at 8% annual interest plus the amount she invested at 5% annual interest equals five times the amount she invested at 4% annual interest plus 1000 dollars. How much did she invest in each account?",
+        "system_of_equations": [
+            "( ( 6.5 * 0.01 ) * x ) + ( ( 8.0 * 0.01 ) * y ) + ( ( 5.0 * 0.01 ) * z ) + ( ( 4.0 * 0.01 ) * w )  = 806.130000000000",
+            "x + y + z + w  = 13000.0000000000",
+            "x + y  = 4.0 * z + 1000.0",
+            "x + y + z  = 5.0 * w + 1000.0"
+        ],
+        "ans": [
+            "6258",
+            "2742",
+            "2000",
+            "2000"
+        ],
+        "id": 68,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A grocer wants to mix four types of nuts. The first type sells for Rs 4 per kilo, the second type sells for Rs 7 per kilo, the third type sells for Rs 6 per kilo, and the fourth type sells for Rs 3 per kilo. He wants to create a 62-kilo mixture that can sell for Rs 4.84 per kilo. Also, the sum of the amount of the first and second types of nuts equals four times the amount of the third type of nuts plus 2 kilos. The sum of the amount of the first, second, and third types of nuts equals five times the amount of the fourth type of nuts plus 2 kilos. How many kilos of each type of nuts should he mix?",
+        "system_of_equations": [
+            "4.0 * x + 7.0 * y + 6.0 * z + 3.0 * w  = 300.000000000000",
+            "x + y + z + w  = 62.0000000000000",
+            "x + y  = 4.0 * z + 2.0",
+            "x + y + z  = 5.0 * w + 2.0"
+        ],
+        "ans": [
+            "28",
+            "14",
+            "10",
+            "10"
+        ],
+        "id": 69,
+        "source": "ALG514"
+    },
+    {
+        "problem": "On a farm, there are goats, chickens, ducks, and rabbits. In total, these animals have 52 legs and 20 heads. It is also known that the number of goats plus the number of ducks equals two times the number of chickens minus 17. The number of goats plus the number of chickens plus the number of ducks equals three times the number of rabbits plus 4. How many goats, chickens, ducks, and rabbits are there on the farm?",
+        "system_of_equations": [
+            "4.0 * x + 2.0 * y + 2.0 * z + 4.0 * w  = 52.0000000000000",
+            "x + y + z + w  = 20.0000000000000",
+            "x + z  = 2.0 * y - 17.0",
+            "x + y + z  = 3.0 * w + 4.0"
+        ],
+        "ans": [
+            "2",
+            "11",
+            "3",
+            "4"
+        ],
+        "id": 70,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Jason has four part-time jobs. He earns 4.00 dollars per hour working after school, 6.00 dollars per hour working on Saturday, 5.00 dollars per hour working on Sunday, and 3.00 dollars per hour working on Friday. In a week, he works a total of 25 hours and earns 117.00 dollars. It is known that the sum of the hours he worked on Saturday and Sunday is 8 less than twice the hours he worked after school. The sum of the hours he worked on Saturday, after school, and on Friday is 9 more than three times the hours he worked on Sunday. How many hours did he work each day?",
+        "system_of_equations": [
+            "6.0 * x + 4.0 * y + 5.0 * z + 3.0 * w  = 117.000000000000",
+            "x + y + z + w  = 25.0000000000000",
+            "x + z  = 2.0 * y - 8.0",
+            "x + y + w  = 3.0 * z + 9.0"
+        ],
+        "ans": [
+            "8",
+            "10",
+            "4",
+            "3"
+        ],
+        "id": 71,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A worker is paid different rates depending on when she works: 60 cents an hour for ordinary time, 90 cents an hour for overtime, 120 cents an hour for weekend work, and 150 cents an hour for holiday work. In a 70-hour week, she earns 69.60 dollars. It is also known that the number of ordinary hours she works plus the number of overtime hours equals five times the number of hours she works on the weekend. The number of ordinary hours she works plus the number of overtime hours plus the number of weekend hours equals six times the number of holiday hours she works. How many hours does she work during ordinary time, overtime, on the weekend, and on holidays?",
+        "system_of_equations": [
+            "( ( 60.0 * 0.01 ) * x ) + ( ( 90.0 * 0.01 ) * y ) + ( ( 120.0 * 0.01 ) * z ) + ( ( 150.0 * 0.01 ) * w )  = 69.6000000000000",
+            "x + y + z + w  = 70.0000000000000",
+            "x + y  = 5.0 * z",
+            "x + y + z  = 6.0 * w"
+        ],
+        "ans": [
+            "8",
+            "42",
+            "10",
+            "10"
+        ],
+        "id": 72,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The state market has a variety of fruits. The number of apples is 27 more than the number of oranges. In total, there are 450 fruits including apples, oranges, bananas, and pears. Also, the number of apples is 65 more than the number of bananas. The number of apples and oranges combined is 201 more than twice the number of pears. How many apples, oranges, bananas, and pears are in the market?",
+        "system_of_equations": [
+            "x + y + z + w  = 450.000000000000",
+            "x  = y + 27.0",
+            "x - z  = 65.0000000000000",
+            "x + y  = 2.0 * w + 201.0"
+        ],
+        "ans": [
+            "164",
+            "137",
+            "99",
+            "50"
+        ],
+        "id": 73,
+        "source": "ALG514"
+    },
+    {
+        "problem": "River Joe's Seafood Diner offers a variety of dishes. They charge 6.00 dollars for a catfish dinner, 3.50 dollars for an order of popcorn shrimp, 5.00 dollars for an order of clam chowder, and 7.50 dollars for a lobster roll. One evening, after filling 35 orders, River Joe had collected 191.00 dollars. It is known that the number of orders of popcorn shrimp plus the number of orders of clam chowder equals two times the number of catfish dinners minus 21. The number of orders of popcorn shrimp, catfish dinners, and clam chowder combined equals three times the number of lobster rolls plus 15. How many orders of popcorn shrimp, catfish dinners, clam chowder, and lobster rolls did they sell?",
+        "system_of_equations": [
+            "( 3.5 * x ) + ( 6.0 * y ) + ( 5.0 * z ) + ( 7.5 * w )  = 191.000000000000",
+            "x + y + z + w  = 35.0000000000000",
+            "x + z  = 2.0 * y - 21.0",
+            "x + y + z  = 3.0 * w + 15.0"
+        ],
+        "ans": [
+            "9",
+            "17",
+            "4",
+            "5"
+        ],
+        "id": 74,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The Booster Club voted on where they would go for their annual trip. A majority of the club voted to go to a baseball game. They bought 44 tickets in total. Some of the tickets cost 7 dollars per ticket, some cost 9 dollars per ticket, some cost 5 dollars per ticket, and the rest cost 3 dollars per ticket. All of the tickets cost 290 dollars. It is known that the number of 7-dollar tickets plus the number of 9-dollar tickets equals twice the number of 5-dollar tickets plus 9. The number of 7-dollar tickets plus the number of 9-dollar tickets plus the number of 5-dollar tickets equals three times the number of 3-dollar tickets plus 24. How many 7-dollar tickets, 9-dollar tickets, 5-dollar tickets, and 3-dollar tickets did they buy?",
+        "system_of_equations": [
+            "7.0 * x + 9.0 * y + 5.0 * z + 3.0 * w  = 290.000000000000",
+            "x + y + z + w  = 44.0000000000000",
+            "x + y  = 2.0 * z + 9.0",
+            "x + y + z  = 3.0 * w + 24.0"
+        ],
+        "ans": [
+            "18",
+            "11",
+            "10",
+            "5"
+        ],
+        "id": 75,
+        "source": "ALG514"
+    },
+    {
+        "problem": "At a local play, there were 760 attendees. The admission price was 2 dollars for adults, 1 dollar for children, 1.5 dollars for seniors, and 1.5 dollars for students. The total admission receipts amounted to 1185 dollars. It is known that the number of adults equals two times the number of seniors plus 250. The number of adults plus the number of children equals three times the number of students plus 310. How many adults, children, seniors, and students attended the play?",
+        "system_of_equations": [
+            "( 2.0 * x ) + ( 1.0 * y ) + ( 1.5 * z ) + ( 1.5 * w )  = 1185.00000000000",
+            "x + y + z + w  = 760.000000000000",
+            "x  = 2.0 * z + 250.0",
+            "x + y  = 3.0 * w + 310.0"
+        ],
+        "ans": [
+            "350",
+            "260",
+            "50",
+            "100"
+        ],
+        "id": 76,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A theater sold 1100 tickets for a play. The tickets were divided into floor seats, balcony seats, box seats, and VIP seats. Floor seats cost 12 dollars each, balcony seats cost 10 dollars each, box seats cost 15 dollars each, and VIP seats cost 20 dollars each. The total receipts from the ticket sales were 13,280 dollars. It is known that the number of floor seats plus the number of box seats equals twice the number of balcony seats minus 530. The number of floor seats plus the number of balcony seats plus the number of box seats equals three times the number of VIP seats plus 700. How many floor seats, balcony seats, box seats, and VIP seats were sold?",
+        "system_of_equations": [
+            "( 12.0 * x ) + ( 10.0 * y ) + ( 15.0 * z ) + ( 20.0 * w )  = 13280.0000000000",
+            "x + y + z + w  = 1100.00000000000",
+            "x + z  = 2.0 * y - 530.0",
+            "x + y + z  = 3.0 * w + 700.0"
+        ],
+        "ans": [
+            "390",
+            "510",
+            "100",
+            "100"
+        ],
+        "id": 77,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Mario has 7000 pence to invest. He decides to invest part of it at 4%, part of it at 6.5%, part of it at 3%, and the rest at 2%. After one year, the total interest he receives is 295 pence. Also, the combined amount he invests at 4% and 6.5% is four times the amount he invests at 3% plus 1000 pence. The combined amount he invests at 4%, 6.5%, and 3% is five times the amount he invests at 2% plus 1000 pence. How much does Mario invest at each rate?",
+        "system_of_equations": [
+            "( ( 4.0 * 0.01 ) * x ) + ( ( 6.5 * 0.01 ) * y ) + ( ( 3.0 * 0.01 ) * z ) + ( ( 2.0 * 0.01 ) * w )  = 295.000000000000",
+            "x + y + z + w  = 7000.00000000000",
+            "x + y  = 4.0 * z + 1000.0",
+            "x + y + z  = 5.0 * w + 1000.0"
+        ],
+        "ans": [
+            "3200",
+            "1800",
+            "1000",
+            "1000"
+        ],
+        "id": 78,
+        "source": "ALG514"
+    },
+    {
+        "problem": "A discount store sold four types of cups: plastic cups for 3.25 dollars each, ceramic cups for 4.50 dollars each, glass cups for 5 dollars each, and metal cups for 6 dollars each. In total, 650 cups were sold for a total of 2890 dollars. It is known that the number of plastic cups sold plus the number of glass cups sold equals twice the number of ceramic cups sold minus 516. The number of plastic cups sold plus the number of ceramic cups sold plus the number of glass cups sold equals three times the number of metal cups sold plus 450. How many of each type of cup were sold?",
+        "system_of_equations": [
+            "( 3.25 * x ) + ( 4.5 * y ) + ( 5.0 * z ) + ( 6.0 * w )  = 2890.00000000000",
+            "x + y + z + w  = 650.000000000000",
+            "x + z  = 2.0 * y - 516.0",
+            "x + y + z  = 3.0 * w + 450.0"
+        ],
+        "ans": [
+            "128",
+            "372",
+            "100",
+            "50"
+        ],
+        "id": 79,
+        "source": "ALG514"
+    },
+    {
+        "problem": "The sum of four numbers is 70. The difference between the first number and the second number, plus the third number, plus the fourth number equals 24. Also, the sum of the first, second, and fourth numbers equals twice the third number plus 40. The sum of the first, second, and third numbers equals three times the fourth number plus 38. What are the four numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 70.0000000000000",
+            "x - y + z + w  = 24.0000000000000",
+            "x + y + w  = 2.0 * z + 40.0",
+            "x + y + z  = 3.0 * w + 38.0"
+        ],
+        "ans": [
+            "29",
+            "23",
+            "10",
+            "8"
+        ],
+        "id": 80,
+        "source": "ALG514"
+    },
+    {
+        "problem": "Mike invested $10,000 for one year in four different ways: part at 9% annual interest, part at 11% annual interest, part at 7% annual interest, and the rest at 5% annual interest. After one year, he earned $864 in interest. Also, twice the amount invested at 9% annual interest plus the amount invested at 11% annual interest plus the amount invested at 5% annual interest equals ten times the amount invested at 7% annual interest minus 10200 dollars. The amount invested at 9% annual interest plus the amount invested at 11% annual interest equals four times the amount invested at 5% annual interest minus 2000 dollars. How much did he invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 9.0 ) * x + ( 0.01 * 11.0 ) * y + ( 0.01 * 7.0 ) * z + ( 0.01 * 5.0 ) * w  = 864.000000000000",
+            "y + z + w  = 10000.0 - x",
+            "2.0 * x + y + w  = 10.0 * z - 10200.0",
+            "x + y  = 4.0 * w - 2000.0"
+        ],
+        "ans": [
+            "1800",
+            "4200",
+            "2000",
+            "2000"
+        ],
+        "id": 81,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "At a fast food restaurant, one pan pizza, two cheeseburgers, one salad, and one chicken sandwich provide 3560 calories. Two pan pizzas, one cheeseburger, one salad, and one chicken sandwich provide 3690 calories. One pan pizza, one cheeseburger, two salads, and one chicken sandwich provide 2950 calories. Two pan pizzas, two cheeseburgers, one salad, and one chicken sandwich provide 4600 calories. Find the caloric content of each item.",
+        "system_of_equations": [
+            "1.0 * x + 2.0 * y + 1.0 * z + 1.0 * w  = 3560.00000000000",
+            "2.0 * x + 1.0 * y + 1.0 * z + 1.0 * w  = 3690.00000000000",
+            "1.0 * x + 1.0 * y + 2.0 * z + 1.0 * w  = 2950.00000000000",
+            "2.0 * x + 2.0 * y + 1.0 * z + 1.0 * w  = 4600.00000000000"
+        ],
+        "ans": [
+            "1040",
+            "910",
+            "300",
+            "400"
+        ],
+        "id": 82,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Hollis is paying off four student loans. The first loan charges 7% interest per year, the second loan charges 9% interest per year, the third loan charges 5% interest per year, and the fourth loan charges 3% interest per year. He owes $1500 more on the first loan than he does on the second loan. Last year, he paid a total of $747 in interest. The total amount he owes on all four loans is $10900. The amount he owes on the first and second loans combined is $3900 more than four times the amount he owes on the fourth loan. How much does he owe on each loan?",
+        "system_of_equations": [
+            "( 0.01 * 7.0 ) * x + ( 0.01 * 9.0 ) * y + ( 0.01 * 5.0 ) * z + ( 0.01 * 3.0 ) * w  = 747.000000000000",
+            "x  = y + 1500.0",
+            "x + y + z + w  = 10900.0000000000",
+            "x + y  = 4.0 * w + 3900.0"
+        ],
+        "ans": [
+            "4700",
+            "3200",
+            "2000",
+            "1000"
+        ],
+        "id": 83,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 25. The second number is three times as much as the first number. The third number is half of the second number minus 1.375. The fourth number is half of the first number plus 0.875. What are the four numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 25.0000000000000",
+            "y  = 3.0 * x",
+            "z  = 0.5 * y - 1.375",
+            "w  = 0.5 * x + 0.875"
+        ],
+        "ans": [
+            "4.25",
+            "12.75",
+            "5",
+            "3"
+        ],
+        "id": 84,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A real estate salesperson bought promotional calendars, date books, pens, and keychains to give to her customers at the end of the year. The calendars cost $0.75 each, the date books cost $0.50 each, the pens cost $0.25 each, and the keychains cost $0.10 each. She ordered a total of 800 promotional items and spent $385. It is known that twice the number of calendars equals the sum of the number of keychains, date books, and pens plus 100. The number of calendars and date books combined equals three times the number of keychains plus 200. How many of each item did she order?",
+        "system_of_equations": [
+            "x + y + z + w  = 800.000000000000",
+            "0.75 * x + 0.5 * y + 0.25 * z + 0.1 * w  = 385.000000000000",
+            "2.0 * x  = w + y + z + 100.0",
+            "x + y  = 3.0 * w + 200.0"
+        ],
+        "ans": [
+            "300",
+            "200",
+            "200",
+            "100"
+        ],
+        "id": 85,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Mr. Wise invested $1775 in stocks. He bought some stocks at $3.00 per share, some at $4.50 per share, some at $2.00 per share, and some at $1.50 per share. In total, he bought 650 shares. It is known that twice the number of stocks bought at $3.00 per share plus the number of stocks bought at $4.50 per share equals five times the number of stocks bought at $2.00 per share plus 350. The number of stocks bought at $3.00 per share plus the number of stocks bought at $4.50 per share plus the number of stocks bought at $2.00 per share equals four times the number of stocks bought at $1.50 per share plus 150. How many of each type of stock did he buy?",
+        "system_of_equations": [
+            "x + y + z + w  = 650.000000000000",
+            "3.0 * x + 4.5 * y + 2.0 * z + 1.5 * w  = 1775.00000000000",
+            "2.0 * x + y  = 5.0 * z + 350.0",
+            "x + y + z  = 4.0 * w + 150.0"
+        ],
+        "ans": [
+            "400",
+            "50",
+            "100",
+            "100"
+        ],
+        "id": 86,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Christopher is 2 times as old as Gabriela. Nine years ago, Christopher was 5 times as old as Gabriela. The sum of Christopher's, Gabriela's, and Jessica's current ages equals Michael's age plus 33. The sum of Christopher's and Gabriela's current ages equals twice Jessica's age plus 6. Michael is currently 18 years old and Jessica is 15 years old. How old are Christopher, Gabriela, Michael, and Jessica now?",
+        "system_of_equations": [
+            "x  = 2.0 * y",
+            "x - 9.0  = 5.0 * y - 45.0",
+            "x + y + w  = z + 33",
+            "x + y  = 2.0 * w + 6.0"
+        ],
+        "ans": [
+            "24",
+            "12",
+            "18",
+            "15"
+        ],
+        "id": 87,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Olga has a collection of nickels, dimes, quarters, and pennies. She has 5 times as many dimes as nickels. She also has 4 quarters and 10 pennies. The total amount of money she has is $4.40 and the total number of coins she has is 50. The number of nickels and dimes combined is four less than four times the number of pennies. How many nickels, dimes, quarters, and pennies does she have?",
+        "system_of_equations": [
+            "5.0 * x  = y",
+            "0.05 * x + 0.1 * y + 0.25 * z + 0.01 * w  = 4.40000000000000",
+            "x + y + z + w  = 50",
+            "x + y  = 4.0 * w - 4.0"
+        ],
+        "ans": [
+            "6",
+            "30",
+            "4",
+            "10"
+        ],
+        "id": 88,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You invested a total of $8000.00 in four different banks. The first bank pays 4% annual interest, the second bank pays 6.5% annual interest, the third bank pays 3% annual interest, and the fourth bank pays 2% annual interest. After one year, you earned a total of $352.50 in interest. Also, the amount invested at 4% annual interest plus twice the amount invested at 6.5% annual interest equals ten times the amount invested at 3% annual interest minus 1700 dollars. The amount invested at 4% annual interest plus the amount invested at 6.5% annual interest plus the amount invested at 3% annual interest equals four times the amount invested at 2% annual interest minus 2000 dollars. How much did you invest in each bank?",
+        "system_of_equations": [
+            "( 0.01 * 4.0 ) * x + ( 0.01 * 6.5 ) * y + ( 0.01 * 3.0 ) * z + ( 0.01 * 2.0 ) * w  = 352.500000000000",
+            "x + y + z + w  = 8000.00000000000",
+            "x + 2.0 * y  = 10.0 * z - 1700.0",
+            "x + y + z  = 4.0 * w - 2000.0"
+        ],
+        "ans": [
+            "1700",
+            "3300",
+            "1000",
+            "2000"
+        ],
+        "id": 89,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Consider four numbers. The sum of these numbers is 6. Eight times the first number plus five times the second number plus three times the third number plus two times the fourth number equals 38. Also, twice the first number minus the second number plus the third number plus the fourth number equals 25. The sum of the first three numbers equals three times the fourth number minus six. What are the four numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 6.00000000000000",
+            "8.0 * x + 5.0 * y + 3.0 * z + 2.0 * w  = 38.0000000000000",
+            "2.0 * x - y + z + w  = 25.0000000000000",
+            "x + y + z  = 3.0 * w - 6.0"
+        ],
+        "ans": [
+            "7",
+            "-6",
+            "2",
+            "3"
+        ],
+        "id": 90,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "At a local theater, adult tickets for a play cost $16, child tickets cost $9, senior tickets cost $7, and student tickets cost $5. In one performance, the theater had 34 attendees and collected $404 from ticket sales. It is known that twice the number of adult tickets equals the sum of the number of student tickets, the number of child tickets, three times the number of senior tickets, and 8. The number of adult tickets plus the number of child tickets equals twice the number of student tickets, twice the number of senior tickets, and 4. How many adults, children, seniors, and students attended the play?",
+        "system_of_equations": [
+            "16.0 * x + 9.0 * y + 7.0 * z + 5.0 * w  = 404.000000000000",
+            "x + y + z + w  = 34.0000000000000",
+            "2.0 * x  = w + y + 3.0 * z + 8.0",
+            "x + y  = 2.0 * w + 2.0 * z + 4.0"
+        ],
+        "ans": [
+            "18",
+            "6",
+            "6",
+            "4"
+        ],
+        "id": 91,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four numbers. One number is 4 more than twice the second number. The total of the four numbers is 40. Also, the first number minus the second number equals three times the third number minus 4. The sum of the first and second number equals twice the fourth number plus 5. Find the numbers.",
+        "system_of_equations": [
+            "2.0 * y + 4.0  = x",
+            "x + y + z + w  = 40.0000000000000",
+            "x - y  = 3.0 * z - 4.0",
+            "x + y  = 2.0 * w + 5.0"
+        ],
+        "ans": [
+            "18",
+            "7",
+            "5",
+            "10"
+        ],
+        "id": 92,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Jason, Kate, Sam, and Lily are friends. Jason is six times as old as Kate. In two years, Jason will be twice as old as Kate will be then. Sam is two years older than Jason. Lily is three years older than Sam. Lily is also seven years older than twice Kate's age. How old is each friend now?",
+        "system_of_equations": [
+            "y + 2.0  = 2.0 * x + 4.0",
+            "y  = 6.0 * x",
+            "z  = y + 2.0",
+            "w  = z + 3.0",
+            "w  = 2.0 * x + 7.0"
+        ],
+        "ans": [
+            "0.5",
+            "3",
+            "5",
+            "8"
+        ],
+        "id": 93,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Keil is preparing for a big party and plans to make 18 pounds of mixed nuts. He wants to include peanuts, which cost 2.00 per pound, fancy nuts, which cost 7.50 per pound, almonds, which cost 3.00 per pound, and cashews, which cost 4.00 per pound. Keil has a budget of 87.00 for the nuts. He also knows that the combined weight of the fancy nuts and peanuts should be the weight of the cashews plus twice the weight of the almonds plus 5 pounds. The combined weight of the fancy nuts, peanuts, and almonds should be three times the weight of the cashews plus 10 pounds. How many pounds of each type of nut should Keil buy?",
+        "system_of_equations": [
+            "y + z + w  = 18.0 - x",
+            "7.5 * x + 2.0 * y + 3.0 * z + 4.0 * w  = 87.0000000000000",
+            "x + y  = w + 2.0 * z + 5.0",
+            "x + y + z  = 3.0 * w + 10.0"
+        ],
+        "ans": [
+            "8",
+            "5",
+            "3",
+            "2"
+        ],
+        "id": 94,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "George saves nickels, dimes, quarters, and half-dollars for tolls. He has a total of 36 coins that amount to $5.10. It is known that the number of nickels plus twice the number of dimes equals three times the number of quarters plus 34. The number of nickels plus the number of dimes plus the number of quarters equals four times the number of half-dollars plus 26. How many coins does George have of each type?",
+        "system_of_equations": [
+            "0.05 * x + 0.1 * y + 0.25 * z + 0.5 * w  = 5.10000000000000",
+            "x + y + z + w  = 36.0000000000000",
+            "x + 2 * y  = 3 * z + 34.0",
+            "x + y + z  = 4 * w + 26.0"
+        ],
+        "ans": [
+            "4",
+            "24",
+            "6",
+            "2"
+        ],
+        "id": 95,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 110. One number is ten more than twice the second number. The third number is the difference of 100 and the sum of the first two numbers. The fourth number is the difference of the first number and the second number minus 20. Find the numbers.",
+        "system_of_equations": [
+            "x + y + z + w  = 110",
+            "x  = 2.0 * y + 10.0",
+            "z  = -x - y + 100.0",
+            "w  = x - y - 20.0"
+        ],
+        "ans": [
+            "50",
+            "20",
+            "30",
+            "10"
+        ],
+        "id": 96,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A family of eleven went to the San Diego Zoo. The total cost for their general admission tickets was $192. Adult tickets cost $21 each, children's tickets cost $14 each, senior tickets cost $18 each, and student tickets cost $15 each. It is known that twice the number of adult tickets equals the sum of the number of children's tickets, senior tickets, student tickets, and 1. The number of adult tickets plus the number of children's tickets equals the sum of the number of student tickets, senior tickets, and 3. How many of each type of tickets were purchased by the family?",
+        "system_of_equations": [
+            "21.0 * x + 14.0 * y + 18.0 * z + 15.0 * w  = 192.000000000000",
+            "x + y + z + w  = 11.0000000000000",
+            "2.0 * x  = w + y + z + 1.0",
+            "x + y  = w + z + 3.0"
+        ],
+        "ans": [
+            "4",
+            "3",
+            "2",
+            "2"
+        ],
+        "id": 97,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Three years ago, X's age was double that of Y's. Today, there are two more people, Z, who is 10 years old, and W, who is 15 years old. Seven years from now, the sum of their ages will be 122 years. Also, the difference between X's and Y's current age is one more than twice Z's current age. The sum of X's, Y's, and Z's current ages is 34 more than three times W's current age. What are the current ages of X, Y, Z, and W?",
+        "system_of_equations": [
+            "x - 3.0  = 2.0 * y - 6.0",
+            "x + 7.0 + y + 7.0 + z + 7.0 + w + 7.0  = 122.000000000000",
+            "x - y  = 2.0 * z + 1.0",
+            "x + y + z  = 3.0 * w + 34.0"
+        ],
+        "ans": [
+            "45",
+            "24",
+            "10",
+            "15"
+        ],
+        "id": 98,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "During the early 1990s, Kelly invested 12,000 dollars into four different types of accounts within a bank: certificates of deposit, savings account, a money market account, and a checking account. She received 8% interest for her certificates of deposit, 6% for her savings account, 4% for her money market account, and 2% for her checking account. In total, she earned 660 dollars for the year. Also, the amount invested in certificates of deposit plus twice the amount invested in the savings account equals five times the amount invested in the money market account plus 3000 dollars. The amount invested in certificates of deposit plus the amount invested in the savings account plus the amount invested in the money market account equals four times the amount invested in the checking account plus 2000 dollars. How much money was invested in each type of account?",
+        "system_of_equations": [
+            "0.01 * 8.0 * x + 0.01 * 6.0 * y + 0.01 * 4.0 * z + 0.01 * 2.0 * w  = 660.000000000000",
+            "x + y + z + w  = 12000.0000000000",
+            "x + 2.0 * y  = 5.0 * z + 3000.0",
+            "x + y + z  = 4.0 * w + 2000.0"
+        ],
+        "ans": [
+            "3000",
+            "5000",
+            "2000",
+            "2000"
+        ],
+        "id": 99,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Four numbers have the following relationships: three times the first number, added to the second number, the third number, and half the fourth number equals 18. Twice the first number, minus the second number, plus half the third number, plus a quarter of the fourth number equals 3. The sum of the first and second numbers minus the third number plus the fourth number equals 10. The sum of the first, second, and third numbers equals three times the fourth number minus 2. What are the four numbers?",
+        "system_of_equations": [
+            "2.0 * x - y + 0.5 * z + 0.25 * w  = 3.00000000000000",
+            "3.0 * x + y + z + 0.5 * w  = 18.0000000000000",
+            "x + y - z + w  = 10.0000000000000",
+            "x + y + z  = 3.0 * w - 2.0"
+        ],
+        "ans": [
+            "3",
+            "5",
+            "2",
+            "4"
+        ],
+        "id": 100,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Gary drove to Sarnia. Part of the trip was along major highways, part was along country roads, part was in the city, and the rest was on a ferry. The speed limit is 100 km/h on the highways, 80 km/h on the country roads, 60 km/h in the city, and 20 km/h on the ferry. He spent a total of 17 hours driving 1270 km. Also, twice the time spent on the highways equals the sum of the time spent on the ferry, country roads, and in the city minus 3.5 hours. The time spent on the highways plus the time spent on country roads equals three times the time spent on the ferry plus 6 hours. How much time did he spend on each type of road and on the ferry?",
+        "system_of_equations": [
+            "x + y + z + w  = 17.0000000000000",
+            "100.0 * x + 80.0 * y + 60.0 * z + 20.0 * w  = 1270.00000000000",
+            "2.0 * x  = w + y + z - 3.5",
+            "x + y  = 3.0 * w + 6.0"
+        ],
+        "ans": [
+            "4.5",
+            "7.5",
+            "3",
+            "2"
+        ],
+        "id": 101,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 110. When four times the first number, the second number, half of the third number, and a quarter of the fourth number are added together, the result is 163. Additionally, twice the first number plus the second number plus the fourth number equals three times the third number plus 88. The sum of the first, second, and third numbers equals four times the fourth number plus 60. What are the four numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 110.000000000000",
+            "4.0 * x + y + 0.5 * z + 0.25 * w  = 163.000000000000",
+            "2.0 * x + y + w  = 3.0 * z + 88.0",
+            "x + y + z  = 4.0 * w + 60.0"
+        ],
+        "ans": [
+            "22",
+            "67",
+            "11",
+            "10"
+        ],
+        "id": 102,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Mary, Seth, John, and Lisa are friends. Mary is 9 years older than Seth. In a year, she will be 3 times as old as Seth. John, on the other hand, is 1.5 years older than Seth. Lisa is 2.5 years younger than Seth. How old are Mary, Seth, John, and Lisa?",
+        "system_of_equations": [
+            "y + 1.0  = 3.0 * x + 3.0",
+            "y  = x + 9.0",
+            "z  = x + 1.5",
+            "w  = x - 2.5"
+        ],
+        "ans": [
+            "3.5",
+            "12.5",
+            "5",
+            "1"
+        ],
+        "id": 103,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "At a fruit market, 6 kilos of oranges, 5 kilos of apples, 2 kilos of bananas, and 3 kilos of grapes cost 484. Also, 5 kilos of oranges, 7 kilos of apples, 3 kilos of bananas, and 2 kilos of grapes cost 548. Furthermore, 4 kilos of oranges, 3 kilos of apples, 5 kilos of bananas, and 1 kilo of grapes cost 328. Lastly, 2 kilos of oranges, 2 kilos of apples, 1 kilo of bananas, and 4 kilos of grapes cost 226. What is the cost per kilo for each type of fruit?",
+        "system_of_equations": [
+            "6.0 * x + 5.0 * y + 2.0 * z + 3.0 * w  = 484.000000000000",
+            "5.0 * x + 7.0 * y + 3.0 * z + 2.0 * w  = 548.000000000000",
+            "4.0 * x + 3.0 * y + 5.0 * z + 1.0 * w  = 328.000000000000",
+            "2.0 * x + 2.0 * y + 1.0 * z + 4.0 * w  = 226.000000000000"
+        ],
+        "ans": [
+            "29",
+            "49",
+            "10",
+            "15"
+        ],
+        "id": 104,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four numbers. The difference between the larger number and the smaller number, plus the third number, plus the fourth number equals 38. Three times the larger number equals the fourth number plus nine times the smaller number plus the third number minus 22. The sum of the larger number and the smaller number equals the fourth number plus twice the third number minus 2. The sum of the larger number, the smaller number, and the third number equals three times the fourth number plus 14. What are the four numbers?",
+        "system_of_equations": [
+            "x - y + z + w  = 38.0000000000000",
+            "3.0 * x  = w + 9.0 * y + z - 22.0",
+            "x + y  = w + 2.0 * z - 2.0",
+            "x + y + z  = 3.0 * w + 14.0"
+        ],
+        "ans": [
+            "24",
+            "8",
+            "12",
+            "10"
+        ],
+        "id": 105,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You invest $ 10,000 in four different accounts. The first account pays 8 % annual interest, the second account pays 10 % annual interest, the third account pays 6 % annual interest, and the fourth account pays 5% annual interest. At the end of the year, the first and second accounts earn the same amount of interest, while the third account earns 212 dollars less than the second account. The fourth account earns 270 dollars less than the second account. How much was invested in each account?",
+        "system_of_equations": [
+            "( 0.01 * 8.0 ) * x  = 0.1 * y",
+            "( 0.01 * 6.0 ) * z  = 0.1 * y - 212.0",
+            "y + z + w  = 10000.0 - x",
+            "( 0.01 * 5.0 ) * w  = 0.1 * y - 270.0"
+        ],
+        "ans": [
+            "4000",
+            "3200",
+            "1800",
+            "1000"
+        ],
+        "id": 106,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Consider four numbers. Two times the first number plus three times the second number plus four times the third number plus five times the fourth number equals 44. The sum of the four numbers is 12. Also, the first number plus twice the second number equals three times the third number plus 6. The sum of the first number, the second number, and the third number equals four times the fourth number plus 2. What are the four numbers?",
+        "system_of_equations": [
+            "2.0 * x + 3.0 * y + 4.0 * z + 5.0 * w  = 44.0000000000000",
+            "x + y + z + w  = 12.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 6.0",
+            "x + y + z  = 4.0 * w + 2.0"
+        ],
+        "ans": [
+            "-1",
+            "8",
+            "3",
+            "2"
+        ],
+        "id": 107,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "For a party, tickets were sold at different prices: $15 for adults, $10 for children, $5 for seniors, and $8 for students. In total, 180 tickets were sold, collecting $2160. It is known that twice the number of adult tickets equals eight times the number of student tickets plus five times the number of senior tickets minus 60. The number of adult tickets plus the number of child tickets equals four times the number of student tickets plus 60. How many adult, child, senior, and student tickets were sold?",
+        "system_of_equations": [
+            "15.0 * x + 10.0 * y + 5.0 * z + 8.0 * w  = 2160.00000000000",
+            "x + y + z + w  = 180.000000000000",
+            "2.0 * x  = 8.0 * w + 5.0 * z - 60.0",
+            "x + y  = 4.0 * w + 60.0"
+        ],
+        "ans": [
+            "100",
+            "40",
+            "20",
+            "20"
+        ],
+        "id": 108,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "You have four different alcohol solutions: a 20% solution, a 75% solution, a 25% solution, and a 15% solution. You need to mix these solutions to create 270 liters of a solution that is 45% alcohol. Also, twice the amount of the 20% solution plus the amount of the 75% solution plus the amount of the 15% solution equals five times the amount of the 25% solution plus 50. The amount of the 20% solution plus the amount of the 75% solution plus the amount of the 25% solution equals six times the amount of the 15% solution plus 130. How many liters of each solution do you need to use?",
+        "system_of_equations": [
+            "( 0.01 * 20.0 ) * x + ( 0.01 * 75.0 ) * y + ( 0.01 * 25.0 ) * z + ( 0.01 * 15.0 ) * w  = 121.500000000000",
+            "y + z + w  = 270.0 - x",
+            "2.0 * x + y + w  = 5.0 * z + 50.0",
+            "x + y + z  = 6.0 * w + 130.0"
+        ],
+        "ans": [
+            "80",
+            "120",
+            "50",
+            "20"
+        ],
+        "id": 109,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Bella's brother is 9 years older than Bella. Bella's sister is 6 years older than Bella. Bella's cousin is 4 years older than Bella. The combined age of Bella, her brother, her sister, and her cousin is 39 years. How old is Bella, her brother, her sister, and her cousin?",
+        "system_of_equations": [
+            "x + y + z + w  = 39.0000000000000",
+            "x - y  = -9.00000000000000",
+            "z - y  = -3.00000000000000",
+            "w - x  = 4.00000000000000"
+        ],
+        "ans": [
+            "5",
+            "14",
+            "11",
+            "9"
+        ],
+        "id": 110,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Sawz Logging Co. bought a section of forest containing 1100 trees, which are a mix of Douglas fir, ponderosa pine, spruce, and cedar trees. The company paid an average of $300 for each Douglas fir, $225 for each ponderosa pine, $200 for each spruce tree, and $175 for each cedar tree, amounting to a total of $265,000. It is known that the sum of the number of Douglas fir and ponderosa pine trees equals twice the number of spruce trees plus 550. The sum of the number of Douglas fir, ponderosa pine, and spruce trees equals three times the number of cedar trees plus 700. How many of each type of tree did the company buy?",
+        "system_of_equations": [
+            "y + z + w  = 1100.0 - x",
+            "300.0 * x + 225.0 * y + 200.0 * z + 175.0 * w  = 265000.000000000",
+            "x + y  = 2.0 * z + 550.0",
+            "x + y + z  = 3.0 * w + 700.0"
+        ],
+        "ans": [
+            "350",
+            "500",
+            "150",
+            "100"
+        ],
+        "id": 111,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 23. The second number is equal to the fourth number minus the first number and the third number plus 17. Three times the first number is 19 less than the sum of the fourth number, five times the second number, and the third number. Twice the first number plus the second number equals the fourth number plus three times the third number plus 5. The sum of the first number, the second number, and the third number equals four times the fourth number plus 8. Find the numbers.",
+        "system_of_equations": [
+            "y  = w - x - z + 17.0",
+            "3.0 * x  = w + 5.0 * y + z - 19.0",
+            "2.0 * x + y  = w + 3.0 * z + 5.0",
+            "x + y + z  = 4.0 * w + 8.0"
+        ],
+        "ans": [
+            "8",
+            "7",
+            "5",
+            "3"
+        ],
+        "id": 112,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four numbers. The sum of three times the first number, twice the second number, the third number, and half the fourth number is 11.5. If half of the third number and half of the fourth number are added to the result of subtracting the second number from twice the first number, the result is 5.5. The sum of the four numbers is 8. The sum of the first and second numbers equals twice the fourth number minus 3. Find the numbers.",
+        "system_of_equations": [
+            "3.0 * x + 2.0 * y + 1.0 * z + 0.5 * w  = 11.5000000000000",
+            "2.0 * x - y + 0.5 * z + 0.5 * w  = 5.50000000000000",
+            "x + y + z + w  = 8.00000000000000",
+            "x + y  = 2.0 * w - 3.0"
+        ],
+        "ans": [
+            "2",
+            "1",
+            "2",
+            "3"
+        ],
+        "id": 113,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In printing an article of 57,000 words, a printer decides to use four sizes of type. Using the larger type, a printed page contains 1,800 words. Using smaller type, a page contains 2,400 words. Using medium type, a page contains 2,000 words. Using extra-large type, a page contains 1,500 words. The article is allotted 26 full pages in a magazine. The printer finds that the number of pages in smaller type plus twice the number of pages in larger type equals three times the number of pages in medium type plus 16. The number of pages in smaller type plus the number of pages in larger type plus the number of pages in medium type equals four times the number of pages in extra-large type plus 16. How many pages must be in each type?",
+        "system_of_equations": [
+            "2400.0 * x + 1800.0 * y + 2000.0 * z + 1500.0 * w  = 57000.0000000000",
+            "x + y + z + w  = 26.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 16.0",
+            "x + y + z  = 4.0 * w + 16.0"
+        ],
+        "ans": [
+            "17",
+            "4",
+            "3",
+            "2"
+        ],
+        "id": 114,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "How many liters each of a 15% antifreeze solution, a 30% antifreeze solution, a 10% antifreeze solution, and a 20% antifreeze solution must be mixed to make 10 liters of a 18% antifreeze solution? It is known that the sum of the amount of 15% antifreeze solution and 30% antifreeze solution equals twice the amount of 10% antifreeze solution plus 2 liters. The sum of the amount of 15% antifreeze solution, 30% antifreeze solution, and 10% antifreeze solution equals three times the amount of 20% antifreeze solution plus 2 liters. How much of each antifreeze solution should be used?",
+        "system_of_equations": [
+            "(0.01 * 15.0) * x + (0.01 * 30.0) * y + (0.01 * 10.0) * z + (0.01 * 20.0) * w  = 1.80000000000000",
+            "x + y + z + w  = 10.00000000000000",
+            "x + y  = 2.0 * z + 2.0",
+            "x + y + z  = 3.0 * w + 2.0"
+        ],
+        "ans": [
+            "4",
+            "2",
+            "2",
+            "2"
+        ],
+        "id": 115,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Allen went to the post office and bought 30 stamps in total. The stamps were in 37 cents, 20 cents, 50 cents, and 30 cents denominations. The total cost of the stamps was $11.06. It is known that the number of 37 cents stamps plus twice the number of 20 cents stamps equals three times the number of 50 cents stamps plus 7. The number of 37 cents stamps plus the number of 20 cents stamps plus the number of 50 cents stamps equals four times the number of 30 cents stamps plus 5. How many of each type of stamp did Allen buy?",
+        "system_of_equations": [
+            "0.01 * 37.0 * x + 0.01 * 20.0 * y + 0.01 * 50.0 * z + 0.01 * 30.0 * w  = 11.0600000000000",
+            "x + y + z + w  = 30.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 7.0",
+            "x + y + z  = 4.0 * w + 5.0"
+        ],
+        "ans": [
+            "18",
+            "2",
+            "5",
+            "5"
+        ],
+        "id": 116,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 60. One number plus two times the second number plus half of the third number plus half of the fourth number equals 66. Also, twice the first number plus the second number plus the fourth number equals three times the third number plus 55. The sum of the first three numbers equals four times the fourth number plus 10. What are the numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 60.0000000000000",
+            "x + 2.0 * y + 0.5 * z + 0.5 * w  = 66.0000000000000",
+            "2.0 * x + y + w  = 3.0 * z + 55.0",
+            "x + y + z  = 4.0 * w + 10.0"
+        ],
+        "ans": [
+            "27",
+            "15",
+            "8",
+            "10"
+        ],
+        "id": 117,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "University Theater sold 679 tickets for a play. Tickets cost $25 per adult, $15 per senior citizen, $10 per student, and $5 per child. The total receipts amounted to $12665. It is known that twice the number of adult tickets equals five times the number of child tickets plus the number of senior citizen tickets plus three times the number of student tickets minus 35. The number of adult tickets plus the number of senior citizen tickets equals four times the number of child tickets plus 329. How many adult, senior citizen, student, and child tickets were sold?",
+        "system_of_equations": [
+            "25.0 * x + 15.0 * y + 10.0 * z + 5.0 * w  = 12665.0000000000",
+            "x + y + z + w  = 679.000000000000",
+            "2.0 * x  = 5.0 * w + y + 3.0 * z - 35.0",
+            "x + y  = 4.0 * w + 329.0"
+        ],
+        "ans": [
+            "348",
+            "181",
+            "100",
+            "50"
+        ],
+        "id": 118,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A man invests his money in four different ways: a certain amount at 2% interest, $800 more than that amount at 4% interest, $1300 less than the 4% investment at 3% interest, and $300 less than the 2% investment at 5% interest. After one year, he earned $142 in interest. How much money was invested in each account?",
+        "system_of_equations": [
+            "( 0.01 * 2.0 ) * x + ( 0.01 * 4.0 ) * y + ( 0.01 * 3.0 ) * z + ( 0.01 * 5.0 ) * w  = 142.000000000000",
+            "y  = x + 800.0",
+            "z  = y - 1300.0",
+            "w  = x - 300.0"
+        ],
+        "ans": [
+            "1000",
+            "1800",
+            "500",
+            "700"
+        ],
+        "id": 119,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 28. The sum of 3 times the smallest number, 4 times the second number, 2 times the third number, and the fourth number is 86. Also, the sum of the smallest number, twice the second number, and the fourth number equals three times the third number plus 20. The sum of the smallest number, the second number, and the third number equals four times the fourth number plus 8. What are the numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 28.0000000000000",
+            "3.0 * x + 4.0 * y + 2.0 * z + 1.0 * w  = 86.0000000000000",
+            "x + 2.0 * y + w  = 3.0 * z + 20.0",
+            "x + y + z  = 4.0 * w + 8.0"
+        ],
+        "ans": [
+            "2",
+            "16",
+            "6",
+            "4"
+        ],
+        "id": 120,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "To qualify as a lifeguard, you must swim continuously for 640 yards using a combination of the front crawl, the breaststroke, the butterfly stroke, and the backstroke. You can swim the front crawl at a rate of 45 yards per minute, the breaststroke at 35 yards per minute, the butterfly stroke at 30 yards per minute, and the backstroke at 25 yards per minute. You complete the 640 yards in 17 minutes. Additionally, it is known that twice the time you spend swimming the front crawl equals the sum of the time you spend swimming the backstroke, the breaststroke, and the butterfly stroke plus 7 minutes. The time you spend swimming the front crawl and the breaststroke combined equals three times the time you spend swimming the backstroke plus 6 minutes. How long did you spend swimming each stroke?",
+        "system_of_equations": [
+            "x + y + z + w  = 17.0000000000000",
+            "45.0 * x + 35.0 * y + 30.0 * z + 25.0 * w  = 640.000000000000",
+            "2.0 * x  = w + y + z + 7.0",
+            "x + y  = 3.0 * w + 6.0"
+        ],
+        "ans": [
+            "8",
+            "4",
+            "3",
+            "2"
+        ],
+        "id": 121,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "On a certain hot summer's day, 954 people used the public swimming pool. The daily prices are $1.50 for children, $2.25 for adults, $1.00 for seniors, and $1.75 for teenagers. The receipts for admission totaled $1680.50. It is also known that twice the number of children plus the number of adults equals three times the number of seniors plus 842. The number of children, adults, and seniors combined equals four times the number of teenagers plus 454. How many children, adults, seniors, and teenagers swam at the public pool that day?",
+        "system_of_equations": [
+            "1.5 * x + 2.25 * y + 1.0 * z + 1.75 * w  = 1680.50000000000",
+            "x + y + z + w  = 954",
+            "2.0 * x + y  = 3.0 * z + 842",
+            "x + y + z  = 4.0 * w + 454.0"
+        ],
+        "ans": [
+            "388",
+            "366",
+            "100",
+            "100"
+        ],
+        "id": 122,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Clarence, Stephan, Maria, and John went to the amusement park. Clarence rode the water slide 3 times, the roller coaster 3 times, the ferris wheel once, and the bumper cars twice for a total of $21.70. Stephan rode the water slide 2 times, the roller coaster 3 times, the ferris wheel twice, and the bumper cars once for a total of $20.54. Maria, on the other hand, rode the water slide once, the roller coaster twice, the ferris wheel three times, and the bumper cars three times for a total of $18.64. John rode each ride once, but he rode the bumper cars twice for a total of $9.90. How much did each ride cost?",
+        "system_of_equations": [
+            "3.0 * x + 3.0 * y + 1.0 * z + 2.0 * w  = 21.7000000000000",
+            "2.0 * x + 3.0 * y + 2.0 * z + 1.0 * w  = 20.5400000000000",
+            "1.0 * x + 2.0 * y + 3.0 * z + 3.0 * w  = 18.6400000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 2.0 * w  = 9.90000000000000"
+        ],
+        "ans": [
+            "2.16",
+            "3.74",
+            "2",
+            "1"
+        ],
+        "id": 123,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Mr. Phillips bought 12 drums of four different cleaning fluids for his dry cleaning business. One of the fluids cost $30 a drum, another was $20 a drum, the third was $40 a drum, and the fourth was $50 a drum. The total price of the supplies was $410. Also, twice the number of drums of the $20 fluid plus the number of drums of the $30 fluid equals three times the number of drums of the $40 fluid. The number of drums of the $20 fluid, the $30 fluid, and the $40 fluid combined equals four times the number of drums of the $50 fluid plus two. How many drums of each fluid did Mr. Phillips buy?",
+        "system_of_equations": [
+            "20.0 * x + 30.0 * y + 40.0 * z + 50.0 * w  = 410.000000000000",
+            "x + y + z + w  = 12.0000000000000",
+            "2.0 * x + y  = 3.0 * z",
+            "x + y + z  = 4.0 * w + 2.0"
+        ],
+        "ans": [
+            "2",
+            "5",
+            "3",
+            "2"
+        ],
+        "id": 124,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Donna received a bonus of $41,000, which she decided to invest in four different ways: part at 4% annual interest, part at 2.25% annual interest, part at 3% annual interest, and the rest at 1.5% annual interest. After one year, she received a total of $1165 in interest. Also, it is known that twice the amount invested at 4% annual interest plus the amount invested at 2.25% annual interest equals the amount invested at 1.5% annual interest plus ten times the amount invested at 3% annual interest minus 7000 dollars. The amount invested at 4% annual interest plus the amount invested at 2.25% annual interest plus the amount invested at 3% annual interest equals eight times the amount invested at 1.5% annual interest plus 14000 dollars. How much did Donna invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 4.0 ) * x + ( 0.01 * 2.25 ) * y + ( 0.01 * 3.0 ) * z + ( 0.01 * 1.5 ) * w  = 1165.00000000000",
+            "y + z + w  = 41000.0 - x",
+            "2.0 * x + y  = w + 10.0 * z - 7000.0",
+            "x + y + z  = 8.0 * w + 14000.0"
+        ],
+        "ans": [
+            "13000",
+            "20000",
+            "5000",
+            "3000"
+        ],
+        "id": 125,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Sawz Logging Co. bought a section of the forest containing 1200 trees, which are a mix of Douglas fir, ponderosa pine, spruce, and cedar trees. The company paid an average of $300 for each Douglas fir, $225 for each ponderosa pine, $200 for each spruce, and $250 for each cedar. The total amount paid for the trees was $297,500. It is known that twice the number of Douglas fir trees plus the number of ponderosa pine trees equals the number of cedar trees plus five times the number of spruce trees plus 250. The number of Douglas fir trees plus the number of ponderosa pine trees plus the number of spruce trees equals four times the number of cedar trees plus 200. How many of each type of tree did the company buy?",
+        "system_of_equations": [
+            "x + y + z + w  = 1200.00000000000",
+            "300.0 * x + 225.0 * y + 200.0 * z + 250.0 * w  = 297500.000000000",
+            "2.0 * x + y  = w + 5.0 * z + 250.0",
+            "x + y + z  = 4.0 * w + 200.0"
+        ],
+        "ans": [
+            "350",
+            "500",
+            "150",
+            "200"
+        ],
+        "id": 126,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Last year, Walt made an extra $13,000 from a part-time job. He decided to invest this money in four different ways: part at 8% annual interest, part at 9% annual interest, part at 7% annual interest, and the rest at 6% annual interest. By the end of the year, he earned a total of $1030 in interest. It is known that the sum of the amount invested at 9%, 7%, and 6% equals the total amount Walt made minus the amount invested at 8%. Also, the sum of the amount invested at 8% and 9% equals three times the amount invested at 7% plus 3000 dollars. The sum of the amount invested at 8%, 9%, and 7% equals four times the amount invested at 6% plus 3000 dollars. How much did Walt invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 8.0 ) * x + ( 0.01 * 9.0 ) * y + ( 0.01 * 7.0 ) * z + ( 0.01 * 6.0 ) * w  = 1030.00000000000",
+            "y + z + w  = 13000.0 - x",
+            "x + y  = 3.0 * z + 3000.0",
+            "x + y + z  = 4.0 * w + 3000.0"
+        ],
+        "ans": [
+            "4000",
+            "5000",
+            "2000",
+            "2000"
+        ],
+        "id": 127,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A total of $70,000 is invested in four different funds. The first fund pays 8% interest, the second fund pays 8.5% interest, the third fund pays 7% interest, and the fourth fund pays 6% interest. After one year, the total interest earned from these investments is $5420. It is also known that the amount invested in the first fund plus twice the amount invested in the second fund equals three times the amount invested in the fourth fund plus three times the amount invested in the third fund plus $14,000. The amount invested in the first fund plus the amount invested in the second fund plus the amount invested in the third fund equals four times the amount invested in the fourth fund plus $20,000. How much is invested in each fund?",
+        "system_of_equations": [
+            "( 0.01 * 8.0 ) * x + ( 0.01 * 8.5 ) * y + ( 0.01 * 7.0 ) * z + ( 0.01 * 6.0 ) * w  = 5420.00000000000",
+            "x + y + z + w  = 70000.0000000000",
+            "x + 2 * y  = 3 * w + 3 * z + 14000.0",
+            "x + y + z  = 4 * w + 20000.0"
+        ],
+        "ans": [
+            "26000",
+            "24000",
+            "10000",
+            "10000"
+        ],
+        "id": 128,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "On a new house, a bricklayer, an electrician, a plumber, and a painter worked together for a total of 150 hours. The bricklayer earns $12 per hour, the electrician earns $16 per hour, the plumber earns $20 per hour, and the painter earns $15 per hour. The owner of the house paid a total of $2220 for their work. It is known that twice the hours worked by the bricklayer equals the sum of the hours worked by the painter, electrician, and plumber plus 52.5. The hours worked by the bricklayer, electrician, and plumber combined equals three times the hours worked by the painter plus 30. How many hours did each worker spend on the house?",
+        "system_of_equations": [
+            "x + y + z + w  = 150.000000000000",
+            "12.0 * x + 16.0 * y + 20.0 * z + 15.0 * w  = 2220.00000000000",
+            "2.0 * x  = w + y + z + 52.5",
+            "x + y + z  = 3.0 * w + 30.0"
+        ],
+        "ans": [
+            "67.5",
+            "22.5",
+            "30",
+            "30"
+        ],
+        "id": 129,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Tickets for a basketball tournament were sold at different prices: $6 for students, $9 for non-students, $15 for VIPs, and $20 for special guests. The total sales amounted to $13,000. The number of student tickets sold was 100 more than the sum of special guest, non-student, and VIP tickets sold. Also, the sum of student and non-student tickets sold was 1100 more than the sum of special guest tickets and three times the number of VIP tickets sold. The sum of student, non-student, and VIP tickets sold was 1350 more than four times the number of special guest tickets sold. How many of each type of ticket were sold?",
+        "system_of_equations": [
+            "6.0 * x + 9.0 * y + 15.0 * z + 20.0 * w  = 13000.0000000000",
+            "x  = w + y + z + 100.0",
+            "x + y  = w + 3.0 * z + 1100.0",
+            "x + y + z  = 4.0 * w + 1350.0"
+        ],
+        "ans": [
+            "850",
+            "600",
+            "100",
+            "50"
+        ],
+        "id": 130,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Four numbers have a sum of 88. The smallest number is 5 less than the second smallest number, the second smallest number is 10 less than the third smallest number, and the third smallest number is 21 less than the largest number. Find the four numbers.",
+        "system_of_equations": [
+            "y + x + z + w  = 88.0000000000000",
+            "y  = x - 21.0",
+            "z  = y - 10.0",
+            "w  = z - 5.0"
+        ],
+        "ans": [
+            "44",
+            "23",
+            "13",
+            "8"
+        ],
+        "id": 131,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Mrs. Lynch has 30 coins in total, consisting of nickels, dimes, quarters, and pennies. The total value of these coins is $2.94. It is known that twice the number of nickels plus the number of dimes equals four times the number of quarters plus 10. The number of nickels, dimes, and quarters combined equals five times the number of pennies plus 6. How many of each coin does Mrs. Lynch have?",
+        "system_of_equations": [
+            "0.05 * x + 0.1 * y + 0.25 * z + 0.01 * w  = 2.94000000000000",
+            "x + y + z + w  = 30",
+            "2.0 * x + y  = 4.0 * z + 10",
+            "x + y + z  = 5.0 * w + 6.0"
+        ],
+        "ans": [
+            "9",
+            "12",
+            "5",
+            "4"
+        ],
+        "id": 132,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Donna received a bonus of $45,000, which she decided to invest in four different ways: part at 4% annual interest, part at 2.25% annual interest, part at 3% annual interest, and the rest at 1.5% annual interest. After one year, she received a total of $1255 in interest. Also, the amount she invested at 4% plus twice the amount she invested at 2.25% equals twice the amount she invested at 1.5% plus three times the amount she invested at 3% plus $22000. The amount she invested at 4%, 2.25%, and 3% equals four times the amount she invested at 1.5% plus $20000. How much did Donna invest at each rate?",
+        "system_of_equations": [
+            "x + y + z + w  = 45000.0000000000",
+            "( 0.01 * 4.0 ) * x + ( 0.01 * 2.25 ) * y + ( 0.01 * 3.0 ) * z + ( 0.01 * 1.5 ) * w  = 1255.00000000000",
+            "x + 2.0 * y  = 2.0 * w + 3.0 * z + 22000.0",
+            "x + y + z  = 4.0 * w + 20000.0"
+        ],
+        "ans": [
+            "13000",
+            "20000",
+            "7000",
+            "5000"
+        ],
+        "id": 133,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of the difference of two numbers, a third number, and a fourth number is 59. The larger number is twenty-five less than the sum of the fourth number, six times the smaller number, and the third number. Also, the sum of the larger and smaller number is nineteen more than the sum of the fourth number and twice the third number. The sum of the larger number, the smaller number, and the third number is thirty-five more than three times the fourth number. Find the numbers.",
+        "system_of_equations": [
+            "x - y + z + w  = 59.0000000000000",
+            "x  = w + 6.0 * y + z - 25.0",
+            "x + y  = w + 2.0 * z + 19.0",
+            "x + y + z  = 3.0 * w + 35.0"
+        ],
+        "ans": [
+            "45",
+            "8",
+            "12",
+            "10"
+        ],
+        "id": 134,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A bricklayer, an electrician, a plumber, and a painter together spend 150 hours working on a new house. The bricklayer earns $12 per hour, the electrician earns $16 per hour, the plumber earns $20 per hour, and the painter earns $15 per hour. The owner pays them a total of $2400 for their work. It is known that twice the hours worked by the bricklayer plus the hours worked by the electrician equals the hours worked by the painter plus three times the hours worked by the plumber minus 7.5. The hours worked by the bricklayer, the electrician, and the plumber combined equals four times the hours worked by the painter. How many hours does each worker spend on the house?",
+        "system_of_equations": [
+            "x + y + z + w  = 150.000000000000",
+            "12.0 * x + 16.0 * y + 20.0 * z + 15.0 * w  = 2400.00000000000",
+            "2.0 * x + y  = w + 3.0 * z - 7.5",
+            "x + y + z  = 4.0 * w"
+        ],
+        "ans": [
+            "22.5",
+            "67.5",
+            "30",
+            "30"
+        ],
+        "id": 135,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Suppose you invested 12,000 dollars in four different ways: part at 8 % annual interest, part at 5 % annual interest, part at 3 % annual interest, and the rest at 2 % annual interest. After one year, you received 590 dollars in interest. Also, twice the amount invested at 8% annual interest plus the amount invested at 5% annual interest equals ten times the amount invested at 3% annual interest minus 9000 dollars. The amount invested at 8% annual interest plus the amount invested at 5% annual interest plus the amount invested at 3% annual interest equals five times the amount invested at 2% annual interest. How much did you invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 8.0 ) * x + ( 0.01 * 5.0 ) * y + ( 0.01 * 3.0 ) * z + ( 0.01 * 2.0 ) * w  = 590.000000000000",
+            "y + z + w  = 12000.0 - x",
+            "2.0 * x + y  = 10.0 * z - 9000.0",
+            "x + y + z  = 5.0 * w"
+        ],
+        "ans": [
+            "3000",
+            "5000",
+            "2000",
+            "2000"
+        ],
+        "id": 136,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Mike's house payments have been changing over the past 17 months. Initially, he was paying $295 per month, then it rose to $310, then to $320, and finally, it increased to $330. In total, he paid $5245 over these 17 months. It is known that the number of payments made at $310 plus twice the number of payments made at $295 equals three times the number of payments made at $320 plus 13. The number of payments made at $310 plus the number of payments made at $295 plus the number of payments made at $320 equals twice the number of payments made at $330 plus 8. How many payments did he make at each rate?",
+        "system_of_equations": [
+            "310.0 * x + 295.0 * y + 320.0 * z + 330.0 * w  = 5245.00000000000",
+            "x + y + z + w  = 17.0000000000000",
+            "x + 2 * y  = 3 * z + 13.0",
+            "x + y + z  = 2 * w + 8.0"
+        ],
+        "ans": [
+            "5",
+            "7",
+            "2",
+            "3"
+        ],
+        "id": 137,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Last week, Jane worked 3 times as many hours as Jim did. Their friends Sam and Alex also contributed. Sam worked half as many hours as Jim did plus an additional 6.5 hours. Alex worked half as many hours as Jim did plus an additional 1.5 hours. Together, they worked a total of 43 hours. How many hours did each of them work?",
+        "system_of_equations": [
+            "y + x + z + w  = 43.0000000000000",
+            "y  = 3.0 * x",
+            "z  = 0.5 * x + 6.5",
+            "w  = 0.5 * x + 1.5"
+        ],
+        "ans": [
+            "7",
+            "21",
+            "10",
+            "5"
+        ],
+        "id": 138,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "An online service charges different hourly rates for regular use, premium areas, an \"exclusive\" area, and a new \"VIP\" area. One customer was charged $45 after spending 2 hours in premium areas, 9 hours in regular areas, 1 hour in the exclusive area, and 1 hour in the VIP area. Another customer spent 3 hours in the premium areas, 6 hours in regular areas, 1 hour in the exclusive area, and 1 hour in the VIP area and was charged $44. A third customer spent 1 hour in the premium area, 2 hours in the regular area, 3 hours in the exclusive area, and 1 hour in the VIP area and was charged $40. A fourth customer spent 1 hour in each of the premium, regular, and exclusive areas, and 2 hours in the VIP area and was charged $34. What does the online service charge per hour for regular, premium, exclusive, and VIP service?",
+        "system_of_equations": [
+            "2.0 * x + 9.0 * y + 1.0 * z + 1.0 * w  = 45.0000000000000",
+            "3.0 * x + 6.0 * y + 1.0 * z + 1.0 * w  = 44.0000000000000",
+            "1.0 * x + 2.0 * y + 3.0 * z + 1.0 * w  = 40.0000000000000",
+            "1.0 * x + 1.0 * y + 1.0 * z + 2.0 * w  = 34.0000000000000"
+        ],
+        "ans": [
+            "5",
+            "2",
+            "7",
+            "10"
+        ],
+        "id": 139,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Jake has 30,000 dollars to invest in four different accounts. The first account earns 1% simple interest, the second account earns 3% simple interest, the third account earns 2% simple interest, and the fourth account earns 4% simple interest. He wants to distribute the money in such a way that he earns exactly 750 dollars at the end of the year. Also, the amount invested in the 1% interest account plus twice the amount invested in the 3% interest account equals five times the amount invested in the 2% interest account plus 7500 dollars. The amount invested in the 1% interest account plus the amount invested in the 3% interest account plus the amount invested in the 2% interest account equals four times the amount invested in the 4% interest account plus 5000 dollars. How much should Jake invest in each account?",
+        "system_of_equations": [
+            "x + y + z + w  = 30000.0000000000",
+            "0.01 * 1.0 * ( x ) + 0.01 * 3.0 * y + 0.01 * 2.0 * z + 0.01 * 4.0 * w  = 750.000000000000",
+            "x + 2.0 * y  = 5.0 * z + 7500.0",
+            "x + y + z  = 4.0 * w + 5000.0"
+        ],
+        "ans": [
+            "7500",
+            "12500",
+            "5000",
+            "5000"
+        ],
+        "id": 140,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Pat has a total of $6000 to invest. She decides to divide the money into four parts: one part is invested at a 10% annual interest rate, another part at an 8% annual interest rate, another part at a 6% annual interest rate, and the rest at a 4% annual interest rate. After one year, the total interest she received from these investments is $416. Also, it is known that twice the amount invested at 10% plus the amount invested at 8% equals ten times the amount invested at 6% minus $16200. The amount invested at 10% annual interest plus the amount invested at 8% annual interest plus the amount invested at 6% annual interest equals five times the amount invested at 4% annual interest. How much did Pat invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 10.0 ) * x + ( 0.01 * 8.0 ) * y + ( 0.01 * 6.0 ) * z + ( 0.01 * 4.0 ) * w  = 416.000000000000",
+            "x + y + z + w  = 6000.00000000000",
+            "2.0 * x + y  = 10.0 * z - 16200.0",
+            "x + y + z  = 5.0 * w"
+        ],
+        "ans": [
+            "800",
+            "2200",
+            "2000",
+            "1000"
+        ],
+        "id": 141,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A piggy bank consists of nickels, dimes, quarters, and pennies. There are 50 coins in total, worth $4.50. It is known that twice the number of nickels plus the number of dimes equals four times the number of quarters plus 12. The number of nickels, dimes, and quarters combined equals three times the number of pennies plus 10. How many nickels, dimes, quarters, and pennies are in the piggy bank?",
+        "system_of_equations": [
+            "0.05 * x + 0.1 * y + 0.25 * z + 0.01 * w  = 4.50000000000000",
+            "x + y + z + w  = 50.0000000000000",
+            "2.0 * x + y  = 4.0 * z + 12.0",
+            "x + y + z  = 3.0 * w + 10.0"
+        ],
+        "ans": [
+            "22",
+            "8",
+            "10",
+            "10"
+        ],
+        "id": 142,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Jen, Ben, Sam, and Dan are colleagues. Jen works 7 hours a week more than Ben. In fact, Jen worked as much in 4 weeks as Ben works in 6 weeks. Sam works 10 hours per week, and Dan works 15 hours per week. It is known that the total hours Jen, Sam, and Dan work in a week is equal to Dan's hours plus twice the hours Ben works plus 3. The total hours Ben, Jen, and Sam work in a week is three times the hours Dan works. How many hours does each of them work per week?",
+        "system_of_equations": [
+            "4.0 * y  = 6.0 * x",
+            "y  = x + 7.0",
+            "y + z + w  = w + 2.0 * x + 3.0",
+            "x + y + z  = 3.0 * w"
+        ],
+        "ans": [
+            "14",
+            "21",
+            "10",
+            "15"
+        ],
+        "id": 143,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four integers. The sum of these four integers is 22. The difference between the first and second integer plus the fourth integer is 26. The sum of the first and third integer minus the fourth integer is -1. The sum of the first, second, and third integers is three times the fourth integer minus 38. What are the four integers?",
+        "system_of_equations": [
+            "x + y + z + w  = 22.0000000000000",
+            "x - y + w  = 26.0000000000000",
+            "x + z - w  = -1.00000000000000",
+            "x + y + z  = 3.0 * w - 38.0"
+        ],
+        "ans": [
+            "4",
+            "-7",
+            "10",
+            "15"
+        ],
+        "id": 144,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four numbers. The first number is 6 more than the second number, the third number is 9 more than the first number, and the fourth number is 4 more than the third number. The sum of these four numbers is 28. Also, the third number minus 9 equals the first number, and the fourth number minus 4 equals the third number. What are the values of these numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 28.0000000000000",
+            "x - 6.0  = y",
+            "z - 9.0  = x",
+            "w - 4.0  = z"
+        ],
+        "ans": [
+            "3",
+            "-3",
+            "12",
+            "16"
+        ],
+        "id": 145,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In a family, the father is currently four times as old as his son, the mother is 14 years younger than the father, and the grandmother is 6 years older than the father. Ten years ago, the sum of their ages was one hundred and sixty years. What are their current ages?",
+        "system_of_equations": [
+            "( x - 10.0 ) + ( y - 10.0 ) + ( z - 10.0 ) + ( w - 10.0 )  = 160.000000000000",
+            "y  = 4.0 * x",
+            "z  = y - 14.0",
+            "w  = y + 6.0"
+        ],
+        "ans": [
+            "16",
+            "64",
+            "50",
+            "70"
+        ],
+        "id": 146,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "The sum of four numbers is 46. One number is 3 times the first number. The third number is half the first number minus 0.5. The fourth number is twice the first number minus 12. What are the numbers?",
+        "system_of_equations": [
+            "x + y + z + w  = 46.0000000000000",
+            "y  = 3.0 * x",
+            "z  = 0.5 * x - 0.5",
+            "w  = 2.0 * x - 12.0"
+        ],
+        "ans": [
+            "9",
+            "27",
+            "4",
+            "6"
+        ],
+        "id": 147,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four numbers. The largest number is 5 less than the sum of the fourth number, three times the smallest number, and the middle number. When the smallest, the middle, and the fourth numbers are subtracted from the largest number, the result is 1. Also, the largest number is 1 less than the sum of the fourth number and twice the middle number. Furthermore, the largest number is 2 more than twice the fourth number. Find the four numbers.",
+        "system_of_equations": [
+            "x  = w + 3.0 * y + z - 5.0",
+            "x - y - z - w  = 1.00000000000000",
+            "x  = w + 2.0 * z - 1.0",
+            "x  = 2.0 * w + 2.0"
+        ],
+        "ans": [
+            "16",
+            "3",
+            "5",
+            "7"
+        ],
+        "id": 148,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A mother's age is three less than three times her daughter's age. The father is 17 years older than the mother. The grandmother is 37 years older than the mother. The sum of their ages is 165. Find their ages.",
+        "system_of_equations": [
+            "x + y + z + w  = 165.000000000000",
+            "y  = 3.0 * x - 3.0",
+            "z  = y + 17.0",
+            "w  = y + 37.0"
+        ],
+        "ans": [
+            "12",
+            "33",
+            "50",
+            "70"
+        ],
+        "id": 149,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "On an algebra test, the highest grade was 44 points more than the lowest grade and 22 points more than the median grade. The mode grade was 60. The sum of the highest, lowest, median, and mode grades was 270. The sum of the highest and lowest grades is 20 points more than twice the mode grade. What were the highest, lowest, median, and mode grades?",
+        "system_of_equations": [
+            "x + y + z + w  = 270.000000000000",
+            "x - y  = -44.0000000000000",
+            "x - z  = -22.0000000000000",
+            "x + y  = 2.0 * w + 20.0"
+        ],
+        "ans": [
+            "48",
+            "92",
+            "70",
+            "60"
+        ],
+        "id": 150,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "A cashier has 50 bills in total, which are either $10, $20, $5, or $1 bills. The total value of these bills is $390. It is known that twice the number of $10 bills equals the sum of the number of $1 bills, the number of $20 bills, the number of $5 bills, and 31. The number of $10 bills plus the number of $20 bills equals the sum of the number of $1 bills, the number of $5 bills, and 10. How many of each type of bill does the cashier have?",
+        "system_of_equations": [
+            "x + y + z + w  = 50.0000000000000",
+            "10.0 * x + 20.0 * y + 5.0 * z + 1.0 * w  = 390.000000000000",
+            "2.0 * x  = w + y + z + 31.0",
+            "x + y  = w + z + 10.0"
+        ],
+        "ans": [
+            "27",
+            "3",
+            "10",
+            "10"
+        ],
+        "id": 151,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Last month, a bookstore ran a special sale on calculators. They sold graphing calculators for $87, scientific calculators for $18, basic calculators for $10, and financial calculators for $20. The total sales generated from these calculators was $5380. The bookstore sold 15 more graphing calculators than scientific calculators, and the total number of calculators sold was 115. The number of scientific calculators and graphing calculators combined was 35 more than five times the number of financial calculators sold. How many of each type of calculators did the bookstore sell?",
+        "system_of_equations": [
+            "18.0 * x + 87.0 * y + 10.0 * z + 20.0 * w  = 5380.00000000000",
+            "y  = x + 15.0",
+            "x + y + z + w  = 115.000000000000",
+            "x + y  = 5.0 * w + 35.0"
+        ],
+        "ans": [
+            "35",
+            "50",
+            "20",
+            "10"
+        ],
+        "id": 152,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Lynn Ogen invested her money in four different ways: some at 9 % interest, $ 100 less than that at 7 % interest, $ 300 less than the 9% investment at 5 % interest, and $ 390 less than the 7% investment at 3 % interest. Her total annual interest was $ 83.30. The amount invested at 9% interest is $100 more than the amount invested at 7% interest. The amount invested at 5% interest is $300 less than the amount invested at 9% interest. The amount invested at 3% interest is $390 less than the amount invested at 7% interest. How much did she invest at each rate?",
+        "system_of_equations": [
+            "( 0.01 * 9.0 ) * y + ( 0.01 * 7.0 ) * x + ( 0.01 * 5.0 ) * z + ( 0.01 * 3.0 ) * w  = 83.3000000000000",
+            "y  = x + 100.0",
+            "z  = y - 300.0",
+            "w  = x - 390.0"
+        ],
+        "ans": [
+            "400",
+            "500",
+            "200",
+            "10"
+        ],
+        "id": 153,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Tyler's age is three less than his brother's age. The father's age is five times the brother's age. The mother is 10 years older than the father. The sum of their ages is 91. How old is Tyler, his brother, their father, and their mother?",
+        "system_of_equations": [
+            "x + y + z + w  = 91.0000000000000",
+            "y  = x - 3.0",
+            "z  = 5 * x",
+            "w  = z + 10.0"
+        ],
+        "ans": [
+            "7",
+            "4",
+            "35",
+            "45"
+        ],
+        "id": 154,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "There are four numbers. The first number is 3/4 of the second number, the third number is 1/4 of the second number, and the fourth number is 1/2 of the second number. If the sum of these four numbers is 90, find the numbers.",
+        "system_of_equations": [
+            "x + y + z + w  = 90.0000000000000",
+            "x  = 0.75 * y",
+            "z  = 0.25 * y",
+            "w  = 0.5 * y"
+        ],
+        "ans": [
+            "27",
+            "36",
+            "9",
+            "18"
+        ],
+        "id": 155,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "One number is fourteen more than twice another. A third number is ten less than the sum of the first two numbers. A fourth number is seven less than the sum of the first and third numbers. If the sum of these four numbers is decreased by nine, the result is twenty-six. Find the numbers.",
+        "system_of_equations": [
+            "x + y + z + w - 9.0  = 26.0000000000000",
+            "y  = 2.0 * x + 14.0",
+            "z  = x + y - 10.0",
+            "w  = x + z - 7.0"
+        ],
+        "ans": [
+            "2",
+            "18",
+            "10",
+            "5"
+        ],
+        "id": 156,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Gina has a pile of 80 coins consisting of nickels, dimes, quarters, and pennies. The total value of these coins is $7.00. It is known that the number of nickels plus twice the number of dimes equals the number of pennies plus three times the number of quarters plus 36. The number of nickels plus the number of dimes plus the number of quarters equals four times the number of pennies minus 20. How many nickels, dimes, quarters, and pennies does Gina have?",
+        "system_of_equations": [
+            "0.05 * x + 0.1 * y + 0.25 * z + 0.01 * w  = 7.00000000000000",
+            "x + y + z + w  = 80.0000000000000",
+            "x + 2 * y  = w + 3 * z + 36.0",
+            "x + y + z  = 4 * w - 20.0"
+        ],
+        "ans": [
+            "14",
+            "36",
+            "10",
+            "20"
+        ],
+        "id": 157,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "On a test, there are 35 questions in total. Each question is worth either 4 points, 5 points, 2 points for bonus questions, or 3 points for extra credit questions. The total possible score for the test is 127 points. It is known that the number of 4-point questions plus twice the number of 5-point questions equals three times the number of 2-point questions plus 10. The number of 4-point questions plus the number of 5-point questions plus the number of 2-point questions equals four times the number of 3-point extra credit questions plus 10. How many 4-point questions, 5-point questions, 2-point bonus questions, and 3-point extra credit questions are there on the test?",
+        "system_of_equations": [
+            "4.0 * x + 5.0 * y + 2.0 * z + 3.0 * w  = 127.000000000000",
+            "x + y + z + w  = 35.0000000000000",
+            "x + 2.0 * y  = 3.0 * z + 10.0",
+            "x + y + z  = 4.0 * w + 10.0"
+        ],
+        "ans": [
+            "20",
+            "4",
+            "6",
+            "5"
+        ],
+        "id": 158,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "In a laboratory, a chemist needs to prepare 300 milliliters of a 20% HCl solution. She has available a 10% HCl solution, a 30% HCl solution, a 20% HCl solution, and a 40% HCl solution. She knows that the volume of the 30% HCl solution plus twice the volume of the 10% HCl solution equals five times the volume of the 20% HCl solution plus 100 milliliters. The volume of the 30% HCl solution plus the volume of the 10% HCl solution plus the volume of the 20% HCl solution equals four times the volume of the 40% HCl solution plus 50 milliliters. How many milliliters of each solution should she use?",
+        "system_of_equations": [
+            "0.01 * 30.0 * x + 0.01 * 10.0 * y + 0.01 * 20.0 * z + 0.01 * 40.0 * w  = 60.0000000000000",
+            "x + y + z + w  = 300.000000000000",
+            "x + 2.0 * y  = 5.0 * z + 100.0",
+            "x + y + z  = 4.0 * w + 50.0"
+        ],
+        "ans": [
+            "50",
+            "150",
+            "50",
+            "50"
+        ],
+        "id": 159,
+        "source": "DRAW-1K"
+    },
+    {
+        "problem": "Tickets to the school's dinner theatre cost $6 for children, $9 for adults, $5 for seniors, and $7 for students. In total, 400 tickets were sold, collecting $2950. It is known that twice the number of children's tickets plus the number of adult's tickets plus the number of student's tickets equals three times the number of senior tickets plus 150. The number of children's tickets plus the number of adult's tickets equals twice the number of student's tickets plus 25. How many children, adults, senior, and student tickets were sold?",
+        "system_of_equations": [
+            "x + y + z + w  = 400.000000000000",
+            "( x ) * ( 6.0 ) + ( y ) * ( 9.0 ) + ( z ) * ( 5.0 ) + ( w ) * ( 7.0 )  = 2950.00000000000",
+            "2.0 * x + y + w  = 3.0 * z + 150.0",
+            "x + y  = 2.0 * w + 25.0"
+        ],
+        "ans": [
+            "50",
+            "175",
+            "75",
+            "100"
+        ],
+        "id": 160,
+        "source": "DRAW-1K"
+    }
+]

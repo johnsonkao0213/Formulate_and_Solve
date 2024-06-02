@@ -1,0 +1,1080 @@
+[
+    {
+        "id": "nluds-0885",
+        "sQuestion": "Maddie, Luisa, and Amy counted their books. Maddie had 15 books. Luisa had 18 books. Together, Amy and Luisa had 9 more books than Maddie. How many books did Amy have?",
+        "Type": "Algebra-1",
+        "lSolutions": "6 (books)",
+        "lEquations": "x:Amy's books; (x+18)-15=9"
+    },
+    {
+        "id": "nluds-0888",
+        "sQuestion": "Eric has two pieces of rope. One piece is 10 inches longer than the other. The total length of the two pieces is 40 inches. How long is the shorter piece?",
+        "Type": "Algebra-1",
+        "lSolutions": "15 (inches)",
+        "lEquations": "a:The shorter piece; a+(a+10)=40"
+    },
+    {
+        "id": "nluds-0891",
+        "sQuestion": "London is 11 years old and Blair is 16 years old. Several years ago, Blair was twice as old as London. How old was London then?",
+        "Type": "Algebra-1",
+        "lSolutions": "6 (years old)",
+        "lEquations": "y:The number of several years; (11-y)*2=(16-y)"
+    },
+    {
+        "id": "nluds-0892",
+        "sQuestion": "Anna has a total of 28 nickels and dimes in her piggy bank. She has 8 fewer nickels than dimes. How many dimes does Anna have?",
+        "Type": "Algebra-1",
+        "lSolutions": "18 (dimes)",
+        "lEquations": "y:The number of dimes; (y-8)+y=28"
+    },
+    {
+        "id": "nluds-0902",
+        "sQuestion": "Mark had 24 marbles and Evan had 3 marbles. Mark gave some of his marbles to Evan. Now Mark has exactly double the number of marbles that Evan has. How many marbles did Mark give to Evan?",
+        "Type": "Algebra-1",
+        "lSolutions": "6 (marbles)",
+        "lEquations": "x:Marbles that Mark gave to Evan; 24-x=(3+x)*2"
+    },
+    {
+        "id": "nluds-0907",
+        "sQuestion": "Rita, Peter, and Skeeter are penguins. They weigh 90 pounds altogether. Rita and Peter know they weigh the same amount. Peter and Skeeter know they weigh 68 pounds together. How much does Skeeter weigh?",
+        "Type": "Algebra-1",
+        "lSolutions": "46 (pounds)",
+        "lEquations": "S:Skeeter's weight; 68+(90-S)/2=90"
+    },
+    {
+        "id": "nluds-0909",
+        "sQuestion": "Ben had some baseball cards. His friend, Tim, had 20 cards. After Ben bought 3 more cards, he had twice as many cards as Tim. How many cards did Ben have at first?",
+        "Type": "Algebra-1",
+        "lSolutions": "37 (cards)",
+        "lEquations": "x:The number of Ben's cards at first; 20*2=x+3"
+    },
+    {
+        "id": "nluds-0912",
+        "sQuestion": "Megan and her sister, Tara, wanted to buy a scooter for $26. Tara had $4 more than Megan. Together they had enough money to buy the scooter. How much money did Tara have?",
+        "Type": "Algebra-1",
+        "lSolutions": "15 (dollars)",
+        "lEquations": "x:The number of Tara's dollars; x+(x-4)=26"
+    },
+    {
+        "id": "nluds-1294",
+        "sQuestion": "Miguel is 46 years old. He is 4 years older than thrice his son's age. Find the age of his son.",
+        "Type": "Algebra-1",
+        "lSolutions": "14 (years old)",
+        "lEquations": "x:The age of Miguel's son; 46=4+3x"
+    },
+    {
+        "id": "nluds-1295",
+        "sQuestion": "Pete, Bryan and Philip are cousins. Pete's age is one-third of Bryan and Philip is five years elder than Bryan. If the sum of the age of the cousins is 40, find the ages of each.",
+        "Type": "Algebra-1",
+        "lSolutions": "5 (years old); 15 (years old); 20 (years old)",
+        "lEquations": "x:Bryan's age; (x/3)+x+(x+5)=40"
+    },
+    {
+        "id": "nluds-1296",
+        "sQuestion": "Ana is 5 years more than Jack. The sum of their ages is 29. Find the ages of Ana and Jack.",
+        "Type": "Algebra-1",
+        "lSolutions": "17 (years old); 12 (years old)",
+        "lEquations": "j:Jack's age; (j+5)+j=29"
+    },
+    {
+        "id": "nluds-1297",
+        "sQuestion": "Tina is 3 years younger than Tom. The ages are in the ratio 2:3. Find their ages.",
+        "Type": "Algebra-1",
+        "lSolutions": "6 (years old); 9 (years old)",
+        "lEquations": "m:Tom's age; 2m/3=m-3"
+    },
+    {
+        "id": "nluds-1298",
+        "sQuestion": "George is 8 years more than Christopher and Ford is 2 years younger than Christopher. The sum of their ages is 60. Find the ages of George, Christopher and Ford.",
+        "Type": "Algebra-1",
+        "lSolutions": "26 (years old); 18 (years old); 16 (years old)",
+        "lEquations": "x:Christopher's age; (x+8)+(x-2)+x=60"
+    },
+    {
+        "id": "nluds-1299",
+        "sQuestion": "Devon is 12 years old. His age is 2 more than half the age of Steven. Find the age of Steven.",
+        "Type": "Algebra-1",
+        "lSolutions": "20 (years old)",
+        "lEquations": "S:Steven's age; (1/2)S+2=12"
+    },
+    {
+        "id": "nluds-1300",
+        "sQuestion": "Mrs. Smith is 8 years more than twice the age of her son. The ages of son is 12. Find the age of mother and find the difference between their ages.",
+        "Type": "Algebra-1",
+        "lSolutions": "32 (years old); 20 (years old)",
+        "lEquations": "m:Mrs. Smith's age; 8+12*2=m"
+    },
+    {
+        "id": "nluds-1301",
+        "sQuestion": "Kate is 12 years old. His age is 4 times the age of Robbie. Find the age of Robbie.",
+        "Type": "Algebra-1",
+        "lSolutions": "3 (years old)",
+        "lEquations": "R:Robbie's age; 12=4*R"
+    },
+    {
+        "id": "nluds-1302",
+        "sQuestion": "The sum of present age of Abe and the age before 7 years is 31. Find the present age of Abe.",
+        "Type": "Algebra-1",
+        "lSolutions": "19 (years old)",
+        "lEquations": "x:Abe's present age; x+(x-7)=31"
+    },
+    {
+        "id": "nluds-1303",
+        "sQuestion": "Nick and Kane were born on consecutive years and on same date. Nick is younger.  The sum of their ages is 11. Find the age of the brothers.",
+        "Type": "Algebra-1",
+        "lSolutions": "5 (years old); 6 (years old)",
+        "lEquations": "N:Nick's age; N+(N+1)=11"
+    },
+    {
+        "id": "nluds-1304",
+        "sQuestion": "The ages of Ashley and Mary are in the ratio 4:7. The sum of their ages is 22. Find the ages of Ashley and Mary.",
+        "Type": "Algebra-1",
+        "lSolutions": "8 (years old); 14 (years old)",
+        "lEquations": "m:Mary's age; 4m/7=22-m"
+    },
+    {
+        "id": "nluds-1305",
+        "sQuestion": "The ages of Peter, Margaret and Jack are consecutive odd numbers. The sum of the ages of Peter and Margaret equals Jack's age before 5 years. Find the ages of Peter, Margaret and Jack.",
+        "Type": "Algebra-1",
+        "lSolutions": "7 (years old); 9 (years old); 11 (years old)",
+        "lEquations": "x:Peter's age; x+(x+2)-5=(x+4)"
+    },
+    {
+        "id": "nluds-1306",
+        "sQuestion": "The sum of the ages of Tony and Teddy equals their mother's age. Tony is two years younger than Teddy. If the age of the mother is 42, find the ages of Tony and Teddy?",
+        "Type": "Algebra-1",
+        "lSolutions": "20 (years old); 22 (years old)",
+        "lEquations": "x:Tony's age; x+(x+2)=42"
+    },
+    {
+        "id": "nluds-1307",
+        "sQuestion": "At present Allen is 10 years younger than Scott. Five years from now, Scott's age will be 2 times the present age of Allen. Find the present age of Allen and Scott.",
+        "Type": "Algebra-1",
+        "lSolutions": "5 (years old); 15 (years old)",
+        "lEquations": "x:Scott's present age; x+5=2(x-10+5)"
+    },
+    {
+        "id": "nluds-1308",
+        "sQuestion": "The present ages of Lewis and Brown are in the ratio 1:2. Three years from now, the ages will be in the ratio 3:5. Find the present ages of Lewis and Brown.",
+        "Type": "Algebra-1",
+        "lSolutions": "6 (years old); 12 (years old)",
+        "lEquations": "x:Lewis's present age; (x+3)/(2x+3)=3/5"
+    },
+    {
+        "id": "nluds-1309",
+        "sQuestion": "Thrice the sum of a number and 2 equals 24 added with the same number. Write algebraic equation and find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "9",
+        "lEquations": "x:The number; 3*(x+2)=24+x"
+    },
+    {
+        "id": "nluds-1310",
+        "sQuestion": "Consider three consecutive positive integers. If the third number is subtracted from the sum of first two numbers, the difference is 10. Find the numbers.",
+        "Type": "Algebra-1",
+        "lSolutions": "11; 12; 13",
+        "lEquations": "x:The first number; x+(x+1)-(x+2)=10"
+    },
+    {
+        "id": "nluds-1311",
+        "sQuestion": "A number added with thrice a number is 20. Convert this statement into algebraic equations and find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "5",
+        "lEquations": "x:The number; x+3x=20"
+    },
+    {
+        "id": "nluds-1312",
+        "sQuestion": "A number divided by 7 is five-fourteenth. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "2.5",
+        "lEquations": "x:The number; x/7=5/14"
+    },
+    {
+        "id": "nluds-1313",
+        "sQuestion": "Sum of a number and 15 is 96. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "81",
+        "lEquations": "x:The number; x+15=96"
+    },
+    {
+        "id": "nluds-1314",
+        "sQuestion": "The difference of two numbers is 100. If one of the numbers is 91, find the other number.",
+        "Type": "Algebra-1",
+        "lSolutions": "191",
+        "lEquations": "x:The other number; x-91=100"
+    },
+    {
+        "id": "nluds-1315",
+        "sQuestion": "12 less than twice a number is 20. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "16",
+        "lEquations": "x:The number; 2x-12=20"
+    },
+    {
+        "id": "nluds-1316",
+        "sQuestion": "If a number is subtracted from 32, the digits of 32 are interchanged. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "55",
+        "lEquations": "x:The number; x-32=23"
+    },
+    {
+        "id": "nluds-1317",
+        "sQuestion": "The difference of 5 times a number and 17 is 23. Find the number and 5 times the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "8; 40",
+        "lEquations": "x:The number; 5x-17=23"
+    },
+    {
+        "id": "nluds-1318",
+        "sQuestion": "One-third of a number minus seven gives eight. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "45",
+        "lEquations": "x:The number; (1/3)*x-7=8"
+    },
+    {
+        "id": "nluds-1319",
+        "sQuestion": "Consider two-third of number and add up six to it. The result is ten. Find the unknown number.",
+        "Type": "Algebra-1",
+        "lSolutions": "6",
+        "lEquations": "x:The unknown number; (2/3)*x+6=10"
+    },
+    {
+        "id": "nluds-1320",
+        "sQuestion": "I think of a number. If I subtract 6 from the number and divide it by 13, I will get the result as 2. Find the number in my mind.",
+        "Type": "Algebra-1",
+        "lSolutions": "32",
+        "lEquations": "x:The number; (x-6)/13=2"
+    },
+    {
+        "id": "nluds-1321",
+        "sQuestion": "Wilson has a number in mind. If he takes away one-third of the number from it the result is sixteen-third. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "8",
+        "lEquations": "x:The number; x-(1/3)*x=16/3"
+    },
+    {
+        "id": "nluds-1322",
+        "sQuestion": "The sum of two consecutive odd numbers is 20. Find the numbers.",
+        "Type": "Algebra-1",
+        "lSolutions": "9; 11",
+        "lEquations": "x:The first number; x+(x+2)=20"
+    },
+    {
+        "id": "nluds-1323",
+        "sQuestion": "The sum of three consecutive even numbers is 42. Choose suitable variable and create single variable algebraic equations and find the difference between the greatest and smallest number.",
+        "Type": "Algebra-1",
+        "lSolutions": "4",
+        "lEquations": "x:The first number; (x+4)-x=4"
+    },
+    {
+        "id": "nluds-1324",
+        "sQuestion": "One-third of certain number added with one-fifth gives eight-fifteenth of the number. Find the number and check your calculation.",
+        "Type": "Algebra-1",
+        "lSolutions": "1",
+        "lEquations": "x:The certain number; x*(1/3)+(1/5)=x*(8/15)"
+    },
+    {
+        "id": "nluds-1325",
+        "sQuestion": "The difference between one-third of a number and 5 is 10. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "45",
+        "lEquations": "x:The number; (1/3)*x-5=10"
+    },
+    {
+        "id": "nluds-1326",
+        "sQuestion": "The sum of two numbers is 132, whose ratio is 5:6. Find the numbers.",
+        "Type": "Algebra-2",
+        "lSolutions": "60; 72",
+        "lEquations": "x:One of the numbers; y:The other number; x+y=132; x:y=5:6"
+    },
+    {
+        "id": "nluds-1327",
+        "sQuestion": "The sum of the digits of a two digit number is 15. If the digits in the tenth place 8, find the two digit number.",
+        "Type": "Algebra-2",
+        "lSolutions": "87",
+        "lEquations": "x:The tens digit; y:The units digit; x+y=15; x=8"
+    },
+    {
+        "id": "nluds-1328",
+        "sQuestion": "The fraction whose numerator is 3 and the denominator is 1 more than twice the numerator. Find the fraction.",
+        "Type": "Algebra-2",
+        "lSolutions": "0.4285714286",
+        "lEquations": "x:The denominator; y:The numerator; x=y*2+1; y=3"
+    },
+    {
+        "id": "nluds-1329",
+        "sQuestion": "The difference of two numbers is 70. If the larger number is 6 times the smaller number, find the numbers.",
+        "Type": "Algebra-2",
+        "lSolutions": "84; 14",
+        "lEquations": "x:The larger number; y:The smaller number; x-y=70; x=6y"
+    },
+    {
+        "id": "nluds-1330",
+        "sQuestion": "Two numbers are in the ratio 1:3. If I add 2 to each of the numbers, the ratio becomes 1:2. Find the original numbers.",
+        "Type": "Algebra-2",
+        "lSolutions": "2; 6",
+        "lEquations": "x:One of the numbers; y:The other number; x:y=1:3; x+2:y+2=1:2"
+    },
+    {
+        "id": "nluds-1331",
+        "sQuestion": "The sum of 7 more than 5 times a number is equal to sum of 6 more than twice the same number. Write the statement into possible algebraic equations and find the unknown number.",
+        "Type": "Algebra-1",
+        "lSolutions": "-0.3333333",
+        "lEquations": "n:The unknown number; 5n+7=2n+6"
+    },
+    {
+        "id": "nluds-1332",
+        "sQuestion": "A number equals 5 times the difference between the number and 4. Find the number.",
+        "Type": "Algebra-1",
+        "lSolutions": "5",
+        "lEquations": "x:The number; (x-4)*5=x"
+    },
+    {
+        "id": "nluds-1333",
+        "sQuestion": "In a fraction, the denominator is 3 more than numerator. The sum of numerator and denominator is 7. Find the fraction.",
+        "Type": "Algebra-2",
+        "lSolutions": "2.5",
+        "lEquations": "x:The denominator; y:The numerator; y+3=x; x+y=7"
+    },
+    {
+        "id": "nluds-1348",
+        "sQuestion": "If the second angle is 32 degree less than thrice the first angle and the third angle is 28 degree less than twice the first angle. Find the angles of the triangle.",
+        "Type": "Algebra-2",
+        "lSolutions": "40 (degrees); 88 (degrees); 52 (degrees)",
+        "lEquations": "x:The first angle; y:The second angle; y=3x-32; 180-(x+y)=2x-28"
+    },
+    {
+        "id": "nluds-1349",
+        "sQuestion": "The perimeter of two squares ABCD and PQRS are 3:2 respectively. The sums of the perimeters of the squares are 30. Find the perimeter of ABCD and PQRS.",
+        "Type": "Algebra-2",
+        "lSolutions": "18; 12",
+        "lEquations": "x:The perimeter of ABCD; y:The perimeter of PQRS; 2x=3y; x+y=30"
+    },
+    {
+        "id": "nluds-1350",
+        "sQuestion": "A field is in the shape of an equilateral triangle attached to the width of the rectangular region where width of the rectangle and side of the triangle measures the same. The length of rectangular region is 76 ft and the side of triangular region measures 42 ft. Find the perimeter of the field.",
+        "Type": "Algebra-2",
+        "lSolutions": "90 (ft)",
+        "lEquations": "x:A side of triangular; y:The length side of rectangular; 2y+2x=76; 3x=42"
+    },
+    {
+        "id": "nluds-1357",
+        "sQuestion": "Your dog ate 12 of your notecards for school. That was 3/4 of your notecards that you need to turn in. How many notecards had you completed?",
+        "Type": "Algebra-1",
+        "lSolutions": "16 (notecards)",
+        "lEquations": "x:The total number of notecards; 12=3/4*x"
+    },
+    {
+        "id": "nluds-1384",
+        "sQuestion": "On Monday, three hundred ninety-six students went on a trip to the zoo. All seven buses were filled and four students had to travel in cars. How many students were in each bus ?",
+        "Type": "Algebra-1",
+        "lSolutions": "56 (students)",
+        "lEquations": "x:The number of students in each bus; 7x+4=396"
+    },
+    {
+        "id": "nluds-1385",
+        "sQuestion": "Benny sold half of his comic books and then bought 6 more. He now has 17. How many did he begin with ?",
+        "Type": "Algebra-1",
+        "lSolutions": "22 (comic books)",
+        "lEquations": "x:Benny's comic books; (x/2)+6=17"
+    },
+    {
+        "id": "nluds-1386",
+        "sQuestion": "Fred bought five new baseball trading cards to add to his collection. The next day his dog ate half of his collection. There are now only twenty-six cards left. How many cards did Fred start with ?",
+        "Type": "Algebra-1",
+        "lSolutions": "47 (cards)",
+        "lEquations": "x:The number of cards that Fred started with; (x+5)-(x+5)/2=26"
+    },
+    {
+        "id": "nluds-1387",
+        "sQuestion": "Jessica spent half of her allowance going to the movies. She washed the family car and earned six dollars. What is her weekly allowance if she ended with eleven dollars ?",
+        "Type": "Algebra-1",
+        "lSolutions": "10 (dollars)",
+        "lEquations": "x:Jessica's weekly allowance; x/2+6=11"
+    },
+    {
+        "id": "nluds-1388",
+        "sQuestion": "Melanie had 276 dollars to spend on 9 books. After buying them she had 15 dollars. How much did each book cost ?",
+        "Type": "Algebra-1",
+        "lSolutions": "29 (dollars)",
+        "lEquations": "x:Each book cost; 276-9x=15"
+    },
+    {
+        "id": "nluds-1389",
+        "sQuestion": "The sum of three consecutive odd numbers is one hundred twenty-three. What is the smallest of the three numbers ?",
+        "Type": "Algebra-1",
+        "lSolutions": "39",
+        "lEquations": "x:The first number; x+(x+2)+(x+4)=123"
+    },
+    {
+        "id": "nluds-1390",
+        "sQuestion": "The sum of three consecutive numbers is 90. What is the smallest of the three numbers ?",
+        "Type": "Algebra-1",
+        "lSolutions": "29",
+        "lEquations": "x:The first number; x+(x+1)+(x+2)=90"
+    },
+    {
+        "id": "nluds-1391",
+        "sQuestion": "Nancy bought a soft drink for 4 dollars and 6 candy bars. She spent a total of 28 dollars. How much did each candy bar cost ?",
+        "Type": "Algebra-1",
+        "lSolutions": "4 (dollars)",
+        "lEquations": "y:Dollars of each candy bar; 4*1+6y=28"
+    },
+    {
+        "id": "nluds-1392",
+        "sQuestion": "Oceanside Bike Rental Shop charges a 17 dollar fixed fee plus 7 dollars an hour for renting a bike. Mary paid 80 dollars to rent a bike. How many hours did she pay to have the bike checked out ?",
+        "Type": "Algebra-1",
+        "lSolutions": "9 (hours)",
+        "lEquations": "x:Dollars for renting an hour; 17+7x=80"
+    },
+    {
+        "id": "nluds-1393",
+        "sQuestion": "There are 650 students in a school. If the number of girls is 106 more than the boys, how many boys are there in the school?",
+        "Type": "Algebra-2",
+        "lSolutions": "272 (boys)",
+        "lEquations": "x:The number of boys; y:The number of girls; x+y=650; y-x=106"
+    },
+    {
+        "id": "nluds-1394",
+        "sQuestion": "A man is thrice as old as his son. After 12 years, he will be twice as old as his son. Find their present ages.",
+        "Type": "Algebra-2",
+        "lSolutions": "36 (years old); 12 (years old)",
+        "lEquations": "x:The present age of the man; y:The present age of the man's son; x=3*y; x+12=(y+12)*2"
+    },
+    {
+        "id": "nluds-1395",
+        "sQuestion": "Vidya's mother's age is 5 years more than the three times of Vidya's present age. Find Vidya's present age, if her mother is 44 years old.",
+        "Type": "Algebra-1",
+        "lSolutions": "13 (years old)",
+        "lEquations": "x:Vidya's present age; 3*x+5=44"
+    },
+    {
+        "id": "nluds-1396",
+        "sQuestion": "Sachin says that he has 6 books more than the 6 times of the books Priyanka has. Sachin has 42 books. How many books does Priyanka have?",
+        "Type": "Algebra-1",
+        "lSolutions": "6 (books)",
+        "lEquations": "P:The number of Priyanka' books; 6P+6=42"
+    },
+    {
+        "id": "nluds-1397",
+        "sQuestion": "Sushi's father bought x lollipops. 5 were eaten by the the children. If 7 lollipops are left, how many lollipops did sushi's father bring?",
+        "Type": "Algebra-1",
+        "lSolutions": "12 (lollipops)",
+        "lEquations": "x:Lollipops that Sushi's father bought; x=5+7"
+    },
+    {
+        "id": "nluds-1398",
+        "sQuestion": "If 10 years ago he was 25 years old, how old is Rojer now?",
+        "Type": "Algebra-1",
+        "lSolutions": "35 (years old)",
+        "lEquations": "x:Rojer's age; x-10=25"
+    },
+    {
+        "id": "nluds-1399",
+        "sQuestion": "After 15 years, Ariel will be four times as old as she is now. Determine her present age.",
+        "Type": "Algebra-1",
+        "lSolutions": "5 (years old)",
+        "lEquations": "x:Ariel's present age; 4x=x+15"
+    },
+    {
+        "id": "nluds-1400",
+        "sQuestion": "Mrs.Martin is 27 years older than her daughter Neil. After 8 years she will be twice as old as Neil. Find their present ages.",
+        "Type": "Algebra-2",
+        "lSolutions": "46 (years old); 19 (years old)",
+        "lEquations": "M:Martin's present age; N:Neil's present age; M=N+27; M+8=2*(N+8)"
+    },
+    {
+        "id": "nluds-1402",
+        "sQuestion": "Two boys have 480 marbles between them. One arranges them in heaps of 6 marbles and the other in heaps of 9 each. If the total number of heaps is 72, how many marbles does each have?",
+        "Type": "Algebra-2",
+        "lSolutions": "336 (marbles); 144 (marbles)",
+        "lEquations": "x:Heaps of 6 marbles; y:Heaps of 9 marbles; 6x+9y=480; x+y=72"
+    },
+    {
+        "id": "nluds-1403",
+        "sQuestion": "Sum of two numbers is 52. If one of the numbers is 10 more than the other, find the numbers.",
+        "Type": "Algebra-2",
+        "lSolutions": "31; 21",
+        "lEquations": "x:The large number; y:The small number; x+y=52; x-y=10"
+    },
+    {
+        "id": "nluds-1404",
+        "sQuestion": "The present age of Jacob's father is three times that of Jacob. After 5 years, sum of their ages would be 70 years. Find their present ages.",
+        "Type": "Algebra-2",
+        "lSolutions": "45 (years old); 15 (years old)",
+        "lEquations": "F:Present age of Jacob's father; J:Jacob's present age; F=J*3; (F+5)+(J+5)=70"
+    },
+    {
+        "id": "nluds-1405",
+        "sQuestion": "Length of a rectangle is 8 m less than twice its width. If the perimeter of the rectangle is 56 m, find its length and width.",
+        "Type": "Algebra-2",
+        "lSolutions": "16 (m); 12 (m)",
+        "lEquations": "L:Length of the rectangle; W:Width of the rectangle; L=W*2-8; 2L+2W=56"
+    },
+    {
+        "id": "nluds-1406",
+        "sQuestion": "Sum of three consecutive integers is 24. Find the integers.",
+        "Type": "Algebra-1",
+        "lSolutions": "7; 8; 9",
+        "lEquations": "x:The first number; x+(x+1)+(x+2)=24"
+    },
+    {
+        "id": "nluds-1407",
+        "sQuestion": "Five years hence, the age of Jacob will be three times that of his son. Five years ago, Jacob's age was seven times that of his son. What are their present ages?",
+        "Type": "Algebra-2",
+        "lSolutions": "40 (years old); 10 (years old)",
+        "lEquations": "x:Jacob's age; y:The age of Jacob's son; x+5=3(y+5); x-5=7(y-5)"
+    },
+    {
+        "id": "nluds-1408",
+        "sQuestion": "Five years ago, I was thrice as old as my son and ten years later I shall be twice as old as my son. How old are we now?",
+        "Type": "Algebra-2",
+        "lSolutions": "50 (years old); 20 (years old)",
+        "lEquations": "x:My age; y:The age of my son; x+5=3(y-5); x-5=2(y+10)"
+    },
+    {
+        "id": "nluds-1409",
+        "sQuestion": "A is two years older than B. A's father D is twice as old as A and B is twice old as his sister C. The ages of D and C differ by 40 years. Find the ages of A and B.",
+        "Type": "Algebra-2",
+        "lSolutions": "26 (years old); 24 (years old)",
+        "lEquations": "A:The age of a person; C:The age of B's sister; A=B+2; 2A=(1/2)*B+40"
+    },
+    {
+        "id": "nluds-1410",
+        "sQuestion": "Two years ago, a father was five times as old as his son. Two years later, his age will be 8 more than the age of the son. Find the present ages of father and son.",
+        "Type": "Algebra-2",
+        "lSolutions": "12 (years old); 4 (years old)",
+        "lEquations": "x:The age of the father; y:The age of the father's son; x-2=5(y-2); x+2=y+2+8"
+    },
+    {
+        "id": "nluds-1411",
+        "sQuestion": "Father's age is three times the sum of the ages of his two children. After 5 years his age will be twice the sum of age of two children. Find the age of father.",
+        "Type": "Algebra-2",
+        "lSolutions": "15 (years old); 5 (years old)",
+        "lEquations": "x:The age of the father; y:The sum of the ages of two children; x=3y; x+5=2(y+5)"
+    },
+    {
+        "id": "nluds-1412",
+        "sQuestion": "5 years hence the age of a father shall be three times the age of his son while 5 years earlier the age of father was 7 times the age of his son. Find the present ages.",
+        "Type": "Algebra-2",
+        "lSolutions": "40 (years old); 10 (years old)",
+        "lEquations": "x:The age of the father; y:The age of the father's son; x+5=3(y+5); x-5=7(y-5)"
+    },
+    {
+        "id": "nluds-1413",
+        "sQuestion": "The age of a father is equal to the sum of the ages of his 5 children. After 15 years sum of the ages of the children will be twice the age of the father. Find the age of the father.",
+        "Type": "Algebra-2",
+        "lSolutions": "75 (years old)",
+        "lEquations": "x:The age of the father; y:The sum of the ages of five children; x=y; y+5*15=2x"
+    },
+    {
+        "id": "nluds-1414",
+        "sQuestion": "Ten years ago, the sum of the ages of two sons was one-third of their father's age. One son is two years older than the other and sum of their present ages is 14 years less than the father's present age. Find the present ages of all.",
+        "Type": "Algebra-2",
+        "lSolutions": "21 (years old)",
+        "lEquations": "x:A age of one of sons; y:The age of the father; x+(x+2)=y/3; x+(x+2)=y-14"
+    },
+    {
+        "id": "nluds-1415",
+        "sQuestion": "If twice the son's age is added to the father's, the sum is 70. But if twice the father's age is added to the son's age, the sum is 95. Find the ages of father and son.",
+        "Type": "Algebra-2",
+        "lSolutions": "40 (years old); 15 (years old)",
+        "lEquations": "x:The father's age; y:The son's age; 2y+x=70; 2x+y=95"
+    },
+    {
+        "id": "nluds-1416",
+        "sQuestion": "I am three times as old as my son. Five years later, I shall be two and a half times as old as my son. How old am I and how old is my son?",
+        "Type": "Algebra-2",
+        "lSolutions": "45 (years old); 15 (years old)",
+        "lEquations": "x:My age; y:The age of my son; x=3y; x+5=2.5(y+5)"
+    },
+    {
+        "id": "nluds-1417",
+        "sQuestion": "The sum total of the ages of father and the son is 55 years. If the father was to live till his son's age equals his present age. The total of their ages would be 93 years. Find their present ages.",
+        "Type": "Algebra-2",
+        "lSolutions": "37 (years old); 18 (years old)",
+        "lEquations": "x:The present age of the father; y:The present age of the son; x+y=55; (x+(x-y))+(y+(x-y))=93"
+    },
+    {
+        "id": "nluds-1418",
+        "sQuestion": "The ages of two friends Anna and Ben differ by 3 years. Anna's father Denver is twice as old as Anna and Ben is twice as old as his sister Cathy. The ages of Cathy and Denver differ by 30 years. Find the ages of Anna and Ben.",
+        "Type": "Algebra-2",
+        "lSolutions": "19 (years old); 16 (years old)",
+        "lEquations": "A:Anna's age; C:Cathy's age; A-2C=3; 2A=C+30"
+    },
+    {
+        "id": "nluds-1419",
+        "sQuestion": "Five years ago, Nancy was thrice as old as Sam. Ten years later, Nancy will be twice as old as Sam. How old are Nancy and Sam?",
+        "Type": "Algebra-2",
+        "lSolutions": "50 (years old); 20 (years old)",
+        "lEquations": "x:Sam's present age; y:Nancy's present age; y-5=3(x-5); y+10=2(x+10)"
+    },
+    {
+        "id": "nluds-1420",
+        "sQuestion": "Seven times a two digit is equal to four times the number obtained by reversing the order of digits and the sum of the digits is 3. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "12",
+        "lEquations": "x:The number of the tens digital; y:The number of the unit digital; 7(10x+y)=4(10y+x); x+y=3"
+    },
+    {
+        "id": "nluds-1421",
+        "sQuestion": "A two digit number is four times the sum of its digits and twice the product of the digits. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "36",
+        "lEquations": "x:The number of the tens digital; y:The number of the unit digital; 10x+y=4(x+y); 10x+y=2xy"
+    },
+    {
+        "id": "nluds-1422",
+        "sQuestion": "A number consisting of two digits, is equal to 7 times the sum of its digits. When 27 is subtracted from the number, the digits interchange places. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "63",
+        "lEquations": "x:The number of the tens digital; y:The number of the unit digital; 10x+y=7(x+y); 10x+y-27=10y+x"
+    },
+    {
+        "id": "nluds-1423",
+        "sQuestion": "In a two digit number, the sum of the two digits is 9. If the digits are reversed , the number is increased by 9. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "45",
+        "lEquations": "x:The number of the tens digital; y:The number of the unit digital; x+y=9; 10y+x=10x+y+9"
+    },
+    {
+        "id": "nluds-1424",
+        "sQuestion": "The sum of the digits of a two number is 15. The number is decreased by 27 the digits are reversed. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "96",
+        "lEquations": "x:The number of the tens digital; y:The number of the unit digital; x+y=15; 10x+y=10y+x+27"
+    },
+    {
+        "id": "nluds-1425",
+        "sQuestion": "In a two digit number, the tens digit is three times the unit digit. When the number is decreased by 54, the digits are reversed. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "93",
+        "lEquations": "x:The number of the tens digital; y:The number of the unit digital; x=3y; 10x+y=10y+x+54"
+    },
+    {
+        "id": "nluds-1426",
+        "sQuestion": "The sum of the digits of a two digit number is 8 and the difference between the number and that formed by reversing the digits is 18. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "53",
+        "lEquations": "x:The number of the tens digital; y:The number of the units digital; x+y=8; (10x+y)-(10y+x)=18"
+    },
+    {
+        "id": "nluds-1427",
+        "sQuestion": "A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours, it can go 40 km upstream and 55 km downstream. Determine the speed of the stream and that of boat in still water.",
+        "Type": "Algebra-2",
+        "lSolutions": "8 (km/hour); 3 (km/hour)",
+        "lEquations": "x:Speed of boat in still water; y:Speed of stream; 30/(x-y)+44/(x+y)=10; 40/(x-y)+55/(x+y)=13"
+    },
+    {
+        "id": "nluds-1428",
+        "sQuestion": "Tara can row downstream 20 km in 2 hours, and upstream 4 km in 2 hours. Find her speed of rowing in still water and the speed of the current.",
+        "Type": "Algebra-2",
+        "lSolutions": "6 (km/hour); 4 (km/hour)",
+        "lEquations": "x:Speed of rowing in still water; y:Speed of current; 20/(x+y)=2; 4/(x-y)=2"
+    },
+    {
+        "id": "nluds-1429",
+        "sQuestion": "A sailor goes 8 km downstream in 40 minutes and comes back in 1 hour. Determine the speed of the sailor in still water and the speed of current.",
+        "Type": "Algebra-2",
+        "lSolutions": "10 (km/hour); 2 (km/hour)",
+        "lEquations": "x:Speed of sailor in still water; y:Speed of current; 8/(x+y)=40/60; 8/(x-y)=1"
+    },
+    {
+        "id": "nluds-1430",
+        "sQuestion": "Points A and B are 70 km apart on a highway. A car starts from A and another car starts from B at the same time. If they travel in the same direction, they meet in 7 hours, but if they travel towards each other they meet in one hour. What are their respective speeds?",
+        "Type": "Algebra-2",
+        "lSolutions": "40 (km/hour); 30 (km/hour)",
+        "lEquations": "A:Car speed of point A; B:Car speed of point B; 7A-7B=70; A+B=70"
+    },
+    {
+        "id": "nluds-1431",
+        "sQuestion": "Amy travelled 300 km by train and 200 km by taxi, it took him 5 hours 30 minutes. But if he travels 260 km by train and 240 km by taxi he takes 6 minutes longer. Find the speed of train and taxi.",
+        "Type": "Algebra-2",
+        "lSolutions": "100 (km/hour); 80 (km/hour)",
+        "lEquations": "x:Speed of train; y:Speed of taxi; (300/x)+(200/y)=5.5; (260/x)+(240/y)=5.6"
+    },
+    {
+        "id": "nluds-1432",
+        "sQuestion": "A man travels 600 km partly by train and partly by car. If he covers 400 km by train and the rest by car, it takes him 6 hours and 30 minutes. But if he travels 200 km by train and rest by car, he takes 30 minutes longer. Find the speed of train and that of car.",
+        "Type": "Algebra-2",
+        "lSolutions": "100 (km/hour); 80 (km/hour)",
+        "lEquations": "x:Speed of train; y:Speed of car; 400/x+200/y=6.5; 200/x+400/y=7"
+    },
+    {
+        "id": "nluds-1433",
+        "sQuestion": "The taxi charges in a city comprise of a fixed charge together with the charge for the distance covered. For a journey of 10 km, the charge paid is $75 and for a journey of 15 km, the charge paid is $110. What will a person have to pay for traveling a distance of 25 km?",
+        "Type": "Algebra-2",
+        "lSolutions": "180 (dollars)",
+        "lEquations": "x:Charge per km; y: Charge of a taxi; 10x+y=75; 15x+y=110"
+    },
+    {
+        "id": "nluds-1434",
+        "sQuestion": "A railway half ticket costs half the full fare and the reservation charge is the same on half ticket as on full ticket. One reserved first class from Michigan to Massachusetts costs $216 and one full and one half reserved first class tickets cost $327. What is the basic first class full fare and what is the reservation charge?",
+        "Type": "Algebra-2",
+        "lSolutions": "210 (dollars); 6 (dollars)",
+        "lEquations": "x:The cost of full first class ticket; y:The cost of reservation; x+y=216; 3/2x+2y=327"
+    },
+    {
+        "id": "nluds-1435",
+        "sQuestion": "A man walks certain distance with certain speed. If he walks 1/2 km/hr faster, he takes 1 hr less. But if he walks 1 km/hr slower, he takes 3 more hours. Find the distance covered by the man and his original rate of walking.",
+        "Type": "Algebra-2",
+        "lSolutions": "36 (km); 4 (km/hour)",
+        "lEquations": "x:The original rate of walking; y:The distance covered; y/(x+1/2)=y/x-1; y/(x-1)=y/x+3"
+    },
+    {
+        "id": "nluds-1436",
+        "sQuestion": "A car goes uphill at the rate of 30 km an hour and downhill at the rate of 50 km an hour after 15 hours it has covered 650 km. How long did it go downhill and uphill respectively?",
+        "Type": "Algebra-2",
+        "lSolutions": "5 (hr); 10 (hr)",
+        "lEquations": "x:Distance when uphill; y:Distance when downhill; x+y=15; 30x+50y=650"
+    },
+    {
+        "id": "nluds-1437",
+        "sQuestion": "Ronnie travels 300 km to her home partly by train and partly by bus. She takes 4 hours if she travels 60 km by train and the remaining by bus. If she travels 100 km by train and the remaining by bus, she takes 10 minutes longer. Find the speed of the train and bus separately.",
+        "Type": "Algebra-2",
+        "lSolutions": "60 (km/hour); 80 (km/hour)",
+        "lEquations": "x:Speed of train; y:Speed of bus; 60/x+240/y=4; 100/x+200/y=25/6"
+    },
+    {
+        "id": "nluds-1438",
+        "sQuestion": "A train covered a certain distance at a uniform speed. If the train would have been 6 km/hr faster it would have 8 hours less than the scheduled time, and if the train were slower by 6 km/hr,it would have taken 12 hours more than the scheduled time. Find the length of the journey.",
+        "Type": "Algebra-2",
+        "lSolutions": "1440 (km)",
+        "lEquations": "x:Speed of train; y:The time taken by the train; xy/(x+6)=y-8; xy/(x-6)=y+12"
+    },
+    {
+        "id": "nluds-1439",
+        "sQuestion": "If you were to travel by metro the fare for the first kilometer is different from the rate per kilometer for the remaining distance. The total fare for a distance of 20 km is $37.70 and that for a distance of 26 km is $48.50. Find the auto fare for the first kilometer and for each successive kilometer.",
+        "Type": "Algebra-2",
+        "lSolutions": "3.5 (dollars); 1.8 (dollars)",
+        "lEquations": "x:The fare for the first kilometer; y:The fare for remaining distance; x+(20-1)y=37.7; x+(26-1)y=48.5"
+    },
+    {
+        "id": "nluds-1440",
+        "sQuestion": "The coach of a cricket team buys 7 bats and 6 balls for $3800. Later, he buys 3 bats and 5 balls for $1750. Find the cost of each bat and each ball.",
+        "Type": "Algebra-2",
+        "lSolutions": "500 (dollars); 50 (dollars)",
+        "lEquations": "x:Cost of each bat; y:Cost of each ball; 7x+6y=3800; 3x+5y=1750"
+    },
+    {
+        "id": "nluds-1441",
+        "sQuestion": "The difference between two numbers is 26 and greater number is three times the smaller. Find the numbers.",
+        "Type": "Algebra-2",
+        "lSolutions": "13; 39",
+        "lEquations": "x:The greater number; y:The smaller number; x-y=26; x=3y"
+    },
+    {
+        "id": "nluds-1442",
+        "sQuestion": "The sum of the digits of a two-digit number is 9. Also, nine times this number is twice the number obtained by reversing the order of the digits. Find the number.",
+        "Type": "Algebra-2",
+        "lSolutions": "18",
+        "lEquations": "x:The number of first digit; y:The number of second digit; x+y=9; 9*(10x+y)=2*(10y+x)"
+    },
+    {
+        "id": "nluds-1443",
+        "sQuestion": "Fraction becomes 4/5 , if one is added to both numerator and denominator. If however, 5 is subtracted from both, the fraction becomes 1/2. Find the fraction.",
+        "Type": "Algebra-2",
+        "lSolutions": "0.7777777778",
+        "lEquations": "x:The number of numerator; y:The number of denominator; 5x-4y+1=0; 2x-y-5=0"
+    },
+    {
+        "id": "nluds-1444",
+        "sQuestion": "The sum of numerator and denominator of a fraction is 18. If the denominator is increased by 2 the fractions reduced to 1/3 . Find the fraction.",
+        "Type": "Algebra-2",
+        "lSolutions": "0.3846153846",
+        "lEquations": "x:The number of numerator; y:The number of denominator; x+y=18; x/(y+2)=1/3"
+    },
+    {
+        "id": "nluds-1445",
+        "sQuestion": "A person invested some amount at 12% simple interest and some amount at 10% simple interest. He received an annual interest of $130. But, if he had interchanged and invested he would have received $4 more. How much amount did he invest at the two rates?",
+        "Type": "Algebra-2",
+        "lSolutions": "500 (dollars); 700 (dollars)",
+        "lEquations": "x:Dollars at 12%; y:Dollars at 10%; 12%X+10%Y=130; 12%Y+10%X=134"
+    },
+    {
+        "id": "nluds-1446",
+        "sQuestion": "At present a father is three times as old as his son. After 12 years his age will be twice the age of his son. Find their present ages?",
+        "Type": "Algebra-2",
+        "lSolutions": "36 (years old); 12 (years old)",
+        "lEquations": "f:Father's age; s:Son's age; f=s*3; f+12=(s+12)*2"
+    },
+    {
+        "id": "nluds-1447",
+        "sQuestion": "The larger of two supplementary angles exceeds the smaller by 18 degrees. Find them.",
+        "Type": "Algebra-2",
+        "lSolutions": "99 (degrees); 81 (degrees)",
+        "lEquations": "x:The larger angle; y:The smaller angle; x+y=180; x-y=18"
+    },
+    {
+        "id": "nluds-1448",
+        "sQuestion": "The area of a rectangle gets reduced by 9 square units, if its length is reduced by 5 units and breadth is increased by 3 units. If we increase the length by 3 units and the breadth by 2 units, the area increases by 67 square units. Find the dimensions of the rectangle.",
+        "Type": "Algebra-2",
+        "lSolutions": "17 (units); 9 (units)",
+        "lEquations": "x:The length of a rectangle; y:The breadth of a rectangle; (x-5)(y+3)=xy-9; (x+3)(y+2)=xy+67"
+    },
+    {
+        "id": "nluds-1449",
+        "sQuestion": "One number is half the other. Sum of two numbers is equal to 6. Find the numbers.",
+        "Type": "Algebra-1",
+        "lSolutions": "4; 2",
+        "lEquations": "x:One of the numbers; x+(x/2)=6"
+    },
+    {
+        "id": "nluds-1450",
+        "sQuestion": "The numerator of a fraction is 3 less than its denominator. If the numerator is increased by 1 and the denominator is increased by 3, the fraction becomes equal to 1/2. Find the original fraction.",
+        "Type": "Algebra-2",
+        "lSolutions": "0.5714285714",
+        "lEquations": "x:The numerator of a fraction; y:The denominator of a fraction; (x+1)/(y+3)=1/2; x+3=y"
+    },
+    {
+        "id": "nluds-1451",
+        "sQuestion": "The sum of two numbers is 35. Their difference is 13. Find the numbers.",
+        "Type": "Algebra-1",
+        "lSolutions": "11; 24",
+        "lEquations": "x:One of the numbers; (35-x)-x=13"
+    },
+    {
+        "id": "nluds-1452",
+        "sQuestion": "Two number are in the ratio 3:4. sum of two numbers is equal to 56. Find the numbers.",
+        "Type": "Algebra-1",
+        "lSolutions": "24; 32",
+        "lEquations": "x:One of the numbers; 3x+4x=56"
+    },
+    {
+        "id": "nluds-1453",
+        "sQuestion": "In a 2-digit number, the tens digit is 4 times the units digit. When the digits are reversed, the new number formed is 54 less than the original number. Find the original number.",
+        "Type": "Algebra-1",
+        "lSolutions": "82",
+        "lEquations": "x:The units digit; ((4x*10)+(x*1))-((x*10)+(4x*1))=54; (2*4)*10+2=82"
+    },
+    {
+        "id": "nluds-1454",
+        "sQuestion": "Anil is 9 years older than Ajith. In 10 years, Anil will be twice as old as Ajith was 10 years ago. Find their present ages.",
+        "Type": "Algebra-1",
+        "lSolutions": "48 (years old); 39 (years old)",
+        "lEquations": "x:Ajith's present age; x+19=2(x-10)"
+    },
+    {
+        "id": "nluds-1455",
+        "sQuestion": "If 28 less than five times a certain number is 232. What is the number?",
+        "Type": "Algebra-1",
+        "lSolutions": "52",
+        "lEquations": "x:The certain number; 5x-28=232"
+    },
+    {
+        "id": "nluds-1456",
+        "sQuestion": "Fifteen more than three times a number is the same as ten less than six times the number. What is the number?",
+        "Type": "Algebra-1",
+        "lSolutions": "8.3333333333",
+        "lEquations": "x:The number; 3x+15=6x-10"
+    },
+    {
+        "id": "nluds-1457",
+        "sQuestion": "The sum of three consecutive even numbers is 246. What are the numbers?",
+        "Type": "Algebra-1",
+        "lSolutions": "80; 82; 84",
+        "lEquations": "x:The first number; x+(x+2)+(x+4)=246"
+    },
+    {
+        "id": "nluds-1458",
+        "sQuestion": "The second angle of a triangle is double the first. The third angle is 40 less than the first. Find the three angles.",
+        "Type": "Algebra-2",
+        "lSolutions": "88 (degrees); 44 (degrees); 48 (degrees)",
+        "lEquations": "x:The second angle of a triangle; y:The first angle of a triangle; 2y=x; 180-(x+y)=x-40"
+    },
+    {
+        "id": "nluds-1459",
+        "sQuestion": "A sofa and a love seat together costs $444. The sofa costs double the love seat. How much do they each cost?",
+        "Type": "Algebra-2",
+        "lSolutions": "148 (dollars); 296 (dollars)",
+        "lEquations": "x:The cost of the sofa; y:The cost of the love seat; x+y=444; x=2y"
+    },
+    {
+        "id": "nluds-1460",
+        "sQuestion": "A horse and a saddle cost 5000 dollars. If the horse cost 4 times as much as the saddle, what was the cost of each?",
+        "Type": "Algebra-2",
+        "lSolutions": "1000 (dollars); 4000 (dollars)",
+        "lEquations": "x:The cost of the horse; y:The cost of the saddle; x+y=5000; x=4y"
+    },
+    {
+        "id": "nluds-1461",
+        "sQuestion": "A bicycle and a bicycle helmet cost 240 dollars. How much did each cost, if the bicycle cost 5 times as much as the helmet?",
+        "Type": "Algebra-2",
+        "lSolutions": "40 (dollars); 200 (dollars)",
+        "lEquations": "x:The cost of the bicycle; y:The cost of the helmet; x+y=240; x=5y"
+    },
+    {
+        "id": "nluds-1462",
+        "sQuestion": "In a room containing 45 students there were twice as many girls as boys. How many of each, were there?",
+        "Type": "Algebra-2",
+        "lSolutions": "30 (girls); 15 (boys)",
+        "lEquations": "x:The number of boys; y:The number of girls; x+y=45; 2x=y"
+    },
+    {
+        "id": "nluds-1463",
+        "sQuestion": "An electrician cuts a 30 ft piece of wire into two pieces. One piece is 2 ft longer than the other. How long are the pieces?",
+        "Type": "Algebra-2",
+        "lSolutions": "14 (ft); 16 (ft)",
+        "lEquations": "x:The longer piece; y:The shorter piece; x+y=30; x=y+2"
+    },
+    {
+        "id": "nluds-1464",
+        "sQuestion": "When five is added to three more than a certain number, the result is 19. What is the number?",
+        "Type": "Algebra-1",
+        "lSolutions": "11",
+        "lEquations": "x:The certain number; 5+3+x=19"
+    },
+    {
+        "id": "nluds-1465",
+        "sQuestion": "If five is subtracted from three times a certain number, the result is 10. What is the number?",
+        "Type": "Algebra-1",
+        "lSolutions": "5",
+        "lEquations": "x:The certain number; 3x-5=10"
+    },
+    {
+        "id": "nluds-1466",
+        "sQuestion": "A certain number added twice to itself equals 96. What is the number?",
+        "Type": "Algebra-1",
+        "lSolutions": "32",
+        "lEquations": "x:The certain number; x+2x=96"
+    },
+    {
+        "id": "nluds-1467",
+        "sQuestion": "A number plus itself, plus twice itself, plus 4 times itself, is equal to 104. What is the number?",
+        "Type": "Algebra-1",
+        "lSolutions": "13",
+        "lEquations": "x:The number; x+x+2x+4x=104"
+    },
+    {
+        "id": "nluds-1468",
+        "sQuestion": "The sum of the first, two times the second, and three times the third is 70. Find three consecutive odd integers.",
+        "Type": "Algebra-1",
+        "lSolutions": "9; 11; 13",
+        "lEquations": "x:The first number; x+2(x+2)+3(x+4)=70"
+    },
+    {
+        "id": "nluds-1469",
+        "sQuestion": "Two angles of a triangle are the same size. The third angle is 12 degrees smaller than the first angle. Find the measure the angles.",
+        "Type": "Algebra-2",
+        "lSolutions": "64 (degrees); 64 (degrees); 52 (degrees)",
+        "lEquations": "x:The first angle of a triangle; y:The second angle of a triangle; x=y; 180-(x+y)=x-12"
+    },
+    {
+        "id": "nluds-1470",
+        "sQuestion": "Two angles of a triangle are the same size. The third angle is 3 times as large as the first. How large are the angles?",
+        "Type": "Algebra-2",
+        "lSolutions": "36 (degrees); 36 (degrees); 108 (degrees)",
+        "lEquations": "x:The first angle of a triangle; y:The second angle of a triangle; x=y; 180-(x+y)=3x"
+    },
+    {
+        "id": "nluds-1471",
+        "sQuestion": "The third angle of a triangle is the same size as the first. The second angle is 4 times the third. Find the measure of the angles.",
+        "Type": "Algebra-2",
+        "lSolutions": "30 (degrees); 120 (degrees); 30 (degrees)",
+        "lEquations": "x:The first angle of a triangle; z:The third angle of a triangle; z=x; 180-(x+z)=4z"
+    },
+    {
+        "id": "nluds-1472",
+        "sQuestion": "The second angle of a triangle is five times as large as the first. The measure of the third angle is 12 degrees greater than that of the first angle. How large are the angles?",
+        "Type": "Algebra-2",
+        "lSolutions": "24 (degrees); 120 (degrees); 36 (degrees)",
+        "lEquations": "x:The first angle of a triangle; y:The second angle of a triangle; y=5x; 180-(x+y)=x+12"
+    },
+    {
+        "id": "nluds-1473",
+        "sQuestion": "The second angle of a triangle is three times the first, and the third is 12 degrees less than twice the first. Find the measures of the angles.",
+        "Type": "Algebra-2",
+        "lSolutions": "32 (degrees); 96 (degrees); 52 (degrees)",
+        "lEquations": "x:The first angle of a triangle; y:The second angle of a triangle; y=3x; 180-(x+y)=2x-12"
+    },
+    {
+        "id": "nluds-1474",
+        "sQuestion": "The perimeter of a rectangle is 150 cm. The length is 15 cm greater than the width. Find the dimensions.",
+        "Type": "Algebra-2",
+        "lSolutions": "45 (cm); 30 (cm)",
+        "lEquations": "x:The length of a rectangle; y:The width of a rectangle; 2x+2y=150; x=y+15"
+    },
+    {
+        "id": "nluds-1475",
+        "sQuestion": "The perimeter of a college basketball court is 96 meters and the length is 14 meters more than the width. What are the dimensions?",
+        "Type": "Algebra-2",
+        "lSolutions": "17 (meters); 31 (meters)",
+        "lEquations": "x:The length of the court; y:The width of the court; 2x+2y=96; x=y+14"
+    },
+    {
+        "id": "nluds-1476",
+        "sQuestion": "A mountain cabin on 1 acre of land costs $30,000. If the land cost 4 times as much as the cabin, what was the cost of each?",
+        "Type": "Algebra-2",
+        "lSolutions": "6000 (dollars); 24000 (dollars)",
+        "lEquations": "x:The cost of the cabin; y:The cost of the land; x+y=30000; 4x=y"
+    },
+    {
+        "id": "nluds-1477",
+        "sQuestion": "Of 240 stamps that Harry and his sister collected, Harry collected 3 times as many as his sisters. How many did each collect?",
+        "Type": "Algebra-2",
+        "lSolutions": "60 (stamps); 180 (stamps)",
+        "lEquations": "x:Harry's collected stamps; y:Harry's sister collected stamps; x+y=240; x=3y"
+    },
+    {
+        "id": "nluds-1478",
+        "sQuestion": "If Mr. Brown and his son together had $220, and Mr. Brown had 10 times as much as his son, how much money had each?",
+        "Type": "Algebra-2",
+        "lSolutions": "20 (dollars); 200 (dollars)",
+        "lEquations": "x:The money of Mr. Brown; y:The money of Mr. Brown's son; x+y=220; x=10y"
+    },
+    {
+        "id": "nluds-1479",
+        "sQuestion": "Aaron had 7 times as many sheep as Beth, and both together had 608. How many sheep had each?",
+        "Type": "Algebra-2",
+        "lSolutions": "76 (sheep); 532 (sheep)",
+        "lEquations": "x:The number of Aaron's sheep; y:The number of Beth's sheep; 7x=y; x+y=608"
+    },
+    {
+        "id": "nluds-1480",
+        "sQuestion": "A man bought a cow and a calf for $990, paying 8 times as much for the cow as for the calf. What was the cost of each?",
+        "Type": "Algebra-2",
+        "lSolutions": "110 (dollars); 880 (dollars)",
+        "lEquations": "x:The cost of the cow; y:The cost of the calf; x+y=990; x=8y"
+    },
+    {
+        "id": "nluds-1481",
+        "sQuestion": "Jamal and Moshe began a business with a capital of $7500. If Jamal furnished half as much capital as Moshe, how much did each furnish?",
+        "Type": "Algebra-2",
+        "lSolutions": "2500 (dollars); 5000 (dollars)",
+        "lEquations": "x:Jamal's capital; y:Moshe's capital; x+y=7500; x=(1/2)*y"
+    },
+    {
+        "id": "nluds-1482",
+        "sQuestion": "A lab technician cuts a 12 inch piece of tubing into two pieces in such a way that one piece is 2 times longer than the other. How long are the pieces?",
+        "Type": "Algebra-2",
+        "lSolutions": "4 (inches); 8 (inches)",
+        "lEquations": "x:The longer piece; y:The shorter piece; x+y=12; x=2y"
+    },
+    {
+        "id": "nluds-1483",
+        "sQuestion": "A 6 ft board is cut into two pieces, one twice as long as the other. How long are the pieces?",
+        "Type": "Algebra-2",
+        "lSolutions": "2 (ft); 4 (ft)",
+        "lEquations": "x:The longer piece; y:The shorter piece; x+y=6; x=2y"
+    },
+    {
+        "id": "nluds-1484",
+        "sQuestion": "An eight ft board is cut into two pieces. One piece is 2 ft longer than the other. How long are the pieces?",
+        "Type": "Algebra-2",
+        "lSolutions": "3 (ft); 5 (ft)",
+        "lEquations": "x:The longer piece; y:The shorter piece; x+y=8; x=y+2"
+    },
+    {
+        "id": "nluds-1485",
+        "sQuestion": "The total cost for tuition plus room and board at State University is $2,584. Tuition costs $704 more than room and board. What is the tuition fee?",
+        "Type": "Algebra-2",
+        "lSolutions": "1644 (dollars)",
+        "lEquations": "x:The cost of tuition; y:The cost of room and board; x+y=2584; x=y+704"
+    },
+    {
+        "id": "nluds-1486",
+        "sQuestion": "The cost of a private pilot course is $1,275. The flight portion costs $625 more than the ground school portion. What is the cost of each?",
+        "Type": "Algebra-2",
+        "lSolutions": "325 (dollars); 950 (dollars)",
+        "lEquations": "x:The cost of flight portion; y:The cost of ground school portion; x+y=1275; x=y+625"
+    }
+]
