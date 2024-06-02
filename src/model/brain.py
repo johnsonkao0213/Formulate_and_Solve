@@ -28,8 +28,7 @@ def decoder_for_response(args, input, max_length):
     # https://beta.openai.com/account/api-keys
     openai.api_key = os.getenv("OPENAI_API_KEY")
     openai.organization = os.getenv("OPENAI_ORGANIZATION")
-    # GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    GEMINI_API_KEY="AIzaSyBG96tVItiwBVzHKHHcQJ6wyFxYK1B4PZA"
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
     # Specify engine ...
     if args.model == "gpt3":
