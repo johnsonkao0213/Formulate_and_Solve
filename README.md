@@ -39,8 +39,8 @@ bash scripts/create_dataset.sh ${dataset_name}
 # model_name = {"gpt3", "gpt4", "gemini", "deepseek", "llama2", "llama3", "llama3-instruct",
  "mistral", "xwin", "abel", "metamath", "wizard", "arithmo2", "mmiqc",
  "mammoth", "mammoth2", "openmath"}
-# dataset_name = {"gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k", "hmwp",
- "asdiv", "MU_3", "MU_4", "MU_5"}
+# dataset_name = {"gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k",
+ "hmwp", "asdiv", "MU_3", "MU_4", "MU_5"}
 bash scripts/run.sh ${model_name} ${dataset_name}
 ```
 
