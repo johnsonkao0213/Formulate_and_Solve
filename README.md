@@ -11,7 +11,7 @@ The project website is available at [Website](https://johnsonkao0213.github.io/F
 ## About Formulate-and-Solve
 
 <div align="center">
-<img src="img/mwp_solver.png">
+<img src="docs/static/images/mwp_solver.png">
 </div>
 
 ## Installation
@@ -36,8 +36,11 @@ bash scripts/create_dataset.sh ${dataset_name}
 
 ### Formulate-and-Solve
 ```
-# model_name = {"gpt3", "gpt4", "gemini", "deepseek", "llama2", "llama3", "llama3-instruct", "mistral", "xwin", "abel", "metamath", "wizard", "arithmo2", "mmiqc", "mammoth", "mammoth2", "openmath"}
-# dataset_name = {"gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k", "hmwp", "asdiv", "MU_3", "MU_4", "MU_5"}
+# model_name = {"gpt3", "gpt4", "gemini", "deepseek", "llama2", "llama3", "llama3-instruct",
+ "mistral", "xwin", "abel", "metamath", "wizard", "arithmo2", "mmiqc",
+ "mammoth", "mammoth2", "openmath"}
+# dataset_name = {"gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k", "hmwp",
+ "asdiv", "MU_3", "MU_4", "MU_5"}
 bash scripts/run.sh ${model_name} ${dataset_name}
 ```
 
