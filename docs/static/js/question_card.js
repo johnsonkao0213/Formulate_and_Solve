@@ -20,7 +20,7 @@ function create_number(data) {
     //     answer = make_answer(data.answer);
 
     // html = make_box([question, image, choices, answer]);
-    let question = make_qt(data.pid, data.question, null);
+    let question = make_qt(data.question, null);
     let equation = make_equations(data.equation)
 
     // let hint = make_hint(data.hint)
