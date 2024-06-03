@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Evaluating multi-unknown algebra problem reasoning of foundation models">
+  <meta name="keywords" content="BeyondX">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> BeyondX: Evaluating Multi-Unknown Algebra Problem Reasoning</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+/Users/panlu/Library/Mobile Documents/com~apple~CloudDocs/ImageMath/visual-mathqa-server/data_final/images
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script> -->
+
+  <link rel="icon" href="./static/images/beyondx.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/leaderboard.css">
+
+  <!-- <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator_bulma.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script> -->
+  <script type="text/javascript" src="static/js/sort-table.js" defer></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/explorer-index.js"></script>
+  <script src="./static/js/question_card.js"></script>
+
+  <script src="./static/js/leaderboard_testmini.js"></script>
+  <script src="./data/results/output_folders.js" defer></script>
+  <script src="./data/results/model_scores.js" defer></script>
+
+  <script src="./visualizer/data/data_public.js" defer></script>
+</head>
+
+<body>
+
+  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div> -->
+  <!-- <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;"> -->
+  <!-- <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a> -->
+  <!-- @PAN TODO: consider adding links? -->
+  <!-- <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://chameleon-llm.github.io/">
+              <b>Chameleon</b>
+              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
+            </a>
+            <a class="navbar-item" href="https://scienceqa.github.io/">
+              <b>ScienceQA</b>
+              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
+            </a>
+            <a class="navbar-item" href="https://github.com/OpenGVLab/LLaMA-Adapter">
+              <b>LLaMA-Adapter (V2)</b>
+              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
+            </a>
+            <a class="navbar-item" href="https://promptpg.github.io/">
+              PromptPG
+            </a>
+            <a class="navbar-item" href="https://arxiv.org/abs/2307.10635">
+              SciBench
+            </a>
+            <a class="navbar-item" href="https://arxiv.org/abs/2305.12524">
+              TheoremQA
+            </a>
+            <a class="navbar-item" href="https://lila.apps.allenai.org/">
+              Lila
+            </a>
+            <a class="navbar-item" href="https://iconqa.github.io/">
+              IconQA
+            </a>
+            <a class="navbar-item" href="https://lupantech.github.io/inter-gps/">
+              Inter-GPS
+            </a>
+          </div> -->
+  <!-- </div>
+      </div>
+
+    </div>
+  </nav> -->
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title is-bold">
+              <img src="static/images/beyondx.png" style="width:1em;vertical-align: middle" alt="Logo" />
+              <span class="beyondx" style="vertical-align: middle">BeyondX</span>
+            </h1>
+            <h2 class="subtitle is-3 publication-subtitle">
+              Evaluating Multi-Unknown Algebra Problem Reasoning
+              <!-- <br> -->
+              <!-- with GPT-4V, Bard, and Other Large Multimodal Models -->
+            </h2>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://johnsonkao0213.github.io/">Kuei-Chun Kao</a><sup style="color:#6fbf73;">1</sup>,</span>
+              <span class="author-block">
+                <a href="https://johnsonkao0213.github.io/">Ruochen Wang</a><sup style="color:#6fbf73;">1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://web.cs.ucla.edu/~chohsieh/index.html">Cho-Jui Hsieh</a><sup
+                  style="color:#6fbf73;">1</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup style="color:#6fbf73;">1</sup>University of California, Los
+                Angeles</span><br>
+            </div>
+
+            <!-- <section> -->
+            <!-- <div class="section" id="org-banners" style="display:fle">
+              <a href="https://www.ucla.edu/" target="_blank" rel="external">
+                  <img class="center-block org-banner" src="static/images/ucla.png" style="height:3em">
+              </a>
+              <a href="https://www.washington.edu/" target="blank" class="ext-link">
+                  <img class="center-block org-banner" src="static/images/uw.png" style="height:3em">
+              </a>
+              <a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="external">
+                  <img class="center-block org-banner" src="static/images/microsoft.png" style="height:3em">
+              </a>
+            </div> -->
+            <!-- </section> -->
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <!-- @PAN TODO: change links -->
+                  <a href="https://arxiv.org/pdf/2310.02255.pdf"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2310.02255" class="external-link button is-normal is-rounded is-dark">
+                    <!-- <a href="https://lupantech.github.io/papers/arxiv23_mathvista.pdf"
+                   class="external-link button is-normal is-rounded is-dark"> -->
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/johnsonkao0213/Formulate_and_Solve"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/AI4Math/MathVista"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <!-- <i class="far fa-images"></i> -->
+                      <p style="font-size:18px">🤗</p>
+                      <!-- 🔗 -->
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+                <!-- Visualization Link. -->
+                <span class="link-block">
+                  <a href="https://mathvista.github.io/#visualization"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <p style="font-size:18px">🔮</p>
+                    </span>
+                    <span>Visualize</span>
+                  </a>
+                </span>
+                <!-- Leaderboard Link. -->
+                <span class="link-block">
+                  <a href="https://mathvista.github.io/#leaderboard"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <p style="font-size:18px">🏆</p>
+                    </span>
+                    <span>Leaderboard</span>
+                  </a>
+                </span>
+                <!-- Twitter Link. -->
+                <span class="link-block">
+                  <a href="https://twitter.com/lupantech/status/1717313355780964608"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <!-- <i class="far fa-images"></i> -->
+                      <!-- 💻🔗 -->
+                      <p style="font-size:18px">🌐</p>
+                    </span>
+                    <span>Twitter</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="content has-text-centered">
+        <img src="static/images/mwp.png" alt="Example of Multi-Unknown Problem" width="70%" />
+      </div>
+      <!-- </div> -->
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="margin-bottom: 2vh;">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Introduction</h2>
+          <div class="content has-text-justified">
+            <p>
+              <b>Large Language Models (LLMs)</b> exhibit impressive problem-solving skills in many tasks and domains,
+              but their ability in mathematical reasoning in multiple unknown problems has not been systematically
+              studied.
+            </p>
+            <p>
+              To bridge this gap, we present <img src="static/images/beyondx.png"
+                style="width:1.0em;vertical-align: middle" alt="Logo" />
+              <span class="beyondx">BeyondX</span>, a algebra problem benchmark that contains problems with more than
+              two unknown variables. It consists of <b>480 examples</b>, expanded from <b>ALG514 and DRAW-1K dataset</b>
+              involving one or two-unknown.
+            </p>
+            <p>
+              Our benchmark has its unique challenges:
+            <ul>
+              <li><strong>Our benchmark requires <b>advanced solving skills</b>.</strong>
+                <br>Solving multi-unknown problems requires accurate formulation of equation sets, rather than simply
+                obtaining answers through step-by-step procedures.
+              </li>
+              <li><strong>Our benchmark requires <b>advanced calculation</b>.</strong>
+                <br>Solving multi-unknown equations requires intricate arithmetic calculations which may not be easily
+                achieved through in-context guidance.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="columns is-centered">
+        <div class="column is-full has-text-centered content">
+          <h2 class="title is-3" id="leaderboard">Leaderboard on BeyondX</h2>
+          <div class="content">
+            <p class="mt-3">Accuracy scores (%) on the <img src="static/images/beyondx.png"
+                style="width:1.0em;vertical-align: middle" alt="Logo" />
+              <span class="beyondx">BeyondX</span>.
+            </p>
+
+            <div id="testmini_leaderboard"></div>
+          </div>
+
+          <b>Unknown types:</b> <b>MU_3:</b> Three-unknown,
+          <b>MU_4:</b> Four-unknown,
+          <b>MU_5:</b> Five-unknown.
+          <br>
+          <br>
+          <div>
+            <p>🚨 To submit your results to the leaderboard, please send to <a href="mailto:johnson0213@g.ucla.edu">this
+                email</a> with your result json files.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- DATASET SECTION -->
+  <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+      <h1 class="title is-1 beyondx">
+        <img src="static/images/beyondx.png" style="width:1em;vertical-align: middle" alt="Logo" />
+        <span class="beyondx" style="vertical-align: middle">BeyondX Dataset</span>
+      </h1>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overview</h2>
+          <div class="content has-text-justified">
+            <p>
+              <img src="static/images/beyondx.png" style="width:1.0em;vertical-align: middle" alt="Logo" />
+              <span class="beyondx">BeyondX</span> is a consolidated mathematical reasoning benchmark within
+              multi-unknown.
+              In total, <img src="static/images/beyondx.png" style="width:1.0em;vertical-align: middle" alt="Logo" />
+              <span class="beyondx">BeyondX</span> includes <b>480 examples</b> automatically generated from <b>2
+                different source
+                datasets (ALG514, DRAW-1k)</b>.
+              All the data examples were divided into three subsets: <b>MU_3 (200), MU_4 (160) and MU_5 (120)</b>.
+              <br>
+              You can download the dataset on <a href="https://huggingface.co/datasets/AI4Math/MathVista"
+                target="_blank">Hugging Face
+                Dataset</a>.
+            </p>
+
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="static/images/mwp_generation.png" alt="generation overview" width="80%" />
+                  <p> How to generate multiple unknown algebra prolbems via prompting?</p>
+                </div>
+              </div>
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="static/images/Instruction for Automatic Generation of Multiple Unknown Algebra Problems.png"
+                    alt="generation overview" width="80%" />
+                  <p> Full instruction fo how to generate multiple unknown algebra prolbems via prompting?</p>
+                </div>
+              </div>
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="static/images/dataset_overview.png" alt="dataset overview" width="80%" />
+                  <p> Summary of the different math datasets in <img src="static/images/beyondx.png"
+                      style="width:1.0em;vertical-align: middle" alt="Logo" />
+                    <span class="beyondx">BeyondX</span>.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+          <h2 class="title is-3">Examples</h2>
+          <p>One example for each <b>unknown</b> in <img src="static/images/beyondx.png"
+              style="width:1.0em;vertical-align: middle" alt="Logo" />
+            <span class="beyondx">BeyondX</span>
+          </p>
+
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/examples/mwp_2.png" alt="two-unknown" width="70%" />
+                <p>Two-unknown (source problem)</p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/examples/mwp_3.png" alt="three-unknown" width="70%" />
+                <p>Three-unknown</p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/examples/mwp_4.png" alt="four-unknown" width="50%" />
+                <p>Four-unknown</p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/examples/mwp_5.png" alt="five-unknown" width="40%" />
+                <p>Five-unknown</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-centered m-6">
+        <div class="column is-max-desktop has-text-centered">
+          <h2 class="title is-3" id="visualization">Visualization</h2>
+          <iframe src="visualizer/explore.html" style="width: 100%;min-height: 100vh; border-radius: 20px;"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS SECTION -->
+  <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+      <h1 class="title is-1 mathvista">Formulate-and-Solve</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overview</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/mwp_solver.png" width="80%" />
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/Instruction for Automatic Solver of Algebra Problems.png"
+                  alt="generation overview" width="80%" />
+                <p> Full instruction fo how to solve multiple unknown algebra prolbems via prompting?</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- RESULTS SECTION -->
+  <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+      <h1 class="title is-1 mathvista">Experiment Results</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+              We develop several prompting methods as our baselines:
+            </p>
+            <ul>
+              <li><strong>Zero-shot-CoT:</strong> Append "Let's think step by step" to
+                the prompt without any demonstration examples.</li>
+              <li><strong>Plan-and-Solve:</strong> Append "Let's first understand the problem and devise a plan to solve
+                the problem. Then, let's carry out the plan and solve the problem step by step" to
+                the prompt without any demonstration examples.</li>
+              <li><strong>Few-shot-CoT (Manual):</strong> Asks models to generate a natural language response related to
+                demonstration examples.
+              </li>
+              <li><strong>Few-shot-PoT (Manual):</strong> Asks models to generate a Python code
+                program related to
+                demonstration examples,
+                and uses an external computer to execute the code.
+              </li>
+              <li><strong>Few-shot-EoT (Manual):</strong> Asks models to generate a Equation format
+                response related to
+                demonstration examples,
+                and uses an external symbolic solver to execute the equation.
+              </li>
+              <li><strong>Few-shot-Declarative (Manual):</strong> Asks models to generate a Peano format response
+                related to
+                demonstration examples,
+                and uses an external symbolic solver to execute the Peano.
+              </li>
+              <li><strong>Analogical (Auto):</strong> Automatically asks models
+                to self-generate relevant examples and solving steps as demonstrations before proceeding to solve the
+                problem.
+              </li>
+              <li><strong>Auto-Zero-shot-CoT (Auto):</strong> Automatically asks models
+                to generate solving steps via Zero-shot-CoT as demonstrations before proceeding to solve the
+                problem.
+              </li>
+              <li><strong>Formulate-and-Solve (Auto):</strong> Automatically asks models
+                to generate solving steps via human-solving instruction as demonstrations before proceeding to solve the
+                problem.
+              </li>
+            </ul>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              We evaluate the performance of each baselines and our method on general algebra datasets (such as <a
+                href="https://paperswithcode.com/dataset/alg514" target="_blank">ALG514</a>,
+              <a href="https://paperswithcode.com/dataset/draw-1k" target="_blank">DRAW-1K</a>, <a
+                href="https://paperswithcode.com/dataset/asdiv" target="_blank">ASDiv</a>, and <a
+                href="https://arxiv.org/abs/2010.06823" target="_blank">HMWP</a>) and <img
+                src="static/images/beyondx.png" style="width:1.0em;vertical-align: middle" alt="Logo" />
+              <span class="beyondx">BeyondX</span>.
+            </p>
+          </div>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/Performance Comparison_ Single vs Double Variables_GPT-3.png"
+                  width="90%">
+                <p> Performance of GPT-3.5 on general algebra dataset with single and double unknown.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/Performance Comparison_ Single vs Double Variables_Gemini.png"
+                  width="90%">
+                <p> Performance of Gemini-Pro on general algebra dataset with single and double unknown.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/Performance Comparison_ Single vs Double Variables_GPT-4.png"
+                  width="90%">
+                <p> Performance of GPT-4 on general algebra dataset with single and double unknown.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+          <h2 class="title is-3">Results on General-Purpose Models</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/different_methods_print_GPT3.5.png" alt="grade-lv"
+                  width="60%" />
+                <p>Performance of GPT-3.5 on the <img src="static/images/beyondx.png"
+                    style="width:1.0em;vertical-align: middle" alt="Logo" />
+                  <span class="beyondx">BeyondX</span>.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/different_methods_print_Gemini.png" alt="grade-lv"
+                  width="60%" />
+                <p>
+                  Performance of Gemini-Pro on the <img src="static/images/beyondx.png"
+                    style="width:1.0em;vertical-align: middle" alt="Logo" />
+                  <span class="beyondx">BeyondX</span>.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/different_methods_print_GPT4.png" alt="grade-lv" width="60%" />
+                <p>
+                  Performance of GPT-4 on the <img src="static/images/beyondx.png"
+                    style="width:1.0em;vertical-align: middle" alt="Logo" />
+                  <span class="beyondx">BeyondX</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+          <h2 class="title is-3">More Results</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/different_open_source_print.png" alt="grade-lv" width="60%" />
+                <p>Performance of open-source models on the <img src="static/images/beyondx.png"
+                    style="width:1.0em;vertical-align: middle" alt="Logo" />
+                  <span class="beyondx">BeyondX</span> under Zero-shot-CoT.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/ablation_print.png" alt="grade-lv" width="60%" />
+                <p>
+                  Ablation Study of Formulate-and-Solve on the <img src="static/images/beyondx.png"
+                    style="width:1.0em;vertical-align: middle" alt="Logo" />
+                  <span class="beyondx">BeyondX</span>.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/error_analysis.png" alt="grade-lv" width="60%" />
+                <p>
+                  Error Analysis of Formulate-and-Solve on the <img src="static/images/beyondx.png"
+                    style="width:1.0em;vertical-align: middle" alt="Logo" />
+                  <span class="beyondx">BeyondX</span> using GPT-3.5.
+                </p>
+              </div>
+            </div>
+            <div class="box m-5">
+              <div class="content has-text-centered">
+                <img src="static/images/results-figures/Performance Comparison_ Arithmetic.png" alt="grade-lv"
+                  width="60%" />
+                <p>
+                  Performance of GPT-3.5 models on the common arithmetic dataset.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container is-full has-text-centered content m-6" id="result-table">
+        <h2 class="title is-3" id="explorer">Explorer</h2>
+        <p>Explore the outputs of each model on <img src="static/images/beyondx.png"
+            style="width:1.0em;vertical-align: middle" alt="Logo" />
+          <span class="beyondx">BeyondX</span>
+        </p>
+        <div class="level has-text-centered" style="position: sticky; top: 0; z-index: 20;">
+          <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
+            <button class="button" style="width: 100%; border: none; background: rgba(250, 250, 250, 1); padding: 30px"
+              id="refresh-qids">
+              <span class="icon is-large">
+                <i class="fa fa-redo fa-lg" aria-hidden="true"></i>
+              </span>
+              <p class="title is-4 m-0">Refresh Question</p>
+            </button>
+          </div>
+          <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
+            <div class="dropdown" style="width: 100%;">
+              <div class="dropdown-trigger has-text-justified" style="width: 100%; ">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                  style="width: 100%; border: none; background: rgba(250, 250, 250, 1); padding: 20px; white-space: normal; word-wrap: break-word; height: auto;">
+                  <p class="title m-0 is-4 dropdown-display" style="white-space: normal; word-wrap: break-word;">
+                    GPT-3
+                    Zero-shot-CoT</p>
+                  <span class="icon is-large" style="position: absolute; right:0;">
+                    <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu" style="width:100%;">
+                <div class="dropdown-content">
+                  <!-- <a class="dropdown-item">
+                    Dropdown item
+                  </a>
+                  <a class="dropdown-item">
+                    Other dropdown item
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="level-item box m-3" style="width: 30%; background: rgba(250, 250, 250, 1);">
+            <div class="dropdown" style="width: 100%;">
+              <div class="dropdown-trigger has-text-justified" style="width: 100%;">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu"
+                  style="width: 100%; border: none; background: rgba(250, 250, 250, 1); white-space: normal; word-wrap: break-word; height: auto;">
+                  <p class="title m-0 is-4 dropdown-display" style="white-space: normal; word-wrap: break-word;">
+                    GPT-3
+                    Few-shot-Formulate-and-Solve (Auto)</p>
+                  <span class="icon is-large" style="position: absolute; right:0;">
+                    <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu" style="width:100%;">
+                <div class="dropdown-content">
+                  <!-- <a class="dropdown-item">
+                    Dropdown item
+                  </a>
+                  <a class="dropdown-item">
+                    Other dropdown item
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- @PAN TODO: bibtex -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3 has-text-centered">BibTeX</h2>
+      <pre><code>@inproceedings{kao2024beyondx,
+  author    = {Kuei-Chun, Kao and Ruochen, Wang and Cho-Jui, Hsieh},
+  title     = {Solving for X and Beyond: Can Large Language Models Solve Complex Math Problems with More-Than-Two Unknowns?},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}</code></pre>
+    </div>
+  </section>
+
+  <section>
+    <div class="section" id="org-banners" style="display:flex">
+      <a href="https://www.ucla.edu/" target="_blank" rel="external">
+        <img class="center-block org-banner" src="static/images/ucla.png">
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <!-- <div class="container"> -->
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is website adapted from <a href="https://nerfies.github.io/">Nerfies</a>, licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </footer>
+
+</body>
+
+</html>

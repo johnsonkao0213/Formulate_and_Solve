@@ -10,4 +10,8 @@ __pycache__/
 *.py[cod]
 *.txt
 *.log
+*.DS_Store
+*.zip
+*.idea
+*.vscode
 *ipynb_checkpoints/
