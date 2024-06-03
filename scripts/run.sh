@@ -5,7 +5,7 @@ DATASET=$2
 window_name="${MODEL}_${DATASET}"
 tmux new-session -d -s $window_name
 index=1
-method_list=("zero_shot_cot" "zero_shot_plan_and_solve" "few_shot_cot" "few_shot_pot" "few_shot_eot" "few_shot_declarative" "auto_analogical" "auto_zero_shot_cot" "auto_formalize_and_solve")
+method_list=("zero_shot_cot" "zero_shot_plan_and_solve" "few_shot_cot" "few_shot_pot" "few_shot_eot" "few_shot_declarative" "auto_analogical" "auto_zero_shot_cot" "auto_formulate_and_solve")
 
 for var in "${method_list[@]}"; do
     # Create a new window named "python_window_$i" in the "python_session" session
