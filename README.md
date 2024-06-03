@@ -1,14 +1,14 @@
-# Fomulate-and-Solve
+# Formulate-and-Solve
 
 This is the official implementation of `Solving for X and Beyond: Can Large Language Models Solve Complex
 Math Problems with More-Than-Two Unknowns?`.
 
 Authors: Kuei-Chun Kao, Ruochen Wang, Cho-Jui Hsieh
 
-The paper is available at [arXiv](https://arxiv.org/abs/2205.11916).
-The project website is available at [Website]().
+The paper is available at [arXiv]().
+The project website is available at [Website](https://johnsonkao0213.github.io/Formulate_and_Solve/).
 
-## About Fomulate-and-Solve
+## About Formulate-and-Solve
 
 <div align="center">
 <img src="img/mwp_solver.png">
@@ -34,7 +34,7 @@ export GEMINI_API_KEY=(YOUR GEMINI API KEY)
 bash scripts/create_dataset.sh ${dataset_name}
 ```
 
-### Fomulate-and-Solve
+### Formulate-and-Solve
 ```
 # model_name = {"gpt3", "gpt4", "gemini", "deepseek", "llama2", "llama3", "llama3-instruct", "mistral", "xwin", "abel", "metamath", "wizard", "arithmo2", "mmiqc", "mammoth", "mammoth2", "openmath"}
 # dataset_name = {"gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k", "hmwp", "asdiv", "MU_3", "MU_4", "MU_5"}
