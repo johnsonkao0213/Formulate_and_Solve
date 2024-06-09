@@ -8,7 +8,6 @@ log/
 # Python cache:
 __pycache__/
 *.py[cod]
-*.txt
 *.log
 *.DS_Store
 *.zip
