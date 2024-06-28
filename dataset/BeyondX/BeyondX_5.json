@@ -304,25 +304,6 @@
         "source": "ALG514"
     },
     {
-        "problem": "At the St. Mark's Community Barbecue, 400 dinners were served. A child's plate cost 3.50 dollars, an adult's plate cost 7.00 dollars, a senior's plate cost 5.00 dollars, a special plate cost 6.00 dollars, and a family plate cost 8.00 dollars. The event collected a total of 2297.50 dollars. It is known that the number of child's plates plus the number of senior's plates is 105 less than twice the number of adult's plates. The number of child's plates plus the number of adult's plates plus the number of senior's plates is 50 more than five times the number of special plates. The number of child's plates plus the number of adult's plates plus the number of senior's plates plus the number of special plates is 50 less than six times the number of family plates. How many child's, adult's, senior's, special, and family plates were served?",
-        "system_of_equations": [
-            "( 3.5 * x ) + ( 7.0 * y ) + ( 5.0 * z ) + ( 6.0 * w ) + ( 8.0 * v )  = 2297.50000000000",
-            "x + y + z + w + v  = 400.000000000000",
-            "x + z  = 2.0 * y - 105.0",
-            "x + y + z  = 5.0 * w + 50.0",
-            "x + y + z + w  = 6.0 * v + 50.0"
-        ],
-        "ans": [
-            "115",
-            "135",
-            "50",
-            "50",
-            "50"
-        ],
-        "id": 17,
-        "source": "ALG514"
-    },
-    {
         "problem": "On a certain hot summer's day, 1004 people used the public swimming pool. The daily prices are 1.50 dollars for children, 2.25 dollars for adults, 1.00 dollar for seniors, 1.75 dollars for teenagers, and 0.50 dollar for infants. The receipts for admission totaled 1722.00 dollars. It is known that the number of children plus the number of seniors equals twice the number of adults minus 310. The number of children plus the number of adults equals twice the number of teenagers plus 554. The number of children plus the number of adults plus the number of seniors equals three times the number of infants plus 704. How many children, adults, seniors, teenagers, and infants swam at the public pool that day?",
         "system_of_equations": [
             "( 1.5 * x ) + ( 2.25 * y ) + ( 1.0 * z ) + ( 1.75 * w ) + ( 0.5 * v )  = 1722.00000000000",
@@ -338,7 +319,7 @@
             "100",
             "50"
         ],
-        "id": 18,
+        "id": 17,
         "source": "ALG514"
     },
     {
@@ -357,7 +338,7 @@
             "200",
             "100"
         ],
-        "id": 19,
+        "id": 18,
         "source": "ALG514"
     },
     {
@@ -376,7 +357,7 @@
             "10",
             "10"
         ],
-        "id": 20,
+        "id": 19,
         "source": "ALG514"
     },
     {
@@ -395,7 +376,7 @@
             "5",
             "5"
         ],
-        "id": 21,
+        "id": 20,
         "source": "ALG514"
     },
     {
@@ -414,7 +395,7 @@
             "200",
             "100"
         ],
-        "id": 22,
+        "id": 21,
         "source": "ALG514"
     },
     {
@@ -433,7 +414,7 @@
             "4",
             "5"
         ],
-        "id": 23,
+        "id": 22,
         "source": "ALG514"
     },
     {
@@ -452,7 +433,7 @@
             "10",
             "20"
         ],
-        "id": 24,
+        "id": 23,
         "source": "ALG514"
     },
     {
@@ -471,7 +452,7 @@
             "20",
             "15"
         ],
-        "id": 25,
+        "id": 24,
         "source": "ALG514"
     },
     {
@@ -490,7 +471,7 @@
             "50",
             "50"
         ],
-        "id": 26,
+        "id": 25,
         "source": "ALG514"
     },
     {
@@ -509,26 +490,7 @@
             "10",
             "10"
         ],
-        "id": 27,
-        "source": "ALG514"
-    },
-    {
-        "problem": "The sum of five numbers is 70. Twice the largest number equals the fourth number plus three times the second largest number plus the smallest number minus 76. Also, the largest number minus the second largest number equals the negative of the fourth number plus twice the smallest number minus 28. The sum of the largest number and the second largest number equals three times the fourth number plus 22. The sum of the largest number, the second largest number, and the smallest number equals four times the fifth number plus 13. Find the numbers.",
-        "system_of_equations": [
-            "2.0 * x  = w + 3.0 * y + z - 76.0",
-            "y + x + z + w + v  = 70.0000000000000",
-            "x - y  = -w + 2.0 * z - 28.0",
-            "x + y  = 3.0 * w + 22.0",
-            "x + y + z  = 4.0 * v + 13.0"
-        ],
-        "ans": [
-            "14",
-            "29",
-            "10",
-            "7",
-            "10"
-        ],
-        "id": 28,
+        "id": 26,
         "source": "ALG514"
     },
     {
@@ -547,7 +509,7 @@
             "8",
             "10"
         ],
-        "id": 29,
+        "id": 27,
         "source": "ALG514"
     },
     {
@@ -566,7 +528,7 @@
             "4",
             "8"
         ],
-        "id": 30,
+        "id": 28,
         "source": "ALG514"
     },
     {
@@ -585,7 +547,7 @@
             "2",
             "3"
         ],
-        "id": 31,
+        "id": 29,
         "source": "ALG514"
     },
     {
@@ -604,7 +566,7 @@
             "7",
             "10"
         ],
-        "id": 32,
+        "id": 30,
         "source": "ALG514"
     },
     {
@@ -623,7 +585,7 @@
             "20",
             "30"
         ],
-        "id": 33,
+        "id": 31,
         "source": "ALG514"
     },
     {
@@ -642,7 +604,7 @@
             "3000",
             "5000"
         ],
-        "id": 34,
+        "id": 32,
         "source": "ALG514"
     },
     {
@@ -661,26 +623,7 @@
             "25",
             "30"
         ],
-        "id": 35,
-        "source": "ALG514"
-    },
-    {
-        "problem": "Marco has 210 coins in total, which are a mix of nickels, dimes, quarters, pennies, and half-dollars. He has 12 more dimes than nickels. Also, the difference between the number of dimes and nickels is twice the number of quarters minus 48. The sum of the number of nickels, dimes, pennies, and half-dollars is three times the number of quarters plus 90. The sum of the number of nickels, dimes, quarters, and pennies is four times the number of half-dollars plus 160. How many nickels, dimes, quarters, pennies, and half-dollars does he have?",
-        "system_of_equations": [
-            "12.0 + x  = y",
-            "y + x + z + w + v  = 210.000000000000",
-            "y - x  = 2.0 * z - 48.0",
-            "x + y + w + v  = 3.0 * z + 90.0",
-            "x + y + z + w  = 4.0 * v + 160.0"
-        ],
-        "ans": [
-            "69",
-            "81",
-            "30",
-            "20",
-            "10"
-        ],
-        "id": 36,
+        "id": 33,
         "source": "ALG514"
     },
     {
@@ -699,7 +642,7 @@
             "10",
             "5"
         ],
-        "id": 37,
+        "id": 34,
         "source": "ALG514"
     },
     {
@@ -718,7 +661,7 @@
             "10",
             "13"
         ],
-        "id": 38,
+        "id": 35,
         "source": "ALG514"
     },
     {
@@ -737,7 +680,7 @@
             "4",
             "4"
         ],
-        "id": 39,
+        "id": 36,
         "source": "ALG514"
     },
     {
@@ -756,7 +699,7 @@
             "10",
             "4"
         ],
-        "id": 40,
+        "id": 37,
         "source": "ALG514"
     },
     {
@@ -775,7 +718,7 @@
             "2000",
             "2000"
         ],
-        "id": 41,
+        "id": 38,
         "source": "ALG514"
     },
     {
@@ -794,7 +737,7 @@
             "5000",
             "4000"
         ],
-        "id": 42,
+        "id": 39,
         "source": "ALG514"
     },
     {
@@ -813,7 +756,7 @@
             "20",
             "15"
         ],
-        "id": 43,
+        "id": 40,
         "source": "ALG514"
     },
     {
@@ -832,7 +775,7 @@
             "2000",
             "2000"
         ],
-        "id": 44,
+        "id": 41,
         "source": "ALG514"
     },
     {
@@ -851,7 +794,7 @@
             "4",
             "5"
         ],
-        "id": 45,
+        "id": 42,
         "source": "ALG514"
     },
     {
@@ -870,7 +813,7 @@
             "3",
             "5"
         ],
-        "id": 46,
+        "id": 43,
         "source": "ALG514"
     },
     {
@@ -889,7 +832,7 @@
             "10",
             "10"
         ],
-        "id": 47,
+        "id": 44,
         "source": "ALG514"
     },
     {
@@ -908,7 +851,7 @@
             "50",
             "75"
         ],
-        "id": 48,
+        "id": 45,
         "source": "ALG514"
     },
     {
@@ -927,7 +870,7 @@
             "5",
             "6"
         ],
-        "id": 49,
+        "id": 46,
         "source": "ALG514"
     },
     {
@@ -946,7 +889,7 @@
             "50",
             "50"
         ],
-        "id": 50,
+        "id": 47,
         "source": "ALG514"
     },
     {
@@ -965,7 +908,7 @@
             "5",
             "6"
         ],
-        "id": 51,
+        "id": 48,
         "source": "ALG514"
     },
     {
@@ -984,26 +927,7 @@
             "100",
             "80"
         ],
-        "id": 52,
-        "source": "ALG514"
-    },
-    {
-        "problem": "At a clothing store, three pairs of jeans, six shirts, one pair of shoes, and two hats cost 134.25 dollars. Four pairs of jeans, five shirts, two pairs of shoes, one hat, and one belt cost 167.15 dollars. Two pairs of jeans, three shirts, one pair of shoes, three hats, and one belt cost 105.55 dollars. One pair of jeans, two shirts, one pair of shoes, four hats, and one belt cost 84.75 dollars. One of each item plus an additional belt cost 70.80 dollars. Find the cost of each pair of jeans, each shirt, each pair of shoes, each hat, and each belt.",
-        "system_of_equations": [
-            "3.0 * x + 6.0 * y + 1.0 * z + 2.0 * w + 0.0 * v  = 134.250000000000",
-            "4.0 * x + 5.0 * y + 2.0 * z + 1.0 * w + 1.0 * v  = 167.150000000000",
-            "2.0 * x + 3.0 * y + 1.0 * z + 3.0 * w + 1.0 * v  = 105.550000000000",
-            "1.0 * x + 2.0 * y + 1.0 * z + 4.0 * w + 1.0 * v  = 84.7500000000000",
-            "1.0 * x + 1.0 * y + 1.0 * z + 1.0 * w + 2.0 * v  = 70.8000000000000"
-        ],
-        "ans": [
-            "16.85",
-            "8.95",
-            "20",
-            "5",
-            "10"
-        ],
-        "id": 53,
+        "id": 49,
         "source": "ALG514"
     },
     {
@@ -1022,26 +946,7 @@
             "15",
             "15"
         ],
-        "id": 54,
-        "source": "ALG514"
-    },
-    {
-        "problem": "In a test of 43 questions, Maria answered all the questions and got a score of 430. For each correct answer, she received 20 points, for each incorrect answer, 5 points were deducted, for unanswered questions, no points were given or deducted, for guessed questions, she received 10 points, and for each partially correct answer, she received 15 points. It is known that the number of correct answers plus the number of unanswered questions plus the number of guessed questions plus the number of partially correct answers equals twice the number of incorrect answers plus 10. The number of correct answers plus the number of incorrect answers plus the number of guessed questions plus the number of partially correct answers equals three times the number of unanswered questions plus 23. The number of correct answers plus the number of incorrect answers plus the number of unanswered questions plus the number of guessed questions equals four times the number of partially correct answers plus 18. How many questions did Maria answer correctly, incorrectly, leave unanswered, guess, and answer partially correct?",
-        "system_of_equations": [
-            "( 20.0 * x ) - ( 5.0 * y ) + ( 10.0 * w ) + ( 15.0 * v )  = 430.000000000000",
-            "x + y + z + w + v  = 43.0000000000000",
-            "x + z + w + v  = 2.0 * y + 10.0",
-            "x + y + w + v  = 3.0 * z + 23.0",
-            "x + y + z + w  = 4.0 * v + 18.0"
-        ],
-        "ans": [
-            "19",
-            "11",
-            "5",
-            "3",
-            "5"
-        ],
-        "id": 55,
+        "id": 50,
         "source": "ALG514"
     },
     {
@@ -1060,7 +965,7 @@
             "1000",
             "1000"
         ],
-        "id": 56,
+        "id": 51,
         "source": "ALG514"
     },
     {
@@ -1079,7 +984,7 @@
             "50",
             "1000"
         ],
-        "id": 57,
+        "id": 52,
         "source": "ALG514"
     },
     {
@@ -1098,7 +1003,7 @@
             "20",
             "20"
         ],
-        "id": 58,
+        "id": 53,
         "source": "ALG514"
     },
     {
@@ -1117,7 +1022,7 @@
             "50",
             "50"
         ],
-        "id": 59,
+        "id": 54,
         "source": "ALG514"
     },
     {
@@ -1136,7 +1041,7 @@
             "8",
             "10"
         ],
-        "id": 60,
+        "id": 55,
         "source": "ALG514"
     },
     {
@@ -1155,7 +1060,7 @@
             "2000",
             "2000"
         ],
-        "id": 61,
+        "id": 56,
         "source": "DRAW-1K"
     },
     {
@@ -1174,7 +1079,7 @@
             "400",
             "600"
         ],
-        "id": 62,
+        "id": 57,
         "source": "DRAW-1K"
     },
     {
@@ -1193,26 +1098,7 @@
             "1000",
             "1500"
         ],
-        "id": 63,
-        "source": "DRAW-1K"
-    },
-    {
-        "problem": "The sum of five numbers is 19. The first number is 5 less than the sum of the fifth number, the fourth number, twice the second number, and the third number. The third number is equal to the sum of the fifth number, the second number, and the negative of the fourth number. The first number is 5 less than the sum of the fifth number, three times the fourth number, the second number, and the third number. The sum of the first number, the second number, and the third number is equal to the sum of the fifth number, four times the fourth number, and seven. Find the smallest number.",
-        "system_of_equations": [
-            "x + y + z + w + v  = 19.0000000000000",
-            "x  = v + w + 2.0 * y + z - 5.0",
-            "z  = v - w + y",
-            "x  = v + 3.0 * w + y + z - 5.0",
-            "x + y + z  = v + 4.0 * w + 7.0"
-        ],
-        "ans": [
-            "9",
-            "4",
-            "3",
-            "2",
-            "1"
-        ],
-        "id": 64,
+        "id": 58,
         "source": "DRAW-1K"
     },
     {
@@ -1231,7 +1117,7 @@
             "9",
             "15"
         ],
-        "id": 65,
+        "id": 59,
         "source": "DRAW-1K"
     },
     {
@@ -1250,7 +1136,7 @@
             "3",
             "2"
         ],
-        "id": 66,
+        "id": 60,
         "source": "DRAW-1K"
     },
     {
@@ -1269,7 +1155,7 @@
             "30",
             "10"
         ],
-        "id": 67,
+        "id": 61,
         "source": "DRAW-1K"
     },
     {
@@ -1288,7 +1174,7 @@
             "100",
             "100"
         ],
-        "id": 68,
+        "id": 62,
         "source": "DRAW-1K"
     },
     {
@@ -1307,7 +1193,7 @@
             "3",
             "4"
         ],
-        "id": 69,
+        "id": 63,
         "source": "DRAW-1K"
     },
     {
@@ -1326,7 +1212,7 @@
             "4",
             "4"
         ],
-        "id": 70,
+        "id": 64,
         "source": "DRAW-1K"
     },
     {
@@ -1345,7 +1231,7 @@
             "10",
             "10"
         ],
-        "id": 71,
+        "id": 65,
         "source": "DRAW-1K"
     },
     {
@@ -1364,7 +1250,7 @@
             "2",
             "4"
         ],
-        "id": 72,
+        "id": 66,
         "source": "DRAW-1K"
     },
     {
@@ -1383,7 +1269,7 @@
             "2",
             "4"
         ],
-        "id": 73,
+        "id": 67,
         "source": "DRAW-1K"
     },
     {
@@ -1402,7 +1288,7 @@
             "10",
             "15"
         ],
-        "id": 74,
+        "id": 68,
         "source": "DRAW-1K"
     },
     {
@@ -1421,7 +1307,7 @@
             "2",
             "1"
         ],
-        "id": 75,
+        "id": 69,
         "source": "DRAW-1K"
     },
     {
@@ -1440,7 +1326,7 @@
             "2000",
             "3000"
         ],
-        "id": 76,
+        "id": 70,
         "source": "DRAW-1K"
     },
     {
@@ -1459,7 +1345,7 @@
             "2",
             "1"
         ],
-        "id": 77,
+        "id": 71,
         "source": "DRAW-1K"
     },
     {
@@ -1478,7 +1364,7 @@
             "10",
             "15"
         ],
-        "id": 78,
+        "id": 72,
         "source": "DRAW-1K"
     },
     {
@@ -1497,7 +1383,7 @@
             "15",
             "20"
         ],
-        "id": 79,
+        "id": 73,
         "source": "DRAW-1K"
     },
     {
@@ -1516,7 +1402,7 @@
             "10",
             "6"
         ],
-        "id": 80,
+        "id": 74,
         "source": "DRAW-1K"
     },
     {
@@ -1535,7 +1421,7 @@
             "1000",
             "2000"
         ],
-        "id": 81,
+        "id": 75,
         "source": "DRAW-1K"
     },
     {
@@ -1554,7 +1440,7 @@
             "2",
             "4"
         ],
-        "id": 82,
+        "id": 76,
         "source": "DRAW-1K"
     },
     {
@@ -1573,7 +1459,7 @@
             "20",
             "20"
         ],
-        "id": 83,
+        "id": 77,
         "source": "DRAW-1K"
     },
     {
@@ -1592,7 +1478,7 @@
             "100",
             "50"
         ],
-        "id": 84,
+        "id": 78,
         "source": "DRAW-1K"
     },
     {
@@ -1611,7 +1497,7 @@
             "10",
             "15"
         ],
-        "id": 85,
+        "id": 79,
         "source": "DRAW-1K"
     },
     {
@@ -1630,7 +1516,7 @@
             "5",
             "10"
         ],
-        "id": 86,
+        "id": 80,
         "source": "DRAW-1K"
     },
     {
@@ -1649,7 +1535,7 @@
             "3",
             "4"
         ],
-        "id": 87,
+        "id": 81,
         "source": "DRAW-1K"
     },
     {
@@ -1668,7 +1554,7 @@
             "3",
             "2"
         ],
-        "id": 88,
+        "id": 82,
         "source": "DRAW-1K"
     },
     {
@@ -1687,7 +1573,7 @@
             "2",
             "3"
         ],
-        "id": 89,
+        "id": 83,
         "source": "DRAW-1K"
     },
     {
@@ -1706,7 +1592,7 @@
             "5",
             "5"
         ],
-        "id": 90,
+        "id": 84,
         "source": "DRAW-1K"
     },
     {
@@ -1725,7 +1611,7 @@
             "7",
             "10"
         ],
-        "id": 91,
+        "id": 85,
         "source": "DRAW-1K"
     },
     {
@@ -1744,7 +1630,7 @@
             "45",
             "50"
         ],
-        "id": 92,
+        "id": 86,
         "source": "DRAW-1K"
     },
     {
@@ -1763,7 +1649,7 @@
             "2000",
             "1000"
         ],
-        "id": 93,
+        "id": 87,
         "source": "DRAW-1K"
     },
     {
@@ -1782,7 +1668,7 @@
             "10",
             "5"
         ],
-        "id": 94,
+        "id": 88,
         "source": "DRAW-1K"
     },
     {
@@ -1801,7 +1687,7 @@
             "10",
             "7"
         ],
-        "id": 95,
+        "id": 89,
         "source": "DRAW-1K"
     },
     {
@@ -1820,7 +1706,7 @@
             "7",
             "70"
         ],
-        "id": 96,
+        "id": 90,
         "source": "DRAW-1K"
     },
     {
@@ -1839,7 +1725,7 @@
             "10",
             "10"
         ],
-        "id": 97,
+        "id": 91,
         "source": "DRAW-1K"
     },
     {
@@ -1858,7 +1744,7 @@
             "23",
             "25"
         ],
-        "id": 98,
+        "id": 92,
         "source": "DRAW-1K"
     },
     {
@@ -1877,7 +1763,7 @@
             "8",
             "14"
         ],
-        "id": 99,
+        "id": 93,
         "source": "DRAW-1K"
     },
     {
@@ -1896,7 +1782,7 @@
             "100",
             "50"
         ],
-        "id": 100,
+        "id": 94,
         "source": "DRAW-1K"
     },
     {
@@ -1915,26 +1801,7 @@
             "72",
             "22"
         ],
-        "id": 101,
-        "source": "DRAW-1K"
-    },
-    {
-        "problem": "Jack is three times as old as Jill. Together with their friends Bob, Alice, and Tom, their total age is 100 years. Bob is half as old as Jill plus 3 years. Alice is half as old as Jack minus 21 years. Tom is half as old as Jill plus 1 year. Find the age of each person.",
-        "system_of_equations": [
-            "x + y + z + w + v  = 100.0000000000000",
-            "y  = 3.0 * x",
-            "z  = 0.5 * x + 3.0",
-            "w  = 0.5 * y - 21.0",
-            "v  = 0.5 * x + 1.0"
-        ],
-        "ans": [
-            "18",
-            "54",
-            "12",
-            "6",
-            "10"
-        ],
-        "id": 102,
+        "id": 95,
         "source": "DRAW-1K"
     },
     {
@@ -1953,7 +1820,7 @@
             "6",
             "8"
         ],
-        "id": 103,
+        "id": 96,
         "source": "DRAW-1K"
     },
     {
@@ -1972,7 +1839,7 @@
             "60",
             "60"
         ],
-        "id": 104,
+        "id": 97,
         "source": "DRAW-1K"
     },
     {
@@ -1991,7 +1858,7 @@
             "5",
             "7"
         ],
-        "id": 105,
+        "id": 98,
         "source": "DRAW-1K"
     },
     {
@@ -2010,7 +1877,7 @@
             "5",
             "7"
         ],
-        "id": 106,
+        "id": 99,
         "source": "DRAW-1K"
     },
     {
@@ -2029,7 +1896,7 @@
             "30",
             "10"
         ],
-        "id": 107,
+        "id": 100,
         "source": "DRAW-1K"
     },
     {
@@ -2048,7 +1915,7 @@
             "4",
             "1"
         ],
-        "id": 108,
+        "id": 101,
         "source": "DRAW-1K"
     },
     {
@@ -2067,7 +1934,7 @@
             "5",
             "2"
         ],
-        "id": 109,
+        "id": 102,
         "source": "DRAW-1K"
     },
     {
@@ -2086,7 +1953,7 @@
             "15",
             "70"
         ],
-        "id": 110,
+        "id": 103,
         "source": "DRAW-1K"
     },
     {
@@ -2105,26 +1972,7 @@
             "50",
             "40"
         ],
-        "id": 111,
-        "source": "DRAW-1K"
-    },
-    {
-        "problem": "You have a sum of Rs 2100 in the denominations of Rs 10, Rs 20, Rs 5, Rs 50, and Rs 100 notes. The total number of notes is 75. It is known that twice the number of Rs 10 notes plus the number of Rs 20 notes equals four times the number of Rs 5 notes plus 30. The number of Rs 10 notes plus the number of Rs 20 notes plus the number of Rs 5 notes equals five times the number of Rs 50 notes plus 35. The number of Rs 10 notes plus the number of Rs 20 notes plus the number of Rs 5 notes plus the number of Rs 50 notes equals six times the number of Rs 100 notes plus 5. How many notes of each denomination do you have?",
-        "system_of_equations": [
-            "10.0 * x + 20.0 * y + 5.0 * z + 50.0 * w + 100.0 * v  = 2100.00000000000",
-            "x + y + z + w + v  = 75.0000000000000",
-            "2.0 * x + y  = 4.0 * z + 30.0",
-            "x + y + z  = 5.0 * w + 35.0",
-            "x + y + z + w  = 6.0 * v + 5.0"
-        ],
-        "ans": [
-            "20",
-            "30",
-            "10",
-            "5",
-            "10"
-        ],
-        "id": 112,
+        "id": 104,
         "source": "DRAW-1K"
     },
     {
@@ -2143,7 +1991,7 @@
             "10",
             "5"
         ],
-        "id": 113,
+        "id": 105,
         "source": "DRAW-1K"
     },
     {
@@ -2162,7 +2010,7 @@
             "30",
             "13"
         ],
-        "id": 114,
+        "id": 106,
         "source": "DRAW-1K"
     },
     {
@@ -2181,7 +2029,7 @@
             "3",
             "2"
         ],
-        "id": 115,
+        "id": 107,
         "source": "DRAW-1K"
     },
     {
@@ -2200,7 +2048,7 @@
             "20",
             "50"
         ],
-        "id": 116,
+        "id": 108,
         "source": "DRAW-1K"
     },
     {
@@ -2219,7 +2067,7 @@
             "300",
             "700"
         ],
-        "id": 117,
+        "id": 109,
         "source": "DRAW-1K"
     },
     {
@@ -2238,7 +2086,7 @@
             "10",
             "10"
         ],
-        "id": 118,
+        "id": 110,
         "source": "DRAW-1K"
     },
     {
@@ -2257,7 +2105,7 @@
             "8",
             "5"
         ],
-        "id": 119,
+        "id": 111,
         "source": "DRAW-1K"
     },
     {
@@ -2276,7 +2124,7 @@
             "67",
             "69"
         ],
-        "id": 120,
+        "id": 112,
         "source": "DRAW-1K"
     }
 ]

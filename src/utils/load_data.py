@@ -75,7 +75,7 @@ def data_reader(args):
                 question_num.append(line['id'])
                 rationales.append(line['equation'].split(';'))
     
-    elif args.dataset in ("MU_3", "MU_4", "MU_5"):
+    elif args.dataset in ("BeyondX_3", "BeyondX_4", "BeyondX_5"):
         with open(args.dataset_path) as f:
             json_data = json.load(f)
             for line in json_data:

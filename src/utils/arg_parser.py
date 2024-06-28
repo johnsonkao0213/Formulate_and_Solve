@@ -11,7 +11,7 @@ def parse_arguments():
                         default=1, help="random seed")
 
     parser.add_argument(
-        "--dataset", type=str, default="alg514", choices=["gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k", "hmwp", "asdiv", "MU_3", "MU_4", "MU_5"], help="dataset used for experiment"
+        "--dataset", type=str, default="alg514", choices=["gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k", "hmwp", "asdiv", "BeyondX_3", "BeyondX_4", "BeyondX_5"], help="dataset used for experiment"
     )
 
     parser.add_argument("--minibatch_size", type=int, default=1, choices=[
@@ -75,14 +75,14 @@ def parse_arguments():
     elif args.dataset == "alg514":
         args.dataset_path = "./dataset/alg514/alg514_processed.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals) is:"
-    elif args.dataset == "MU_3":
-        args.dataset_path = "./dataset/beyondx/mu_3.json"
+    elif args.dataset == "BeyondX_3":
+        args.dataset_path = "./dataset/BeyondX/BeyondX_3.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals) is:"
-    elif args.dataset == "MU_4":
-        args.dataset_path = "./dataset/beyondx/mu_4.json"
+    elif args.dataset == "BeyondX_4":
+        args.dataset_path = "./dataset/BeyondX/BeyondX_4.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals) is:"
-    elif args.dataset == "MU_5":
-        args.dataset_path = "./dataset/beyondx/mu_5.json"
+    elif args.dataset == "BeyondX_5":
+        args.dataset_path = "./dataset/BeyondX/BeyondX_5.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals) is:"
     elif args.dataset == "hmwp":
         args.dataset_path = "./dataset/hmwp/hmwp_testset.json"

@@ -24,7 +24,7 @@ def parse_arguments():
                     help="maximum number of workers for dataloader")
 
     parser.add_argument(
-        "--dataset", type=str, default="alg514", choices=["alg514", "draw1k", "MU_3", "MU_4"], help="source dataset used for experiment"
+        "--dataset", type=str, default="alg514", choices=["alg514", "draw1k", "BeyondX_3", "BeyondX_4"], help="source dataset used for experiment"
     )
 
     parser.add_argument(
@@ -41,22 +41,22 @@ def parse_arguments():
         args.dataset_path = "./dataset/draw1k/draw1k_test_processed.json"
         args.unknown = "three"
         args.problem_extractor = "The new math word problem is:"
-        args.output_file = "./dataset/beyondx/mu_3_draw1k_test.json"
+        args.output_file = "./dataset/BeyondX/BeyondX_3_draw1k_test.json"
     elif args.dataset == "alg514":
         args.dataset_path = "./dataset/alg514/alg514_processed.json"
         args.unknown = "three"
         args.problem_extractor = "The new math word problem is:"
-        args.output_file = "./dataset/beyondx/mu_3_alg514_test.json"
-    elif args.dataset == "MU_3":
-        args.dataset_path = "./dataset/beyondx/mu_3.json"
+        args.output_file = "./dataset/BeyondX/BeyondX_3_alg514_test.json"
+    elif args.dataset == "BeyondX_3":
+        args.dataset_path = "./dataset/BeyondX/BeyondX_3.json"
         args.unknown = "four"
         args.problem_extractor = "Step 5: Formulate and Rephrase the Statements and Scenario"
-        args.output_file = "./dataset/beyondx/mu_4_test.json"
-    elif args.dataset == "MU_4":
-        args.dataset_path = "./dataset/beyondx/mu_4.json"
+        args.output_file = "./dataset/BeyondX/BeyondX_4_test.json"
+    elif args.dataset == "BeyondX_4":
+        args.dataset_path = "./dataset/BeyondX/BeyondX_4.json"
         args.unknown = "five"
         args.problem_extractor = "Step 5: Formulate the New Problem"
-        args.output_file = "./dataset/beyondx/mu_5_test.json"
+        args.output_file = "./dataset/BeyondX/BeyondX_5_test.json"
     else:
         raise ValueError("dataset is not properly defined ...")
 

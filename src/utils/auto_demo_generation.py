@@ -20,7 +20,7 @@ INSTRUCTION_PROMPT = '''Let's translate mathematical word problems into the syst
 
 
 def auto_demo_generation(args, decoder):
-    if args.dataset == "MU_5":
+    if args.dataset == "BeyondX_5":
         demos = [
             "Q: Suppose you invested 16,000 dollars in five different ways: part at 6 % annual interest, part at 9 % annual interest, part at 4 % annual interest, part at 3 % annual interest, and the rest at 2 % annual interest. After one year, you received 864 dollars in interest. Also, the amount invested at 6% annual interest plus the amount invested at 9% annual interest equals five times the amount invested at 4% annual interest. The amount invested at 6% annual interest plus the amount invested at 9% annual interest plus the amount invested at 4% annual interest equals six times the amount invested at 3% annual interest. The amount invested at 6% annual interest plus the amount invested at 9% annual interest plus the amount invested at 4% annual interest plus the amount invested at 3% annual interest equals seven times the amount invested at 2% annual interest. How much did you invest at each rate?",
             "Q: At a fast food restaurant, one pan pizza, two cheeseburgers, one milkshake, and three chicken sandwiches provide 4260 calories. Two pan pizzas, one cheeseburger, one milkshake, two chicken sandwiches, and one serving of french fries provide 4690 calories. One pan pizza, one cheeseburger, two milkshakes, one chicken sandwich, and one serving of french fries provide 3850 calories. Two pan pizzas, two cheeseburgers, one milkshake, one chicken sandwich, and one serving of french fries provide 5300 calories. One of each item plus an additional serving of french fries provide 4500 calories. Find the caloric content of each item.",
@@ -29,7 +29,7 @@ def auto_demo_generation(args, decoder):
             "Q: 42 is divided into five parts. 7 times the first part, 5 times the second part, 3 times the third part, 2 times the fourth part, and the fifth part equals 181. Also, the sum of the first part and the second part equals four times the third part. The sum of the first part, the second part, and the third part equals six times the fourth part. The sum of the first part, the second part, the third part, and the fourth part equals five times the fifth part. Find each part."
         ]
         ans = ["7200, 2800, 2000, 2000, 2000", "1040, 910, 500, 300, 600", "137, 388, 100, 50, 50", "63, 28, 14, 27, 15", "13, 11, 6, 5, 7"]
-    elif args.dataset == "MU_4":
+    elif args.dataset == "BeyondX_4":
         demos = [
             "Q: Suppose you invested 14,000 dollars in four different ways: part at 6 % annual interest, part at 9 % annual interest, part at 4 % annual interest, and the rest at 3 % annual interest. After one year, you received 824 dollars in interest. Also, the amount invested at 6% annual interest plus the amount invested at 9% annual interest equals five times the amount invested at 4% annual interest. The amount invested at 6% annual interest plus the amount invested at 9% annual interest plus the amount invested at 4% annual interest equals six times the amount invested at 3% annual interest. How much did you invest at each rate?",
             "Q: At a fast food restaurant, one pan pizza, two cheeseburgers, one milkshake, and three chicken sandwiches provide 4260 calories. Two pan pizzas, one cheeseburger, one milkshake, and two chicken sandwiches provide 4090 calories. One pan pizza, one cheeseburger, two milkshakes, and one chicken sandwich provide 3250 calories. Two pan pizzas, two cheeseburgers, one milkshake, and one chicken sandwich provide 4700 calories. Find the caloric content of each item.",
@@ -38,7 +38,7 @@ def auto_demo_generation(args, decoder):
             "Q: 35 is divided into four parts. 7 times the first part, 5 times the second part, 3 times the third part, and 2 times the fourth part equals 174. Also, the sum of the first part and the second part equals four times the third part. The sum of the first part, the second part, and the third part equals six times the fourth part. Find each part.",
         ]
         ans = ["7200, 2800, 2000, 2000", "1040, 910, 500, 300", "137, 388, 100, 50", "63, 28, 14, 27", "13, 11, 6, 5"]
-    elif args.dataset == "MU_3":
+    elif args.dataset == "BeyondX_3":
         demos = [
             "Q: Suppose you invested 12,000 dollars in three different ways: part at 6 % annual interest, part at 9 % annual interest, and the rest at 4 % annual interest. After one year, you received 764 dollars in interest. Also, the amount invested at 6% annual interest plus the amount invested at 9% annual interest equals five times the amount invested at 4% annual interest. How much did you invest at each rate?",
             "Q: At a fast food restaurant, one pan pizza, two cheeseburgers, and one milkshake provide 3360 calories. Two pan pizzas, one cheeseburger, and one milkshake provide 3490 calories. One pan pizza, one cheeseburger, and two milkshakes provide 2950 calories. Find the caloric content of each item.",

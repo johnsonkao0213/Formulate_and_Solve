@@ -3,11 +3,6 @@
 This is the official implementation of `Solving for X and Beyond: Can Large Language Models Solve Complex
 Math Problems with More-Than-Two Unknowns?`.
 
-Authors: Kuei-Chun Kao, Ruochen Wang, Cho-Jui Hsieh
-
-The paper is available at [arXiv]().
-The project website is available at [Website](https://johnsonkao0213.github.io/Formulate_and_Solve/).
-
 ## About Formulate-and-Solve
 
 <div align="center">
@@ -30,7 +25,7 @@ export GEMINI_API_KEY=(YOUR GEMINI API KEY)
 
 ### BeyondX Dataset Construction
 ```
-# dataset_name = {"alg514", "draw1k", "MU_3", "MU_4"}
+# dataset_name = {"alg514", "draw1k", "BeyondX_3", "BeyondX_4"}
 bash scripts/create_dataset.sh ${dataset_name}
 ```
 
@@ -40,13 +35,6 @@ bash scripts/create_dataset.sh ${dataset_name}
  "mistral", "xwin", "abel", "metamath", "wizard", "arithmo2", "mmiqc",
  "mammoth", "mammoth2", "openmath"}
 # dataset_name = {"gsm8k", "addsub", "multiarith", "svamp", "singleeq", "alg514", "draw1k",
- "hmwp", "asdiv", "MU_3", "MU_4", "MU_5"}
+ "hmwp", "asdiv", "BeyondX_3", "BeyondX_4", "BeyondX_5"}
 bash scripts/run.sh ${model_name} ${dataset_name}
-```
-
-
-## Citation
-```
-@axriv{
-}
 ```
