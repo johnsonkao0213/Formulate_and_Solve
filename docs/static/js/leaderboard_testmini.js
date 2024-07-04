@@ -9,9 +9,9 @@ function generateTable() {
           <td class="js-sort"><strong>Source</strong></td>
           <td class="js-sort"><strong>Date</strong></td>
           <td class="js-sort-number"><strong><u>ALL</u></strong></td>
-          <td class="js-sort-number"><strong>MU_3</strong></td>
-          <td class="js-sort-number"><strong>MU_4</strong></td>
-          <td class="js-sort-number"><strong>MU_5</strong></td>
+          <td class="js-sort-number"><strong>BeyondX_3</strong></td>
+          <td class="js-sort-number"><strong>BeyondX_4</strong></td>
+          <td class="js-sort-number"><strong>BeyondX_5</strong></td>
       </tr>`;
 
   // sort data to make sure the best model is on top
@@ -60,14 +60,14 @@ function generateTable() {
 
     // if entry.FQA is a number
     if (!isNaN(entry.MU_3)) {
-      table += `<td>${entry.MU_3.toFixed(1).toString()}</td>`;
-      table += `<td>${entry.MU_4.toFixed(1).toString()}</td>`;
-      table += `<td>${entry.MU_5.toFixed(1).toString()}</td>`;
+      table += `<td>${entry.BeyondX_3.toFixed(1).toString()}</td>`;
+      table += `<td>${entry.BeyondX_4.toFixed(1).toString()}</td>`;
+      table += `<td>${entry.BeyondX_5.toFixed(1).toString()}</td>`;
     }
     else {
-      table += `<td>${entry.MU_3.toString()}</td>`;
-      table += `<td>${entry.MU_4.toString()}</td>`;
-      table += `<td>${entry.MU_5.toString()}</td>`;
+      table += `<td>${entry.BeyondX_3.toString()}</td>`;
+      table += `<td>${entry.BeyondX_4.toString()}</td>`;
+      table += `<td>${entry.BeyondX_5.toString()}</td>`;
     }
     table += '</tr>';
   }
