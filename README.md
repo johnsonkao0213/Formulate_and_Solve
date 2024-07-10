@@ -20,21 +20,21 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 
 ## Outlines
 
-- [👀 About BeyondX](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-about-beyondx)
-- [👀 About Formulate-and-Solve](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-about-formulate-and-solve)
-- [🏆 Leaderboard 🏆](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-leaderboard-)
-- [📊 Dataset Examples](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-dataset-examples)
-- [📖 Dataset Usage](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-dataset-usage)
-  - [Data Downloading](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#data-downloading)
-  - [Data Format](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#data-format)
-  - [Data Visualization](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#data-visualization)
-  - [Data Construction](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#data-construction)
-- [🔮 Evaluations on BeyondX via Formulate-and-Solve](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-evaluations-on-beyondx-via-formulate-and-solve)
-  - [Requirements](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#requirements)
-  - [Evaluation Pipelines](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#evaluation-pipelines)
-- [📈 Evaluation Results](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-evaluation-results)
-- [📜 License](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#-license)
-- [✅ Cite](https://github.com/johnsonkao0213/Formulate_and_Solve/tree/main#white_check_mark-cite)
+- [👀 About BeyondX](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-about-beyondx)
+- [👀 About Formulate-and-Solve](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-about-formulate-and-solve)
+- [🏆 Leaderboard 🏆](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-leaderboard-)
+- [📊 Dataset Examples](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-dataset-examples)
+- [📖 Dataset Usage](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-dataset-usage)
+  - [Data Downloading](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#data-downloading)
+  - [Data Format](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#data-format)
+  - [Data Visualization](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#data-visualization)
+  - [Data Construction](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#data-construction)
+- [🔮 Evaluations on BeyondX via Formulate-and-Solve](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-evaluations-on-beyondx-via-formulate-and-solve)
+  - [Requirements](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#requirements)
+  - [Evaluation Pipelines](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#evaluation-pipelines)
+- [📈 Evaluation Results](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-evaluation-results)
+- [📜 License](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-license)
+- [✅ Cite](https://github.com/johnsonkao0213/Formulate_and_Solve/blob/main/README.md#-cite)
 
 ## 👀 About BeyondX Construction
 
@@ -44,7 +44,7 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 3. **Enhanced Solvability:** The problem expansion is broken into several simpler stages, making the entire generation more tractable for LLMs.
 
 <div align="center">
-<img src="docs/static/images/mwp_generation.png">
+<img src="docs/static/images/mwp_generation.png" style="zoom:40%;">
 </div>
 
 ## 👀 About Formulate-and-Solve
@@ -52,7 +52,7 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 **Formulate-and-Solve** is an automated prompting method designed for LLMs to solve math problems with an arbitrary number of unknowns. It incorporates a set of principles to instruct LLMs in generating demonstrations automatically and empowers LLMs to translate problems into equations and subsequently utilize external tools (Sympy) to solve them.
 
 <div align="center">
-<img src="docs/static/images/mwp_solver.png">
+<img src="docs/static/images/mwp_solver.png" style="zoom:40%;">
 </div>
 
 ## Leaderboard
@@ -64,19 +64,19 @@ Examples of our dataset under each unknown and original source problem:
 
 1. Source Problem (Two Unknown)
 
-<img src="https://raw.githubusercontent.com/johnsonkao0213/Formulate_and_Solve/main/docs/static/images/examples/mwp_2.png" style="zoom:40%;" />
+<img src="docs/static/images/examples/mwp_2.png" style="zoom:40%;" />
 
 2. Three Unknown
 
-<img src="https://raw.githubusercontent.com/johnsonkao0213/Formulate_and_Solve/main/docs/static/images/examples/mwp_3.png" style="zoom:40%;" />
+<img src="docs/static/images/examples/mwp_3.png" style="zoom:40%;" />
 
 3. Four Unknown
 
-<img src="https://raw.githubusercontent.com/johnsonkao0213/Formulate_and_Solve/main/docs/static/images/examples/mwp_4.png" style="zoom:40%;" />
+<img src="docs/static/images/examples/mwp_4.png" style="zoom:40%;" />
 
 4. Five Unknown
 
-<img src="https://raw.githubusercontent.com/johnsonkao0213/Formulate_and_Solve/main/docs/static/images/examples/mwp_5.png" style="zoom:40%;" />
+<img src="docs/static/images/examples/mwp_5.png" style="zoom:40%;" />
 
 ## Dataset Usage
 
