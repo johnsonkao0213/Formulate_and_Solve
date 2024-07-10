@@ -64,27 +64,19 @@ Examples of our dataset under each unknown and original source problem:
 
 1. Source Problem (Two Unknown)
 
-<div class="white-bg">
 <img src="docs/static/images/examples/mwp_2.png" style="zoom:40%;" />
-</div>
 
 2. Three Unknown
 
-<div class="white-bg">
 <img src="docs/static/images/examples/mwp_3.png" style="zoom:40%;" />
-</div>
 
 3. Four Unknown
 
-<div class="white-bg">
 <img src="docs/static/images/examples/mwp_4.png" style="zoom:40%;" />
-</div>
 
 4. Five Unknown
 
-<div class="white-bg">
 <img src="docs/static/images/examples/mwp_5.png" style="zoom:40%;" />
-</div>
 
 ## Dataset Usage
 
