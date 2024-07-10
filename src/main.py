@@ -155,23 +155,23 @@ def main():
 
         accuracy = (correct / total) * 100
         log_data("current ans accuracy : {}".format(accuracy), path)
-        if args.dataset == "MU_3":
+        if args.dataset == "BeyondX_3":
             json_data[str(id)] = {
                 "response": z
             }
-        elif args.dataset == "MU_4":
-            json_data[str(id+200)] = {
+        elif args.dataset == "BeyondX_4":
+            json_data[str(id+194)] = {
                 "response": z
             }
-        elif args.dataset == "MU_5":
-            json_data[str(id+360)] = {
+        elif args.dataset == "BeyondX_5":
+            json_data[str(id+352)] = {
                 "response": z
             }
         
         if (args.limit_dataset_size != 0) and ((i+1) >= args.limit_dataset_size):
             break
 
-    if args.dataset in ("MU_3", "MU_4", "MU_5", "gsm8k", "addsub", "multiarith", "svamp", "singleeq"):
+    if args.dataset in ("BeyondX_3", "BeyondX_4", "BeyondX_5", "gsm8k", "addsub", "multiarith", "svamp", "singleeq"):
         accuracy = (correct / total) * 100
         with open(path + '/data.json', "w") as outfile:
             json.dump(json_data, outfile, indent=4)
