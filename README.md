@@ -44,7 +44,7 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 3. **Enhanced Solvability:** The problem expansion is broken into several simpler stages, making the entire generation more tractable for LLMs.
 
 <div align="center">
-<img src="docs/static/images/mwp_generation.png" width="40%">
+<img src="docs/static/images/mwp_generation.png" width="60%">
 </div>
 
 ## 👀 About Formulate-and-Solve
@@ -52,7 +52,7 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 **Formulate-and-Solve** is an automated prompting method designed for LLMs to solve math problems with an arbitrary number of unknowns. It incorporates a set of principles to instruct LLMs in generating demonstrations automatically and empowers LLMs to translate problems into equations and subsequently utilize external tools (Sympy) to solve them.
 
 <div align="center">
-<img src="docs/static/images/mwp_solver.png" width="40%">
+<img src="docs/static/images/mwp_solver.png" width="60%">
 </div>
 
 ## Leaderboard
@@ -61,13 +61,6 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 ## Dataset Examples
 
 Examples of our dataset under each unknown and original source problem:
-
-<style>
-  .white-bg {
-    background-color: white;
-    display: inline-block;
-  }
-</style>
 
 1. Source Problem (Two Unknown)
 
