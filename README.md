@@ -44,7 +44,7 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 3. **Enhanced Solvability:** The problem expansion is broken into several simpler stages, making the entire generation more tractable for LLMs.
 
 <div align="center">
-<img src="docs/static/images/mwp_generation.png" style="zoom:40%;">
+<img src="docs/static/images/mwp_generation.png" width="40%">
 </div>
 
 ## 👀 About Formulate-and-Solve
@@ -52,7 +52,7 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 **Formulate-and-Solve** is an automated prompting method designed for LLMs to solve math problems with an arbitrary number of unknowns. It incorporates a set of principles to instruct LLMs in generating demonstrations automatically and empowers LLMs to translate problems into equations and subsequently utilize external tools (Sympy) to solve them.
 
 <div align="center">
-<img src="docs/static/images/mwp_solver.png" style="zoom:40%;">
+<img src="docs/static/images/mwp_solver.png" width="40%">
 </div>
 
 ## Leaderboard
@@ -62,21 +62,36 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 
 Examples of our dataset under each unknown and original source problem:
 
+<style>
+  .white-bg {
+    background-color: white;
+    display: inline-block;
+  }
+</style>
+
 1. Source Problem (Two Unknown)
 
+<div class="white-bg">
 <img src="docs/static/images/examples/mwp_2.png" style="zoom:40%;" />
+</div>
 
 2. Three Unknown
 
+<div class="white-bg">
 <img src="docs/static/images/examples/mwp_3.png" style="zoom:40%;" />
+</div>
 
 3. Four Unknown
 
+<div class="white-bg">
 <img src="docs/static/images/examples/mwp_4.png" style="zoom:40%;" />
+</div>
 
 4. Five Unknown
 
+<div class="white-bg">
 <img src="docs/static/images/examples/mwp_5.png" style="zoom:40%;" />
+</div>
 
 ## Dataset Usage
 
