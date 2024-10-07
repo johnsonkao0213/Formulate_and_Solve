@@ -7,6 +7,7 @@
 ![GPT-4](https://img.shields.io/badge/Model-GPT--4-green) 
 ![Gemini-Pro](https://img.shields.io/badge/Model-Gemini--Pro-green)
 
+[EMNLP'24]
 This is the official implementation of `Solving for X and Beyond: Can Large Language Models Solve Complex
 Math Problems with More-Than-Two Unknowns?`.
 
