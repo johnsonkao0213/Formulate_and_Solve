@@ -15,9 +15,6 @@ Authors: [Kuei-Chun Kao](https://johnsonkao0213.github.io/), [Ruochen Wang](http
 
 [[Webpage](https://johnsonkao0213.github.io/Formulate_and_Solve/)] [[Paper](https://arxiv.org/abs/2407.05134)] [[Huggingface Dataset](https://huggingface.co/datasets/Johnson0213/BeyondX)] [[Leaderboard](https://johnsonkao0213.github.io/Formulate_and_Solve/#leaderboard)] [[Visualization](https://johnsonkao0213.github.io/Formulate_and_Solve/#visualization)] [[Result Explorer](https://johnsonkao0213.github.io/Formulate_and_Solve/#explorer)] 
 
-<p align="center">
-    <img src="docs/static/images/beyondx.png" width="40%">
-</p>
 
 ## Outlines
 
